@@ -1,0 +1,80 @@
+.fenetre {
+  display: flex;
+  justify-content: center;
+}
+
+.mySwiper {
+  width: 90vw; /* Largeur sur mobile */
+  height: 70vh;
+  max-width: 400px; /* Largeur maximale sur mobile */
+  margin-top: 70px;
+}
+
+@media (min-width: 768px) {
+  .mySwiper {
+    width: 30vw; /* Largeur sur les écrans plus grands */
+    max-width: 300px; /* Largeur maximale sur les écrans plus grands */
+  }
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background: #fff;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.slide-content {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  color: #333;
+  text-align: center;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.tinder-buttons {
+  margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.tinder-button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #ff4757;
+  color: white;
+}
+
+.heart-button {
+  background-color: #2ed573;
+  color: white;
+}
+@media (max-width: 767px) {
+  /* Cible les écrans de mobile */
+  .swiper-slide img {
+    height: 90%; /* Augmente la hauteur sur mobile */
+  }
+}

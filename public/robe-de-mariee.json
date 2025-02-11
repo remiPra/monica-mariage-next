@@ -1,0 +1,40 @@
+[
+  {
+    "dressName": "Princesse et évasée",
+    "price": "",
+    "category": "style-boheme-chic",
+    "imageUrl": "https://static.wixstatic.com/media/176703_cd9ffeb7f4e2454b9f5cfe85170d2594~mv2.jpg",
+    "width": 1333,
+    "height": 2000,
+    "id": 1,
+    "link": "style-boheme-chic"
+  },
+  {
+    "dressName": "Boheme et champetre",
+    "price": "",
+    "category": "style-boheme-chic",
+    "imageUrl": "https://static.wixstatic.com/media/176703_8cf24472539442eda763aba3230eb9f9~mv2.jpg",
+    "width": 1333,
+    "height": 2000,
+    "id": 2,
+    "link": "robes-de-mariee/forme-princesse"
+  },
+  {
+    "dressName": "Sirène et Fourreau",
+    "price": "",
+    "category": "style-boheme-chic",
+    "imageUrl": "https://static.wixstatic.com/media/176703_999bc7e5222743938c0b8aeb353668a3~mv2.jpg",
+    "width": 1200,
+    "height": 1800,
+    "id": 3
+  },
+  {
+    "dressName": "Minimaliste",
+    "price": "",
+    "category": "style-boheme-chic",
+    "imageUrl": "https://static.wixstatic.com/media/176703_902366e40f94463281f0f1085fc4a7b5~mv2.jpg",
+    "width": 1200,
+    "height": 1800,
+    "id": 4
+  }
+]
