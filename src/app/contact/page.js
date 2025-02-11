@@ -34,7 +34,7 @@ export default function Page() {
               {...fadeInAnimation}
             >
               <motion.h1
-                className="text-center text-5xl font-script text-[#53240f] mb-2"
+                className="font-cursive text-center text-5xl font-script text-[#53240f] mb-2"
                 {...fadeInAnimation}
               >
                 Monica Mariage
@@ -60,7 +60,9 @@ export default function Page() {
                   </a>
                 </div>
               </motion.div>
-
+              <div className="flex justify-center w-full">
+                <img src="./taille.jpg" />
+              </div>
               {/* Carte des horaires */}
               <motion.div
                 className="bg-white rounded-lg p-6 shadow-sm"
@@ -123,7 +125,7 @@ export default function Page() {
                 {...fadeInAnimation}
               />
               <motion.input
-                type="date"
+                type="text"
                 placeholder="Date du mariage *"
                 className="w-full p-2 border border-gray-300 rounded"
                 required

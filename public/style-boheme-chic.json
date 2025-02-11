@@ -1,542 +1,600 @@
 [
-  {
-    "dressName": "Myrtille",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_e715cddff8564e10b26fc5e94794fc96~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 5
-  },
-  {
-    "dressName": "Myrtille",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_cd9ffeb7f4e2454b9f5cfe85170d2594~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 6
-  },
-  {
-    "dressName": "Myrtille",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_56a8b716a9914c9798f3c2f493239e97~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 7
-  },
-  {
-    "dressName": "RUSINA",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_999bc7e5222743938c0b8aeb353668a3~mv2.jpg",
-    "width": 1200,
-    "height": 1800,
-    "id": 8
-  },
-  {
-    "dressName": "RUSINA",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_902366e40f94463281f0f1085fc4a7b5~mv2.jpg",
-    "width": 1200,
-    "height": 1800,
-    "id": 9
-  },
-  {
-    "dressName": "RUSINA",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_d300aacd63a54e47912f381c2972bb68~mv2.jpg",
-    "width": 1200,
-    "height": 1800,
-    "id": 10
-  },
-  {
-    "dressName": "Ione",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_2443bd642322420ba4a15c390f242306~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 11
-  },
-  {
-    "dressName": "Ione",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_fdd56169342849f59f264881b67faa6e~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 12
-  },
-  {
-    "dressName": "Ione",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_aacc02bb69a54e1fa405553a9fb3c47a~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 13
-  },
-  {
-    "dressName": "Tina",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_eeb3d005b5e346648d4b867a3d2a277f~mv2.jpg",
-    "width": 1333,
-    "height": 1682,
-    "id": 14
-  },
-  {
-    "dressName": "Tina",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_3f2129ac88db442e8f7defab3cd644d0~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 15
-  },
-  {
-    "dressName": "Tina",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_110fa87c423d482d99026643c6b143dd~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 16
-  },
-  {
-    "dressName": "KEME",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_9a14afc5d3294c07901195378147867c~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 17
-  },
-  {
-    "dressName": "KEME",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_72cd0deaf4e54171b1eed5567bb032af~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 18
-  },
-  {
-    "dressName": "MINELLY",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_1e84261252d04a97aacf72593a839f09~mv2.jpg",
-    "width": 1707,
-    "height": 2560,
-    "id": 19
-  },
-  {
-    "dressName": "MINELLY",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_969f2c10f45a45169fe8ee9c49f20778~mv2.jpg",
-    "width": 1200,
-    "height": 1800,
-    "id": 20
-  },
-  {
-    "dressName": "Doridis",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_de2115998b3a4b2f960f49781cc20dd8~mv2.jpg",
-    "width": 800,
-    "height": 1067,
-    "id": 21
-  },
-  {
-    "dressName": "Doridis",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_2bd99e866856460196defd3aed4255ef~mv2.jpg",
-    "width": 800,
-    "height": 1067,
-    "id": 22
-  },
-  {
-    "dressName": "Beryl",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_2b2e57ed59a24327b3cab2988b702559~mv2.jpg",
-    "width": 800,
-    "height": 1067,
-    "id": 23
-  },
-  {
-    "dressName": "Beryl",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_1f6d68c5ea034ffface181aa4ca099a5~mv2.jpg",
-    "width": 800,
-    "height": 1067,
-    "id": 24
-  },
-  {
-    "dressName": "​Poella",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_a3892c99c4844fcfbc2f285908b0254e~mv2.jpg",
-    "width": 1200,
-    "height": 1800,
-    "id": 25
-  },
-  {
-    "dressName": "​Poella",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_764434cd9bb949e387a54108dbc77a61~mv2.jpg",
-    "width": 562,
-    "height": 800,
-    "id": 26
-  },
-  {
-    "dressName": "SYULI",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_8832e8e291214f77818d683b1bc730df~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 27
-  },
-  {
-    "dressName": "SYULI",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_f1bc25c136d14dffabafde120879dd8b~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 28
-  },
-  {
-    "dressName": "Agathe",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_ef947d80ed744d829b105a9fba4fa12a~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 29
-  },
-  {
-    "dressName": "Agathe",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_188edfadd7ec4a66b49b7698e4277ca5~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 30
-  },
-  {
-    "dressName": "Chanel",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_90c4f453709f419e9a794678ca8d65ba~mv2.jpg",
-    "width": 4915,
-    "height": 7372,
-    "id": 31
-  },
-  {
-    "dressName": "Chanel",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_7b8073cc2898480d834f9d022944d262~mv2.jpg",
-    "width": 5504,
-    "height": 8256,
-    "id": 32
-  },
-  {
-    "dressName": "AZORINA",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_a13553fd48904854bc546f736e6b371d~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 33
-  },
-  {
-    "dressName": "AZORINA",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_1479f39e369040548df343414643229e~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 34
-  },
-  {
-    "dressName": "Roméso",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_112e491108cd47cc8c3563c82d6cec60~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 35
-  },
-  {
-    "dressName": "Roméso",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_e578e55c8e314997b586e96ac03f6c69~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 36
-  },
-  {
-    "dressName": "Venus",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_e73ec9a58eaf4c789707358f68cbb672~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 37
-  },
-  {
-    "dressName": "Venus",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_dd2b8db4e5c74bdbb49eb45415bb4369~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 38
-  },
-  {
-    "dressName": "Venus",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_f8fc8e428891476ab1e82d5478affd26~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 39
-  },
-  {
-    "dressName": "Lamagie",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_f1031722762e4fcd940aa6e157e002af~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 40
-  },
-  {
-    "dressName": "Lamagie",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_25fda21adfa3439a9fa95d7a01eeb49d~mv2.jpg",
-    "width": 619,
-    "height": 908,
-    "id": 41
-  },
-  {
-    "dressName": "Lamagie",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_553d51dcbea34f06af0f5dc1c181fa2d~mv2.png/v1/fill/w_195,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/176703_553d51dcbea34f06af0f5dc1c181fa2d~mv2.png.jpg",
-    "width": 685,
-    "height": 1025,
-    "id": 42
-  },
-  {
-    "dressName": "Simbelly",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_c14b8fcce31e43f58cb5569c1620d8fc~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 43
-  },
-  {
-    "dressName": "Simbelly",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_eedae96614e1473bb2758f36d126c08a~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 44
-  },
-  {
-    "dressName": "Ambre",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_b8b82f0084a342c29df670a46499c8a1~mv2.jpg",
-    "width": 3169,
-    "height": 4226,
-    "id": 45
-  },
-  {
-    "dressName": "Ambre",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_e82e86085b3f48dbb23fef78e19fdd6e~mv2.jpg",
-    "width": 3325,
-    "height": 4433,
-    "id": 46
-  },
-  {
-    "dressName": "Lucy",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_6655bf4cda944a94a0102d7ee2c4bfbb~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 47
-  },
-  {
-    "dressName": "Lucy",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_c835ea7808f14256b22baf741e901815~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 48
-  },
-  {
-    "dressName": "Melissa",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_5ba637ff9fbe4ae4ab219f1555d9296a~mv2.jpg",
-    "width": 4160,
-    "height": 6240,
-    "id": 49
-  },
-  {
-    "dressName": "Melissa",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_abfcb06a6b654af2b4ca7b6228675a68~mv2.jpg",
-    "width": 4002,
-    "height": 6003,
-    "id": 50
-  },
-  {
-    "dressName": "fluorite",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_7619ebe6da1a4b2a90de8cd73e9a20a4~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 51
-  },
-  {
-    "dressName": "fluorite",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_e7c76014a08e4abc8eaec3730dd049c3~mv2.jpg",
-    "width": 800,
-    "height": 1067,
-    "id": 52
-  },
-  {
-    "dressName": "Lolita",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_32e1d936861145ed84fffcfd3641450f~mv2.jpg",
-    "width": 1040,
-    "height": 1560,
-    "id": 53
-  },
-  {
-    "dressName": "Lolita",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_ad931b5ebea64427bc53b1639a5f790e~mv2.jpg",
-    "width": 1040,
-    "height": 1560,
-    "id": 54
-  },
-  {
-    "dressName": "Tara",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_717ab0f654aa49d398acfe31c9e897ea~mv2.jpg",
-    "width": 1040,
-    "height": 1560,
-    "id": 55
-  },
-  {
-    "dressName": "Tara",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_bf06bffa677a45ddb58b742d804bf96e~mv2.jpg",
-    "width": 1040,
-    "height": 1560,
-    "id": 56
-  },
-  {
-    "dressName": "Turquoise",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_a312ad4645d74e66a8e10f148ee7dbc8~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 57
-  },
-  {
-    "dressName": "Turquoise",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_15ad4f660d044bd98820c8acd9aa9ed2~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 58
-  },
-  {
-    "dressName": "AISEL",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_e2f93a6906b9470b9763a48a359cb24a~mv2.jpg",
-    "width": 1040,
-    "height": 1560,
-    "id": 59
-  },
-  {
-    "dressName": "AISE",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_be777578e07d43a488fb20df8f99547b~mv2.jpg",
-    "width": 1040,
-    "height": 1560,
-    "id": 60
-  },
-  {
-    "dressName": "Anelisa",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_a071a0e38a28420d9bfc79652d275fd6~mv2.jpg",
-    "width": 1080,
-    "height": 1294,
-    "id": 61
-  },
-  {
-    "dressName": "Anelisa",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_3ae954ce39464188ab6da51ff1bd3850~mv2.jpg",
-    "width": 1080,
-    "height": 1271,
-    "id": 62
-  },
-  {
-    "dressName": "Ally",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_f848a4a7cab04f3ba4d49507c1870b89~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 63
-  },
-  {
-    "dressName": "Ally",
-    "price": "",
-    "category": "style-boheme-chic",
-    "imageUrl": "https://static.wixstatic.com/media/176703_758440ffd8b847ea8422acd44268a7b6~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 64
-  }
+    {
+        "dressName": "Myrtille",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_e715cddff8564e10b26fc5e94794fc96~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 5,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante, cette création d'<strong>Anna Sposa Group</strong> séduit par son design romantique. <br>Le décolleté plongeant révèle une allure audacieuse et féminine. <br>Ses manches longues en tulle transparent sont ornées de délicates fleurs brodées, ajoutant une touche de sophistication. <br>La ceinture fine met en valeur la silhouette, tandis que la jupe fluide offre un mouvement gracieux. <br>Parfaite pour un mariage dans un cadre historique ou romantique, cette <strong>robe de mariée</strong> allie modernité et tradition. <br>Choisissez-la pour un jour inoubliable, où chaque détail a été pensé pour sublimer votre beauté naturelle. <br>Découvrez notre collection de <strong>robes de mariée</strong> sur notre site web, optimisé pour vous aider à trouver la tenue de vos rêves.</p>"
+    },
+    {
+        "dressName": "Myrtille",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_cd9ffeb7f4e2454b9f5cfe85170d2594~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 6,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée par l'<strong>Anna Sposa Group</strong>, allie sophistication et féminité. <br>Son décolleté profond en V met en valeur la silhouette, tandis que les manches longues ajourées apportent une touche romantique. <br>Les détails floraux brodés sur le tulle ajoutent un charme discret et raffiné. <br>La jupe fluide et légère offre un mouvement gracieux à chaque pas. <br>L'ouverture latérale audacieuse révèle des jambes subtilement ornées de dentelle, créant un effet spectaculaire. <br>Parfaite pour une <strong>mariée</strong> recherchant une allure à la fois moderne et classique, cette création est idéale pour un mariage dans un cadre historique ou romantique. <br>Chaque détail a été pensé pour offrir confort et style, garantissant à la <strong>mariée</strong> une journée inoubliable. <br>Choisissez cette <strong>robe de mariée</strong> pour vous sentir comme une véritable princesse lors de votre grand jour.</p>"
+    },
+    {
+        "dressName": "Myrtille",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_56a8b716a9914c9798f3c2f493239e97~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 7,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante, cette création d'<strong>Anna Sposa Group</strong> séduit par son design unique. <br>La <strong>dentelle</strong> fine orne les manches longues et le dos, ajoutant une touche romantique. <br>Son décolleté en V révèle subtilement la peau, tandis que la <strong>jupe fluide</strong> s'écoule gracieusement au sol. <br>Parfaite pour un mariage chic, elle allie modernité et tradition. <br>Les détails floraux brodés apportent une dimension artistique, soulignant l'excellence de la <strong>couture</strong>. <br>Idéale pour les mariées recherchant à la fois sophistication et confort, cette robe est un choix audacieux. <br>Elle met en valeur la silhouette avec finesse, grâce à sa coupe ajustée et sa <strong>traîne</strong> légère. <br>Un véritable bijou pour un jour inoubliable, cette <strong>robe de mariée</strong> promet d'être le centre d'attention.</p>"
+    },
+    {
+        "dressName": "RUSINA",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_999bc7e5222743938c0b8aeb353668a3~mv2.jpg",
+        "width": 1200,
+        "height": 1800,
+        "id": 8,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> d'<strong>Anna Sposa Group</strong> est un véritable chef-d'œuvre. <br>Son décolleté en V profond met en valeur l'élegance naturelle de la mariée.<br>Le bustier, orné de dentelle florale, offre une touche romantique et sophistiquée.<br>La finesse des bretelles ajoute à la légèreté de la silhouette.<br>La jupe fluide, en tulle, s'épanouit avec grâce, idéale pour un <strong>mariage</strong> chic et élégant.<br>Chaque détail, de la broderie aux finitions, reflète l'excellence artisanale.<br>Parfaite pour les futures mariées qui rêvent d'une <strong>robe de princesse</strong>, elle allie modernité et tradition.<br>Choisissez cette création pour un jour inoubliable, où vous brillerez de mille feux.<br>Explorez notre collection pour trouver <strong>votre robe de mariée</strong> unique.</p>"
+    },
+    {
+        "dressName": "RUSINA",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_902366e40f94463281f0f1085fc4a7b5~mv2.jpg",
+        "width": 1200,
+        "height": 1800,
+        "id": 9,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, conçue par <strong>Anna Sposa Group</strong>, allie finesse et sophistication. <br>Son décolleté en V profond met en valeur la silhouette féminine, tandis que le bustier orné de dentelle ajoute une touche romantique. <br>La jupe fluide en tulle offre un volume gracieux, idéal pour une <strong>mariée</strong> qui souhaite se sentir à l'aise tout au long de sa journée spéciale. <br>Les détails floraux sur le haut de la robe évoquent la nature, s'harmonisant parfaitement avec les <strong>fleurs de mariage</strong> en arrière-plan. <br>Parfaite pour une cérémonie dans un cadre classique ou moderne, cette <strong>robe de mariée</strong> est un choix inspirant pour celles qui rêvent d'un look à la fois chic et intemporel. <br>Découvrez notre collection de <strong>robes de mariée</strong> exclusives et trouvez celle qui vous correspond le mieux.</p>"
+    },
+    {
+        "dressName": "RUSINA",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_d300aacd63a54e47912f381c2972bb68~mv2.jpg",
+        "width": 1200,
+        "height": 1800,
+        "id": 10,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée par <strong>Anna Sposa Group</strong>, séduit par son design aérien et romantique. <br>Le haut, orné de délicates dentelles, offre un dos nu gracieux, mettant en valeur la silhouette féminine. <br>La jupe fluide, en tulle léger, s'épanouit avec une traîne spectaculaire, ajoutant une touche de majestuosité à chaque pas. <br>Parfaite pour les mariées qui rêvent d'un mariage chic et sophistiqué, cette création allie modernité et tradition. <br>Son style épuré se marie harmonieusement avec des accessoires fins, comme une couronne de fleurs ou des bijoux discrets. <br>Choisissez-la pour votre grand jour et illuminez le <strong>jour du mariage</strong> avec une allure divine et intemporelle.</p>"
+    },
+    {
+        "dressName": "Ione",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_2443bd642322420ba4a15c390f242306~mv2.jpg",
+        "width": 2100,
+        "height": 2800,
+        "id": 11,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son décolleté en V profond, mettant en valeur la silhouette féminine. <br>Le haut est orné d'un <strong>dentelle</strong> fine et transparente, parsemée de motifs floraux subtils. <br>La taille cintrée accentue les courbes naturelles, tandis que le bas s'évase doucement pour une allure gracieuse. <br>Les fines bretelles ajoutent une touche de sophistication, idéale pour un mariage chic. <br>Complétée par des accessoires comme une <strong>tiare</strong> et des boucles d'oreilles fleuries, cette tenue est parfaite pour une <strong>cerémonie de mariage</strong>. <br>Son design épuré et raffiné convient à diverses thématiques nuptiales, allant du romantique au contemporain. <br>Choisissez cette <strong>robe de mariée unique</strong> pour un jour inoubliable.</p>"
+    },
+    {
+        "dressName": "Ione",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_fdd56169342849f59f264881b67faa6e~mv2.jpg",
+        "width": 2100,
+        "height": 2800,
+        "id": 12,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante allie modernité et tradition. Son décolleté en V profond met en valeur le buste, tandis que son dos ajouré offre une touche de séduction.<br>La <strong>dentelle</strong> fine orne délicatement le haut, contrastant avec la fluidité du tissu du bas. La traîne, ornée de motifs floraux, s'étend gracieusement sur le sol, ajoutant un charme romantique à chaque pas.<br>Parfaite pour une <strong>cérémonie en plein air</strong>, cette robe se marie idéalement avec des accessoires discrets, comme une <strong>tiare</strong> ou des boucles d'oreilles pendantes. Sa coupe ajustée souligne les courbes féminines, offrant une silhouette équilibrée et harmonieuse.<br>Choisissez cette création pour votre grand jour et laissez-vous transporter par l'élégance intemporelle qu'elle dégage. Elle vous permettra de briller de mille feux, tout en restant fidèle à votre style personnel.</p>"
+    },
+    {
+        "dressName": "Ione",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_aacc02bb69a54e1fa405553a9fb3c47a~mv2.jpg",
+        "width": 2100,
+        "height": 2800,
+        "id": 13,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son dos plongeant, orné de délicates dentelles. <br>Le bustier ajusté met en valeur la silhouette, tandis que le tulle fluide du bas offre une allure aérienne. <br>La traîne longue et sophistiquée est bordée de motifs floraux brodés, ajoutant une touche romantique. <br>Parfaite pour un mariage en plein air, cette <strong>création unique</strong> allie modernité et tradition. <br>Son design épuré convient aux mariées recherchant une <strong>élégance intemporelle</strong>. <br>Les détails fins de la robe captent la lumière, créant un effet magique lors des cérémonies. <br>Choisissez cette <strong>robe de mariée</strong> pour un jour inoubliable, où vous brillerez de mille feux.</p>"
+    },
+    {
+        "dressName": "Tina",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_eeb3d005b5e346648d4b867a3d2a277f~mv2.jpg",
+        "width": 1333,
+        "height": 1682,
+        "id": 14,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée par <strong>Anna Sposa Group</strong>, allie sophistication et modernité. <br>Son décolleté en cœur profond met en valeur la silhouette féminine, tandis que les manches courtes ajourées ajoutent une touche romantique. <br>Les détails floraux brodés sur le bustier offrent un contraste subtil avec le tissu fluide du bas. <br>La fente audacieuse sur le devant apporte une note de séduction, idéale pour les mariées audacieuses. <br>Fabriquée dans des matériaux de qualité supérieure, cette <strong>robe de mariée</strong> est conçue pour durer. <br>Parfaite pour une cérémonie intime ou une grande réception, elle s'adapte à tous les styles de mariage. <br>Découvrez notre collection de <strong>robes de mariée</strong> exclusives et trouvez celle qui vous correspond parfaitement. <br>Nos conseillers sont là pour vous aider à choisir la <strong>robe de vos rêves</strong>. <br>Venez nous rendre visite dans notre boutique de mariage et laissez-vous émerveiller par nos créations uniques.</p>"
+    },
+    {
+        "dressName": "Tina",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_3f2129ac88db442e8f7defab3cd644d0~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 15,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante allie sophistication et modernité. Son <strong>col en V</strong> profond met en valeur le décolleté, tandis que les <strong>détaux dentelle</strong> sur les épaules ajoutent une touche romantique.<br>La jupe fluide, avec sa fente audacieuse, offre un mouvement gracieux et révèle subtilement la jambe, idéale pour une <strong>mariée</strong> à la fois chic et audacieuse.<br>Le dos nu, orné de fines bretelles croisées, accentue l'élégance de cette création. Parfaite pour une cérémonie en plein air ou dans un cadre intime, cette <strong>robe</strong> est un choix exceptionnel pour votre grand jour.<br>Son tissu léger et aéré assure confort et légèreté, permettant à la <strong>mariée</strong> de se sentir belle tout au long de la journée. Accessoirisée avec des <strong>sandales</strong> minimalistes, elle complète harmonieusement ce look de rêve.</p>"
+    },
+    {
+        "dressName": "Tina",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_110fa87c423d482d99026643c6b143dd~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 16,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> est un véritable chef-d'œuvre, conçue pour les mariées qui rêvent d'un look à la fois élégant et sophistiqué. <br>Le dos en dentelle transparente offre une vue spectaculaire, orné de délicates broderies florales qui descendent gracieusement le long du tissu. <br>Les manches courtes ajoutent une touche de romantisme, tandis que la ligne A fluide garantit confort et mouvement. <br>La fermeture boutonnée centrale apporte une note de classicisme, parfaitement équilibrée par l'innovation des détails modernes. <br>Idéale pour une <strong>cérémonie de mariage</strong> en plein air, cette robe capte la lumière naturelle, mettant en valeur chaque strass et perle. <br>Choisissez-la pour votre grand jour et laissez-vous transporter dans un monde de féerie et de beauté intemporelle. <br>Découvrez notre collection de <strong>robes de mariée</strong> sur notre site web, où vous trouverez plus de modèles uniques et inspirants.</p>"
+    },
+    {
+        "dressName": "KEME",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_9a14afc5d3294c07901195378147867c~mv2.jpg",
+        "width": 800,
+        "height": 1200,
+        "id": 17,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> est un véritable chef-d'œuvre, conçue pour les mariées audacieuses. Avec son décolleté plongeant et ses manches évasées, elle offre une silhouette <strong>élégante</strong> et <strong>sophistiquée</strong>.<br>Les détails floraux en dentelle ornent le bustier, ajoutant une touche de romantisme. La jupe fluide en tulle se déploie avec grâce, créant un effet spectaculaire lors des mouvements.<br>Parfaite pour une cérémonie sur la plage ou dans un jardin, cette <strong>robe de mariée</strong> allie modernité et tradition. Les bijoux fins autour du cou complètent harmonieusement l'ensemble.<br>Choisissez cette création unique pour votre grand jour et laissez-vous transporter par sa beauté intemporelle. Découvrez notre collection de <strong>robes de mariée</strong> et trouvez celle qui vous ressemble.</p>"
+    },
+    {
+        "dressName": "KEME",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_72cd0deaf4e54171b1eed5567bb032af~mv2.jpg",
+        "width": 800,
+        "height": 1200,
+        "id": 18,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, présentée sur une plage romantique, séduit par son design audacieux. <br>Le décolleté profond et les épaules dénudées ajoutent une touche de sensualité, tandis que le tissu fluide crée un effet gracieux. <br>La ceinture fine met en valeur la silhouette, et l'ouverture latérale révèle subtilement la jambe, offrant un mouvement libre. <br>Les détails floraux brodés apportent une note de sophistication, parfaitement adaptée à une <strong>cérémonie de mariage</strong> chic. <br>Idéale pour une mariée qui veut allier tradition et modernité, cette création est un choix parfait pour un <strong>mariage sur la plage</strong>. <br>Son style unique la rend mémorable, garantissant que la mariée sera le centre d'attention lors de son grand jour. <br>Choisissez cette robe pour un look éternellement charmant et romantique, qui restera gravé dans les mémoires.</p>"
+    },
+    {
+        "dressName": "MINELLY",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_1e84261252d04a97aacf72593a839f09~mv2.jpg",
+        "width": 1707,
+        "height": 2560,
+        "id": 19,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> est un véritable chef-d'œuvre, conçue pour les mariées audacieuses. <br>Son décolleté en cœur profond met en valeur la féminité, tandis que le dos ajouré offre une touche de séduction.<br>Les manches fines ornées de dentelle ajoutent une élégance raffinée. <br>La jupe ample et fluide, en tulle, crée un effet spectaculaire lors des mouvements, idéal pour une <strong>cérémonie de mariage</strong>.<br>Chaque détail, de la taille cintrée aux motifs floraux brodés, reflète l'artisanat de haute qualité.<br>Parfaite pour un <strong>thème de mariage romantique</strong>, cette robe allie tradition et modernité.<br>Elle s'harmonise à merveille avec des accessoires discrets, permettant à la mariée de briller sans effort.<br>Choisissez-la pour votre grand jour et transformez-vous en véritable princesse, prête à dire « oui » dans un cadre enchanteur.</p>"
+    },
+    {
+        "dressName": "MINELLY",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_969f2c10f45a45169fe8ee9c49f20778~mv2.jpg",
+        "width": 1200,
+        "height": 1800,
+        "id": 20,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> est un véritable chef-d'œuvre, combinant élégance et sophistication. <br>Son décolleté en cœur met en valeur la silhouette féminine, tandis que son dos nu ajoute une touche de séduction. <br>La <strong>dentelle</strong> fine orne délicatement le haut du bustier, créant un contraste subtil avec le tulle fluide de la jupe. <br>Le <strong>voile</strong> long flotte gracieusement, ajoutant une dimension romantique à l'ensemble. <br>Chaque détail a été pensé pour offrir une expérience unique à la future mariée. <br>Idéale pour un mariage dans un cadre champêtre ou urbain, cette robe saura s'adapter à tous les styles. <br>Les futures mariées recherchant une <strong>robe de mariée unique</strong> trouveront ici leur bonheur. <br>Elle incarne parfaitement l'esprit de la collection, mêlant tradition et modernité.</p>"
+    },
+    {
+        "dressName": "Doridis",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_de2115998b3a4b2f960f49781cc20dd8~mv2.jpg",
+        "width": 800,
+        "height": 1067,
+        "id": 21,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante allie sophistication et féminité. Son <strong>corsage</strong> ajusté, orné de délicates <strong>appliques florales</strong>, met en valeur la silhouette.<br>La <strong>colle</strong> en V profond accentue l'allure romantique, tandis que les manches courtes apportent une touche moderne.<br>La jupe fluide, en <strong>tulle</strong> léger, s'épanouit en un joli <strong>évasement</strong>, offrant légèreté et mouvement.<br>Parfaite pour une cérémonie dans un cadre historique ou romantique, cette <strong>robe de mariée</strong> est un choix idéal pour les futures mariées à la recherche d'un style <strong>classique</strong> avec une pointe de modernité.<br>Son dos nu, subtilement structuré, ajoute une note de séduction sans ostentation.<br>Chaque détail a été pensé pour créer une <strong>harmonie parfaite</strong> entre tradition et contemporanéité, faisant de cette <strong>robe de mariée</strong> un véritable bijou de la mode nuptiale.</p>"
+    },
+    {
+        "dressName": "Doridis",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_2bd99e866856460196defd3aed4255ef~mv2.jpg",
+        "width": 800,
+        "height": 1067,
+        "id": 22,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante avec un dos nu orné de <strong>détais dentelle</strong>.<br>La <strong>jupe fluide</strong> s'épanouit en une traîne gracieuse, ajoutant du mouvement et de la féminité.<br>Le <strong>corsage ajusté</strong> met en valeur la silhouette, tandis que les manches courtes apportent une touche de sophistication.<br>Parfaite pour une <strong>cérémonie en plein air</strong>, cette robe allie modernité et tradition.<br>Son <strong>design unique</strong> garantit à la mariée d'être le centre d'attention.<br>Choisissez-la pour votre grand jour et laissez-vous transporter par son charme intemporel.<br>Explorez notre collection de <strong>robes de mariée</strong> pour trouver celle qui vous ressemble.</p>"
+    },
+    {
+        "dressName": "Beryl",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_2b2e57ed59a24327b3cab2988b702559~mv2.jpg",
+        "width": 800,
+        "height": 1067,
+        "id": 23,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son <strong>corsage</strong> ajouré, orné de délicates dentelles. <br>Le <strong>col en V</strong> profond accentue la féminité, tandis que les fines bretelles ajoutent une touche de sophistication. <br>La <strong>jupe fluide</strong> s'épanouit en un joli volume, offrant une silhouette aérienne et gracieuse. <br>Parfaite pour une <strong>cérémonie en plein air</strong>, cette création allie modernité et tradition. <br>Son <strong>tissu léger</strong> assure confort et légèreté, idéal pour une journée mémorable. <br>Les détails soignés, comme le dos nu subtil, révèlent une attention aux finitions. <br>Choisissez cette <strong>robe de mariée unique</strong> pour un look romantique et chic. <br>Elle saura vous faire resplendir lors de votre grand jour, incarnant l'essence même du bonheur nuptial.</p>"
+    },
+    {
+        "dressName": "Beryl",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_1f6d68c5ea034ffface181aa4ca099a5~mv2.jpg",
+        "width": 800,
+        "height": 1067,
+        "id": 24,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son <strong>design</strong> sophistiqué. La <strong>dentelle</strong> fine orne le haut, créant un décolleté en V profond et romantique.<br>La jupe fluide s'épanouit en une <strong>traîne</strong> spectaculaire, bordée de motifs floraux en <strong>dentelle</strong>.<br>Le tissu léger capte la lumière, accentuant la silhouette gracieuse de la mariée.<br>Parfaite pour un mariage dans un cadre <strong>romantique</strong> ou <strong>sophistiqué</strong>, cette robe allie tradition et modernité.<br>Son dos nu ajoute une touche de séduction, tandis que les fines bretelles assurent un maintien optimal.<br>Chaque détail a été pensé pour sublimer la beauté naturelle de la future mariée.<br>Choisissez cette <strong>robe de mariée</strong> pour un jour inoubliable, où vous brillerez de mille feux.</p>"
+    },
+    {
+        "dressName": "​Poella",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_a3892c99c4844fcfbc2f285908b0254e~mv2.jpg",
+        "width": 1200,
+        "height": 1800,
+        "id": 25,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son <strong>design</strong> audacieux. La <strong>dentelle</strong> fine orne le haut, créant un effet romantique. <br>La <strong>transparence</strong> stratégique ajoute une touche de mystère et de séduction. <br>La <strong>jupe</strong> fluide, avec sa fente audacieuse, offre à la mariée une liberté de mouvement exceptionnelle. <br>Les <strong>sandales</strong> blanches complètent parfaitement l'ensemble, apportant une note de modernité. <br>Idéale pour une cérémonie en plein air, cette <strong>robe</strong> allie tradition et innovation. <br>Son <strong>coupe</strong> ajustée met en valeur la silhouette de la future mariée. <br>Choisissez-la pour un mariage inoubliable, où vous brillerez de mille feux. <br>Investissez dans cette merveille de <strong>couture</strong>, symbole d'amour et de beauté.</p>"
+    },
+    {
+        "dressName": "​Poella",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_764434cd9bb949e387a54108dbc77a61~mv2.jpg",
+        "width": 562,
+        "height": 800,
+        "id": 26,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante avec un dos nu orné de <strong>délicates dentelles</strong>.<br>Cette création met en valeur la silhouette féminine grâce à sa coupe fluide et son <strong>longue traîne</strong>.<br>Les détails perlés ajoutent une touche de sophistication, parfaite pour un mariage chic.<br>Idéale pour les mariées qui recherchent une <strong>robe unique</strong> et romantique.<br>Son design intemporel s'adapte à divers thèmes de cérémonie, du champêtre au glamour.<br>Associée à des accessoires simples, cette <strong>robe de mariée</strong> devient le centre d'attention.<br>Choisissez-la pour un jour inoubliable, où vous brillerez de mille feux.<br>Explorez notre collection de <strong>robes de mariée</strong> pour trouver celle qui correspond à votre style.</p>"
+    },
+    {
+        "dressName": "SYULI",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_8832e8e291214f77818d683b1bc730df~mv2.jpg",
+        "width": 800,
+        "height": 1200,
+        "id": 27,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée par le <strong>Anna Sposa Group</strong>, allie sophistication et modernité. Son <strong>corsage</strong> ajouré en dentelle fine épouse parfaitement la silhouette, mettant en valeur les courbes naturelles.<br>La <strong>jupe</strong> fluide, avec son échancrure audacieuse, offre un mouvement gracieux à chaque pas. Idéale pour une <strong>cérémonie</strong> chic et romantique, cette création unique se distingue par sa coupe <strong>ajustée</strong> et ses détails raffinés.<br>Les manches courtes ajoutent une touche de <strong>charme</strong> et de délicatesse, tandis que le dos nu révèle une ligne pure et sensuelle. Parfaite pour les mariées qui recherchent une <strong>robe</strong> à la fois traditionnelle et contemporaine, ce modèle est un véritable bijou de la <strong>couture nuptiale</strong>.<br>Associée à des <strong>sandales</strong> minimalistes, elle crée une harmonie visuelle inégalable. Découvrez cette merveille dans notre boutique spécialisée en <strong>robes de mariage</strong>.</p>"
+    },
+    {
+        "dressName": "SYULI",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_f1bc25c136d14dffabafde120879dd8b~mv2.jpg",
+        "width": 800,
+        "height": 1200,
+        "id": 28,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante, cette création d'<strong>Anna Sposa Group</strong> séduit par son dos ouvert orné de délicates broderies florales. <br>Le tissu fluide et léger accentue la silhouette, offrant une allure romantique et féminine. <br>Son <strong>col en V</strong> subtil met en valeur le cou et les épaules, tandis que les manches courtes ajoutent une touche de sophistication. <br>La taille est cintrée grâce à des <strong>perles</strong> discrètes qui épousent parfaitement les courbes. <br>La jupe ample et aérienne se déploie en un <strong>longue traîne</strong>, idéale pour une cérémonie grandiose. <br>Cette <strong>robe de mariée</strong> allie tradition et modernité, faisant de chaque pas un moment magique. <br>Parfaite pour les mariées recherchant une tenue unique et mémorable, elle promet de faire sensation lors du jour J.</p>"
+    },
+    {
+        "dressName": "Agathe",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_ef947d80ed744d829b105a9fba4fa12a~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 29,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante, cette création allie sophistication et fluidité. <br>Son haut en dentelle fine sculpte la silhouette avec une <strong>collier montant</strong>, mettant en valeur le cou et les épaules. <br>La jupe, ample et fluide, s'épanouit en un <strong>longue traîne</strong>, offrant un mouvement gracieux à chaque pas. <br>Parfaite pour une cérémonie en plein air, elle capte la lumière naturelle, accentuant sa beauté. <br>Idéale pour les mariées recherchant une <strong>robe de mariée unique</strong> qui combine tradition et modernité. <br>Son design est à la fois sobre et spectaculaire, garantissant que la mariée reste le centre d'attention tout en restant confortable. <br>Choisissez cette <strong>robe de mariée</strong> pour un jour inoubliable, où chaque détail a été pensé pour sublimer votre beauté naturelle.</p>"
+    },
+    {
+        "dressName": "Agathe",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_188edfadd7ec4a66b49b7698e4277ca5~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 30,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son dos en dentelle délicate, offrant une allure romantique et audacieuse. <br>Le haut est orné de motifs floraux subtils, mettant en valeur la silhouette naturelle. <br>La jupe fluide en tulle apporte légèreté et mouvement, idéale pour une <strong>mariée</strong> qui veut se sentir libre et gracieuse. <br>Son train long et sophistiqué ajoute une touche de glamour, parfait pour les cérémonies grandioses. <br>Fabriquée avec des matériaux de qualité supérieure, cette <strong>robe de mariage</strong> garantit confort et durabilité. <br>Choisissez-la pour votre grand jour et laissez-vous emporter par sa beauté intemporelle. <br>Parfaite pour un mariage en plein air ou dans une église, elle s'adaptera à tous vos désirs. <br>Découvrez notre collection de <strong>robes de mariée</strong> et trouvez celle qui vous correspond le mieux.</p>"
+    },
+    {
+        "dressName": "Chanel",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_90c4f453709f419e9a794678ca8d65ba~mv2.jpg",
+        "width": 4915,
+        "height": 7372,
+        "id": 31,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante par <strong>KOTARSKA</strong>.<br>Coupé en A, cette création offre une silhouette gracieuse.<br>Le haut est orné de dentelle fine, avec un décolleté audacieux et des bretelles fines pour un look romantique.<br>La taille est cintrée, mettant en valeur la silhouette naturelle de la mariée.<br>La jupe fluide en tulle ajoute légèreté et mouvement à chaque pas.<br>Parfaite pour un mariage dans un cadre historique ou romantique.<br>Les détails floraux sur le bustier ajoutent une touche de sophistication.<br>Fabriquée avec des matériaux de qualité supérieure, cette <strong>robe de mariée</strong> est durable et confortable.<br>Idéale pour les mariées qui cherchent un mélange de tradition et de modernité.<br>Choisissez-la pour votre grand jour et brillez de mille feux.</p>"
+    },
+    {
+        "dressName": "Chanel",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_7b8073cc2898480d834f9d022944d262~mv2.jpg",
+        "width": 5504,
+        "height": 8256,
+        "id": 32,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante par <strong>KOTARSKA</strong>, présentant un dos nu gracieux. La <strong>dentelle</strong> fine orne le haut, ajoutant une touche de sophistication.<br>La ligne A fluide offre une silhouette flatteuse pour toutes les morphologies. Les détails perlés sur la ceinture mettent en valeur la taille.<br>Parfaite pour un mariage romantique ou classique, cette <strong>robe de mariée</strong> allie modernité et tradition. Le tissu léger assure confort et mobilité.<br>Idéale pour des photos mémorables, elle se marie bien avec divers accessoires de mariage. Choisissez-la pour votre grand jour et illuminez votre cérémonie.<br>Visitez notre boutique pour découvrir d'autres modèles exclusifs. Trouvez votre <strong>robe de mariée</strong> de rêve chez <strong>KOTARSKA</strong>.</p>"
+    },
+    {
+        "dressName": "AZORINA",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_a13553fd48904854bc546f736e6b371d~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 33,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée <strong>Anna Sposa Group</strong>, allie sophistication et modernité. Son décolleté en V profond met en valeur la silhouette féminine.<br>La <strong>dentelle</strong> fine orne le haut du bustier, ajoutant une touche romantique. Les fines bretelles croisées dans le dos offrent un look audacieux et gracieux.<br>Le tissu fluide du bas de la robe glisse sur les hanches, créant une ligne aérienne et légère. Une fente latérale révèle subtilement la jambe, apportant une note de séduction.<br>Parfaite pour une cérémonie chic, cette <strong>robe de mariée</strong> est un choix idéal pour les futures mariées qui recherchent à la fois tradition et innovation.<br>Son design unique garantit que vous serez l'étoile incontestée de votre grand jour. Découvrez notre collection de <strong>robes de mariée</strong> exclusives et trouvez celle qui correspond à votre style.</p>"
+    },
+    {
+        "dressName": "AZORINA",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_1479f39e369040548df343414643229e~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 34,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante par Anna Sposa Group. <br>Design <strong>sophistiqué</strong>, avec un dos <strong>ajouré</strong> orné de détails <strong>brodés</strong>.<br>La <strong>jupe</strong> fluide, longue et légère, offre une silhouette <strong>aérienne</strong>.<br>Le <strong>col</strong> en V profond accentue la féminité.<br>Matériaux de qualité supérieure pour un confort optimal.<br>Parfaite pour un mariage <strong>romantique</strong> ou <strong>classique</strong>.<br>Disponible dans différentes tailles et couleurs.<br>Choisissez votre <strong>robe de mariée</strong> unique chez Anna Sposa Group.<br>Découvrez notre collection <strong>exclusives</strong> de robes de mariée.<br>Optez pour le style et l'élégance avec cette <strong>robe de mariée</strong> exceptionnelle.</p>"
+    },
+    {
+        "dressName": "Roméso",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_112e491108cd47cc8c3563c82d6cec60~mv2.jpg",
+        "width": 800,
+        "height": 1200,
+        "id": 35,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante allie sophistication et confort. Son décolleté en V profond met en valeur la silhouette, tandis que les fines bretelles ajoutent une touche de féminité.<br>Le haut est orné de dentelle délicate, offrant un contraste subtil avec le tissu fluide du bas. Les manches longues et évasées apportent une note bohème chic, idéale pour une <strong>cérémonie en plein air</strong>.<br>La jupe ample et légère flotte gracieusement, créant un effet spectaculaire lors des mouvements. Parfaite pour une <strong>mariée moderne</strong> qui recherche à la fois style et praticité.<br>Chaque détail a été pensé pour offrir une expérience unique, de la qualité des matériaux aux finitions soignées. Cette <strong>robe de mariée</strong> est plus qu'un vêtement ; c'est une œuvre d'art portée, conçue pour rendre chaque instant mémorable.</p>"
+    },
+    {
+        "dressName": "Roméso",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_e578e55c8e314997b586e96ac03f6c69~mv2.jpg",
+        "width": 800,
+        "height": 1200,
+        "id": 36,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante avec un dos <strong>nue</strong> et des manches <strong>fluides</strong>.<br>Cette création offre une silhouette <strong>aérienne</strong>, parfaite pour une cérémonie en plein air.<br>Le tissu, léger et fluide, accentue la <strong>grâce</strong> de la mariée.<br>La <strong>dentelle</strong> délicate sur le haut du dos ajoute une touche de sophistication.<br>La jupe ample et légèrement <strong>ondulée</strong> se déploie avec élégance au sol.<br>Idéale pour les mariées qui recherchent à la fois <strong>confort</strong> et <strong>style</strong>.<br>Les manches longues apportent une note de <strong>mystère</strong> et de <strong>romantisme</strong>.<br>Un choix parfait pour une <strong>mariage bohème</strong> ou une cérémonie chic.<br>Investissez dans cette robe pour un jour inoubliable, où vous brillerez de mille feux.</p>"
+    },
+    {
+        "dressName": "Venus",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_e73ec9a58eaf4c789707358f68cbb672~mv2.jpg",
+        "width": 800,
+        "height": 1200,
+        "id": 37,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée par <strong>Anna Sposa Group</strong>, allie sophistication et modernité. Le haut en dentelle fine arbore un décolleté profond, révélant une <strong>dentelle florale</strong> délicate. Les manches longues, ajourées, ajoutent une touche romantique. La jupe fluide, en tissu léger, offre un mouvement gracieux à chaque pas.<br>La ceinture sculpte la taille, mettant en valeur les courbes naturelles. Un <strong>collier de dentelle</strong> complémentaire accentue le col, créant un ensemble harmonieux. Idéale pour une cérémonie intime ou une grande réception, cette robe incarne l'essence du chic nuptial.<br>Les détails soignés, comme les boutons discrets dans le dos, témoignent d'un savoir-faire artisanal. Cette création unique promet de faire de vous la plus belle des mariées, captivant tous les regards. Pour trouver votre <strong>robe de mariage</strong> idéale, visitez notre boutique en ligne et découvrez notre collection exclusive.</p>"
+    },
+    {
+        "dressName": "Venus",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_dd2b8db4e5c74bdbb49eb45415bb4369~mv2.jpg",
+        "width": 800,
+        "height": 1200,
+        "id": 38,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée Anna Sposa Group, allie sophistication et modernité. <br>Son haut en dentelle fine sculpte la silhouette avec une <strong>col montant</strong> audacieuse. <br>Les manches longues ajoutent une touche de romantisme. <br>La jupe fluide, fendue sur le côté, révèle des jambes gracieuses. <br>Faites de tissu léger, elle ondule à chaque pas. <br>Parfaite pour un mariage chic, cette <strong>création unique</strong> s'adapte à divers thèmes. <br>Choisissez-la pour votre grand jour et illuminez l'allée centrale. <br>Investissez dans une <strong>robe de mariée</strong> qui marquera les esprits. <br>Elle est disponible chez nos partenaires spécialisés en <strong>boutiques de mariage</strong>. <br>Découvrez notre collection étendue de robes pour trouver celle qui vous ressemble.</p>"
+    },
+    {
+        "dressName": "Venus",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_f8fc8e428891476ab1e82d5478affd26~mv2.jpg",
+        "width": 800,
+        "height": 1200,
+        "id": 39,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée par <strong>Anna Sposa Group</strong>, allie tradition et modernité. Son haut en dentelle fine offre une <strong>coupure audacieuse</strong> au dos, révélant une peau subtilement. Les manches longues, ajourées, ajoutent une touche de sophistication.<br>La jupe fluide, en tissu léger, s'épanouit avec grâce, offrant un mouvement naturel à chaque pas. Parfaite pour une <strong>cérémonie intime</strong> ou une grande réception, cette robe saura mettre en valeur la silhouette de la future mariée.<br>Son design unique la rend idéale pour les mariées qui recherchent à la fois <strong>charme</strong> et <strong>modernité</strong>. Chaque détail a été pensé pour créer une pièce d'exception, mémorable pour le jour J.</p>"
+    },
+    {
+        "dressName": "Lamagie",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_f1031722762e4fcd940aa6e157e002af~mv2.jpg",
+        "width": 800,
+        "height": 1200,
+        "id": 40,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée par <strong>Anna Sposa Group</strong>, séduit par son design sophistiqué. <br>Le décolleté en cœur profond met en valeur la silhouette féminine, tandis que les manches longues ajourées de dentelle ajoutent une touche de romantisme et de raffinement. <br>La matière légère et fluide épouse parfaitement le corps, offrant confort et élégance à la future mariée. <br>Les détails floraux brodés sur la dentelle apportent une dimension artistique et unique à cette <strong>création de mariage</strong>. <br>Idéale pour un <strong>mariage chic</strong> ou une cérémonie intime, cette robe est un véritable bijou qui fera de chaque pas un moment mémorable. <br>Choisissez-la pour votre grand jour et laissez-vous transporter dans un monde de beauté et d'harmonie.</p>"
+    },
+    {
+        "dressName": "Lamagie",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_25fda21adfa3439a9fa95d7a01eeb49d~mv2.jpg",
+        "width": 619,
+        "height": 908,
+        "id": 41,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante allie sophistication et féminité. Avec son décolleté en V profond, elle met en valeur la silhouette.<br>Son <strong>tissu fluide</strong> et léger offre un confort optimal pour le grand jour.<br>Les manches longues ajourées ajoutent une touche de romantisme et de mystère à cette création unique.<br>La <strong>dentelle</strong> fine orne les épaules et les bras, apportant une note de raffinement.<br>La jupe ample et aérienne se déploie avec grâce, idéale pour une <strong>cérémonie en plein air</strong>.<br>Chaque détail est pensé pour sublimer la future mariée, de la taille cintrée aux finitions soignées.<br>Parfaite pour un mariage chic et intemporel, cette robe promet des photos magnifiques.<br>Choisissez-la pour un look <strong>époustouflant</strong> qui restera gravé dans les mémoires.</p>"
+    },
+    {
+        "dressName": "Lamagie",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_553d51dcbea34f06af0f5dc1c181fa2d~mv2.png/v1/fill/w_195,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/176703_553d51dcbea34f06af0f5dc1c181fa2d~mv2.png.jpg",
+        "width": 685,
+        "height": 1025,
+        "id": 42,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante, cette création d'<strong>Anna Sposa</strong> allie sophistication et confort. <br>Le haut est orné de dentelle délicate, formant un dos nu spectaculaire qui met en valeur la silhouette. <br>Les manches longues ajoutent une touche de romantisme, parfaites pour les mariages en automne ou hiver. <br>La jupe fluide en tissu léger s'épanouit en un joli volume, offrant une allure gracieuse à chaque pas. <br>Cette <strong>robe de mariée</strong> est idéale pour les cérémonies intimes ou grandioses, adaptant son charme à tous les styles. <br>Son design unique permet de se sentir comme une véritable princesse le jour J. <br>Choisissez-la pour votre <strong>mariage</strong> et laissez-vous transporter par sa beauté éternelle. <br>Découvrez notre collection de <strong>robes de mariée</strong> sur notre site web, où vous trouverez l'inspiration pour votre grande journée.</p>"
+    },
+    {
+        "dressName": "Simbelly",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_c14b8fcce31e43f58cb5569c1620d8fc~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 43,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, conçue par Anna Sposa Group, allie sophistication et modernité. <br>Son décolleté plongeant en dentelle fine révèle une allure audacieuse et féminine. <br>Les fines bretelles ajoutent une touche de légèreté à la silhouette. <br>La jupe fluide, avec son léger évasement, offre un mouvement gracieux lors des pas de la mariée. <br>Un <strong>slit frontal</strong> audacieux apporte une note de séduction tout en restant raffinée. <br>Parfaite pour les mariées qui recherchent une <strong>robe de mariée unique</strong>, cette création est un véritable bijou de la mode nuptiale. <br>Idéale pour un mariage chic en ville ou une cérémonie romantique à la campagne, elle s'adapte à tous les styles. <br>Investir dans cette robe, c'est choisir l'excellence du design et de la qualité, garantissant des souvenirs inoubliables.</p>"
+    },
+    {
+        "dressName": "Simbelly",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_eedae96614e1473bb2758f36d126c08a~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 44,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante avec un dos <strong>ajouré</strong> et une <strong>dentelle</strong> fine. La <strong>jupe</strong> fluide en <strong>tulle</strong> offre un mouvement gracieux. Parfaite pour un mariage <strong>romantique</strong>.<br>Le <strong>corsage</strong> est orné de détails <strong>brodés</strong>, ajoutant une touche de sophistication. Idéale pour les mariées qui recherchent à la fois <strong>élégance</strong> et <strong>confort</strong>.<br>Son <strong>design</strong> unique la rend parfaite pour des photos mémorables. La <strong>longueur</strong> de la traîne peut être ajustée selon vos préférences.<br>Choisissez cette <strong>robe</strong> pour un jour spécial, garantissant que vous serez le centre d'attention. Elle convient parfaitement aux cérémonies en plein air ou dans des lieux historiques.<br>Investissez dans une <strong>création</strong> qui symbolise votre style personnel. Cette <strong>robe</strong> est plus qu'un vêtement; c'est un symbole de votre <strong>histoire</strong> d'amour.</p>"
+    },
+    {
+        "dressName": "Ambre",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_b8b82f0084a342c29df670a46499c8a1~mv2.jpg",
+        "width": 3169,
+        "height": 4226,
+        "id": 45,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son <strong>col en V profond</strong>, révélant une délicatesse intemporelle.<br>Le <strong>tissu fluide</strong> drapé offre un mouvement gracieux, tandis que la <strong>fente audacieuse</strong> ajoute une touche moderne et sensuelle.<br>Son <strong>dos nu</strong> est subtilement orné de <strong>détails perlés</strong>, captivant les regards.<br>Parfaite pour une <strong>mariée contemporaine</strong>, cette création allie sophistication et confort.<br>Idéale pour une <strong>cérémonie chic</strong> ou une réception glamour, elle promet d'être le centre d'attention.<br>Choisissez-la pour votre grand jour et laissez-vous envelopper dans sa beauté éthérée.</p>"
+    },
+    {
+        "dressName": "Ambre",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_e82e86085b3f48dbb23fef78e19fdd6e~mv2.jpg",
+        "width": 3325,
+        "height": 4433,
+        "id": 46,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante avec un dos nu orné de <strong>dentelle</strong>.<br>Coupée dans un tissu fluide, elle offre une silhouette aérienne et gracieuse.<br>Son décolleté en V à l'arrière met en valeur la ligne du cou et des épaules.<br>La <strong>jupe</strong> ample et légère flotte au sol, créant un effet spectaculaire.<br>Parfaite pour les mariées recherchant une allure romantique et moderne.<br>Idéale pour un mariage en plein air ou dans une salle chic.<br>Les détails fins de la <strong>dentelle</strong> ajoutent une touche de sophistication.<br>Un choix audacieux pour celles qui veulent se démarquer.<br>Disponible dans différentes tailles pour s'adapter à toutes les morphologies.<br>Investissez dans cette <strong>robe de mariée</strong> unique et mémorable.</p>"
+    },
+    {
+        "dressName": "Lucy",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_6655bf4cda944a94a0102d7ee2c4bfbb~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 47,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée par <strong>Anna Sposa Group</strong>, séduit par son design sophistiqué. <br>Le décolleté en V profond met en valeur la silhouette féminine, tandis que les fines bretelles ajoutent une touche de romantisme. <br>La dentelle fine orne le bustier, offrant un contraste subtil avec le tissu fluide. <br>L'ajustement parfait à la taille souligne la courbe naturelle, avant de s'évaser gracieusement vers le bas. <br>Idéale pour une <strong>mariée</strong> recherchant à la fois modernité et tradition, cette création allie raffinement et confort. <br>Les détails soignés, comme les nœuds aux épaules, apportent une note de fantaisie. <br>Parfaite pour un mariage dans un cadre historique ou romantique, elle garantit des photos époustouflantes. <br>Choisissez-la pour votre grand jour et laissez-vous transporter par son charme intemporel.</p>"
+    },
+    {
+        "dressName": "Lucy",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_c835ea7808f14256b22baf741e901815~mv2.jpg",
+        "width": 1333,
+        "height": 2000,
+        "id": 48,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante, signée par l'<strong>Anna Sposa Group</strong>, se distingue par son dos nu gracieux. <br>Le tissu fluide et léger offre une silhouette aérienne, idéale pour un mariage en plein air. <br>Son décolleté en V profond met en valeur la ligne du cou et des épaules, tandis que les fines bretelles ajoutent une touche de sophistication. <br>La ceinture ornée de dentelle fine souligne la taille, créant une harmonie parfaite entre féminité et modernité. <br>L'ajustement parfait garantit confort et liberté de mouvement, essentiels pour une journée mémorable. <br>Les manches longues amovibles offrent une flexibilité de style, adaptées à diverses saisons et thèmes de mariage. <br>Chaque détail, de la traîne fluide aux finitions soignées, reflète l'excellence artisanale de cette <strong>création unique</strong>. <br>Choisissez cette robe pour un look romantique et intemporel qui vous fera briller lors de votre grand jour.</p>"
+    },
+    {
+        "dressName": "Melissa",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_5ba637ff9fbe4ae4ab219f1555d9296a~mv2.jpg",
+        "width": 4160,
+        "height": 6240,
+        "id": 49
+    },
+    {
+        "dressName": "Melissa",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_abfcb06a6b654af2b4ca7b6228675a68~mv2.jpg",
+        "width": 4002,
+        "height": 6003,
+        "id": 50
+    },
+    {
+        "dressName": "fluorite",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_7619ebe6da1a4b2a90de8cd73e9a20a4~mv2.jpg",
+        "width": 2100,
+        "height": 2800,
+        "id": 51,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante allie finesse et sophistication. Son <strong>corsage</strong> en dentelle ajourée épouse parfaitement la silhouette, mettant en valeur les courbes féminines.<br>Le décolleté profond en V accentue l'allure romantique tandis que les manches cap sleeves ajoutent une touche de modernité.<br>La jupe fluide en tulle se déploie en un <strong>longue traîne</strong>, offrant un mouvement gracieux à chaque pas.<br>Parfaite pour une cérémonie dans un cadre historique ou romantique, cette <strong>robe de mariée</strong> est un choix idéal pour les futures mariées qui rêvent d'un look à la fois chic et intemporel.<br>Son design unique permet de créer des photos de mariage mémorables, capturant l'essence de ce jour spécial.<br>Investir dans cette <strong>robe de mariée</strong> signifie choisir une pièce qui restera gravée dans les mémoires, symbolisant le début d'une nouvelle vie ensemble.</p>"
+    },
+    {
+        "dressName": "fluorite",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_e7c76014a08e4abc8eaec3730dd049c3~mv2.jpg",
+        "width": 800,
+        "height": 1067,
+        "id": 52,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante avec un <strong>dos nu</strong> gracieux. La <strong>dentelle</strong> fine orne le haut, ajoutant une touche de sophistication.<br>Le <strong>col en V</strong> profond met en valeur la silhouette féminine. La jupe fluide s'épanouit en un <strong>longue traîne</strong>, offrant un mouvement aérien.<br>Parfaite pour une <strong>cérémonie chic</strong>, cette création allie modernité et tradition.<br>Son <strong>tissu léger</strong> assure confort et élégance tout au long de la journée. Idéale pour les mariées recherchant à la fois <strong>élégance</strong> et <strong>confort</strong>.<br>La robe se marie bien avec des <strong>accessoires fins</strong>, comme une couronne ou des bijoux discrets.<br>Un choix parfait pour un mariage dans un cadre romantique, comme un <strong>château</strong> ou un jardin historique.</p>"
+    },
+    {
+        "dressName": "Lolita",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_32e1d936861145ed84fffcfd3641450f~mv2.jpg",
+        "width": 1040,
+        "height": 1560,
+        "id": 53,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante allie sophistication et confort. Le haut, orné de <strong>dentelle</strong> fine, présente un motif floral délicat qui s'harmonise parfaitement avec le <strong>col bateau</strong>.<br>Ses manches courtes ajoutent une touche de modernité sans encombrement. La <strong>jupe fluide</strong> en tissu léger tombe gracieusement, offrant une silhouette aérienne et romantique.<br>L'ouverture audacieuse sur le devant apporte une note de séduction tout en restant classique. Idéale pour une <strong>cérémonie champêtre</strong> ou une réception intime, cette robe met en valeur la beauté naturelle de la mariée.<br>Conçue pour les femmes qui recherchent à la fois style et praticité, elle est facile à porter tout au long de la journée. Chaque détail, de la <strong>dentelle</strong> aux finitions soignées, reflète l'excellence artisanale d'<strong>Anna Sposa Group</strong>, garantissant une expérience mémorable.</p>"
+    },
+    {
+        "dressName": "Lolita",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_ad931b5ebea64427bc53b1639a5f790e~mv2.jpg",
+        "width": 1040,
+        "height": 1560,
+        "id": 54,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante allie tradition et modernité. Le haut, orné de dentelle délicate, offre un <strong>col en cœur</strong> romantique. <br>La <strong>jupe fluide</strong> s'épanouit en une ligne A gracieuse, idéale pour les mariées qui aiment se sentir libres et légères. <br>Un <strong>slit audacieux</strong> sur le côté ajoute une touche de séduction, tandis que la longueur au sol confère une allure royale. <br>Les manches courtes apportent une note de sophistication sans encombrement. <br>Le dos, subtilement échancré, est agrémenté de boutons perlés qui descendent jusqu'à la taille, ajoutant une dimension tactile à l'esthétique visuelle. <br>Parfaite pour une <strong>cérémonie champêtre</strong> ou une réception chic, cette robe incarne l'essence même du mariage contemporain. <br>Son design unique la rend facilement mémorable, garantissant que la mariée sera le centre d'attention tout en restant confortable. <br>Choisissez-la pour un jour où chaque détail compte.</p>"
+    },
+    {
+        "dressName": "Tara",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_717ab0f654aa49d398acfe31c9e897ea~mv2.jpg",
+        "width": 1040,
+        "height": 1560,
+        "id": 55,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante allie sophistication et simplicité. Son décolleté en V profond met en valeur la silhouette, tandis que le haut orné de dentelle ajoute une touche de raffinement.<br>La jupe fluide, en tissu léger, s'épanouit avec grâce, offrant un mouvement naturel à chaque pas. Parfaite pour une <strong>cérémonie champêtre</strong>, elle se marie idéalement avec les décors rustiques.<br>Son design épuré convient aux mariées recherchant une <strong>tenue de mariage</strong> intemporelle. Les détails fins de la dentelle contrastent avec la fluidité du tissu, créant un équilibre visuel harmonieux.<br>Idéale pour un <strong>mariage d'été</strong>, cette robe permet de rester fraîche tout en étant radieuse. Sa coupe flatteuse s'adapte à différentes morphologies, assurant confort et style.<br>Choisissez cette <strong>robe de mariée unique</strong> pour un jour inoubliable, où l'élégance et la beauté se rencontrent dans un cadre bucolique.</p>"
+    },
+    {
+        "dressName": "Tara",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_bf06bffa677a45ddb58b742d804bf96e~mv2.jpg",
+        "width": 1040,
+        "height": 1560,
+        "id": 56,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son dos nu gracieux, orné de délicates <strong>dentelles</strong>.<br>La ligne A fluide offre une silhouette aérienne et romantique, idéale pour un mariage champêtre.<br>Son tissu en <strong>chiffon</strong> léger accentue la douceur du mouvement, tandis que le <strong>col en V</strong> ajoute une touche féminine.<br>Parfaite pour les mariées recherchant à la fois simplicité et sophistication, cette création met en valeur la beauté naturelle de la future épouse.<br>Associée à des accessoires discrets, elle s'adapte à diverses thématiques de cérémonie, de l'intime au grandiose.<br>Choisissez-la pour un jour inoubliable où vous brillerez de mille feux, dans un cadre aussi rustique qu'un champ ou aussi sophistiqué qu'une salle de réception.</p>"
+    },
+    {
+        "dressName": "Turquoise",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_a312ad4645d74e66a8e10f148ee7dbc8~mv2.jpg",
+        "width": 2100,
+        "height": 2800,
+        "id": 57,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante allie sophistication et modernité. Le haut, orné de dentelle délicate, offre un <strong>col en V</strong> profond qui met en valeur le décolleté. Les manches courtes ajoutent une touche de romantisme.<br>La jupe fluide, en tissu léger, s'épanouit en un joli <strong>évasé</strong>, créant une silhouette aérienne. Sa longueur parfaite accentue la grâce de la mariée lorsqu'elle se déplace. La traîne, non trop imposante, apporte une note de majesté sans encombrement.<br>Idéale pour une cérémonie dans un cadre <strong>naturel</strong> ou une réception chic, cette robe est un choix audacieux pour les futures mariées à la recherche d'un style unique. Son design intemporel garantit qu'elle reste un souvenir précieux, même après le grand jour.<br>Investir dans une telle création, c'est opter pour un mélange subtil de tradition et d'innovation, assurant à la mariée de rayonner de bonheur et de confiance.</p>"
+    },
+    {
+        "dressName": "Turquoise",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_15ad4f660d044bd98820c8acd9aa9ed2~mv2.jpg",
+        "width": 2100,
+        "height": 2800,
+        "id": 58,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son dos <strong>ajouré</strong>, orné de dentelle fine. La <strong>jupe</strong> fluide s'épanouit en un train majestueux, bordé de motifs floraux brodés. Idéale pour une <strong>cérémonie</strong> romantique, elle associe pureté et sophistication.<br>Son <strong>col</strong> délicat met en valeur la silhouette, tandis que le tissu léger offre confort et grâce. Parfaite pour les mariées qui rêvent d'un look à la fois <strong>classique</strong> et moderne, cette création est un véritable bijou de la <strong>couture nuptiale</strong>.<br>Les détails soignés, comme les perles discrètes, ajoutent une touche de luxe sans ostentation. Cette <strong>robe</strong> incarne l'essence même du bonheur nuptial, prête à accompagner chaque pas vers l'autel avec élégance et charme.</p>"
+    },
+    {
+        "dressName": "AISEL",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_e2f93a6906b9470b9763a48a359cb24a~mv2.jpg",
+        "width": 1040,
+        "height": 1560,
+        "id": 59,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> est un véritable chef-d'œuvre, alliant élégance et modernité. <br>Son haut en dentelle ajourée offre une touche de sophistication, tandis que les manches longues apportent une note de romantisme. <br>La jupe fluide et ample se déploie avec grâce, créant un effet spectaculaire lors des mouvements. <br>Le dos dénudé accentue la féminité de la silhouette, idéal pour une <strong>mariée</strong> audacieuse. <br>Associée à un <strong>chapeau de mariée</strong> noir, cette tenue devient unique, parfaitement adaptée à une cérémonie champêtre ou bohème. <br>Les bottines blanches complètent l'ensemble avec style, offrant confort et chic. <br>Choisissez cette <strong>robe de mariée</strong> pour un jour inoubliable, où vous brillerez de mille feux. <br>Découvrez notre collection de <strong>robes de mariée</strong> sur notre site web, et trouvez celle qui correspond à votre vision du bonheur.</p>"
+    },
+    {
+        "dressName": "AISE",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_be777578e07d43a488fb20df8f99547b~mv2.jpg",
+        "width": 1040,
+        "height": 1560,
+        "id": 60,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> séduit par son dos nu, orné de dentelle délicate. Les manches longues ajoutent une touche d'élégance.<br>Le <strong>corsage</strong> est sculpté avec précision, mettant en valeur la silhouette. La jupe fluide offre un mouvement gracieux à chaque pas.<br>Parfaite pour une cérémonie champêtre, elle se marie bien avec un <strong>chapeau de mariée</strong>.<br>Son design unique allie tradition et modernité, idéal pour les futures mariées audacieuses.<br>Chaque détail, des boutons aux lacets, a été pensé pour créer une <strong>harmonie parfaite</strong>.<br>Investir dans cette création signifie choisir une pièce qui restera gravée dans les mémoires.<br>Les photos montrent sa beauté sous différents angles, révélant toute sa splendeur.<br>Un choix judicieux pour celles qui rêvent d'un mariage inoubliable.</p>"
+    },
+    {
+        "dressName": "Anelisa",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_a071a0e38a28420d9bfc79652d275fd6~mv2.jpg",
+        "width": 1080,
+        "height": 1294,
+        "id": 61,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son <strong>col en V profond</strong>, mettant en valeur la délicatesse du décolleté. <br>Les manches longues, ornées de <strong>dentelle</strong>, ajoutent une touche romantique et sophistiquée. <br>La jupe fluide, avec sa fente audacieuse, offre un mouvement gracieux et moderne. <br>Parfaite pour une <strong>cérémonie de mariage</strong> chic, cette création allie tradition et innovation. <br>Son tissu léger capte la lumière, accentuant sa beauté naturelle. <br>Idéale pour les mariées qui recherchent à la fois <strong>élégance</strong> et confort, elle est conçue pour des moments inoubliables. <br>Associée à des <strong>sandales de mariée</strong> minimalistes, elle complète le look avec finesse. <br>Découvrez notre collection de <strong>robes de mariée</strong> exclusives et trouvez celle qui vous ressemble.</p>"
+    },
+    {
+        "dressName": "Anelisa",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_3ae954ce39464188ab6da51ff1bd3850~mv2.jpg",
+        "width": 1080,
+        "height": 1271,
+        "id": 62,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son <strong>design unique</strong>.<br>Le haut, orné de <strong>dentelle</strong> fine, offre une allure romantique avec ses manches longues.<br>Son dos nu ajoute une touche de <strong>sensualité</strong>, parfaitement équilibrée par la fluidité du tissu.<br>La jupe, ample et aérienne, s'épanouit en un <strong>longue traîne</strong>, idéale pour une cérémonie sur la plage ou dans un jardin.<br>Chaque détail, des broderies aux finitions soignées, reflète l'<strong>artisanat</strong> exceptionnel.<br>Cette création est un choix parfait pour les futures mariées recherchant à la fois <strong>élégance</strong> et <strong>confort</strong>.<br>Elle convient particulièrement bien aux thèmes de mariage <strong>naturel</strong> et <strong>bohème</strong>, tout en restant adaptée à une réception plus formelle.<br>Investir dans cette robe signifie choisir une pièce qui transcende le temps, garantissant des souvenirs inoubliables.</p>"
+    },
+    {
+        "dressName": "Ally",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_f848a4a7cab04f3ba4d49507c1870b89~mv2.jpg",
+        "width": 2100,
+        "height": 2800,
+        "id": 63,
+        "description_html": "<p>Cette <strong>robe de mariée</strong> élégante se distingue par son <strong>col en V profond</strong>, mettant en valeur la féminité. <br>Le <strong>tissu fluide</strong> et soyeux offre une silhouette aérienne, idéale pour un mariage chic. <br>La <strong>ceinture ornée de perles</strong> souligne la taille, ajoutant une touche de sophistication. <br>Son <strong>dos nu</strong> est à la fois audacieux et romantique, parfait pour les mariées modernes. <br>La <strong>jupe ample</strong> s'épanouit avec grâce, offrant un déplacement fluide et gracieux. <br>Chaque détail, des fines bretelles aux finitions impeccables, reflète l'artisanat de haute qualité. <br>Idéale pour un <strong>thème de mariage</strong> classique ou contemporain, cette robe est un choix incontournable. <br>Découvrez notre collection de <strong>robes de mariée</strong> exclusives et trouvez celle qui vous correspond. <br>Nos conseillers sont là pour vous aider à choisir la <strong>robe de vos rêves</strong>. <br>Venez nous rencontrer dans notre boutique et laissez-vous émerveiller par nos créations.</p>"
+    },
+    {
+        "dressName": "Ally",
+        "price": "",
+        "category": "style-boheme-chic",
+        "imageUrl": "https://static.wixstatic.com/media/176703_758440ffd8b847ea8422acd44268a7b6~mv2.jpg",
+        "width": 2100,
+        "height": 2800,
+        "id": 64,
+        "description_html": "<p><strong>Robe de mariée</strong> élégante avec un dos plongeant. <br>La <strong>dentelle</strong> fine orne la taille, ajoutant une touche de sophistication. <br>Sa <strong>jupe</strong> fluide et ample offre un mouvement gracieux. <br>Le <strong>tissu</strong> de qualité assure confort et maintien. <br>Parfaite pour un mariage en <strong>plein air</strong> ou dans une salle chic. <br>Accessoires minimalistes mettent en valeur sa pureté. <br>Choisissez cette <strong>robe</strong> pour un jour inoubliable. <br>Disponible dans différentes tailles pour s'adapter à toutes les morphologies. <br>Optez pour une <strong>couture</strong> personnalisée pour un ajustement parfait. <br>Consultez notre boutique en ligne pour plus d'options. <br>Nos conseillères sont là pour vous aider dans votre choix. <br>Découvrez aussi nos collections de <strong>chaussures</strong> et de bijoux de mariage.</p>"
+    }
 ]

@@ -7,7 +7,7 @@
     "width": 1333,
     "height": 2000,
     "id": 1,
-    "link": "style-boheme-chic"
+    "link": "robes-de-mariee/style-boheme-chic"
   },
   {
     "dressName": "Boheme et champetre",
@@ -26,7 +26,8 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_999bc7e5222743938c0b8aeb353668a3~mv2.jpg",
     "width": 1200,
     "height": 1800,
-    "id": 3
+    "id": 3,
+    "link": "robes-de-mariee/forme-sirene"
   },
   {
     "dressName": "Minimaliste",
@@ -35,6 +36,7 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_902366e40f94463281f0f1085fc4a7b5~mv2.jpg",
     "width": 1200,
     "height": 1800,
-    "id": 4
+    "id": 4,
+    "link": "robes-de-mariee/minimaliste"
   }
 ]

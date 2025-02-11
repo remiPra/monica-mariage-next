@@ -1,5 +1,5 @@
 "use client";
-
+import DOMPurify from "dompurify";
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -16,7 +16,7 @@ export default function DressDetailPage() {
   useEffect(() => {
     const chargerRobe = async () => {
       try {
-        const response = await fetch("/style-boheme-chic.json");
+        const response = await fetch("/minimaliste.json");
         if (!response.ok) {
           throw new Error("Erreur lors du chargement du fichier JSON");
         }
@@ -67,7 +67,7 @@ export default function DressDetailPage() {
       <Header />
 
       {/* Contenu de la page de détail */}
-      <div className="mt-[150px] max-w-7xl mx-auto  px-6 flex flex-col lg:flex-row gap-10">
+      <div className="mt-10 md:mt-[150px] max-w-7xl mx-auto  px-6 flex flex-col lg:flex-row gap-10">
         {/* Image */}
         <div className="w-full lg:w-1/2">
           <div
@@ -92,26 +92,13 @@ export default function DressDetailPage() {
           <h1 className="text-3xl font-bold text-[#af7749] mb-4">
             {robe.dressName}
           </h1>
-          <p className="text-gray-700 leading-relaxed">{robe.description}</p>
-
+          <p
+            className="text-gray-700 leading-relaxed"
+            dangerouslySetInnerHTML={{
+              __html: DOMPurify.sanitize(robe.description_html),
+            }}
+          />
           {/* Sélection Taille */}
-          <div className="mt-6">
-            <label
-              htmlFor="size"
-              className="block text-sm font-semibold text-gray-700"
-            >
-              TAILLE
-            </label>
-            <select
-              id="size"
-              className="mt-2 block w-full border rounded-lg px-3 py-2"
-            >
-              <option value="">Choisir une option</option>
-              <option value="S">S</option>
-              <option value="M">M</option>
-              <option value="L">L</option>
-            </select>
-          </div>
 
           {/* CTA */}
           <a

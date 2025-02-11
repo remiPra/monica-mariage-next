@@ -4,6 +4,11 @@ import { useState, useEffect, useRef } from "react";
 import { IoHomeOutline } from "react-icons/io5";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { FaWhatsapp, FaPhone } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { motion, AnimatePresence } from "framer-motion";
+import { IoClose } from "react-icons/io5"; // Importez l'icône de fermeture
+import { TiPhoneOutline } from "react-icons/ti";
 
 export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -82,16 +87,40 @@ export default function Header() {
     };
   }, [galleryRef, menuItemRef]);
 
+  const drawerVariants = {
+    open: {
+      y: 0,
+      opacity: 1,
+      transition: { duration: 0.4, ease: "easeInOut" },
+    },
+    closed: {
+      y: "-100vh",
+      opacity: 0,
+      transition: { duration: 0.4, ease: "easeInOut" },
+    },
+  };
+
   return (
-    <header>
+    <header className="fixed top-0 w-full z-30">
+      {/* Contact bar (Mobile only) */}
+      <div className="bg-[#A37B63] text-white text-sm py-2 px-4 flex justify-center md:hidden">
+        <div className="flex items-center gap-2">
+          <FaWhatsapp className="text-lg" />
+          <a href="tel:+33668300960" className="hover:underline">
+            06 68 30 09 60
+          </a>
+          <TiPhoneOutline className="text-lg" />
+        </div>
+      </div>
+
       {/* Navigation Desktop */}
-      <nav className="hidden md:flex fixed top-0 w-full z-30 bg-[#FDE9E6] items-center justify-between px-8 h-20">
+      <nav className="hidden md:flex bg-[#FDE9E6] items-center justify-between px-8 h-20">
         {/* Menu de gauche */}
         <ul className="flex space-x-5">
           <li>
             <a
               href="/"
-              className="text-[#af7749] hover:text-[#F5D2B5] flex items-center gap-1"
+              className="text-[#7A5C4B] hover:text-[#A37B63] flex items-center gap-1"
             >
               <IoHomeOutline className="text-lg" />
               Accueil
@@ -109,17 +138,17 @@ export default function Header() {
             }}
             ref={menuItemRef}
           >
-            <a
-              href="#"
-              className="text-[#af7749] hover:text-[#F5D2B5] cursor-pointer"
+            <Link
+              href="/robes-de-mariee"
+              className="text-[#7A5C4B] hover:text-[#A37B63] cursor-pointer"
             >
               Robes de Mariée
-            </a>
+            </Link>
             {/* Galerie de robes */}
             {isGalleryOpen && (
               <div
                 ref={galleryRef}
-                className="fixed left-0 mt-2 py-2 w-1/2 bg-[#fde9e6] shadow-xl rounded-md overflow-hidden z-10"
+                className="fixed left-0 mt-2 py-2 w-1/2 bg-[#F5E7DE] shadow-xl rounded-md overflow-hidden z-10"
               >
                 {/* Version améliorée de la galerie */}
                 <div className="max-w-screen-2xl mx-auto my-10 px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -137,18 +166,18 @@ export default function Header() {
                           className="w-full h-full object-cover transition-all duration-500"
                         />
                         {/* Overlay au survol */}
-                        <div className="absolute inset-0 bg-[#af7749] bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-center p-4">
+                        <div className="absolute inset-0 bg-[#7A5C4B] bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-center p-4">
                           <h3 className="text-white text-xl mb-4">
                             {robe.dressName}
                           </h3>
-                          <button className="bg-white text-[#af7749] px-6 py-2 rounded-full text-sm hover:bg-[#F5D2B5] transition-colors">
+                          <button className="bg-white text-[#7A5C4B] px-6 py-2 rounded-full text-sm hover:bg-[#A37B63] transition-colors">
                             Voir les détails
                           </button>
                         </div>
                       </div>
                       {/* Texte en dessous */}
                       <div className="text-center py-3">
-                        <h3 className="text-[#af7749] text-sm">
+                        <h3 className="text-[#7A5C4B] text-sm">
                           {robe.dressName}
                         </h3>
                       </div>
@@ -159,12 +188,12 @@ export default function Header() {
             )}
           </li>
           <li>
-            <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
+            <Link href="/promo" className="text-[#7A5C4B] hover:text-[#A37B63]">
               Promotion
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
+            <a href="#" className="text-[#7A5C4B] hover:text-[#A37B63]">
               Nos créateurs
             </a>
           </li>
@@ -172,25 +201,26 @@ export default function Header() {
 
         {/* Logo au centre */}
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-[#af7749] font-[Playfair]">
-            Monica <span className="text-base text-gray-600">Mariage</span>
+          <h1 className="text-3xl font-bold text-[#7A5C4B] font-cursive">
+            Monica{" "}
+            <span className="text-2xl font-cursive text-gray-600">Mariage</span>
           </h1>
         </div>
 
         {/* Menu de droite */}
         <div className="flex items-center space-x-5">
-          <Link href="/contact" className="text-[#af7749] hover:text-[#F5D2B5]">
-            Prendre Rendez-vous
+          <Link href="/contact" className="text-[#7A5C4B] hover:text-[#A37B63]">
+            Prendre Rendez-Vous
           </Link>
           <Link
             href="/nous-trouver"
-            className="text-[#af7749] hover:text-[#F5D2B5]"
+            className="text-[#7A5C4B] hover:text-[#A37B63]"
           >
             Trouver le showroom
           </Link>
           <button className="p-2">
             <svg
-              className="w-6 h-6 text-[#af7749] hover:text-[#F5D2B5]"
+              className="w-6 h-6 text-[#7A5C4B] hover:text-[#A37B63]"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -207,68 +237,94 @@ export default function Header() {
       </nav>
 
       {/* Navigation Mobile */}
-      <nav className="flex md:hidden fixed top-0 w-full z-40 bg-white shadow-md px-4 py-2 justify-between items-center">
-        <div className="text-center">
-          <h1 className="text-xl font-bold text-[#af7749] font-[Playfair]">
-            Monica <span className="text-sm text-gray-600">Mariage</span>
-          </h1>
-        </div>
-        {/* Bouton menu hamburger */}
+      <nav className="flex md:hidden bg-white shadow-md px-4 py-2 justify-between items-center">
+        {/* Menu button */}
         <button
           onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
-          className="cursor-pointer"
+          className="text-2xl text-[#7A5C4B]"
+          aria-label="Menu"
         >
-          <svg
-            className="w-8 h-8 text-[#925c36]"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
+          ☰
+        </button>
+
+        {/* Logo/Title */}
+        <Link
+          href="/"
+          className="text-xl font-bold text-[#7A5C4B] font-[Playfair]"
+        >
+          Monica <span className="text-sm text-gray-600">Mariage</span>
+        </Link>
+
+        {/* Location icon */}
+        <button className="text-xl text-[#7A5C4B]" aria-label="Location">
+          <FaLocationDot />
         </button>
       </nav>
 
       {/* Menu Mobile */}
-      {isMobileMenuOpen && (
-        <div className="md:hidden fixed top-16 left-0 w-full bg-[#FDE9E6] shadow-lg p-4 z-50">
-          <ul className="flex flex-col space-y-4 text-center">
-            <li>
-              <a
-                href="/gallery"
-                className="text-[#af7749] hover:text-[#F5D2B5]"
-              >
-                Robes de Mariée
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
-                Tenues de Soirée
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
-                Robes de Cortège
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
-                Prendre Rendez-vous
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
-                Trouver le showroom
-              </a>
-            </li>
-          </ul>
-        </div>
-      )}
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <motion.div
+            className="md:hidden fixed top-0 left-0 w-full h-full bg-[#F5E7DE] shadow-lg z-50"
+            variants={drawerVariants}
+            initial="closed"
+            animate="open"
+            exit="closed"
+          >
+            {/* Close button */}
+            <button
+              onClick={() => setMobileMenuOpen(false)}
+              className="absolute top-4 right-4 text-3xl text-[#7A5C4B]"
+              aria-label="Fermer le menu"
+            >
+              <IoClose />
+            </button>
+
+            <ul className="flex flex-col items-center justify-center h-full space-y-8 text-center">
+              <li>
+                <Link
+                  href="/robes-de-mariee"
+                  className="text-2xl text-[#7A5C4B] hover:text-[#A37B63]"
+                >
+                  Robes de Mariée
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-2xl text-[#7A5C4B] hover:text-[#A37B63]"
+                >
+                  Tenues de Soirée
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-2xl text-[#7A5C4B] hover:text-[#A37B63]"
+                >
+                  Robes de Cortège
+                </a>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="text-2xl text-[#7A5C4B] hover:text-[#A37B63]"
+                >
+                  Prendre Rendez-Vous
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/nous-trouver"
+                  className="text-2xl text-[#7A5C4B] hover:text-[#A37B63]"
+                >
+                  Trouver le showroom
+                </Link>
+              </li>
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }

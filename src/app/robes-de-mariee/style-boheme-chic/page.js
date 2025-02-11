@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Header from "../components/Header";
+import Header from "@/app/components/Header";
 
 const Page = () => {
   const [robes, setRobes] = useState([]);
@@ -9,7 +9,7 @@ const Page = () => {
   // Fonction pour charger les robes depuis le fichier JSON
   const chargerJSON = async () => {
     try {
-      const response = await fetch("/promo.json");
+      const response = await fetch("/style-boheme-chic.json");
       if (!response.ok) {
         throw new Error("Erreur lors du chargement du fichier JSON");
       }
@@ -38,7 +38,7 @@ const Page = () => {
 
   // Redirection vers la page de détails de la robe
   const handleDressClick = (id) => {
-    router.push(`/style-boheme-chic/dress/${id}`);
+    router.push(`/robes-de-mariee/style-boheme-chic/dress/${id}`);
   };
 
   return (
@@ -49,51 +49,17 @@ const Page = () => {
       {/* Contenu de la galerie */}
       <div className="pt-20 bg-white">
         {/* Hero Section */}
-        {/* Hero Section */}
-        <div className="text-center py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#FDE9E6] to-white">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl font-cursive sm:text-4xl lg:text-5xl text-[#af7749] font-playfair mb-6 leading-tight">
-              Promotions robes de mariée de la boutique Monica mariage
-            </h1>
-            <img
-              src="image/iconerobe.png"
-              alt="Robes de mariée icon"
-              className="w-24 mx-auto mb-2"
-            />
-            <p className="text-base sm:text-lg text-gray-600 font-poppins max-w-4xl mx-auto leading-relaxed mb-8">
-              Découvrez notre sélection exclusive et sublimez votre jour J Robes
-              de mariée taille 36-42 à prix imbattables!
-            </p>
-
-            {/* Nouveau bouton de défilement */}
-            <button
-              onClick={() => {
-                window.scrollTo({
-                  top: window.innerHeight,
-                  behavior: "smooth",
-                });
-              }}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[#af7749] text-white rounded-full hover:bg-[#8b5e3a] transition-colors duration-300"
-            >
-              Acceder au menu
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                />
-              </svg>
-            </button>
-          </div>
+        <div className="text-center py-16 px-5 bg-gradient-to-b from-[#FDE9E6] to-white">
+          <h1 className="text-[42px] text-[#af7749] font-playfair mb-5">
+            Nos Collections
+          </h1>
+          <p className="text-[18px] text-gray-500 font-poppins">
+            Découvrez l'élégance de nos robes de mariée
+          </p>
         </div>
+
         {/* Section Filtres */}
-        {/* <div className="py-7 bg-white border-b border-gray-200">
+        <div className="py-7 bg-white border-b border-gray-200">
           <div className="max-w-screen-xl mx-auto flex justify-center gap-5 flex-wrap">
             <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 active:bg-[#af7749] active:text-white hover:bg-[#af7749] hover:text-white">
               Toutes les robes
@@ -111,7 +77,7 @@ const Page = () => {
               Collection 2024
             </button>
           </div>
-        </div> */}
+        </div>
 
         {/* Grille de la Galerie */}
         <div className="max-w-screen-2xl mx-auto my-10 px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

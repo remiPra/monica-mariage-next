@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Header from "@/app/components/Header";
 
 const Page = () => {
   const [robes, setRobes] = useState([]);
@@ -8,7 +9,7 @@ const Page = () => {
   // Fonction pour charger les robes depuis le fichier JSON
   const chargerJSON = async () => {
     try {
-      const response = await fetch("/style-boheme-chic.json");
+      const response = await fetch("/forme-sirene.json");
       if (!response.ok) {
         throw new Error("Erreur lors du chargement du fichier JSON");
       }
@@ -37,62 +38,13 @@ const Page = () => {
 
   // Redirection vers la page de détails de la robe
   const handleDressClick = (id) => {
-    router.push(`/style-boheme-chic/dress/${id}`);
+    router.push(`/robes-de-mariee/forme-sirene/dress/${id}`);
   };
 
   return (
     <>
       {/* HEADER */}
-      <header className="fixed top-0 w-full z-30">
-        <nav className="flex justify-between items-center bg-[#FDE9E6] px-8 h-20">
-          {/* Menu de gauche */}
-          <ul className="flex space-x-5">
-            <li>
-              <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
-                Robes de Mariée
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
-                Tenues de Soirée
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
-                Robes de Cortège
-              </a>
-            </li>
-          </ul>
-
-          {/* Logo au centre */}
-          <div className="text-center">
-            <h1 className="text-2xl font-bold">
-              <span className="text-[#af7749]">Monica</span>
-              <span className="text-gray-600">Mariage</span>
-            </h1>
-          </div>
-
-          {/* Menu de droite */}
-          <div className="flex items-center space-x-5">
-            <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
-              Prendre Rendez-vous
-            </a>
-            <a href="#" className="text-[#af7749] hover:text-[#F5D2B5]">
-              Trouver le showroom
-            </a>
-            <button className="p-2">
-              <svg
-                className="w-6 h-6 text-[#af7749] hover:text-[#F5D2B5]"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M21 21l-4.35-4.35M15 11a4 4 0 10-8 0 4 4 0 008 0z" />
-              </svg>
-            </button>
-          </div>
-        </nav>
-      </header>
+      <Header />
 
       {/* Contenu de la galerie */}
       <div className="pt-20 bg-white">

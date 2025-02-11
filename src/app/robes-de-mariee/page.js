@@ -38,7 +38,7 @@ const Page = () => {
 
   // Redirection vers la page de détails de la robe
   const handleDressClick = (id) => {
-    router.push(`/style-boheme-chic/dress/${id}`);
+    router.push(`/robes-de-mariee/${id}`);
   };
 
   return (
@@ -119,7 +119,7 @@ const Page = () => {
             <div
               key={index}
               className="group relative overflow-hidden rounded-lg shadow-md cursor-pointer"
-              onClick={() => handleDressClick(robe.id)}
+              onClick={() => handleDressClick(robe.link)}
             >
               {/* Image de la robe */}
               <div className="relative aspect-[2/3] overflow-hidden">
