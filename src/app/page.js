@@ -3,6 +3,7 @@
 import Head from "next/head";
 import VideoSlider from "./components/VideoSlider";
 import Header from "./components/Header";
+import SwiperTinder from "./components/SwiperTinder";
 
 export default function Home() {
   return (
@@ -259,7 +260,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <SwiperTinder />
       {/* FOOTER */}
       <footer className="bg-[#925c36] text-white py-10">
         <div className="container mx-auto flex flex-wrap justify-between px-4">

@@ -89,12 +89,6 @@ export default function SwiperTinder() {
           <p>Chargement des robes...</p>
         )}
       </div>
-
-      {/* Tinder Buttons */}
-      <div className="tinder-buttons mt-4 flex space-x-4">
-        <button className="tinder-button cancel-button">❌</button>
-        <button className="tinder-button heart-button">❤️</button>
-      </div>
     </div>
   );
 }

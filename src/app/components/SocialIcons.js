@@ -7,15 +7,24 @@ import {
 } from "react-icons/fa";
 
 const SocialIcons = () => {
-  const iconColor = "rgb(175, 119, 73)"; // ou '#AF7749'
+  const iconColor = "white"; // ou '#AF7749'
   const iconSize = 30;
 
   return (
-    <div style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        gap: "20px",
+        position: "relative",
+        zIndex: 10,
+      }}
+    >
       <a
         href="https://wa.me/votre_numero"
         target="_blank"
         rel="noopener noreferrer"
+        className="cursor-pointer"
       >
         <FaWhatsapp size={iconSize} color={iconColor} />
       </a>

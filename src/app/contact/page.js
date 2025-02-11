@@ -21,20 +21,38 @@ export default function Page() {
     <>
       <Header />
       <motion.div
-        className="container my-[70px] mx-auto mt-[100px] px-4 py-8"
+        className="container my-[70px] mx-auto mt-[70px]"
         {...fadeInAnimation}
       >
-        <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex flex-col md:flex-row ">
           {/* Section gauche */}
-          <div className="md:w-1/2 bg-white">
-            <SocialIcons />
+          <div
+            className="md:w-1/2 relative"
+            style={{
+              backgroundImage: "url('/contact.jpg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              overflow: "hidden", // Ajout pour cacher le contenu qui dépasse
+            }}
+          >
+            {/* Overlay marron */}
+            <div
+              className="absolute top-0 left-0 w-full h-full"
+              style={{
+                backgroundColor: "rgba(181 ,116, 75 , 0.7)", // Marron semi-transparent
+              }}
+            ></div>
+            <div className="mt-[40px] mb-5 ">
+              <SocialIcons />
+            </div>
 
             <motion.div
-              className="bg-[#FDF8F5] rounded-lg shadow-md p-8 max-w-xl mx-auto"
+              className="rounded-lg shadow-md p-8 max-w-xl mx-auto relative"
               {...fadeInAnimation}
             >
               <motion.h1
-                className="font-cursive text-center text-5xl font-script text-[#53240f] mb-2"
+                className="font-cursive text-center text-5xl font-script text-white mb-2 relative"
                 {...fadeInAnimation}
               >
                 Monica Mariage
@@ -42,10 +60,10 @@ export default function Page() {
 
               {/* Carte avec les informations principales */}
               <motion.div
-                className="bg-white rounded-lg p-6 shadow-sm mb-2"
+                className="rounded-lg p-6 shadow-sm mb-2 relative"
                 {...fadeInAnimation}
               >
-                <div className="text-center text-[#53240f] space-y-2">
+                <div className="text-center text-white space-y-2">
                   <p className="font-medium">1220 Chemin de Brouquère</p>
                   <p>31600 Seysses</p>
                   <div className="my-4 border-t border-[#53240f]/20 pt-4">
@@ -65,13 +83,13 @@ export default function Page() {
               </div>
               {/* Carte des horaires */}
               <motion.div
-                className="bg-white rounded-lg p-6 shadow-sm"
+                className="rounded-lg p-6 shadow-sm relative"
                 {...fadeInAnimation}
               >
-                <h2 className="text-center text-[#53240f] font-semibold text-xl mb-4">
+                <h2 className="text-center text-white font-semibold text-xl mb-4">
                   Horaires d'ouverture
                 </h2>
-                <div className="grid grid-cols-1 gap-2 text-[#53240f]">
+                <div className="grid grid-cols-1 gap-2 text-white">
                   {[
                     "Lundi",
                     "Mardi",
@@ -95,9 +113,16 @@ export default function Page() {
           </div>
 
           {/* Formulaire de contact */}
-          <div className="md:w-1/2">
+          <div
+            className="md:w-1/2 relative"
+            style={{
+              backgroundColor: "#A37B63", // Marron semi-transparent
+              padding: "20px", // Ajoute un espacement interne
+              borderRadius: "5px", // Optionnel : pour arrondir les coins
+            }}
+          >
             <motion.h2
-              className="mt-3 text-center text-2xl font-script text-[#53240f] mb-6"
+              className="mt-3 text-center text-2xl font-script text-white mb-6"
               {...fadeInAnimation}
             >
               Contactez-moi
