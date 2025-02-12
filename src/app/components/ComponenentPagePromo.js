@@ -1,14 +1,26 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Header from "@/app/components/Header";
+import { FaWhatsapp, FaHeart } from "react-icons/fa";
 
 const ComponentPagePromo = ({ json }) => {
   const [robes, setRobes] = useState([]);
   const [selectedIndex, setSelectedIndex] = useState(null);
+  const [favorites, setFavorites] = useState([]);
+  const [toast, setToast] = useState("");
   const router = useRouter();
 
-  // Fonction pour charger les robes depuis le fichier JSON
+  // Fonction pour afficher le toast pendant 3 secondes
+  const showToast = (message) => {
+    setToast(message);
+    setTimeout(() => {
+      setToast("");
+    }, 3000);
+  };
+
+  // 1. Charger le JSON des robes
   const chargerJSON = async () => {
     try {
       const response = await fetch(json);
@@ -34,11 +46,34 @@ const ComponentPagePromo = ({ json }) => {
     }
   };
 
+  // 2. Charger les favoris depuis localStorage + le JSON au montage
   useEffect(() => {
     chargerJSON();
+
+    const storedFavorites = localStorage.getItem("favorites");
+    if (storedFavorites) {
+      setFavorites(JSON.parse(storedFavorites));
+    }
   }, []);
 
-  // Ouvrir le slider en cliquant sur une robe
+  // 3. Fonction d'ajout aux favoris avec toast
+  const handleAddToFavorites = (robe) => {
+    // Vérifier si la robe n'est pas déjà dans les favoris
+    const alreadyFav = favorites.some(
+      (fav) => fav.dressName === robe.dressName
+    );
+    if (!alreadyFav) {
+      const newFavorites = [
+        ...favorites,
+        { dressName: robe.dressName, imageUrl: robe.imageUrl },
+      ];
+      setFavorites(newFavorites);
+      localStorage.setItem("favorites", JSON.stringify(newFavorites));
+      showToast("Cette robe a été rajoutée à vos favoris");
+    }
+  };
+
+  // 4. Gestion du slider
   const handleDressClick = (index) => {
     setSelectedIndex(index);
   };
@@ -61,7 +96,7 @@ const ComponentPagePromo = ({ json }) => {
     );
   };
 
-  // Navigation au clavier dans le slider
+  // 5. Navigation au clavier dans le slider
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (selectedIndex !== null) {
@@ -96,7 +131,7 @@ const ComponentPagePromo = ({ json }) => {
           </p>
         </div>
 
-        {/* Section Filtres */}
+        {/* Section Filtres (exemple statique) */}
         <div className="py-7 bg-white border-b border-gray-200">
           <div className="max-w-screen-xl mx-auto flex justify-center gap-5 flex-wrap">
             <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 active:bg-[#af7749] active:text-white hover:bg-[#af7749] hover:text-white">
@@ -125,6 +160,17 @@ const ComponentPagePromo = ({ json }) => {
               className="group relative overflow-hidden rounded-lg shadow-md cursor-pointer"
               onClick={() => handleDressClick(index)}
             >
+              {/* Bouton Favoris */}
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleAddToFavorites(robe);
+                }}
+                className="absolute top-2 right-2 z-10 bg-white text-[#af7749] p-2 rounded-full hover:bg-[#af7749] hover:text-white transition-colors"
+              >
+                <FaHeart size={20} />
+              </button>
+
               {/* Image de la robe */}
               <div className="relative aspect-[2/3] overflow-hidden">
                 <img
@@ -137,8 +183,7 @@ const ComponentPagePromo = ({ json }) => {
               <div className="absolute top-0 left-0 w-full h-full bg-[#af7749] bg-opacity-90 opacity-0 transition-opacity duration-300 flex items-center justify-center text-center group-hover:opacity-100">
                 <div className="text-white p-5">
                   <h3 className="text-lg font-bold mb-2">{robe.dressName}</h3>
-                  <p className="text-md">Prix: {robe.price}</p>{" "}
-                  {/* Ajout du prix ici */}
+                  <p className="text-md">Prix: {robe.price}</p>
                   <button className="bg-white text-[#af7749] border-none px-5 py-2 rounded-full mt-4 cursor-pointer transition-all duration-300">
                     Voir les détails
                   </button>
@@ -147,8 +192,7 @@ const ComponentPagePromo = ({ json }) => {
               {/* Infos sous l'image */}
               <div className="p-4 bg-white text-center">
                 <h3 className="text-[#af7749] mb-1">{robe.dressName}</h3>
-                <p className="text-gray-500">{robe.price}</p>{" "}
-                {/* Ajout du prix ici */}
+                <p className="text-gray-500">{robe.price}</p>
               </div>
             </div>
           ))}
@@ -171,6 +215,7 @@ const ComponentPagePromo = ({ json }) => {
           >
             &times;
           </button>
+
           {/* Flèche Précédente */}
           <button
             onClick={(e) => prevImage(e)}
@@ -178,6 +223,18 @@ const ComponentPagePromo = ({ json }) => {
           >
             &#10094;
           </button>
+
+          {/* Bouton Favoris dans le slider */}
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              handleAddToFavorites(robes[selectedIndex]);
+            }}
+            className="absolute top-5 right-16 z-50 bg-white text-[#af7749] p-2 rounded-full hover:bg-[#af7749] hover:text-white transition-colors"
+          >
+            <FaHeart size={20} />
+          </button>
+
           {/* Image zoomée */}
           <img
             src={robes[selectedIndex].imageUrl}
@@ -185,6 +242,20 @@ const ComponentPagePromo = ({ json }) => {
             className="max-h-full max-w-full object-contain"
             onClick={(e) => e.stopPropagation()}
           />
+
+          {/* Bouton WhatsApp */}
+          <a
+            href={`https://wa.me/33668300960?text=${encodeURIComponent(
+              `Bonjour, je suis intéressé(e) par la robe : ${robes[selectedIndex]?.dressName}`
+            )}`}
+            target="_blank"
+            rel="noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="absolute bottom-4 right-4 flex items-center justify-center bg-green-500 text-white rounded-full w-20 h-20 shadow-lg hover:bg-green-600 transition-all duration-300"
+          >
+            <FaWhatsapp size={40} />
+          </a>
+
           {/* Flèche Suivante */}
           <button
             onClick={(e) => nextImage(e)}
@@ -192,6 +263,13 @@ const ComponentPagePromo = ({ json }) => {
           >
             &#10095;
           </button>
+        </div>
+      )}
+
+      {/* Toast Notification */}
+      {toast && (
+        <div className="fixed bottom-5 left-1/2 transform -translate-x-1/2 bg-[#af7749] text-white px-4 py-2 rounded shadow-lg z-50">
+          {toast}
         </div>
       )}
     </>

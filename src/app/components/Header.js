@@ -4,10 +4,10 @@ import { useState, useEffect, useRef } from "react";
 import { IoHomeOutline } from "react-icons/io5";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { FaWhatsapp, FaPhone } from "react-icons/fa";
+import { FaWhatsapp, FaPhone, FaHeart } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { motion, AnimatePresence } from "framer-motion";
-import { IoClose } from "react-icons/io5"; // Importez l'icône de fermeture
+import { IoClose } from "react-icons/io5";
 import { TiPhoneOutline } from "react-icons/ti";
 
 export default function Header() {
@@ -56,7 +56,7 @@ export default function Header() {
   const startCloseTimer = () => {
     timeoutRef.current = setTimeout(() => {
       setIsGalleryOpen(false);
-    }, 100); // 3 seconds
+    }, 100);
   };
 
   const clearCloseTimer = () => {
@@ -75,14 +75,12 @@ export default function Header() {
         !menuItemRef.current.contains(event.target)
       ) {
         setIsGalleryOpen(false);
-        clearCloseTimer(); // Clear any pending timeouts
+        clearCloseTimer();
       }
     }
 
-    // Lie l'écouteur d'événement au document
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      // Nettoie l'écouteur d'événement
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [galleryRef, menuItemRef]);
@@ -150,7 +148,6 @@ export default function Header() {
                 ref={galleryRef}
                 className="fixed left-0 mt-2 py-2 w-1/2 bg-[#F5E7DE] shadow-xl rounded-md overflow-hidden z-10"
               >
-                {/* Version améliorée de la galerie */}
                 <div className="max-w-screen-2xl mx-auto my-10 px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                   {robes.map((robe, index) => (
                     <div
@@ -187,6 +184,7 @@ export default function Header() {
               </div>
             )}
           </li>
+
           <li>
             <Link href="/promo" className="text-[#7A5C4B] hover:text-[#A37B63]">
               Promotion
@@ -218,6 +216,7 @@ export default function Header() {
           >
             Trouver le showroom
           </Link>
+          {/* Bouton de recherche */}
           <button className="p-2">
             <svg
               className="w-6 h-6 text-[#7A5C4B] hover:text-[#A37B63]"
@@ -233,12 +232,18 @@ export default function Header() {
               />
             </svg>
           </button>
+          {/* Nouveau bouton avec l’icône coeur */}
+          <Link href="/favoris">
+            <button className="p-2">
+              <FaHeart className="w-6 h-6 text-[#7A5C4B] hover:text-[#A37B63]" />
+            </button>
+          </Link>
         </div>
       </nav>
 
       {/* Navigation Mobile */}
       <nav className="flex md:hidden bg-white shadow-md px-4 py-2 justify-between items-center">
-        {/* Menu button */}
+        {/* Bouton menu hamburger */}
         <button
           onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
           className="text-2xl text-[#7A5C4B]"
@@ -255,13 +260,23 @@ export default function Header() {
           Monica <span className="text-sm text-gray-600">Mariage</span>
         </Link>
 
-        {/* Location icon */}
-        <button className="text-xl text-[#7A5C4B]" aria-label="Location">
-          <FaLocationDot />
-        </button>
+        {/* Icônes à droite sur mobile (location + coeur) */}
+        <div className="flex items-center space-x-4">
+          <button className="text-xl text-[#7A5C4B]" aria-label="Location">
+            <FaLocationDot />
+          </button>
+          <Link href="/favoris">
+            <button
+              className="text-xl text-[#7A5C4B]"
+              aria-label="Coup de coeur"
+            >
+              <FaHeart />
+            </button>
+          </Link>
+        </div>
       </nav>
 
-      {/* Menu Mobile */}
+      {/* Menu Mobile déroulant */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
@@ -271,7 +286,7 @@ export default function Header() {
             animate="open"
             exit="closed"
           >
-            {/* Close button */}
+            {/* Bouton de fermeture */}
             <button
               onClick={() => setMobileMenuOpen(false)}
               className="absolute top-4 right-4 text-3xl text-[#7A5C4B]"
