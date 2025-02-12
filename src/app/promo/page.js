@@ -1,11 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image"; // Import de la balise Image
 import Header from "../components/Header";
 
 const Page = () => {
   const [robes, setRobes] = useState([]);
   const router = useRouter();
+
   // Fonction pour charger les robes depuis le fichier JSON
   const chargerJSON = async () => {
     try {
@@ -49,16 +51,17 @@ const Page = () => {
       {/* Contenu de la galerie */}
       <div className="pt-20 bg-white">
         {/* Hero Section */}
-        {/* Hero Section */}
         <div className="text-center py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#FDE9E6] to-white">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl font-cursive sm:text-4xl lg:text-5xl text-[#af7749] font-playfair mb-6 leading-tight">
               Promotions robes de mariée de la boutique Monica mariage
             </h1>
-            <img
-              src="image/iconerobe.png"
+            <Image
+              src="/image/iconerobe.png"
               alt="Robes de mariée icon"
-              className="w-24 mx-auto mb-2"
+              width={96} // Définir la largeur
+              height={96} // Définir la hauteur
+              className="mx-auto mb-2"
             />
             <p className="text-base sm:text-lg text-gray-600 font-poppins max-w-4xl mx-auto leading-relaxed mb-8">
               Découvrez notre sélection exclusive et sublimez votre jour J Robes
@@ -92,26 +95,6 @@ const Page = () => {
             </button>
           </div>
         </div>
-        {/* Section Filtres */}
-        {/* <div className="py-7 bg-white border-b border-gray-200">
-          <div className="max-w-screen-xl mx-auto flex justify-center gap-5 flex-wrap">
-            <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 active:bg-[#af7749] active:text-white hover:bg-[#af7749] hover:text-white">
-              Toutes les robes
-            </button>
-            <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 hover:bg-[#af7749] hover:text-white">
-              Sirène
-            </button>
-            <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 hover:bg-[#af7749] hover:text-white">
-              Princesse
-            </button>
-            <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 hover:bg-[#af7749] hover:text-white">
-              Bohème
-            </button>
-            <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 hover:bg-[#af7749] hover:text-white">
-              Collection 2024
-            </button>
-          </div>
-        </div> */}
 
         {/* Grille de la Galerie */}
         <div className="max-w-screen-2xl mx-auto my-10 px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -123,10 +106,12 @@ const Page = () => {
             >
               {/* Image de la robe */}
               <div className="relative aspect-[2/3] overflow-hidden">
-                <img
+                <Image
                   src={robe.imageUrl}
                   alt={robe.dressName}
-                  className="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
+                  layout="fill" // Important pour que l'image remplisse le conteneur
+                  objectFit="cover" // Ajuste l'image pour remplir le conteneur
+                  className="transition-transform duration-500 ease-in-out group-hover:scale-105"
                 />
               </div>
               {/* Overlay au survol */}

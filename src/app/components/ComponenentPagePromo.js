@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image"; // Import de la balise Image
 import Header from "@/app/components/Header";
 import { FaWhatsapp, FaHeart } from "react-icons/fa";
 import { useSwipeable } from "react-swipeable";
@@ -196,27 +197,6 @@ const ComponentPagePromo = ({ json }) => {
           </p>
         </div>
 
-        {/* Section Filtres */}
-        <div className="py-7 bg-white border-b border-gray-200">
-          <div className="max-w-screen-xl mx-auto flex justify-center gap-5 flex-wrap">
-            <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 active:bg-[#af7749] active:text-white hover:bg-[#af7749] hover:text-white">
-              Toutes les robes
-            </button>
-            <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 hover:bg-[#af7749] hover:text-white">
-              Sirène
-            </button>
-            <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 hover:bg-[#af7749] hover:text-white">
-              Princesse
-            </button>
-            <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 hover:bg-[#af7749] hover:text-white">
-              Bohème
-            </button>
-            <button className="px-5 py-2 border border-[#af7749] bg-transparent text-[#af7749] rounded-full font-poppins cursor-pointer transition-all duration-300 hover:bg-[#af7749] hover:text-white">
-              Collection 2024
-            </button>
-          </div>
-        </div>
-
         {/* Grille de la Galerie */}
         <div
           className={`max-w-screen-2xl mx-auto my-10 px-5 grid gap-4 ${
@@ -241,10 +221,12 @@ const ComponentPagePromo = ({ json }) => {
               </button>
               {/* Affichage de la première image du groupe */}
               <div className={`relative ${aspectClass} overflow-hidden`}>
-                <img
+                <Image
                   src={dress.images[0]}
                   alt={dress.dressName}
-                  className="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
+                  layout="fill" // Important pour que l'image remplisse le conteneur
+                  objectFit="cover" // Ajuste l'image pour remplir le conteneur
+                  className="transition-transform duration-500 ease-in-out group-hover:scale-105"
                 />
               </div>
               {/* Overlay au survol */}
@@ -271,8 +253,10 @@ const ComponentPagePromo = ({ json }) => {
               </div>
               {/* Infos sous l'image */}
               <div className="p-4 bg-white text-center">
-                <h3 className="text-[#af7749] mb-1">{dress.dressName}</h3>
-                <p className="text-gray-500">{dress.price}</p>
+                <h3 className="text-[#af7749] text-[10px] mb-1">
+                  {dress.dressName}
+                </h3>
+                <p className="text-gray-500 text-[10px]">{dress.price}</p>
               </div>
             </div>
           ))}
@@ -332,9 +316,11 @@ const ComponentPagePromo = ({ json }) => {
 
           {/* Zone d'affichage de l'image et de sa légende */}
           <div className="max-h-[80vh] max-w-[90vw] flex flex-col items-center">
-            <img
+            <Image
               src={allImages[sliderIndex].imageUrl}
               alt={allImages[sliderIndex].dressName}
+              width={800} // Ajustez ces valeurs en fonction de la taille souhaitée
+              height={1200} // Ajustez ces valeurs en fonction de la taille souhaitée
               className="object-contain max-h-[80vh] max-w-[90vw]"
               onClick={(e) => e.stopPropagation()}
             />
