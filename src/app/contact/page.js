@@ -21,7 +21,7 @@ export default function Page() {
     <>
       <Header />
       <motion.div
-        className="container my-[70px] mx-auto mt-[70px]"
+        className="bg-[#a37b63] container my-[70px] mx-auto mt-[70px]"
         {...fadeInAnimation}
       >
         <div className="flex flex-col md:flex-row ">

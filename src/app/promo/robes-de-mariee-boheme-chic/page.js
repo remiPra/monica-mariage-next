@@ -5,7 +5,7 @@ import React from "react";
 function Page() {
   return (
     <>
-      <ComponentPagePromo json="/robes-de-mariee-promotion.json" />;
+      <ComponentPagePromo json="/robes-de-mariee-boheme-chic.json" />;
     </>
   );
 }

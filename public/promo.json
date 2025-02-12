@@ -17,7 +17,7 @@
     "width": 1333,
     "height": 2000,
     "id": 2,
-    "link": "promo-boheme-chic"
+    "link": "robes-de-mariee-boheme-chic"
   },
   {
     "dressName": "Sirène et Fourreau",
@@ -26,7 +26,8 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_1841c7f3da69475f94ff1c3e2c617beb~mv2.jpg",
     "width": 1200,
     "height": 1800,
-    "id": 3
+    "id": 3,
+    "link": "promo-sirene"
   },
   {
     "dressName": "Minimaliste",
@@ -35,6 +36,7 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_a26cd5a769234b6bb73bcdb5adc49f17~mv2.jpg",
     "width": 1200,
     "height": 1800,
-    "id": 4
+    "id": 4,
+    "link": "robes-de-mariee-destockage"
   }
 ]
