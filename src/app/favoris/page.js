@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Header from "../components/Header";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function PageFavoris() {
   const [favorites, setFavorites] = useState([]);
@@ -21,22 +22,22 @@ export default function PageFavoris() {
     const newFavorites = [...favorites];
     // Retirer l'élément à l'index donné
     newFavorites.splice(index, 1);
-    // Mettre à jour le state
+    // Mettre à jour le state et le localStorage
     setFavorites(newFavorites);
-    // Écrire dans le localStorage
     localStorage.setItem("favorites", JSON.stringify(newFavorites));
   };
 
+  // 3) Préparer le message WhatsApp avec les noms des robes favorites
+  // Exemple : "Bonjour, je suis intéressé(e) par les robes: Robe A, Robe B"
+  const message =
+    "Bonjour, je suis intéressé(e) par les robes: " +
+    favorites.map((fav) => fav.dressName).join(", ");
+
   return (
     <div className="min-h-screen bg-white">
-      {/* Barre du haut */}
-      {/* <div className="py-5 px-4 flex justify-between items-center bg-[#FDE9E6]">
-        <h1 className="text-2xl text-[#af7749]">Mes Favoris</h1>
-        <Link href="/" className="text-[#af7749] underline">
-          Retour Accueil
-        </Link>
-      </div> */}
+      {/* Header */}
       <Header />
+
       {/* Contenu */}
       <div className="max-w-screen-xl mt-[100px] mx-auto py-10 px-5">
         {favorites.length === 0 ? (
@@ -75,6 +76,18 @@ export default function PageFavoris() {
           </div>
         )}
       </div>
+
+      {/* Bouton WhatsApp */}
+      {favorites.length > 0 && (
+        <a
+          href={`https://wa.me/33668300960?text=${encodeURIComponent(message)}`}
+          target="_blank"
+          rel="noreferrer"
+          className="fixed bottom-4 right-4 flex items-center justify-center bg-[#825c4b] text-white rounded-full w-20 h-20 shadow-lg hover:bg-[#b98050] transition-all duration-300"
+        >
+          <FaWhatsapp size={40} />
+        </a>
+      )}
     </div>
   );
 }

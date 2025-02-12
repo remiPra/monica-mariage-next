@@ -251,7 +251,7 @@ const ComponentPagePromo = ({ json }) => {
             target="_blank"
             rel="noreferrer"
             onClick={(e) => e.stopPropagation()}
-            className="absolute bottom-4 right-4 flex items-center justify-center bg-green-500 text-white rounded-full w-20 h-20 shadow-lg hover:bg-green-600 transition-all duration-300"
+            className="absolute bottom-4 right-4 flex items-center justify-center  bg-[#825c4b] text-white rounded-full w-20 h-20 shadow-lg hover:bg-[#b98050]  transition-all duration-300"
           >
             <FaWhatsapp size={40} />
           </a>
