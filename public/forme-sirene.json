@@ -6,7 +6,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_df3977b4238c42638c53843ee0a1e212~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 5
+    "id": 5,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-hadson-5-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-hadson-5-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-hadson-5-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-hadson-5-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-hadson-5-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-hadson-5-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-hadson-5"
   },
   {
     "dressName": "Hadson",
@@ -15,7 +28,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_9f38c0bb55d348b7ab90b7cb14442ced~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 6
+    "id": 6,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-hadson-6-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-hadson-6-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-hadson-6-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-hadson-6-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-hadson-6-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-hadson-6-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-hadson-6"
   },
   {
     "dressName": "Hadson",
@@ -24,7 +50,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_8bd94e9bf54947c5ad42d184e2473eeb~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 7
+    "id": 7,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-hadson-7-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-hadson-7-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-hadson-7-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-hadson-7-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-hadson-7-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-hadson-7-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-hadson-7"
   },
   {
     "dressName": "Hadson",
@@ -33,7 +72,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_415331f2a36f46f3ab75f13bab6a2cb1~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 8
+    "id": 8,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-hadson-8-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-hadson-8-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-hadson-8-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-hadson-8-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-hadson-8-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-hadson-8-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-hadson-8"
   },
   {
     "dressName": "Vegas",
@@ -42,7 +94,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_0254b241391f4920a72d361a486f3cf3~mv2.jpg",
     "width": 1600,
     "height": 2000,
-    "id": 9
+    "id": 9,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-vegas-9-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-vegas-9-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-vegas-9-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-vegas-9-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-vegas-9-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-vegas-9-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-vegas-9"
   },
   {
     "dressName": "Vegas",
@@ -51,7 +116,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_a84c98798d0249de899b025ae39ad097~mv2.jpg",
     "width": 1600,
     "height": 2000,
-    "id": 10
+    "id": 10,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-vegas-10-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-vegas-10-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-vegas-10-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-vegas-10-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-vegas-10-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-vegas-10-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-vegas-10"
   },
   {
     "dressName": "Vegas",
@@ -60,7 +138,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_16f37ccfe01042d289356d08e5cc7430~mv2.jpg",
     "width": 1600,
     "height": 2000,
-    "id": 11
+    "id": 11,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-vegas-11-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-vegas-11-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-vegas-11-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-vegas-11-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-vegas-11-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-vegas-11-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-vegas-11"
   },
   {
     "dressName": "Vegas",
@@ -69,7 +160,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_6a35b323311b49dd9ce0e72d629139ac~mv2.jpg",
     "width": 1600,
     "height": 2000,
-    "id": 12
+    "id": 12,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-vegas-12-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-vegas-12-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-vegas-12-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-vegas-12-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-vegas-12-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-vegas-12-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-vegas-12"
   },
   {
     "dressName": "Mirallo",
@@ -78,7 +182,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_0255e084603e46ba9a00ca4a37cc717f~mv2.jpg",
     "width": 1334,
     "height": 2000,
-    "id": 13
+    "id": 13,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-13-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-13-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-13-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-13-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-13-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mirallo-13-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-mirallo-13"
   },
   {
     "dressName": "Mirallo",
@@ -87,7 +204,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_d0bf0e9351614da9b452fc5c732447e3~mv2.jpg",
     "width": 1334,
     "height": 2000,
-    "id": 14
+    "id": 14,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-14-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-14-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-14-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-14-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-14-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mirallo-14-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-mirallo-14"
   },
   {
     "dressName": "Mirallo",
@@ -96,7 +226,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_82622df807f64eb9bd688f40164d5798~mv2.jpg",
     "width": 1334,
     "height": 2000,
-    "id": 15
+    "id": 15,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-15-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-15-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-15-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-15-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-15-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mirallo-15-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-mirallo-15"
   },
   {
     "dressName": "Mirallo",
@@ -105,7 +248,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_557b42c38bae4e9caaa68a8f235fa5ce~mv2.jpg",
     "width": 2000,
     "height": 1334,
-    "id": 16
+    "id": 16,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-16-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-16-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-16-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-16-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-16-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mirallo-16-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-mirallo-16"
   },
   {
     "dressName": "Aurore (Taille disponible 38-40)",
@@ -114,7 +270,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_7bcf00dc4d8549d385495ce758177b94~mv2.jpg",
     "width": 3978,
     "height": 5967,
-    "id": 17
+    "id": 17,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17"
   },
   {
     "dressName": "Aurore (Taille disponible 38-40)",
@@ -123,7 +292,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_9c9e98c3459f40dd985964555b7f31a0~mv2.jpg",
     "width": 4000,
     "height": 6000,
-    "id": 18
+    "id": 18,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18"
   },
   {
     "dressName": "Aurore (Taille disponible 38-40)",
@@ -132,7 +314,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_4e9cc651787445d1ab08b766f7c5437a~mv2.jpg",
     "width": 4000,
     "height": 6000,
-    "id": 19
+    "id": 19,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19"
   },
   {
     "dressName": "Nireus",
@@ -141,7 +336,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_80e8d3003f814c329e653e4a782f0b72~mv2.jpg",
     "width": 800,
     "height": 1067,
-    "id": 20
+    "id": 20,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-nireus-20-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-nireus-20-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-nireus-20-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-nireus-20-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-nireus-20-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-nireus-20-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-nireus-20"
   },
   {
     "dressName": "Nireus",
@@ -150,7 +358,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_403e96e782aa49da9a80c2259f435a64~mv2.jpg",
     "width": 2100,
     "height": 2800,
-    "id": 21
+    "id": 21,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-nireus-21-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-nireus-21-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-nireus-21-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-nireus-21-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-nireus-21-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-nireus-21-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-nireus-21"
   },
   {
     "dressName": "Nireus",
@@ -159,7 +380,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_ab7ec380ed7540138335142e8d3d02dc~mv2.jpg",
     "width": 2100,
     "height": 2800,
-    "id": 22
+    "id": 22,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-nireus-22-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-nireus-22-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-nireus-22-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-nireus-22-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-nireus-22-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-nireus-22-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-nireus-22"
   },
   {
     "dressName": "Mona",
@@ -168,7 +402,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_fe54344f9328490f97bc460f5f9456c0~mv2.jpg",
     "width": 5954,
     "height": 3970,
-    "id": 23
+    "id": 23,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mona-23-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mona-23-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mona-23-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mona-23-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mona-23-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mona-23-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-mona-23"
   },
   {
     "dressName": "Mona",
@@ -177,7 +424,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_d789bf44ca144777a7ceaef8138c5638~mv2.jpg",
     "width": 4180,
     "height": 6269,
-    "id": 24
+    "id": 24,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mona-24-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mona-24-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mona-24-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mona-24-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mona-24-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mona-24-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-mona-24"
   },
   {
     "dressName": "Mona",
@@ -186,7 +446,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_324e5768843046e487865625f40fb4bd~mv2.jpg",
     "width": 4536,
     "height": 6805,
-    "id": 25
+    "id": 25,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mona-25-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mona-25-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mona-25-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mona-25-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mona-25-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mona-25-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-mona-25"
   },
   {
     "dressName": "ACCADIA",
@@ -195,7 +468,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_1841c7f3da69475f94ff1c3e2c617beb~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 26
+    "id": 26,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-accadia-26-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-accadia-26-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-accadia-26-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-accadia-26-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-accadia-26-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-accadia-26-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-accadia-26"
   },
   {
     "dressName": "ACCADIA",
@@ -204,7 +490,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_28184882282f407fbf3a0b45d34ef78d~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 27
+    "id": 27,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-accadia-27-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-accadia-27-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-accadia-27-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-accadia-27-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-accadia-27-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-accadia-27-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-accadia-27"
   },
   {
     "dressName": "ACCADIA",
@@ -213,7 +512,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_ca97b4ad7f994042a8f5dc839530852a~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 28
+    "id": 28,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-accadia-28-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-accadia-28-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-accadia-28-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-accadia-28-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-accadia-28-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-accadia-28-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-accadia-28"
   },
   {
     "dressName": "Charlène",
@@ -222,7 +534,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_1d98b5e15a1f4a3ab67876036cd06916~mv2.jpg",
     "width": 2100,
     "height": 2800,
-    "id": 29
+    "id": 29,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-charlene-29-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-charlene-29-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-charlene-29-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-charlene-29-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-charlene-29-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-charlene-29-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-charlene-29"
   },
   {
     "dressName": "Charlène",
@@ -231,7 +556,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_26a619878fdc42828190c5bce2b20629~mv2.jpg",
     "width": 2100,
     "height": 2800,
-    "id": 30
+    "id": 30,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-charlene-30-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-charlene-30-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-charlene-30-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-charlene-30-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-charlene-30-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-charlene-30-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-charlene-30"
   },
   {
     "dressName": "Charlène",
@@ -240,7 +578,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_ecb50e0c101e4587b46816d6e2ae3dcd~mv2.jpg",
     "width": 2100,
     "height": 2800,
-    "id": 31
+    "id": 31,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-charlene-31-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-charlene-31-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-charlene-31-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-charlene-31-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-charlene-31-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-charlene-31-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-charlene-31"
   },
   {
     "dressName": "Autumn",
@@ -249,7 +600,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_a6e23f7e021d4c2d96c6a2d9a711173a~mv2_d_1667_2500_s_2.jpg",
     "width": 1667,
     "height": 2500,
-    "id": 32
+    "id": 32,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-32-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-32-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-32-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-autumn-32-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-32-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-autumn-32-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-autumn-32"
   },
   {
     "dressName": "Autumn",
@@ -258,7 +622,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_9f0a3c2e06a944a59e042aae8a1a1f7b~mv2_d_2048_1365_s_2.jpg",
     "width": 2048,
     "height": 1365,
-    "id": 33
+    "id": 33,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-33-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-33-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-33-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-autumn-33-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-33-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-autumn-33-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-autumn-33"
   },
   {
     "dressName": "Autumn",
@@ -267,7 +644,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_eaed97aedf0140b49fd18647f2b75305~mv2.jpg",
     "width": 640,
     "height": 960,
-    "id": 34
+    "id": 34,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-34-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-34-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-34-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-autumn-34-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-34-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-autumn-34-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-autumn-34"
   },
   {
     "dressName": "Autumn",
@@ -276,7 +666,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_5dd2ddccef84482ea86a993069515c39~mv2.jpg",
     "width": 640,
     "height": 960,
-    "id": 35
+    "id": 35,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-35-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-35-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-35-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-autumn-35-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-35-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-autumn-35-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-autumn-35"
   },
   {
     "dressName": "Autumn",
@@ -285,7 +688,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_f87a67ac72a54488895cc998d514347c~mv2.jpg",
     "width": 828,
     "height": 926,
-    "id": 36
+    "id": 36,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-36-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-36-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-36-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-autumn-36-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-36-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-autumn-36-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-autumn-36"
   },
   {
     "dressName": "Jade",
@@ -294,7 +710,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_72ba099d42c1438b9c0e3cbfab8312b0~mv2_d_3648_5472_s_4_2.jpg",
     "width": 3648,
     "height": 5472,
-    "id": 37
+    "id": 37,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-jade-37-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-jade-37-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-jade-37-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-jade-37-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-jade-37-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-jade-37-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-jade-37"
   },
   {
     "dressName": "Jade",
@@ -303,7 +732,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_27ef1ca8af414a53baf6f82144b39643~mv2_d_3648_5472_s_4_2.jpg",
     "width": 3648,
     "height": 5472,
-    "id": 38
+    "id": 38,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-jade-38-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-jade-38-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-jade-38-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-jade-38-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-jade-38-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-jade-38-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-jade-38"
   },
   {
     "dressName": "Jade",
@@ -312,7 +754,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_548c60b9de004b4f9188001159b4cbb7~mv2.jpg",
     "width": 534,
     "height": 534,
-    "id": 39
+    "id": 39,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-jade-39-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-jade-39-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-jade-39-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-jade-39-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-jade-39-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-jade-39-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-jade-39"
   },
   {
     "dressName": "Jade",
@@ -321,7 +776,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_84cd1901d6c34cfcbfddcefae5bc31a7~mv2.jpg",
     "width": 684,
     "height": 684,
-    "id": 40
+    "id": 40,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-jade-40-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-jade-40-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-jade-40-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-jade-40-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-jade-40-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-jade-40-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-jade-40"
   },
   {
     "dressName": "Sélina",
@@ -330,7 +798,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_4475924321034b6889c53149b529931b~mv2_d_3024_4032_s_4_2.jpg",
     "width": 3024,
     "height": 4032,
-    "id": 41
+    "id": 41,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-selina-41-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-selina-41-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-selina-41-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-selina-41-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-selina-41-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-selina-41-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-selina-41"
   },
   {
     "dressName": "Sélina",
@@ -339,7 +820,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_fd375a4f30e544a3bcc0fdd3562d516e~mv2_d_3024_4032_s_4_2.jpg",
     "width": 3024,
     "height": 4032,
-    "id": 42
+    "id": 42,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-selina-42-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-selina-42-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-selina-42-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-selina-42-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-selina-42-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-selina-42-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-selina-42"
   },
   {
     "dressName": "Sélina",
@@ -348,7 +842,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_5109a542231f418f8ed86101ba4d50a4~mv2.jpg",
     "width": 720,
     "height": 960,
-    "id": 43
+    "id": 43,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-selina-43-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-selina-43-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-selina-43-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-selina-43-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-selina-43-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-selina-43-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-selina-43"
   },
   {
     "dressName": "Sélina",
@@ -357,6 +864,19 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_8c40a6ff77e34e118139dd6f5d764a93~mv2.jpg",
     "width": 720,
     "height": 960,
-    "id": 44
+    "id": 44,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-selina-44-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-selina-44-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-selina-44-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-selina-44-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-selina-44-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-selina-44-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-sirene-selina-44"
   }
 ]

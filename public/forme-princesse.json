@@ -6,7 +6,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_ca7df6ce19284e95877409e4a55bf643~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 5
+    "id": 5,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-emile-5-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-emile-5-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-emile-5-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-emile-5-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-emile-5-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-emile-5-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-emile-5"
   },
   {
     "dressName": "Emile",
@@ -15,7 +28,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_9cce93e23ba8437ea0ce8b51e0c4754b~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 6
+    "id": 6,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-emile-6-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-emile-6-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-emile-6-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-emile-6-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-emile-6-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-emile-6-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-emile-6"
   },
   {
     "dressName": "Emile",
@@ -24,7 +50,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_d1e7ef1b76e64012ae68af936302b4f4~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 7
+    "id": 7,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-emile-7-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-emile-7-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-emile-7-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-emile-7-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-emile-7-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-emile-7-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-emile-7"
   },
   {
     "dressName": "Emile",
@@ -33,7 +72,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_c0a5a288430147c99690a3101719cc98~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 8
+    "id": 8,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-emile-8-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-emile-8-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-emile-8-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-emile-8-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-emile-8-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-emile-8-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-emile-8"
   },
   {
     "dressName": "KAPELLA",
@@ -42,7 +94,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_7dc3afe2d3424b3baa3441f4bca9d3e1~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 9
+    "id": 9,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-kapella-9-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-kapella-9-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-kapella-9-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-kapella-9-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-kapella-9-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-kapella-9-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-kapella-9"
   },
   {
     "dressName": "KAPELLA",
@@ -51,7 +116,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_f8c832aee8864d3189a295e1a5f8544b~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 10
+    "id": 10,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-kapella-10-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-kapella-10-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-kapella-10-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-kapella-10-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-kapella-10-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-kapella-10-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-kapella-10"
   },
   {
     "dressName": "KAPELLA",
@@ -60,7 +138,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_985cb5ff4b0344799ba0d5e74d9927c5~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 11
+    "id": 11,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-kapella-11-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-kapella-11-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-kapella-11-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-kapella-11-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-kapella-11-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-kapella-11-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-kapella-11"
   },
   {
     "dressName": "BRENDA",
@@ -69,7 +160,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_0baba003af2f459381f6ff716148d3cd~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 12
+    "id": 12,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-brenda-12-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-brenda-12-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-brenda-12-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-brenda-12-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-brenda-12-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-brenda-12-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-brenda-12"
   },
   {
     "dressName": "BRENDA",
@@ -78,7 +182,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_db5f60d4821a4238aa9b8bd3b1e8aea1~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 13
+    "id": 13,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-brenda-13-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-brenda-13-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-brenda-13-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-brenda-13-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-brenda-13-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-brenda-13-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-brenda-13"
   },
   {
     "dressName": "BRENDA",
@@ -87,7 +204,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_cc77c6ec51894f4abc8d8181bfc67882~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 14
+    "id": 14,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-brenda-14-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-brenda-14-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-brenda-14-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-brenda-14-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-brenda-14-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-brenda-14-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-brenda-14"
   },
   {
     "dressName": "FLOTTA",
@@ -96,7 +226,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_fc64c9411d73427ab8ea1b42eeb03805~mv2.jpg",
     "width": 1334,
     "height": 2000,
-    "id": 15
+    "id": 15,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-flotta-15-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-flotta-15-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-flotta-15-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-flotta-15-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-flotta-15-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-flotta-15-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-flotta-15"
   },
   {
     "dressName": "FLOTTA",
@@ -105,7 +248,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_2f7115306a894ff7b3e747e3b77a5ab2~mv2.jpg",
     "width": 1334,
     "height": 2000,
-    "id": 16
+    "id": 16,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-flotta-16-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-flotta-16-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-flotta-16-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-flotta-16-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-flotta-16-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-flotta-16-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-flotta-16"
   },
   {
     "dressName": "FLOTTA",
@@ -114,7 +270,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_25aba28236874c569cfeb365bfec6c20~mv2.jpg",
     "width": 1334,
     "height": 2000,
-    "id": 17
+    "id": 17,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-flotta-17-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-flotta-17-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-flotta-17-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-flotta-17-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-flotta-17-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-flotta-17-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-flotta-17"
   },
   {
     "dressName": "SONET",
@@ -123,7 +292,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_1c4839b23e38437d98bcdcbb83d82355~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 18
+    "id": 18,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-sonet-18-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-sonet-18-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-sonet-18-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-sonet-18-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-sonet-18-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-sonet-18-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-sonet-18"
   },
   {
     "dressName": "SONET",
@@ -132,7 +314,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_83cbaa2eff904738a0330c1938933e54~mv2.jpg",
     "width": 1900,
     "height": 1267,
-    "id": 19
+    "id": 19,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-sonet-19-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-sonet-19-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-sonet-19-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-sonet-19-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-sonet-19-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-sonet-19-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-sonet-19"
   },
   {
     "dressName": "SONET",
@@ -141,7 +336,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_8f4826c244504bd9a8b668ae7b5f684c~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 20
+    "id": 20,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-sonet-20-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-sonet-20-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-sonet-20-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-sonet-20-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-sonet-20-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-sonet-20-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-sonet-20"
   },
   {
     "dressName": "SONET",
@@ -150,7 +358,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_9287c7efbce64663bcc29192dc505707~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 21
+    "id": 21,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-sonet-21-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-sonet-21-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-sonet-21-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-sonet-21-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-sonet-21-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-sonet-21-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-sonet-21"
   },
   {
     "dressName": "Annabella",
@@ -159,7 +380,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_cb064af053a84b48b4f6d986c145e6a1~mv2.jpg",
     "width": 5504,
     "height": 8256,
-    "id": 22
+    "id": 22,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-annabella-22-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-annabella-22-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-annabella-22-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-annabella-22-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-annabella-22-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-annabella-22-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-annabella-22"
   },
   {
     "dressName": "Annabella",
@@ -168,7 +402,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_0f211aa2c95b41caa9d6ed0794359c1e~mv2.jpg",
     "width": 5354,
     "height": 8031,
-    "id": 23
+    "id": 23,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-annabella-23-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-annabella-23-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-annabella-23-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-annabella-23-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-annabella-23-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-annabella-23-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-annabella-23"
   },
   {
     "dressName": "Annabella",
@@ -177,7 +424,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_aa7df4efc9e344669e46fd30cc93b78f~mv2.jpg",
     "width": 4972,
     "height": 7458,
-    "id": 24
+    "id": 24,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-annabella-24-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-annabella-24-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-annabella-24-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-annabella-24-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-annabella-24-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-annabella-24-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-annabella-24"
   },
   {
     "dressName": "TASIGO",
@@ -186,7 +446,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_bf3b9c0ab53b432489b659d9c64c9b08~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 25
+    "id": 25,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-tasigo-25-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-tasigo-25-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-tasigo-25-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-tasigo-25-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-tasigo-25-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-tasigo-25-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-tasigo-25"
   },
   {
     "dressName": "TASIGO",
@@ -195,7 +468,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_c7fc18f3530540fdac801c9272a37ead~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 26
+    "id": 26,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-tasigo-26-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-tasigo-26-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-tasigo-26-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-tasigo-26-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-tasigo-26-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-tasigo-26-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-tasigo-26"
   },
   {
     "dressName": "TASIGO",
@@ -204,7 +490,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_8f0265bc42a64d139b585dfd21717cf8~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 27
+    "id": 27,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-tasigo-27-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-tasigo-27-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-tasigo-27-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-tasigo-27-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-tasigo-27-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-tasigo-27-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-tasigo-27"
   },
   {
     "dressName": "Cornella",
@@ -213,7 +512,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_da684f3ead974eddbd2e26707777a860~mv2.jpg",
     "width": 4672,
     "height": 7008,
-    "id": 28
+    "id": 28,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-cornella-28-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-cornella-28-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-cornella-28-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-cornella-28-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-cornella-28-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-cornella-28-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-cornella-28"
   },
   {
     "dressName": "Cornella",
@@ -222,7 +534,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_2c849504b9ad4d0eba584b946a612cb3~mv2.jpg",
     "width": 4672,
     "height": 7008,
-    "id": 29
+    "id": 29,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-cornella-29-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-cornella-29-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-cornella-29-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-cornella-29-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-cornella-29-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-cornella-29-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-cornella-29"
   },
   {
     "dressName": "Cornella",
@@ -231,7 +556,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_c51a19702c914876a3075243fd67817f~mv2.jpg",
     "width": 4672,
     "height": 7008,
-    "id": 30
+    "id": 30,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-cornella-30-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-cornella-30-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-cornella-30-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-cornella-30-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-cornella-30-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-cornella-30-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-cornella-30"
   },
   {
     "dressName": "Perlina",
@@ -240,7 +578,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_3a73d956af724509baa6909ee791cd01~mv2.jpg",
     "width": 1080,
     "height": 1620,
-    "id": 31
+    "id": 31,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-perlina-31-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-perlina-31-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-perlina-31-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-perlina-31-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-perlina-31-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-perlina-31-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-perlina-31"
   },
   {
     "dressName": "Perlina",
@@ -249,7 +600,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_4b2f3c91f68d44639f553403eaf87eca~mv2.jpg",
     "width": 1080,
     "height": 1620,
-    "id": 32
+    "id": 32,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-perlina-32-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-perlina-32-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-perlina-32-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-perlina-32-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-perlina-32-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-perlina-32-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-perlina-32"
   },
   {
     "dressName": "Coquelicot",
@@ -258,7 +622,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_4fa952e24d4e413b95648d602f3e40d3~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 33
+    "id": 33,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-coquelicot-33-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-coquelicot-33-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-coquelicot-33-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-coquelicot-33-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-coquelicot-33-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-coquelicot-33-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-coquelicot-33"
   },
   {
     "dressName": "Coquelicot",
@@ -267,7 +644,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_bba4fa6802624d17a2b53cfe888cffd4~mv2.jpg",
     "width": 1333,
     "height": 2000,
-    "id": 34
+    "id": 34,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-coquelicot-34-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-coquelicot-34-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-coquelicot-34-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-coquelicot-34-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-coquelicot-34-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-coquelicot-34-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-coquelicot-34"
   },
   {
     "dressName": "Menthe",
@@ -276,7 +666,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_e08ae14a5a664371919ffcff529a3374~mv2.jpg",
     "width": 940,
     "height": 1465,
-    "id": 35
+    "id": 35,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-menthe-35-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-menthe-35-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-menthe-35-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-menthe-35-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-menthe-35-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-menthe-35-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-menthe-35"
   },
   {
     "dressName": "Menthe",
@@ -285,7 +688,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_931682cceccc484c98ccb8b1a51d4316~mv2.jpg",
     "width": 1080,
     "height": 1620,
-    "id": 36
+    "id": 36,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-menthe-36-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-menthe-36-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-menthe-36-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-menthe-36-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-menthe-36-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-menthe-36-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-menthe-36"
   },
   {
     "dressName": "Morgan",
@@ -294,7 +710,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_5a81c9a079b041fd851d1b5440027901~mv2.jpg",
     "width": 2100,
     "height": 2800,
-    "id": 37
+    "id": 37,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-morgan-37-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-morgan-37-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-morgan-37-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-morgan-37-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-morgan-37-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-morgan-37-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-morgan-37"
   },
   {
     "dressName": "Morgan",
@@ -303,7 +732,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_868f6c91beb24df5bbf35dedadfc4cfa~mv2.jpg",
     "width": 2100,
     "height": 2800,
-    "id": 38
+    "id": 38,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-morgan-38-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-morgan-38-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-morgan-38-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-morgan-38-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-morgan-38-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-morgan-38-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-morgan-38"
   },
   {
     "dressName": "Glycine",
@@ -312,7 +754,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_0bd0d2d98afa42029c54476cf66a5f21~mv2.jpg",
     "width": 1667,
     "height": 2500,
-    "id": 39
+    "id": 39,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-glycine-39-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-glycine-39-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-glycine-39-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-glycine-39-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-glycine-39-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-glycine-39-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-glycine-39"
   },
   {
     "dressName": "Glycine",
@@ -321,7 +776,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_deb2ffbf789c485c805937606cda4dc8~mv2.jpg",
     "width": 2500,
     "height": 1667,
-    "id": 40
+    "id": 40,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-glycine-40-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-glycine-40-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-glycine-40-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-glycine-40-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-glycine-40-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-glycine-40-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-glycine-40"
   },
   {
     "dressName": "Glycine",
@@ -330,7 +798,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_76cad8f1ab5c49c594328198fd178187~mv2.jpg",
     "width": 1667,
     "height": 2500,
-    "id": 41
+    "id": 41,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-glycine-41-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-glycine-41-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-glycine-41-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-glycine-41-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-glycine-41-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-glycine-41-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-glycine-41"
   },
   {
     "dressName": "Glycine",
@@ -339,7 +820,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_27c55ecfaaa2439aade78583fdc970d2~mv2.jpg",
     "width": 1667,
     "height": 2500,
-    "id": 42
+    "id": 42,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-glycine-42-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-glycine-42-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-glycine-42-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-glycine-42-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-glycine-42-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-glycine-42-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-glycine-42"
   },
   {
     "dressName": "AMBER",
@@ -348,7 +842,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_163c6688257d43f894a2bbfc10fa7653~mv2.jpg",
     "width": 2100,
     "height": 2800,
-    "id": 43
+    "id": 43,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-amber-43-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-amber-43-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-amber-43-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-amber-43-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-amber-43-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-amber-43-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-amber-43"
   },
   {
     "dressName": "AMBER",
@@ -357,7 +864,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_aead0d9f114540c4a6e16161f35adfb6~mv2.jpg",
     "width": 2100,
     "height": 2800,
-    "id": 44
+    "id": 44,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-amber-44-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-amber-44-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-amber-44-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-amber-44-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-amber-44-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-amber-44-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-amber-44"
   },
   {
     "dressName": "Marianna",
@@ -366,7 +886,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_29363da3ae7e4f56ac6ca5de2d11e831~mv2.jpg",
     "width": 3901,
     "height": 5852,
-    "id": 45
+    "id": 45,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-marianna-45-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-marianna-45-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-marianna-45-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-marianna-45-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-marianna-45-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-marianna-45-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-marianna-45"
   },
   {
     "dressName": "Marianna",
@@ -375,7 +908,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_63c937c0cf1e49e79794669739eeaa10~mv2.jpg",
     "width": 4642,
     "height": 6963,
-    "id": 46
+    "id": 46,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-marianna-46-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-marianna-46-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-marianna-46-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-marianna-46-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-marianna-46-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-marianna-46-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-marianna-46"
   },
   {
     "dressName": "Marianna",
@@ -384,7 +930,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_1ecd3b18a8e342de95f01c4eaefca0fe~mv2.jpg",
     "width": 4703,
     "height": 7055,
-    "id": 47
+    "id": 47,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-marianna-47-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-marianna-47-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-marianna-47-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-marianna-47-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-marianna-47-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-marianna-47-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-marianna-47"
   },
   {
     "dressName": "Robe Miranda",
@@ -393,7 +952,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_8cf24472539442eda763aba3230eb9f9~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 48
+    "id": 48,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-robe-miranda-48-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-robe-miranda-48-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-robe-miranda-48-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-robe-miranda-48-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-robe-miranda-48-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-robe-miranda-48-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-robe-miranda-48"
   },
   {
     "dressName": "Robe Miranda",
@@ -402,7 +974,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_d1528f848e49486e9f2a964c71790ccf~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 49
+    "id": 49,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-robe-miranda-49-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-robe-miranda-49-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-robe-miranda-49-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-robe-miranda-49-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-robe-miranda-49-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-robe-miranda-49-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-robe-miranda-49"
   },
   {
     "dressName": "Robe Miranda",
@@ -411,7 +996,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_fa00470f547c4e84932c3cf6e74c8e95~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 50
+    "id": 50,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-robe-miranda-50-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-robe-miranda-50-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-robe-miranda-50-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-robe-miranda-50-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-robe-miranda-50-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-robe-miranda-50-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-robe-miranda-50"
   },
   {
     "dressName": "VENTURA",
@@ -420,7 +1018,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_c208a45d63094043934e16cc743756bc~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 51
+    "id": 51,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-ventura-51-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-ventura-51-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-ventura-51-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-ventura-51-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-ventura-51-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-ventura-51-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-ventura-51"
   },
   {
     "dressName": "VENTURA",
@@ -429,7 +1040,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_e59d2d14bc2344b3bcb0b20b82f83f60~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 52
+    "id": 52,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-ventura-52-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-ventura-52-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-ventura-52-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-ventura-52-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-ventura-52-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-ventura-52-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-ventura-52"
   },
   {
     "dressName": "LISMA",
@@ -438,7 +1062,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_43af5745936942c18e24e075bc249bb4~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 53
+    "id": 53,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-lisma-53-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-lisma-53-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-lisma-53-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-lisma-53-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-lisma-53-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-lisma-53-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-lisma-53"
   },
   {
     "dressName": "LISMA-2",
@@ -447,7 +1084,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_3585e66bc18347778bab7f239db52bfe~mv2.jpg",
     "width": 800,
     "height": 1200,
-    "id": 54
+    "id": 54,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-lisma-2-54-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-lisma-2-54-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-lisma-2-54-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-lisma-2-54-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-lisma-2-54-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-lisma-2-54-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-lisma-2-54"
   },
   {
     "dressName": "KIm",
@@ -456,7 +1106,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_636eaf5d21014dc6a262340e4fa162db~mv2.jpg",
     "width": 4160,
     "height": 6240,
-    "id": 55
+    "id": 55,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-kim-55-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-kim-55-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-kim-55-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-kim-55-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-kim-55-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-kim-55-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-kim-55"
   },
   {
     "dressName": "Kim",
@@ -465,7 +1128,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_8958681f7ad44ab0bb5a32a552ce6b6f~mv2.jpg",
     "width": 4538,
     "height": 6807,
-    "id": 56
+    "id": 56,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-kim-56-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-kim-56-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-kim-56-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-kim-56-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-kim-56-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-kim-56-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-kim-56"
   },
   {
     "dressName": "Sofia",
@@ -474,7 +1150,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_dff1fa5477f24435bbdbd1ea9e9c7269~mv2.jpg",
     "width": 1080,
     "height": 1445,
-    "id": 57
+    "id": 57,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-sofia-57-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-sofia-57-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-sofia-57-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-sofia-57-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-sofia-57-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-sofia-57-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-sofia-57"
   },
   {
     "dressName": "Sofia",
@@ -483,7 +1172,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_afae94e0194c4d18a6fce92ef871f42a~mv2.jpg",
     "width": 1080,
     "height": 1417,
-    "id": 58
+    "id": 58,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-sofia-58-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-sofia-58-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-sofia-58-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-sofia-58-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-sofia-58-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-sofia-58-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-sofia-58"
   },
   {
     "dressName": "Lola",
@@ -492,7 +1194,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_bb7d0cd9c478477ebd3e3df741d7e0ba~mv2.jpg",
     "width": 5373,
     "height": 8055,
-    "id": 59
+    "id": 59,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-lola-59-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-lola-59-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-lola-59-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-lola-59-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-lola-59-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-lola-59-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-lola-59"
   },
   {
     "dressName": "Lola",
@@ -501,7 +1216,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_c704736730354060bab0fffbffc565f6~mv2.jpg",
     "width": 4938,
     "height": 7403,
-    "id": 60
+    "id": 60,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-lola-60-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-lola-60-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-lola-60-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-lola-60-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-lola-60-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-lola-60-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-lola-60"
   },
   {
     "dressName": "FIAMMA",
@@ -510,7 +1238,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_aeb6f1b4f3234d02bfc2a87904ac98a5~mv2.jpg",
     "width": 1667,
     "height": 2500,
-    "id": 61
+    "id": 61,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-fiamma-61-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-fiamma-61-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-fiamma-61-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-fiamma-61-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-fiamma-61-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-fiamma-61-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-fiamma-61"
   },
   {
     "dressName": "FIAMMA",
@@ -519,7 +1260,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_50ab086f24654776ab8aff28f242b0bd~mv2.jpg",
     "width": 1667,
     "height": 2500,
-    "id": 62
+    "id": 62,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-fiamma-62-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-fiamma-62-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-fiamma-62-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-fiamma-62-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-fiamma-62-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-fiamma-62-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-fiamma-62"
   },
   {
     "dressName": "Alice",
@@ -528,7 +1282,20 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_71b8bd3601e64e4c853fb9fae9fd6913~mv2.jpg",
     "width": 1403,
     "height": 1753,
-    "id": 63
+    "id": 63,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-alice-63-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-alice-63-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-alice-63-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-alice-63-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-alice-63-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-alice-63-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-alice-63"
   },
   {
     "dressName": "Alice",
@@ -537,6 +1304,19 @@
     "imageUrl": "https://static.wixstatic.com/media/176703_7e646e0343cd4247ad3e3495f22a7b9f~mv2.jpg",
     "width": 1412,
     "height": 1765,
-    "id": 64
+    "id": 64,
+    "optimizedImages": {
+      "slider": {
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-princesse-alice-64-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-princesse-alice-64-slider-mobile.webp"
+      },
+      "gallery": {
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-alice-64-gallery-desktop.webp",
+        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-princesse-alice-64-gallery-tablet.webp",
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-princesse-alice-64-gallery-mobile.webp"
+      },
+      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-princesse-alice-64-thumb.webp"
+    },
+    "urlBest": "monica-mariage-robe-de-mariee-princesse-alice-64"
   }
 ]
