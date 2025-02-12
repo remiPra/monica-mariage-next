@@ -12,7 +12,7 @@ const ComponentMainPage = ({ json }) => {
   const chargerJSON = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch(json);
+      const response = await fetch(`${json}.json`);
       if (!response.ok) {
         throw new Error("Erreur lors du chargement du fichier JSON");
       }
@@ -44,6 +44,7 @@ const ComponentMainPage = ({ json }) => {
   // Redirection vers la page de détails de la robe
   const handleDressClick = (id) => {
     router.push(`/robes-de-mariee${json}/dress/${id}`);
+    // console.log(`/robes-de-mariee${json}/dress/${id}`);
   };
 
   // Composant pour le skeleton loading

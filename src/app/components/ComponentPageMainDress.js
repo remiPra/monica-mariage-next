@@ -1,28 +1,28 @@
 "use client";
-
 import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import Header from "@/app/components/Header";
 
-export default function ComponentPageMainDress(json) {
-  const { id } = useParams();
+export default function ComponentPageMainDress({ json, params }) {
   const [robe, setRobe] = useState(null);
   const [allImages, setAllImages] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isFullScreen, setIsFullScreen] = useState(false);
-  const [isZoomed, setIsZoomed] = useState(false); // Gestion du zoom au clic
+  const [isZoomed, setIsZoomed] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const chargerRobe = async () => {
       try {
+        setIsLoading(true);
         const response = await fetch(`${json}.json`);
         if (!response.ok) {
           throw new Error("Erreur lors du chargement du fichier JSON");
         }
         const data = await response.json();
 
-        const robeTrouvee = data.find((r) => r.id === parseInt(id));
+        const robeTrouvee = data.find((r) => r.id === parseInt(params.id));
         if (robeTrouvee) {
           const imagesAssociees = data.filter(
             (r) => r.dressName === robeTrouvee.dressName
@@ -32,23 +32,27 @@ export default function ComponentPageMainDress(json) {
         }
       } catch (error) {
         console.error("Erreur :", error);
+      } finally {
+        setIsLoading(false);
       }
     };
 
-    if (id) {
+    if (params.id) {
       chargerRobe();
     }
-  }, [id]);
+  }, [params.id, json]);
 
-  if (!robe) {
+  if (isLoading || !robe) {
     return (
-      <div className="min-h-screen flex items-center justify-center text-lg font-semibold">
-        Chargement...
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-pulse space-y-4">
+          <div className="h-48 w-48 bg-gray-200 rounded-lg"></div>
+          <div className="h-6 w-32 bg-gray-200 rounded"></div>
+        </div>
       </div>
     );
   }
 
-  // Changer d’image avec apparition fluide
   const nextImage = () => {
     setIsZoomed(false);
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % allImages.length);
@@ -63,38 +67,61 @@ export default function ComponentPageMainDress(json) {
 
   return (
     <>
-      {/* Header */}
       <Header />
 
-      {/* Contenu de la page de détail */}
       <div className="max-w-7xl mx-auto mt-[150px] px-6 flex flex-col lg:flex-row gap-10">
-        {/* Image */}
+        {/* Section Image principale */}
         <div className="w-full lg:w-1/2">
           <div
-            className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer"
+            className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer aspect-[2/3]"
             onClick={() => setIsFullScreen(true)}
           >
-            {/* Image avec effet zoom au premier affichage */}
-            <motion.img
-              key={allImages[currentImageIndex]?.imageUrl}
-              src={allImages[currentImageIndex]?.imageUrl}
+            <Image
+              src={
+                allImages[currentImageIndex]?.optimizedImages?.slider
+                  ?.desktop || allImages[currentImageIndex]?.imageUrl
+              }
               alt={robe.dressName}
-              className="w-full h-auto transition-transform duration-500 hover:scale-105"
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              quality={90}
+              priority
+              className="object-cover transition-transform duration-500 hover:scale-105"
+              placeholder="blur"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx4eHRoaHSQrJSEwSjYxMTAuLy0yPVBCUD9LQSY5RVU9T2JUXGSCjZeBKcJRd5qCgrD/2wBDARUXFyAeIB4aHT4qJSo+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj7/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
             />
+          </div>
+
+          {/* Miniatures optimisées */}
+          <div className="mt-4 flex gap-2 overflow-x-auto">
+            {allImages.map((img, index) => (
+              <div
+                key={index}
+                className={`relative w-20 h-20 cursor-pointer ${
+                  currentImageIndex === index ? "ring-2 ring-[#af7749]" : ""
+                }`}
+                onClick={() => setCurrentImageIndex(index)}
+              >
+                <Image
+                  src={img.optimizedImages?.gallery?.thumbnail || img.imageUrl}
+                  alt={`${robe.dressName} - vue ${index + 1}`}
+                  fill
+                  sizes="80px"
+                  className="object-cover rounded"
+                  quality={60}
+                />
+              </div>
+            ))}
           </div>
         </div>
 
-        {/* Infos */}
+        {/* Section Infos */}
         <div className="w-full lg:w-1/2">
           <h1 className="text-3xl font-bold text-[#af7749] mb-4">
             {robe.dressName}
           </h1>
           <p className="text-gray-700 leading-relaxed">{robe.description}</p>
 
-          {/* Sélection Taille */}
           <div className="mt-6">
             <label
               htmlFor="size"
@@ -113,7 +140,6 @@ export default function ComponentPageMainDress(json) {
             </select>
           </div>
 
-          {/* CTA */}
           <a
             href="#"
             className="mt-6 block w-full text-center bg-[#af7749] text-white py-3 rounded-lg font-medium hover:bg-[#925c36] transition-all duration-300"
@@ -123,45 +149,56 @@ export default function ComponentPageMainDress(json) {
         </div>
       </div>
 
-      {/* Mode plein écran */}
-      {isFullScreen && (
-        <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
-          <button
-            className="absolute top-5 right-5 text-white text-3xl"
-            onClick={() => setIsFullScreen(false)}
+      {/* Mode plein écran avec images optimisées */}
+      <AnimatePresence>
+        {isFullScreen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50"
           >
-            ✕
-          </button>
-          <button
-            className="absolute left-5 text-white text-4xl"
-            onClick={prevImage}
-          >
-            ◀
-          </button>
-          <AnimatePresence mode="wait">
-            <motion.img
-              key={allImages[currentImageIndex]?.imageUrl}
-              src={allImages[currentImageIndex]?.imageUrl}
-              alt={robe.dressName}
-              className="max-w-full max-h-[90vh] object-contain cursor-pointer"
-              initial={{ opacity: 0 }}
-              animate={{
-                opacity: 1,
-                scale: isZoomed ? 1.5 : 1, // Effet de zoom au clic
+            <button
+              className="absolute top-5 right-5 text-white text-3xl"
+              onClick={() => {
+                setIsFullScreen(false);
+                setIsZoomed(false);
               }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              onClick={() => setIsZoomed(!isZoomed)} // Toggle zoom au clic
-            />
-          </AnimatePresence>
-          <button
-            className="absolute right-5 text-white text-4xl"
-            onClick={nextImage}
-          >
-            ▶
-          </button>
-        </div>
-      )}
+            >
+              ✕
+            </button>
+            <button
+              className="absolute left-5 text-white text-4xl"
+              onClick={prevImage}
+            >
+              ◀
+            </button>
+
+            <div className="relative w-full h-full flex items-center justify-center">
+              <Image
+                src={
+                  allImages[currentImageIndex]?.optimizedImages?.slider
+                    ?.desktop || allImages[currentImageIndex]?.imageUrl
+                }
+                alt={robe.dressName}
+                fill
+                quality={100}
+                className={`object-contain transition-transform duration-300 ${
+                  isZoomed ? "scale-150 cursor-zoom-out" : "cursor-zoom-in"
+                }`}
+                onClick={() => setIsZoomed(!isZoomed)}
+              />
+            </div>
+
+            <button
+              className="absolute right-5 text-white text-4xl"
+              onClick={nextImage}
+            >
+              ▶
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 }

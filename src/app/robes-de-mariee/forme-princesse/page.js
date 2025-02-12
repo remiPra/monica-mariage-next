@@ -7,7 +7,7 @@ import ComponentMainPage from "@/app/components/ComponentPageMain";
 function Page() {
   return (
     <>
-      <ComponentMainPage json="/forme-princesse.json" />
+      <ComponentMainPage json="/forme-princesse" />
     </>
   );
 }
