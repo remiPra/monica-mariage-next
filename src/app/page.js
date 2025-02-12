@@ -260,7 +260,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <SwiperTinder />
       {/* FOOTER */}
       <footer className="bg-[#925c36] text-white py-10">
         <div className="container mx-auto flex flex-wrap justify-between px-4">
