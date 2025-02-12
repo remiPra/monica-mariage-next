@@ -5,10 +5,16 @@ import { IoHomeOutline } from "react-icons/io5";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { FaWhatsapp, FaPhone, FaHeart } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
 import { motion, AnimatePresence } from "framer-motion";
 import { IoClose } from "react-icons/io5";
 import { TiPhoneOutline } from "react-icons/ti";
+// import { IoHomeOutline } from "react-icons/io5";
+import { FaBridalWear, FaPercent, FaPencilAlt } from "react-icons/fa";
+import { GiDressIcons, GiClothespin } from "react-icons/gi";
+import { MdStorefront } from "react-icons/md";
+import { BsCalendarCheck } from "react-icons/bs";
+import { FaLocationDot } from "react-icons/fa6";
+import { PiDress } from "react-icons/pi";
 
 export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -19,7 +25,7 @@ export default function Header() {
   const menuItemRef = useRef(null);
   const timeoutRef = useRef(null);
 
-  // Fonction pour charger les robes depuis le fichier JSON
+  // Charger les robes (même logique que précédemment)
   const chargerJSON = async () => {
     try {
       const response = await fetch("/robe-de-mariee.json");
@@ -27,18 +33,14 @@ export default function Header() {
         throw new Error("Erreur lors du chargement du fichier JSON");
       }
       const data = await response.json();
-
-      // Filtrer pour ne garder qu'une entrée par nom
       const robesUniques = [];
       const nomsDejaVus = new Set();
-
       data.forEach((robe) => {
         if (!nomsDejaVus.has(robe.dressName)) {
           nomsDejaVus.add(robe.dressName);
           robesUniques.push(robe);
         }
       });
-
       setRobes(robesUniques);
     } catch (error) {
       console.error("Erreur :", error);
@@ -49,6 +51,7 @@ export default function Header() {
     chargerJSON();
   }, []);
 
+  // Autres fonctions de gestion (même logique que précédemment)
   const handleDressClick = (id) => {
     router.push(`/${id}`);
   };
@@ -65,7 +68,6 @@ export default function Header() {
     }
   };
 
-  // Gestion du clic en dehors de la galerie
   useEffect(() => {
     function handleClickOutside(event) {
       if (
@@ -78,148 +80,75 @@ export default function Header() {
         clearCloseTimer();
       }
     }
-
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [galleryRef, menuItemRef]);
 
-  const drawerVariants = {
-    open: {
-      y: 0,
-      opacity: 1,
-      transition: { duration: 0.4, ease: "easeInOut" },
-    },
-    closed: {
-      y: "-100vh",
-      opacity: 0,
-      transition: { duration: 0.4, ease: "easeInOut" },
-    },
-  };
-
   return (
     <header className="fixed top-0 w-full z-30">
-      {/* Contact bar (Mobile only) */}
-      <div className="bg-[#A37B63] text-white text-sm py-2 px-4 flex justify-center md:hidden">
+      {/* Barre de contact mobile */}
+      <div className="bg-[#A37B63] text-white text-sm py-2 px-4 flex justify-center lg:hidden">
         <div className="flex items-center gap-2">
           <FaWhatsapp className="text-lg" />
-          <a href="tel:+33668300960" className="hover:underline">
-            06 68 30 09 60
-          </a>
+          <a href="tel:+33668300960">06 68 30 09 60</a>
           <TiPhoneOutline className="text-lg" />
         </div>
       </div>
 
       {/* Navigation Desktop */}
-      <nav className="hidden md:flex bg-[#FDE9E6] items-center justify-between px-8 h-20">
-        {/* Menu de gauche */}
-        <ul className="flex space-x-5">
-          <li>
-            <a
-              href="/"
-              className="text-[#7A5C4B] hover:text-[#A37B63] flex items-center gap-1"
-            >
-              <IoHomeOutline className="text-lg" />
-              Accueil
-            </a>
-          </li>
-
-          <li
-            className="relative"
-            onMouseEnter={() => {
-              setIsGalleryOpen(true);
-              clearCloseTimer();
-            }}
-            onMouseLeave={() => {
-              startCloseTimer();
-            }}
-            ref={menuItemRef}
+      <nav className="hidden lg:flex bg-[#FDE9E6] items-center justify-between px-8 h-20">
+        {/* Menu gauche */}
+        <div className="flex items-center space-x-8">
+          <Link
+            href="/"
+            className="flex items-center gap-1 text-[#7A5C4B] hover:text-[#A37B63]"
           >
-            <Link
-              href="/robes-de-mariee"
-              className="text-[#7A5C4B] hover:text-[#A37B63] cursor-pointer"
-            >
-              Robes de Mariée
-            </Link>
-            {/* Galerie de robes */}
-            {isGalleryOpen && (
-              <div
-                ref={galleryRef}
-                className="fixed left-0 mt-2 py-2 w-1/2 bg-[#F5E7DE] shadow-xl rounded-md overflow-hidden z-10"
-              >
-                <div className="max-w-screen-2xl mx-auto my-10 px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                  {robes.map((robe, index) => (
-                    <div
-                      key={index}
-                      className="group relative overflow-hidden rounded-lg shadow-sm bg-white cursor-pointer"
-                      onClick={() => handleDressClick(robe.link)}
-                    >
-                      {/* Image de la robe */}
-                      <div className="relative aspect-[3/4] w-full overflow-hidden">
-                        <img
-                          src={robe.imageUrl}
-                          alt={robe.dressName}
-                          className="w-full h-full object-cover transition-all duration-500"
-                        />
-                        {/* Overlay au survol */}
-                        <div className="absolute inset-0 bg-[#7A5C4B] bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-center p-4">
-                          <h3 className="text-white text-xl mb-4">
-                            {robe.dressName}
-                          </h3>
-                          <button className="bg-white text-[#7A5C4B] px-6 py-2 rounded-full text-sm hover:bg-[#A37B63] transition-colors">
-                            Voir les détails
-                          </button>
-                        </div>
-                      </div>
-                      {/* Texte en dessous */}
-                      <div className="text-center py-3">
-                        <h3 className="text-[#7A5C4B] text-sm">
-                          {robe.dressName}
-                        </h3>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-          </li>
+            <IoHomeOutline />
+            Accueil
+          </Link>
+          <Link
+            href="/robes-de-mariee"
+            className="text-[#7A5C4B] hover:text-[#A37B63]"
+          >
+            Robes de Mariée
+          </Link>
+          <Link href="/promo" className="text-[#7A5C4B] hover:text-[#A37B63]">
+            Promotion
+          </Link>
+          <Link
+            href="/nos-createurs"
+            className="text-[#7A5C4B] hover:text-[#A37B63]"
+          >
+            Nos créateurs
+          </Link>
+        </div>
 
-          <li>
-            <Link href="/promo" className="text-[#7A5C4B] hover:text-[#A37B63]">
-              Promotion
-            </Link>
-          </li>
-          <li>
-            <a href="#" className="text-[#7A5C4B] hover:text-[#A37B63]">
-              Nos créateurs
-            </a>
-          </li>
-        </ul>
-
-        {/* Logo au centre */}
-        <div className="text-center">
-          <h1 className="text-3xl font-bold text-[#7A5C4B] font-cursive">
-            Monica{" "}
-            <span className="text-2xl font-cursive text-gray-600">Mariage</span>
+        {/* Logo central modifié */}
+        <div className="absolute left-1/2 transform -translate-x-1/2">
+          <h1 className="text-[#7A5C4B] font-cursive italic text-3xl">
+            MonicaMariage
           </h1>
         </div>
 
-        {/* Menu de droite */}
-        <div className="flex items-center space-x-5">
-          <Link href="/contact" className="text-[#7A5C4B] hover:text-[#A37B63]">
+        {/* Menu droit */}
+        <div className="flex items-center space-x-8">
+          <Link
+            href="/prendre-rendez-vous"
+            className="text-[#7A5C4B] hover:text-[#A37B63]"
+          >
             Prendre Rendez-Vous
           </Link>
           <Link
-            href="/nous-trouver"
+            href="/trouver-le-showroom"
             className="text-[#7A5C4B] hover:text-[#A37B63]"
           >
             Trouver le showroom
           </Link>
-          {/* Bouton de recherche */}
-          <button className="p-2">
+          <button className="text-[#7A5C4B] hover:text-[#A37B63]">
             <svg
-              className="w-6 h-6 text-[#7A5C4B] hover:text-[#A37B63]"
+              className="w-5 h-5"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -228,115 +157,103 @@ export default function Header() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d="M21 21l-4.35-4.35M15 11a4 4 0 10-8 0 4 4 0 008 0z"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
               />
             </svg>
           </button>
-          {/* Nouveau bouton avec l’icône coeur */}
           <Link href="/favoris">
-            <button className="p-2">
-              <FaHeart className="w-6 h-6 text-[#7A5C4B] hover:text-[#A37B63]" />
-            </button>
+            <FaHeart className="w-5 h-5 text-[#7A5C4B] hover:text-[#A37B63]" />
           </Link>
         </div>
       </nav>
 
       {/* Navigation Mobile */}
-      <nav className="flex md:hidden bg-white shadow-md px-4 py-2 justify-between items-center">
-        {/* Bouton menu hamburger */}
+      <div className="lg:hidden bg-white shadow-md px-4 py-3 flex justify-between items-center">
         <button
-          onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
-          className="text-2xl text-[#7A5C4B]"
-          aria-label="Menu"
+          onClick={() => setMobileMenuOpen(true)}
+          className="text-[#7A5C4B]"
         >
           ☰
         </button>
-
-        {/* Logo/Title */}
-        <Link
-          href="/"
-          className="text-xl font-bold text-[#7A5C4B] font-[Playfair]"
-        >
-          Monica <span className="text-sm text-gray-600">Mariage</span>
-        </Link>
-
-        {/* Icônes à droite sur mobile (location + coeur) */}
-        <div className="flex items-center space-x-4">
-          <button className="text-xl text-[#7A5C4B]" aria-label="Location">
-            <FaLocationDot />
-          </button>
-          <Link href="/favoris">
-            <button
-              className="text-xl text-[#7A5C4B]"
-              aria-label="Coup de coeur"
-            >
-              <FaHeart />
-            </button>
-          </Link>
+        <h1 className="text-[#7A5C4B] font-cursive italic text-2xl">
+          MonicaMariage
+        </h1>
+        <div className="flex gap-4">
+          <FaLocationDot className="text-[#7A5C4B]" />
+          <FaHeart className="text-[#7A5C4B]" />
         </div>
-      </nav>
+      </div>
 
-      {/* Menu Mobile déroulant */}
+      {/* Menu Mobile */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            className="md:hidden fixed top-0 left-0 w-full h-full bg-[#F5E7DE] shadow-lg z-50"
-            variants={drawerVariants}
-            initial="closed"
-            animate="open"
-            exit="closed"
+            className="fixed inset-0 bg-[#FDE9E6] z-50 p-4"
+            initial={{ x: "-100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "-100%" }}
+            transition={{ type: "tween" }}
           >
-            {/* Bouton de fermeture */}
             <button
               onClick={() => setMobileMenuOpen(false)}
-              className="absolute top-4 right-4 text-3xl text-[#7A5C4B]"
-              aria-label="Fermer le menu"
+              className="absolute top-4 right-4 text-[#7A5C4B]"
             >
-              <IoClose />
+              <IoClose size={24} />
             </button>
-
-            <ul className="flex flex-col items-center justify-center h-full space-y-8 text-center">
-              <li>
-                <Link
-                  href="/robes-de-mariee"
-                  className="text-2xl text-[#7A5C4B] hover:text-[#A37B63]"
-                >
-                  Robes de Mariée
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-2xl text-[#7A5C4B] hover:text-[#A37B63]"
-                >
-                  Tenues de Soirée
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-2xl text-[#7A5C4B] hover:text-[#A37B63]"
-                >
-                  Robes de Cortège
-                </a>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-2xl text-[#7A5C4B] hover:text-[#A37B63]"
-                >
-                  Prendre Rendez-Vous
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/nous-trouver"
-                  className="text-2xl text-[#7A5C4B] hover:text-[#A37B63]"
-                >
-                  Trouver le showroom
-                </Link>
-              </li>
-            </ul>
+            <div className="flex flex-col items-center justify-center h-full space-y-8">
+              <span className="text-[#7A5C4B] font-cursive italic text-3xl">
+                MonicaMariage
+              </span>
+              <Link
+                href="/"
+                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+              >
+                <IoHomeOutline className="text-2xl" />
+                <span className="block">Accueil</span>
+              </Link>
+              <Link
+                href="/favoris"
+                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+              >
+                <FaHeart className="text-2xl" />
+                <span className="block">Mes Favoris</span>
+              </Link>
+              <Link
+                href="/robes-de-mariee"
+                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+              >
+                <PiDress className="text-2xl" />
+                <span className="block">Robes de Mariée</span>
+              </Link>
+              <Link
+                href="/promo"
+                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+              >
+                <FaPercent className="text-2xl" />
+                <span className="block">Promotion</span>
+              </Link>
+              <Link
+                href="/nos-createurs"
+                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+              >
+                <GiClothespin className="text-2xl" />
+                <span className="block">Nos créateurs</span>
+              </Link>
+              <Link
+                href="/prendre-rendez-vous"
+                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+              >
+                <BsCalendarCheck className="text-2xl" />
+                <span className="block">Prendre Rendez-Vous</span>
+              </Link>
+              <Link
+                href="/trouver-le-showroom"
+                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+              >
+                <FaLocationDot className="text-2xl" />
+                <span className="block">Trouver le showroom</span>
+              </Link>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

@@ -3,7 +3,6 @@
 import Head from "next/head";
 import VideoSlider from "./components/VideoSlider";
 import Header from "./components/Header";
-import SwiperTinder from "./components/SwiperTinder";
 
 export default function Home() {
   return (

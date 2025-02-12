@@ -38,7 +38,7 @@ const Page = () => {
 
   // Redirection vers la page de détails de la robe
   const handleDressClick = (id) => {
-    router.push(`/robes-de-mariee/${id}`);
+    router.push(`${id}`);
   };
 
   return (
