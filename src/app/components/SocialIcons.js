@@ -7,7 +7,8 @@ import {
 } from "react-icons/fa";
 
 const SocialIcons = () => {
-  const iconColor = "white"; // ou '#AF7749'
+  // const iconColor = "white";
+  const iconColor = "#AF7749";
   const iconSize = 30;
 
   return (

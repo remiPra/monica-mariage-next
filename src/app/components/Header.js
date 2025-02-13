@@ -15,6 +15,7 @@ import { MdStorefront } from "react-icons/md";
 import { BsCalendarCheck } from "react-icons/bs";
 import { FaLocationDot } from "react-icons/fa6";
 import { PiDress } from "react-icons/pi";
+import SocialIcons from "./SocialIcons";
 
 export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -200,59 +201,79 @@ export default function Header() {
             >
               <IoClose size={24} />
             </button>
-            <div className="flex flex-col items-center justify-center h-full space-y-8">
-              <span className="text-[#7A5C4B] font-cursive italic text-3xl">
+            <div className="flex flex-col items-center justify-center h-full space-y-6">
+              <span className="text-[#7A5C4B] mt-[-120px] font-cursive italic text-[40px] mb-8">
                 MonicaMariage
               </span>
-              <Link
-                href="/"
-                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
-              >
-                <IoHomeOutline className="text-2xl" />
-                <span className="block">Accueil</span>
-              </Link>
-              <Link
-                href="/favoris"
-                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
-              >
-                <FaHeart className="text-2xl" />
-                <span className="block">Mes Favoris</span>
-              </Link>
-              <Link
-                href="/robes-de-mariee"
-                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
-              >
-                <PiDress className="text-2xl" />
-                <span className="block">Robes de Mariée</span>
-              </Link>
-              <Link
-                href="/promo"
-                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
-              >
-                <FaPercent className="text-2xl" />
-                <span className="block">Promotion</span>
-              </Link>
-              <Link
-                href="/nos-createurs"
-                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
-              >
-                <GiClothespin className="text-2xl" />
-                <span className="block">Nos créateurs</span>
-              </Link>
-              <Link
-                href="/nous-contacter"
-                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
-              >
-                <BsCalendarCheck className="text-2xl" />
-                <span className="block">Prendre Rendez-Vous</span>
-              </Link>
-              <Link
-                href="/trouver-le-showroom"
-                className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
-              >
-                <FaLocationDot className="text-2xl" />
-                <span className="block">Trouver le showroom</span>
-              </Link>
+
+              {/* Menu Links - Remontés avec espace réduit */}
+              <div className="flex flex-col items-center space-y-6">
+                <Link
+                  href="/"
+                  className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+                >
+                  <IoHomeOutline className="text-2xl" />
+                  <span className="block">Accueil</span>
+                </Link>
+
+                <Link
+                  href="/favoris"
+                  className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+                >
+                  <FaHeart className="text-2xl" />
+                  <span className="block">Mes Favoris</span>
+                </Link>
+
+                <Link
+                  href="/robes-de-mariee"
+                  className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+                >
+                  <PiDress className="text-2xl" />
+                  <span className="block">Robes de Mariée</span>
+                </Link>
+
+                <Link
+                  href="/promo"
+                  className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+                >
+                  <FaPercent className="text-2xl" />
+                  <span className="block">Promotion</span>
+                </Link>
+
+                <Link
+                  href="/nos-createurs"
+                  className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+                >
+                  <GiClothespin className="text-2xl" />
+                  <span className="block">Nos créateurs</span>
+                </Link>
+
+                <Link
+                  href="/prendre-rendez-vous"
+                  className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+                >
+                  <BsCalendarCheck className="text-2xl" />
+                  <span className="block">Prendre Rendez-Vous</span>
+                </Link>
+
+                <Link
+                  href="/trouver-le-showroom"
+                  className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
+                >
+                  <FaLocationDot className="text-2xl" />
+                  <span className="block">Trouver le showroom</span>
+                </Link>
+
+                {/* ... autres liens ... */}
+              </div>
+
+              {/* Séparateur et icônes sociales */}
+              <div className="w-full mt-auto flex flex-col items-center">
+                <div className="w-1/2 h-[1px] bg-[#7A5C4B] opacity-30 mb-6"></div>
+                <div className="mb-8">
+                  <SocialIcons />
+                </div>
+              </div>
             </div>
           </motion.div>
         )}

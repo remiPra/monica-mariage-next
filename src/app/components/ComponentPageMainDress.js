@@ -1,46 +1,48 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Header from "@/app/components/Header";
 
-export default function ComponentPageMainDress({ json, params }) {
+export default function ComponentPageMainDress({ json, id }) {
   const [robe, setRobe] = useState(null);
   const [allImages, setAllImages] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [isZoomed, setIsZoomed] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [direction, setDirection] = useState(0); // Track swipe direction
+
+  const constraintsRef = useRef(null);
 
   useEffect(() => {
     const chargerRobe = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch(`${json}.json`);
-        if (!response.ok) {
-          throw new Error("Erreur lors du chargement du fichier JSON");
-        }
+        const response = await fetch(json);
         const data = await response.json();
+        const robeTrouvee = data.find((r) => r.id === parseInt(id));
 
-        const robeTrouvee = data.find((r) => r.id === parseInt(params.id));
         if (robeTrouvee) {
-          const imagesAssociees = data.filter(
-            (r) => r.dressName === robeTrouvee.dressName
-          );
           setRobe(robeTrouvee);
-          setAllImages(imagesAssociees);
+          // Important: Use optimized images if available, fallback to original
+          const images = robeTrouvee.images.map((img) => ({
+            imageUrl: img.imageUrl,
+            optimizedImages: img.optimizedImages, // Keep optimized images
+          }));
+          setAllImages(images);
+          setIsLoading(false); // Set loading to false *after* data is fetched
         }
       } catch (error) {
         console.error("Erreur :", error);
-      } finally {
-        setIsLoading(false);
+        setIsLoading(false); // Also set to false on error
       }
     };
 
-    if (params.id) {
+    if (id) {
       chargerRobe();
     }
-  }, [params.id, json]);
+  }, [id, json]);
 
   if (isLoading || !robe) {
     return (
@@ -55,14 +57,50 @@ export default function ComponentPageMainDress({ json, params }) {
 
   const nextImage = () => {
     setIsZoomed(false);
+    setDirection(1); // Set direction to right
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % allImages.length);
   };
 
   const prevImage = () => {
     setIsZoomed(false);
+    setDirection(-1); // Set direction to left
     setCurrentImageIndex(
       (prevIndex) => (prevIndex - 1 + allImages.length) % allImages.length
     );
+  };
+
+  const handleSwipe = (event, info) => {
+    // Use info.offset.x to determine swipe direction and distance
+    if (info.offset.x > 50) {
+      // Adjust threshold as needed
+      prevImage();
+    } else if (info.offset.x < -50) {
+      // Adjust threshold as needed
+      nextImage();
+    }
+  };
+
+  const imageVariants = {
+    enter: (direction) => ({
+      x: direction > 0 ? 1000 : -1000,
+      opacity: 0,
+    }),
+    center: {
+      x: 0,
+      opacity: 1,
+      transition: {
+        x: { type: "spring", stiffness: 300, damping: 30 },
+        opacity: { duration: 0.2 },
+      },
+    },
+    exit: (direction) => ({
+      x: direction > 0 ? -1000 : 1000,
+      opacity: 0,
+      transition: {
+        x: { type: "spring", stiffness: 300, damping: 30 },
+        opacity: { duration: 0.2 },
+      },
+    }),
   };
 
   return (
@@ -75,21 +113,38 @@ export default function ComponentPageMainDress({ json, params }) {
           <div
             className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer aspect-[2/3]"
             onClick={() => setIsFullScreen(true)}
+            ref={constraintsRef}
           >
-            <Image
-              src={
-                allImages[currentImageIndex]?.optimizedImages?.slider
-                  ?.desktop || allImages[currentImageIndex]?.imageUrl
-              }
-              alt={robe.dressName}
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              quality={90}
-              priority
-              className="object-cover transition-transform duration-500 hover:scale-105"
-              placeholder="blur"
-              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx4eHRoaHSQrJSEwSjYxMTAuLy0yPVBCUD9LQSY5RVU9T2JUXGSCjZeBKcJRd5qCgrD/2wBDARUXFyAeIB4aHT4qJSo+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj7/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
-            />
+            {/* Use AnimatePresence for exit/enter animations */}
+            <AnimatePresence initial={false} custom={direction}>
+              <motion.div
+                key={currentImageIndex}
+                variants={imageVariants}
+                initial="enter"
+                animate="center"
+                exit="exit"
+                custom={direction}
+                className="absolute inset-0"
+                drag="x"
+                dragConstraints={constraintsRef}
+                onDragEnd={handleSwipe}
+              >
+                <Image
+                  src={
+                    allImages[currentImageIndex]?.optimizedImages?.slider
+                      ?.desktop || allImages[currentImageIndex]?.imageUrl
+                  }
+                  alt={robe.dressName}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  quality={90}
+                  priority
+                  className="object-cover"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx4eHRoaHSQrJSEwSjYxMTAuLy0yPVBCUD9LQSY5RVU9T2JUXGSCjZeBKcJRd5qCgrD/2wBDARUXFyAeIB4aHT4qJSo+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj7/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+                />
+              </motion.div>
+            </AnimatePresence>
           </div>
 
           {/* Miniatures optimisées */}
@@ -100,7 +155,10 @@ export default function ComponentPageMainDress({ json, params }) {
                 className={`relative w-20 h-20 cursor-pointer ${
                   currentImageIndex === index ? "ring-2 ring-[#af7749]" : ""
                 }`}
-                onClick={() => setCurrentImageIndex(index)}
+                onClick={() => {
+                  setCurrentImageIndex(index);
+                  setDirection(index > currentImageIndex ? 1 : -1);
+                }}
               >
                 <Image
                   src={img.optimizedImages?.gallery?.thumbnail || img.imageUrl}
@@ -149,7 +207,7 @@ export default function ComponentPageMainDress({ json, params }) {
         </div>
       </div>
 
-      {/* Mode plein écran avec images optimisées */}
+      {/* Mode plein écran avec images optimisées et swipe */}
       <AnimatePresence>
         {isFullScreen && (
           <motion.div
@@ -157,6 +215,7 @@ export default function ComponentPageMainDress({ json, params }) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50"
+            ref={constraintsRef}
           >
             <button
               className="absolute top-5 right-5 text-white text-3xl"
@@ -167,35 +226,52 @@ export default function ComponentPageMainDress({ json, params }) {
             >
               ✕
             </button>
+
+            {/* Previous/Next buttons (optional, but good for accessibility) */}
             <button
               className="absolute left-5 text-white text-4xl"
               onClick={prevImage}
             >
               ◀
             </button>
-
-            <div className="relative w-full h-full flex items-center justify-center">
-              <Image
-                src={
-                  allImages[currentImageIndex]?.optimizedImages?.slider
-                    ?.desktop || allImages[currentImageIndex]?.imageUrl
-                }
-                alt={robe.dressName}
-                fill
-                quality={100}
-                className={`object-contain transition-transform duration-300 ${
-                  isZoomed ? "scale-150 cursor-zoom-out" : "cursor-zoom-in"
-                }`}
-                onClick={() => setIsZoomed(!isZoomed)}
-              />
-            </div>
-
             <button
               className="absolute right-5 text-white text-4xl"
               onClick={nextImage}
             >
               ▶
             </button>
+
+            <div className="relative w-full h-full flex items-center justify-center">
+              {/* AnimatePresence for fullscreen image */}
+              <AnimatePresence initial={false} custom={direction}>
+                <motion.div
+                  key={currentImageIndex}
+                  variants={imageVariants}
+                  initial="enter"
+                  animate="center"
+                  exit="exit"
+                  custom={direction}
+                  className="absolute inset-0"
+                  drag="x"
+                  dragConstraints={constraintsRef}
+                  onDragEnd={handleSwipe}
+                >
+                  <Image
+                    src={
+                      allImages[currentImageIndex]?.optimizedImages?.slider
+                        ?.desktop || allImages[currentImageIndex]?.imageUrl
+                    }
+                    alt={robe.dressName}
+                    fill
+                    quality={100}
+                    className={`object-contain transition-transform duration-300 ${
+                      isZoomed ? "scale-150 cursor-zoom-out" : "cursor-zoom-in"
+                    }`}
+                    onClick={() => setIsZoomed(!isZoomed)}
+                  />
+                </motion.div>
+              </AnimatePresence>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
