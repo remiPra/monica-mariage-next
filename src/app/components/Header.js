@@ -240,7 +240,7 @@ export default function Header() {
                 <span className="block">Nos créateurs</span>
               </Link>
               <Link
-                href="/prendre-rendez-vous"
+                href="/nous-contacter"
                 className="group text-[#7A5C4B] text-xl flex items-center gap-4 transform transition-transform hover:-translate-y-1"
               >
                 <BsCalendarCheck className="text-2xl" />
