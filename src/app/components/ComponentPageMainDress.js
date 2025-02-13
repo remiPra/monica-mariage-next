@@ -11,9 +11,10 @@ export default function ComponentPageMainDress({ json, id }) {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [isZoomed, setIsZoomed] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
-  const [direction, setDirection] = useState(0); // Track swipe direction
-
-  const constraintsRef = useRef(null);
+  const [direction, setDirection] = useState(0);
+  const mainImageRef = useRef(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
 
   useEffect(() => {
     const chargerRobe = async () => {
@@ -25,17 +26,16 @@ export default function ComponentPageMainDress({ json, id }) {
 
         if (robeTrouvee) {
           setRobe(robeTrouvee);
-          // Important: Use optimized images if available, fallback to original
           const images = robeTrouvee.images.map((img) => ({
             imageUrl: img.imageUrl,
-            optimizedImages: img.optimizedImages, // Keep optimized images
+            optimizedImages: img.optimizedImages,
           }));
           setAllImages(images);
-          setIsLoading(false); // Set loading to false *after* data is fetched
+          setIsLoading(false);
         }
       } catch (error) {
         console.error("Erreur :", error);
-        setIsLoading(false); // Also set to false on error
+        setIsLoading(false);
       }
     };
 
@@ -57,50 +57,74 @@ export default function ComponentPageMainDress({ json, id }) {
 
   const nextImage = () => {
     setIsZoomed(false);
-    setDirection(1); // Set direction to right
+    setDirection(1);
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % allImages.length);
   };
 
   const prevImage = () => {
     setIsZoomed(false);
-    setDirection(-1); // Set direction to left
+    setDirection(-1);
     setCurrentImageIndex(
       (prevIndex) => (prevIndex - 1 + allImages.length) % allImages.length
     );
   };
 
-  const handleSwipe = (event, info) => {
-    // Use info.offset.x to determine swipe direction and distance
-    if (info.offset.x > 50) {
-      // Adjust threshold as needed
-      prevImage();
-    } else if (info.offset.x < -50) {
-      // Adjust threshold as needed
-      nextImage();
-    }
-  };
+  // No need for handleSwipe if we're handling mouse events directly
 
   const imageVariants = {
     enter: (direction) => ({
-      x: direction > 0 ? 1000 : -1000,
+      x: direction > 0 ? "100%" : "-100%",
       opacity: 0,
     }),
     center: {
       x: 0,
       opacity: 1,
       transition: {
-        x: { type: "spring", stiffness: 300, damping: 30 },
+        x: { type: "spring", stiffness: 200, damping: 30 },
         opacity: { duration: 0.2 },
       },
     },
     exit: (direction) => ({
-      x: direction > 0 ? -1000 : 1000,
+      x: direction > 0 ? "-100%" : "100%",
       opacity: 0,
       transition: {
-        x: { type: "spring", stiffness: 300, damping: 30 },
+        x: { type: "spring", stiffness: 200, damping: 30 },
         opacity: { duration: 0.2 },
       },
     }),
+  };
+
+  // Mouse event handlers
+  const handleMouseDown = (event) => {
+    setIsDragging(true);
+    setStartX(event.clientX);
+  };
+
+  const handleMouseMove = (event) => {
+    if (!isDragging) return;
+    const deltaX = event.clientX - startX;
+    // Apply a small visual translation during drag
+    if (mainImageRef.current) {
+      mainImageRef.current.querySelector(
+        "img"
+      ).style.transform = `translateX(${deltaX}px)`;
+    }
+  };
+
+  const handleMouseUp = (event) => {
+    if (!isDragging) return;
+    setIsDragging(false);
+    const deltaX = event.clientX - startX;
+
+    if (deltaX > 50) {
+      prevImage();
+    } else if (deltaX < -50) {
+      nextImage();
+    }
+    // Reset the transform after dragging
+    if (mainImageRef.current) {
+      mainImageRef.current.querySelector("img").style.transform = "";
+    }
   };
 
   return (
@@ -108,14 +132,12 @@ export default function ComponentPageMainDress({ json, id }) {
       <Header />
 
       <div className="max-w-7xl mx-auto mt-[150px] px-6 flex flex-col lg:flex-row gap-10">
-        {/* Section Image principale */}
+        {/* Section Image principale (avec swipe simulé) */}
         <div className="w-full lg:w-1/2">
           <div
-            className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer aspect-[2/3]"
-            onClick={() => setIsFullScreen(true)}
-            ref={constraintsRef}
+            className="relative overflow-hidden rounded-lg shadow-lg aspect-[2/3]"
+            ref={mainImageRef}
           >
-            {/* Use AnimatePresence for exit/enter animations */}
             <AnimatePresence initial={false} custom={direction}>
               <motion.div
                 key={currentImageIndex}
@@ -125,9 +147,17 @@ export default function ComponentPageMainDress({ json, id }) {
                 exit="exit"
                 custom={direction}
                 className="absolute inset-0"
-                drag="x"
-                dragConstraints={constraintsRef}
-                onDragEnd={handleSwipe}
+                style={{
+                  cursor: isFullScreen
+                    ? "default"
+                    : isDragging
+                    ? "grabbing"
+                    : "grab",
+                }}
+                onMouseDown={handleMouseDown}
+                onMouseMove={handleMouseMove}
+                onMouseUp={handleMouseUp}
+                onMouseLeave={handleMouseUp} // Important: Handle mouse leaving the element
               >
                 <Image
                   src={
@@ -145,6 +175,26 @@ export default function ComponentPageMainDress({ json, id }) {
                 />
               </motion.div>
             </AnimatePresence>
+
+            {/* Boutons Précédent/Suivant */}
+            <button
+              className="absolute left-2 top-1/2 -translate-y-1/2 text-white text-4xl opacity-70 hover:opacity-100 transition-opacity"
+              onClick={prevImage}
+            >
+              ◀
+            </button>
+            <button
+              className="absolute right-2 top-1/2 -translate-y-1/2 text-white text-4xl opacity-70 hover:opacity-100 transition-opacity"
+              onClick={nextImage}
+            >
+              ▶
+            </button>
+
+            {/* Fullscreen trigger */}
+            <div
+              className="absolute inset-0 cursor-pointer"
+              onClick={() => setIsFullScreen(true)}
+            ></div>
           </div>
 
           {/* Miniatures optimisées */}
@@ -152,7 +202,7 @@ export default function ComponentPageMainDress({ json, id }) {
             {allImages.map((img, index) => (
               <div
                 key={index}
-                className={`relative w-20 h-20 cursor-pointer ${
+                className={`relative w-20 h-10 cursor-pointer ${
                   currentImageIndex === index ? "ring-2 ring-[#af7749]" : ""
                 }`}
                 onClick={() => {
@@ -207,7 +257,7 @@ export default function ComponentPageMainDress({ json, id }) {
         </div>
       </div>
 
-      {/* Mode plein écran avec images optimisées et swipe */}
+      {/* Mode plein écran (avec zoom et boutons, SANS swipe) */}
       <AnimatePresence>
         {isFullScreen && (
           <motion.div
@@ -215,7 +265,6 @@ export default function ComponentPageMainDress({ json, id }) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50"
-            ref={constraintsRef}
           >
             <button
               className="absolute top-5 right-5 text-white text-3xl"
@@ -227,7 +276,7 @@ export default function ComponentPageMainDress({ json, id }) {
               ✕
             </button>
 
-            {/* Previous/Next buttons (optional, but good for accessibility) */}
+            {/* Boutons Précédent/Suivant */}
             <button
               className="absolute left-5 text-white text-4xl"
               onClick={prevImage}
@@ -242,35 +291,19 @@ export default function ComponentPageMainDress({ json, id }) {
             </button>
 
             <div className="relative w-full h-full flex items-center justify-center">
-              {/* AnimatePresence for fullscreen image */}
-              <AnimatePresence initial={false} custom={direction}>
-                <motion.div
-                  key={currentImageIndex}
-                  variants={imageVariants}
-                  initial="enter"
-                  animate="center"
-                  exit="exit"
-                  custom={direction}
-                  className="absolute inset-0"
-                  drag="x"
-                  dragConstraints={constraintsRef}
-                  onDragEnd={handleSwipe}
-                >
-                  <Image
-                    src={
-                      allImages[currentImageIndex]?.optimizedImages?.slider
-                        ?.desktop || allImages[currentImageIndex]?.imageUrl
-                    }
-                    alt={robe.dressName}
-                    fill
-                    quality={100}
-                    className={`object-contain transition-transform duration-300 ${
-                      isZoomed ? "scale-150 cursor-zoom-out" : "cursor-zoom-in"
-                    }`}
-                    onClick={() => setIsZoomed(!isZoomed)}
-                  />
-                </motion.div>
-              </AnimatePresence>
+              <Image
+                src={
+                  allImages[currentImageIndex]?.optimizedImages?.slider
+                    ?.desktop || allImages[currentImageIndex]?.imageUrl
+                }
+                alt={robe.dressName}
+                fill
+                quality={100}
+                className={`object-contain transition-transform duration-300 ${
+                  isZoomed ? "scale-150 cursor-zoom-out" : "cursor-zoom-in"
+                }`}
+                onClick={() => setIsZoomed(!isZoomed)}
+              />
             </div>
           </motion.div>
         )}
