@@ -86,23 +86,21 @@ const ComponentMainPage = ({ json }) => {
                   <div className="relative aspect-[2/3] overflow-hidden">
                     <Image
                       src={
-                        robe.optimizedImages?.gallery?.desktop || robe.imageUrl
+                        robe.optimizedImages?.gallery?.desktop ||
+                        robe.optimizedImages?.gallery?.tablet ||
+                        robe.optimizedImages?.gallery?.mobile ||
+                        robe.imageUrl
                       }
                       alt={robe.dressName}
                       fill
                       sizes="(max-width: 640px) 100vw, 
-                           (max-width: 768px) 50vw,
-                           (max-width: 1024px) 33vw,
-                           25vw"
-                      className="transition-transform duration-500 ease-in-out group-hover:scale-105"
+         (max-width: 768px) 50vw,
+         (max-width: 1024px) 33vw,
+         25vw"
+                      className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
                       priority={index < 4}
                       loading={index < 4 ? "eager" : "lazy"}
-                      placeholder="blur"
-                      blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx4eHRoaHSQrJSEwSjYxMTAuLy0yPVBCUD9LQSY5RVU9T2JUXGSCjZeBKcJRd5qCgrD/2wBDARUXFyAeIB4aHT4qJSo+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj7/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
-                      quality={75}
-                      onLoadingComplete={(img) => {
-                        img.classList.remove("opacity-0");
-                      }}
+                      quality={90}
                     />
                   </div>
                   {/* Overlay au survol */}

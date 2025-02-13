@@ -71,45 +71,49 @@ export default function DressDetailPage() {
     <>
       <Header />
 
-      <div className="mt-10 md:mt-[150px] max-w-7xl mx-auto px-6 flex flex-col lg:flex-row gap-10">
+      <div className="mt-[100px] md:mt-[150px] max-w-7xl mx-auto px-6 flex flex-col lg:flex-row gap-10">
         {/* Section Image */}
         <div className="w-full lg:w-1/2">
           <div
-            className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer aspect-[2/3]"
+            className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer aspect-[3/4]"
             onClick={() => setIsFullScreen(true)}
           >
+            {/* Image principale */}
             <Image
               src={
-                allImages[currentImageIndex]?.optimizedImages?.gallery
-                  ?.desktop || allImages[currentImageIndex]?.imageUrl
+                allImages[currentImageIndex]?.optimizedImages?.slider
+                  ?.desktop ||
+                allImages[currentImageIndex]?.optimizedImages?.slider?.mobile ||
+                allImages[currentImageIndex]?.imageUrl
               }
               alt={robe.dressName}
               fill
-              style={{ objectFit: "contain" }} // Changé de 'cover' à 'contain'
-              sizes="(max-width: 768px) 100vw, 50vw"
-              quality={90}
+              style={{ objectFit: "contain" }}
+              sizes="(max-width: 768px) 95vw, 50vw"
+              quality={95} // Qualité augmentée pour les détails
               priority
               className="transition-transform duration-500 hover:scale-105"
             />
           </div>
 
           {/* Miniatures */}
+          {/* Miniatures */}
           <div className="mt-4 flex gap-2 overflow-x-auto">
             {allImages.map((img, index) => (
               <div
                 key={index}
-                className={`relative w-20 h-20 cursor-pointer ${
+                className={`relative min-w-[100px] w-[100px] h-[150px] cursor-pointer ${
                   currentImageIndex === index ? "ring-2 ring-[#af7749]" : ""
                 }`}
                 onClick={() => setCurrentImageIndex(index)}
               >
                 <Image
-                  src={img.optimizedImages?.gallery?.thumbnail || img.imageUrl}
+                  src={img.optimizedImages?.gallery?.mobile || img.imageUrl}
                   alt={`${robe.dressName} - vue ${index + 1}`}
                   fill
-                  sizes="80px"
+                  sizes="100px"
                   className="object-cover rounded"
-                  quality={60}
+                  quality={85}
                 />
               </div>
             ))}
@@ -165,16 +169,16 @@ export default function DressDetailPage() {
             <div className="relative w-full h-full flex items-center justify-center">
               <Image
                 src={
-                  allImages[currentImageIndex]?.optimizedImages?.gallery
+                  allImages[currentImageIndex]?.optimizedImages?.slider
                     ?.desktop ||
-                  allImages[currentImageIndex]?.optimizedImages?.gallery
+                  allImages[currentImageIndex]?.optimizedImages?.slider
                     ?.mobile ||
                   allImages[currentImageIndex]?.imageUrl
                 }
                 alt={robe.dressName}
                 fill
-                quality={100}
-                className={`object-contain transition-transform duration-300 ${
+                quality={100} // Qualité maximale pour le mode plein écran
+                className={`object-contain transition-transform duration-300 p-4 ${
                   isZoomed ? "scale-150 cursor-zoom-out" : "cursor-zoom-in"
                 }`}
                 onClick={() => setIsZoomed(!isZoomed)}
