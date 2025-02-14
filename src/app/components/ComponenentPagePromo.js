@@ -4,7 +4,7 @@ import React, { useEffect, useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image"; // Import de la balise Image
 import Header from "@/app/components/Header";
-import { FaWhatsapp, FaHeart } from "react-icons/fa";
+import { FaWhatsapp, FaRegHeart } from "react-icons/fa";
 import { useSwipeable } from "react-swipeable";
 
 const ComponentPagePromo = ({ json }) => {
@@ -217,7 +217,7 @@ const ComponentPagePromo = ({ json }) => {
                 }}
                 className="absolute top-2 right-2 z-10 bg-white text-[#af7749] p-2 rounded-full hover:bg-[#af7749] hover:text-white transition-colors"
               >
-                <FaHeart size={20} />
+                <FaRegHeart size={20} />
               </button>
               {/* Affichage de la première image du groupe */}
               <div className={`relative ${aspectClass} overflow-hidden`}>
@@ -311,7 +311,7 @@ const ComponentPagePromo = ({ json }) => {
             }}
             className="absolute top-5 right-16 z-50 bg-white text-[#af7749] p-2 rounded-full hover:bg-[#af7749] hover:text-white transition-colors"
           >
-            <FaHeart size={20} />
+            <FaRegHeart size={20} />
           </button>
 
           {/* Zone d'affichage de l'image et de sa légende */}
