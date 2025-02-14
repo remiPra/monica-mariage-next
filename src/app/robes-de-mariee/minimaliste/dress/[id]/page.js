@@ -1,17 +1,19 @@
+// app/pages/DressDetailPage.js
 "use client";
-import DOMPurify from "dompurify";
+
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
 import Header from "@/app/components/Header";
+import DressImageSlider from "@/app/components/DressImageSlider";
+import DressInfo from "@/app/components/DressInfo";
 
 export default function DressDetailPage() {
   const { id } = useParams();
+
+  // Déclaration des états
   const [robe, setRobe] = useState(null);
   const [allImages, setAllImages] = useState([]);
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isFullScreen, setIsFullScreen] = useState(false);
-  const [isZoomed, setIsZoomed] = useState(false); // Gestion du zoom au clic
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const chargerRobe = async () => {
@@ -29,9 +31,11 @@ export default function DressDetailPage() {
           );
           setRobe(robeTrouvee);
           setAllImages(imagesAssociees);
+          setIsLoading(false);
         }
       } catch (error) {
         console.error("Erreur :", error);
+        setIsLoading(false);
       }
     };
 
@@ -40,115 +44,32 @@ export default function DressDetailPage() {
     }
   }, [id]);
 
-  if (!robe) {
+  if (isLoading || !robe) {
     return (
-      <div className="min-h-screen flex items-center justify-center text-lg font-semibold">
-        Chargement...
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-pulse space-y-4">
+          <div className="h-48 w-48 bg-gray-200 rounded-lg"></div>
+          <div className="h-6 w-32 bg-gray-200 rounded"></div>
+        </div>
       </div>
     );
   }
 
-  // Changer d’image avec apparition fluide
-  const nextImage = () => {
-    setIsZoomed(false);
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % allImages.length);
-  };
-
-  const prevImage = () => {
-    setIsZoomed(false);
-    setCurrentImageIndex(
-      (prevIndex) => (prevIndex - 1 + allImages.length) % allImages.length
-    );
-  };
-
   return (
     <>
-      {/* Header */}
       <Header />
 
-      {/* Contenu de la page de détail */}
-      <div className="mt-10 md:mt-[150px] max-w-7xl mx-auto  px-6 flex flex-col lg:flex-row gap-10">
-        {/* Image */}
+      <div className="mt-[100px] md:mt-[150px] max-w-7xl mx-auto px-6 flex flex-col lg:flex-row gap-10">
+        {/* Section Image */}
         <div className="w-full lg:w-1/2">
-          <div
-            className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer"
-            onClick={() => setIsFullScreen(true)}
-          >
-            {/* Image avec effet zoom au premier affichage */}
-            <motion.img
-              key={allImages[currentImageIndex]?.imageUrl}
-              src={allImages[currentImageIndex]?.imageUrl}
-              alt={robe.dressName}
-              className="w-full h-auto transition-transform duration-500 hover:scale-105"
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
-            />
-          </div>
+          <DressImageSlider allImages={allImages} robe={robe} />
         </div>
 
-        {/* Infos */}
+        {/* Section Infos */}
         <div className="w-full lg:w-1/2">
-          <h1 className="text-3xl font-bold text-[#af7749] mb-4">
-            {robe.dressName}
-          </h1>
-          <p
-            className="text-gray-700 leading-relaxed"
-            dangerouslySetInnerHTML={{
-              __html: DOMPurify.sanitize(robe.description_html),
-            }}
-          />
-          {/* Sélection Taille */}
-
-          {/* CTA */}
-          <a
-            href="#"
-            className="mt-6 block w-full text-center bg-[#af7749] text-white py-3 rounded-lg font-medium hover:bg-[#925c36] transition-all duration-300"
-          >
-            PRENDRE RENDEZ-VOUS
-          </a>
+          <DressInfo robe={robe} />
         </div>
       </div>
-
-      {/* Mode plein écran */}
-      {isFullScreen && (
-        <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
-          <button
-            className="absolute top-5 right-5 text-white text-3xl"
-            onClick={() => setIsFullScreen(false)}
-          >
-            ✕
-          </button>
-          <button
-            className="absolute left-5 text-white text-4xl"
-            onClick={prevImage}
-          >
-            ◀
-          </button>
-          <AnimatePresence mode="wait">
-            <motion.img
-              key={allImages[currentImageIndex]?.imageUrl}
-              src={allImages[currentImageIndex]?.imageUrl}
-              alt={robe.dressName}
-              className="max-w-full max-h-[90vh] object-contain cursor-pointer"
-              initial={{ opacity: 0 }}
-              animate={{
-                opacity: 1,
-                scale: isZoomed ? 1.5 : 1, // Effet de zoom au clic
-              }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              onClick={() => setIsZoomed(!isZoomed)} // Toggle zoom au clic
-            />
-          </AnimatePresence>
-          <button
-            className="absolute right-5 text-white text-4xl"
-            onClick={nextImage}
-          >
-            ▶
-          </button>
-        </div>
-      )}
     </>
   );
 }

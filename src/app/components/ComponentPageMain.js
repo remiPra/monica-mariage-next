@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Header from "@/app/components/Header";
+import { FaRegHeart } from "react-icons/fa";
 
 const ComponentMainPage = ({ json }) => {
   const [robes, setRobes] = useState([]);
@@ -82,6 +83,15 @@ const ComponentMainPage = ({ json }) => {
                   className="group relative overflow-hidden rounded-lg shadow-md cursor-pointer"
                   onClick={() => handleDressClick(robe.id)}
                 >
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleAddToFavorites(robe); // Utilisation de la robe actuelle
+                    }}
+                    className="absolute top-2 right-2 z-10 bg-white text-[#af7749] p-2 rounded-full hover:bg-[#af7749] hover:text-white transition-colors"
+                  >
+                    <FaRegHeart size={20} />
+                  </button>
                   {/* Image de la robe */}
                   <div className="relative aspect-[2/3] overflow-hidden">
                     <Image
@@ -104,7 +114,7 @@ const ComponentMainPage = ({ json }) => {
                     />
                   </div>
                   {/* Overlay au survol */}
-                  <div className="absolute top-0 left-0 w-full h-full bg-[#af7749] bg-opacity-90 opacity-0 transition-opacity duration-300 flex items-center justify-center text-center group-hover:opacity-100">
+                  <div className="hidden md:flex absolute top-0 left-0 w-full h-full bg-[#af7749] bg-opacity-90 opacity-0 transition-opacity duration-300  items-center justify-center text-center group-hover:opacity-100">
                     <div className="text-white p-5">
                       <h3 className="text-lg font-bold mb-2">
                         {robe.dressName}

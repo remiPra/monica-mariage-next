@@ -4,7 +4,8 @@
 import { useState, useRef } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaRegHeart } from "react-icons/fa"; // Import de l'icône de cœur
+import { FaArrowLeft, FaRegHeart } from "react-icons/fa"; // Import de l'icône de cœur
+import Link from "next/link";
 
 export default function DressImageSlider({ allImages, robe }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -14,6 +15,8 @@ export default function DressImageSlider({ allImages, robe }) {
   const touchStartXRef = useRef(0);
   const dragDeltaRef = useRef(0);
   const isDraggingRef = useRef(false);
+  // button heart
+  const [isHovered, setIsHovered] = useState(false);
 
   /*** Gestion du swipe sur l'image principale ***/
   const handleTouchStart = (e) => {
@@ -48,7 +51,7 @@ export default function DressImageSlider({ allImages, robe }) {
 
     // Réinitialise la translation
     if (imageContainerRef.current) {
-      imageContainerRef.current.style.transform = 'translateX(0)';
+      imageContainerRef.current.style.transform = "translateX(0)";
     }
     dragDeltaRef.current = 0;
   };
@@ -117,14 +120,39 @@ export default function DressImageSlider({ allImages, robe }) {
             </div>
           </motion.div>
         </AnimatePresence>
-
+        {/* Bouton Retour (nouveau) */}
+        <Link
+          href="/robes-de-mariee/forme-princesse"
+          onClick={(e) => e.stopPropagation()}
+          className={`
+      absolute top-[18px] left-3 z-10
+      p-2 rounded-full
+      transition-all duration-300          
+      bg-white text-[#af7749]
+      hover:bg-[#af7749] hover:text-white
+      hover:scale-110
+      animate-breathe  
+    `}
+        >
+          <FaArrowLeft size={20} />
+        </Link>
         {/* Bouton Favoris */}
         <button
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
           onClick={(e) => {
             e.stopPropagation();
             handleAddToFavorites(robe); // Utilisation de la robe actuelle
           }}
-          className="absolute top-2 right-2 z-10 bg-white text-[#af7749] p-2 rounded-full hover:bg-[#af7749] hover:text-white transition-colors"
+          className={`
+            absolute top-[18px] right-3 z-10
+            p-2 rounded-full
+            transition-all duration-300          
+            bg-white text-[#af7749]
+            hover:bg-[#af7749] hover:text-white
+            hover:scale-110
+            animate-breathe  
+          `}
         >
           <FaRegHeart size={20} />
         </button>
@@ -182,7 +210,7 @@ export default function DressImageSlider({ allImages, robe }) {
             className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50"
           >
             <button
-              className="absolute z-20 top-5 right-5 text-white text-3xl"
+              className="absolute z-20 top-5 right-14 text-white text-3xl"
               onClick={() => {
                 setIsFullScreen(false);
                 setIsZoomed(false);
@@ -193,11 +221,21 @@ export default function DressImageSlider({ allImages, robe }) {
 
             {/* Bouton Favoris en mode plein écran */}
             <button
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
               onClick={(e) => {
                 e.stopPropagation();
                 handleAddToFavorites(robe); // Utilisation de la robe actuelle
               }}
-              className="absolute top-2 right-2 z-10 bg-white text-[#af7749] p-2 rounded-full hover:bg-[#af7749] hover:text-white transition-colors"
+              className={`
+                absolute top-[18px] right-3 z-10
+                p-2 rounded-full
+                transition-all duration-300          
+                bg-white text-[#af7749]
+                hover:bg-[#af7749] hover:text-white
+                hover:scale-110
+                animate-breathe  
+              `}
             >
               <FaRegHeart size={20} />
             </button>
@@ -239,7 +277,9 @@ export default function DressImageSlider({ allImages, robe }) {
                       quality={100}
                       style={{ objectFit: "cover" }} // Modifier objectFit à "cover"
                       className={`transition-transform duration-300 p-4 ${
-                        isZoomed ? "scale-150 cursor-zoom-out" : "cursor-zoom-in"
+                        isZoomed
+                          ? "scale-150 cursor-zoom-out"
+                          : "cursor-zoom-in"
                       }`}
                     />
                   </div>
