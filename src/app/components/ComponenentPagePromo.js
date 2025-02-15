@@ -162,7 +162,7 @@ const ComponentPagePromo = ({ json }) => {
       <Header />
 
       {/* Barre de contrôle fixe sous le menu (visible uniquement sur mobile) */}
-      <div className="fixed top-[80px] left-0 right-0 z-40 bg-white shadow py-2 sm:hidden flex justify-center gap-2">
+      <div className="fixed top-[92px] left-0 right-0 z-20 bg-white shadow py-2 sm:hidden flex justify-center gap-2">
         <button
           onClick={() => setLayoutMode("column")}
           className={`px-3 py-1 rounded border transition-colors ${

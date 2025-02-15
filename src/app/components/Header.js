@@ -191,7 +191,7 @@ export default function Header() {
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            className="fixed inset-0 bg-[#FDE9E6] z-50 p-4"
+            className="fixed inset-0  bg-[#FDE9E6] z-50 p-4"
             initial={{ x: "-100%" }}
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
