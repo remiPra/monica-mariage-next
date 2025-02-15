@@ -92,8 +92,10 @@ export default function Header() {
       {/* Barre de contact mobile */}
       <div className="bg-[#A37B63] text-white text-sm py-2 px-4 flex justify-center lg:hidden">
         <div className="flex items-center gap-2">
-          <FaWhatsapp className="text-lg" />
-          <a href="tel:+33668300960">06 68 30 09 60</a>
+          <FaWhatsapp href="https://wa.me/33668300960" className="text-lg" />
+          <a target="_blank" href="tel:+33668300960">
+            06 68 30 09 60
+          </a>
           <TiPhoneOutline className="text-lg" />
         </div>
       </div>

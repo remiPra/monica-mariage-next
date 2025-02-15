@@ -224,9 +224,17 @@ const ComponentPagePromo = ({ json }) => {
                 <Image
                   src={dress.images[0]}
                   alt={dress.dressName}
-                  layout="fill" // Important pour que l'image remplisse le conteneur
-                  objectFit="cover" // Ajuste l'image pour remplir le conteneur
-                  className="transition-transform duration-500 ease-in-out group-hover:scale-105"
+                  layout="fill"
+                  objectFit="cover"
+                  priority={index < 4} // ✅ On précharge les 3 premières images seulement
+                  loading={index < 4 ? undefined : "lazy"} // ✅ On met "lazy" seulement pour les images non prioritaires
+                  sizes="
+    (max-width: 480px) 100vw, 
+    (max-width: 768px) 50vw, 
+    (max-width: 1200px) 33vw, 
+    25vw"
+                  formats={["image/webp", "image/avif"]}
+                  className="transition-transform duration-500 ease-in-out hover:scale-105"
                 />
               </div>
               {/* Overlay au survol */}
