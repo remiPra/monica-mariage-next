@@ -6,6 +6,7 @@ import { useParams } from "next/navigation";
 import Header from "@/app/components/Header";
 import DressImageSlider from "@/app/components/DressImageSlider";
 import DressInfo from "@/app/components/DressInfo";
+import MobileActions from "@/app/components/MobileActions";
 
 export default function DressDetailPage() {
   const { id } = useParams();
@@ -70,6 +71,12 @@ export default function DressDetailPage() {
           <DressInfo robe={robe} />
         </div>
       </div>
+      {/* Floating Button pour le Chat (mobile only) */}
+      {/* Boutons d'actions mobiles */}
+      <MobileActions
+        onChatClick={() => alert("Ouverture du chat")}
+        onBookingClick={() => alert("Réservation d’un rendez-vous")}
+      />
     </>
   );
 }

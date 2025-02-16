@@ -1,4 +1,3 @@
-// app/pages/DressDetailPage.js
 "use client";
 
 import { useEffect, useState } from "react";
@@ -6,11 +5,12 @@ import { useParams } from "next/navigation";
 import Header from "@/app/components/Header";
 import DressImageSlider from "@/app/components/DressImageSlider";
 import DressInfo from "@/app/components/DressInfo";
+import { MdSms } from "react-icons/md"; // Icône de chat style SMS
+import MobileActions from "@/app/components/MobileActions";
 
 export default function DressDetailPage() {
   const { id } = useParams();
 
-  // Déclaration des états
   const [robe, setRobe] = useState(null);
   const [allImages, setAllImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -70,6 +70,13 @@ export default function DressDetailPage() {
           <DressInfo robe={robe} />
         </div>
       </div>
+
+      {/* Floating Button pour le Chat (mobile only) */}
+      {/* Boutons d'actions mobiles */}
+      <MobileActions
+        onChatClick={() => alert("Ouverture du chat")}
+        onBookingClick={() => alert("Réservation d’un rendez-vous")}
+      />
     </>
   );
 }
