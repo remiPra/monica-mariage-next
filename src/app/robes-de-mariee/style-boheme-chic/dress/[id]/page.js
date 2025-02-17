@@ -8,7 +8,7 @@ import DressInfo from "@/app/components/DressInfo";
 import MobileActions from "@/app/components/MobileActions";
 import Loader from "@/app/components/LoaderMonicaMariage";
 import Image from "next/image";
-import RelatedDresses from "@/app/components/relatedDresses";
+import RelatedDresses from "@/app/components/RelatedDresses";
 
 export default function DressDetailPage() {
   const { id } = useParams();
