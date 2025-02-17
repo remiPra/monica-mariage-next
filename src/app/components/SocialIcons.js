@@ -6,7 +6,7 @@ import {
   FaPhone,
 } from "react-icons/fa";
 
-const SocialIcons = () => {
+const SocialIcons = ({ center }) => {
   const iconColor = "white";
   // const iconColor = "#AF7749";
   const iconSize = 30;
@@ -15,7 +15,7 @@ const SocialIcons = () => {
     <div
       style={{
         display: "flex",
-        justifyContent: "center",
+        justifyContent: center,
         gap: "20px",
         position: "relative",
         zIndex: 10,

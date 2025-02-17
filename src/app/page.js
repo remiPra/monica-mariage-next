@@ -364,7 +364,7 @@ export default function Home() {
             <h4 className="text-xl font-semibold text-[#af7749] mb-4">
               Nous suivre
             </h4>
-            <SocialIcons />
+            <SocialIcons center="flex-start" />
             <div className="flex space-x-4">
               <a href="#" className="text-2xl hover:text-[#af7749]">
                 <i className="fab fa-instagram"></i>

@@ -282,7 +282,7 @@ export default function Header() {
               <div className="w-full mt-auto flex flex-col items-center">
                 <div className="w-1/2 h-[1px] bg-[#7A5C4B] opacity-30 mb-6"></div>
                 <div className="mb-8">
-                  <SocialIcons />
+                  <SocialIcons center="center" />
                 </div>
               </div>
             </div>

@@ -75,6 +75,9 @@ export default function DressDetailPage() {
           <DressInfo robe={robe} />
         </div>
       </div>
+
+      {/* Section "Vous pourriez aussi aimer" */}
+      <RelatedDresses currentDressId={robe.id} dresses={allDresses} />
       {/* Floating Button pour le Chat (mobile only) */}
       {/* Boutons d'actions mobiles */}
       <MobileActions

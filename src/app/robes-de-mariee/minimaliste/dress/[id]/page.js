@@ -6,6 +6,9 @@ import { useParams } from "next/navigation";
 import Header from "@/app/components/Header";
 import DressImageSlider from "@/app/components/DressImageSlider";
 import DressInfo from "@/app/components/DressInfo";
+import MobileActions from "@/app/components/MobileActions";
+import Loader from "@/app/components/LoaderMonicaMariage";
+import RelatedDresses from "@/app/components/relatedDresses";
 
 export default function DressDetailPage() {
   const { id } = useParams();
@@ -58,7 +61,10 @@ export default function DressDetailPage() {
   return (
     <>
       <Header />
-
+      <Loader
+        duration={2000} // Durée de 3 secondes
+        text={`Robe de Mariée ${robe.dressName}`}
+      />
       <div className="mt-[100px] md:mt-[150px] max-w-7xl mx-auto px-6 flex flex-col lg:flex-row gap-10">
         {/* Section Image */}
         <div className="w-full lg:w-1/2">
@@ -70,6 +76,15 @@ export default function DressDetailPage() {
           <DressInfo robe={robe} />
         </div>
       </div>
+      {/* Floating Button pour le Chat (mobile only) */}
+
+      {/* Section "Vous pourriez aussi aimer" */}
+      <RelatedDresses currentDressId={robe.id} dresses={allDresses} />
+      {/* Boutons d'actions mobiles */}
+      <MobileActions
+        onChatClick={() => alert("Ouverture du chat")}
+        onBookingClick={() => alert("Réservation d’un rendez-vous")}
+      />
     </>
   );
 }

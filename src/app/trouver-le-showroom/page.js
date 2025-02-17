@@ -102,7 +102,7 @@ export default function Page() {
         <div className="flex flex-col md:flex-row gap-8">
           {/* Section gauche */}
           <div className="md:w-1/2 bg-white">
-            <SocialIcons />
+            <SocialIcons center="center" />
 
             <motion.div // Utilisez motion.div ici
               className="bg-[#FDF8F5] rounded-lg shadow-md p-8 max-w-xl mx-auto"

@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Header from "../components/Header";
+import HeroSection from "../components/HeroSection";
 
 const Page = () => {
   const [robes, setRobes] = useState([]);
@@ -48,50 +49,18 @@ const Page = () => {
       {/* Contenu de la galerie */}
       <div className="pt-20 bg-white">
         {/* Hero Section */}
-        {/* Hero Section */}
-        <div className="text-center py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#FDE9E6] to-white">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl text-[#af7749] font-playfair mb-6 leading-tight">
-              Collections robes de mariée de la boutique Monica mariage
-            </h1>
-            <img
-              src="image/iconerobe.png"
-              alt="Robes de mariée icon"
-              className="w-24 mx-auto mb-2"
-            />
-            <p className="text-base sm:text-lg text-gray-600 font-poppins max-w-4xl mx-auto leading-relaxed mb-8">
-              Monica Mariage propose des robes de mariée de différentes formes
-              telles que Princesse & évasée, Sirène & Fourreau, ainsi que des
-              robes du style bohème-chic & champêtre & Minimaliste.
-            </p>
-
-            {/* Nouveau bouton de défilement */}
-            <button
-              onClick={() => {
-                window.scrollTo({
-                  top: window.innerHeight,
-                  behavior: "smooth",
-                });
-              }}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[#af7749] text-white rounded-full hover:bg-[#8b5e3a] transition-colors duration-300"
-            >
-              Voir la collection
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
+        <HeroSection
+          title="Collections robes de mariée de la boutique Monica mariage"
+          subtitle="Monica Mariage propose des robes de mariée de différentes formes telles que Princesse & évasée, Sirène & Fourreau, ainsi que des robes du style bohème-chic & champêtre & Minimaliste."
+          iconSrc="/image/iconerobe.png"
+          buttonText="Decouvrir les collections"
+          buttonOnClick={() => {
+            window.scrollTo({
+              top: window.innerHeight,
+              behavior: "smooth",
+            });
+          }}
+        />
         {/* Section Filtres */}
         {/* <div className="py-7 bg-white border-b border-gray-200">
           <div className="max-w-screen-xl mx-auto flex justify-center gap-5 flex-wrap">

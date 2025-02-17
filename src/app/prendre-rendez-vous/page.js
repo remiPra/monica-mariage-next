@@ -42,7 +42,7 @@ export default function Page() {
             ></div>
 
             <div className="mt-[40px] mb-5 relative z-10">
-              <SocialIcons />
+              <SocialIcons center="center" />
             </div>
 
             <motion.div
@@ -127,7 +127,7 @@ export default function Page() {
             {/* Tout le contenu en z-10 pour être par-dessus l'overlay */}
             <div className="relative z-10">
               <div className="block md:hidden mt-5">
-                <SocialIcons />
+                <SocialIcons center="center" />
               </div>
 
               {/* Titre visible UNIQUEMENT sur mobile */}

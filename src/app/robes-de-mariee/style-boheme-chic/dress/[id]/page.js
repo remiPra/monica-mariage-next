@@ -1,4 +1,3 @@
-// app/pages/DressDetailPage.js
 "use client";
 
 import { useEffect, useState } from "react";
@@ -7,6 +6,9 @@ import Header from "@/app/components/Header";
 import DressImageSlider from "@/app/components/DressImageSlider";
 import DressInfo from "@/app/components/DressInfo";
 import MobileActions from "@/app/components/MobileActions";
+import Loader from "@/app/components/LoaderMonicaMariage";
+import Image from "next/image";
+import RelatedDresses from "@/app/components/relatedDresses";
 
 export default function DressDetailPage() {
   const { id } = useParams();
@@ -15,6 +17,7 @@ export default function DressDetailPage() {
   const [robe, setRobe] = useState(null);
   const [allImages, setAllImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [randomRobes, setRandomRobes] = useState([]); // Pour stocker les 6 robes aléatoires
 
   useEffect(() => {
     const chargerRobe = async () => {
@@ -32,6 +35,12 @@ export default function DressDetailPage() {
           );
           setRobe(robeTrouvee);
           setAllImages(imagesAssociees);
+
+          // Sélectionner 6 robes aléatoires (sauf celle actuelle)
+          const autresRobes = data.filter((r) => r.id !== parseInt(id));
+          const shuffled = autresRobes.sort(() => 0.5 - Math.random());
+          setRandomRobes(shuffled.slice(0, 6));
+
           setIsLoading(false);
         }
       } catch (error) {
@@ -59,6 +68,10 @@ export default function DressDetailPage() {
   return (
     <>
       <Header />
+      <Loader
+        duration={2000} // Durée de 3 secondes
+        text={`Robe de Mariée ${robe.dressName}`}
+      />
 
       <div className="mt-[100px] md:mt-[150px] max-w-7xl mx-auto px-6 flex flex-col lg:flex-row gap-10">
         {/* Section Image */}
@@ -71,8 +84,11 @@ export default function DressDetailPage() {
           <DressInfo robe={robe} />
         </div>
       </div>
+
+      {/* Section "Vous pourriez aussi aimer" */}
+      <RelatedDresses currentDressId={robe.id} dresses={allDresses} />
+
       {/* Floating Button pour le Chat (mobile only) */}
-      {/* Boutons d'actions mobiles */}
       <MobileActions
         onChatClick={() => alert("Ouverture du chat")}
         onBookingClick={() => alert("Réservation d’un rendez-vous")}

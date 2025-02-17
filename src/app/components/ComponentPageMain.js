@@ -8,27 +8,22 @@ import { FaRegHeart } from "react-icons/fa";
 const ComponentMainPage = ({ json }) => {
   const [robes, setRobes] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [layoutMode, setLayoutMode] = useState("grid1"); // 'grid1' ou 'grid2'
   const router = useRouter();
 
   const chargerJSON = async () => {
     try {
       setIsLoading(true);
       const response = await fetch(`${json}.json`);
-      if (!response.ok) {
-        throw new Error("Erreur lors du chargement du fichier JSON");
-      }
+      if (!response.ok) throw new Error("Erreur de chargement JSON");
       const data = await response.json();
 
-      // Filtrer pour ne garder qu'une entrée par nom
-      const robesUniques = [];
-      const nomsDejaVus = new Set();
-
-      data.forEach((robe) => {
-        if (!nomsDejaVus.has(robe.dressName)) {
-          nomsDejaVus.add(robe.dressName);
-          robesUniques.push(robe);
+      const robesUniques = data.reduce((acc, robe) => {
+        if (!acc.some((r) => r.dressName === robe.dressName)) {
+          acc.push(robe);
         }
-      });
+        return acc;
+      }, []);
 
       setRobes(robesUniques);
     } catch (error) {
@@ -42,13 +37,10 @@ const ComponentMainPage = ({ json }) => {
     chargerJSON();
   }, [json]);
 
-  // Redirection vers la page de détails de la robe
   const handleDressClick = (id) => {
     router.push(`/robes-de-mariee${json}/dress/${id}`);
-    // console.log(`/robes-de-mariee${json}/dress/${id}`);
   };
 
-  // Composant pour le skeleton loading
   const SkeletonLoader = () => (
     <div className="animate-pulse">
       <div className="relative aspect-[2/3] bg-gray-200 rounded-lg"></div>
@@ -61,6 +53,31 @@ const ComponentMainPage = ({ json }) => {
   return (
     <>
       <Header />
+
+      {/* Contrôles de layout mobile */}
+      <div className="fixed top-[92px] left-0 right-0 z-20 bg-white shadow py-2 sm:hidden flex justify-center gap-2">
+        <button
+          onClick={() => setLayoutMode("grid1")}
+          className={`px-3 py-1 rounded border transition-colors ${
+            layoutMode === "grid1"
+              ? "bg-[#af7749] text-white"
+              : "bg-white text-[#af7749]"
+          }`}
+        >
+          1 Image
+        </button>
+        <button
+          onClick={() => setLayoutMode("grid2")}
+          className={`px-3 py-1 rounded border transition-colors ${
+            layoutMode === "grid2"
+              ? "bg-[#af7749] text-white"
+              : "bg-white text-[#af7749]"
+          }`}
+        >
+          2 Images
+        </button>
+      </div>
+
       <div className="pt-20 bg-white">
         {/* Hero Section */}
         <div className="text-center py-16 px-5 bg-gradient-to-b from-[#FDE9E6] to-white">
@@ -73,60 +90,64 @@ const ComponentMainPage = ({ json }) => {
         </div>
 
         {/* Grille de la Galerie */}
-        <div className="max-w-screen-2xl mx-auto my-10 px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div
+          className={`max-w-screen-2xl mx-auto my-10 px-5 grid gap-4 ${
+            layoutMode === "grid1" ? "grid-cols-1" : "grid-cols-2"
+          } sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4`}
+        >
           {isLoading
-            ? // Afficher les skeletons pendant le chargement
-              [...Array(8)].map((_, index) => <SkeletonLoader key={index} />)
+            ? [...Array(8)].map((_, index) => <SkeletonLoader key={index} />)
             : robes.map((robe, index) => (
                 <div
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleDressClick(robe.id);
+                  }}
                   key={index}
                   className="group relative overflow-hidden rounded-lg shadow-md cursor-pointer"
-                  onClick={() => handleDressClick(robe.id)}
                 >
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
-                      handleAddToFavorites(robe); // Utilisation de la robe actuelle
+                      // handleAddToFavorites(robe);
                     }}
                     className="absolute top-2 right-2 z-10 bg-white text-[#af7749] p-2 rounded-full hover:bg-[#af7749] hover:text-white transition-colors"
                   >
                     <FaRegHeart size={20} />
                   </button>
-                  {/* Image de la robe */}
-                  <div className="relative aspect-[2/3] overflow-hidden">
+
+                  {/* Conteneur d'image */}
+                  <div className="relative aspect-[3/4] overflow-hidden">
                     <Image
-                      src={
-                        robe.optimizedImages?.gallery?.desktop ||
-                        robe.optimizedImages?.gallery?.tablet ||
-                        robe.optimizedImages?.gallery?.mobile ||
-                        robe.imageUrl
-                      }
+                      src={robe.imageUrl}
                       alt={robe.dressName}
                       fill
-                      sizes="(max-width: 640px) 100vw, 
-         (max-width: 768px) 50vw,
-         (max-width: 1024px) 33vw,
-         25vw"
+                      sizes={`${
+                        layoutMode === "grid2"
+                          ? "(max-width: 640px) 50vw, 33vw"
+                          : "(max-width: 640px) 100vw, 33vw"
+                      }`}
                       className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
                       priority={index < 4}
                       loading={index < 4 ? "eager" : "lazy"}
-                      quality={90}
+                      quality={layoutMode === "grid2" ? 75 : 90}
                     />
                   </div>
-                  {/* Overlay au survol */}
-                  <div className="hidden md:flex absolute top-0 left-0 w-full h-full bg-[#af7749] bg-opacity-90 opacity-0 transition-opacity duration-300  items-center justify-center text-center group-hover:opacity-100">
-                    <div className="text-white p-5">
-                      <h3 className="text-lg font-bold mb-2">
-                        {robe.dressName}
-                      </h3>
-                      <button className="bg-white text-[#af7749] border-none px-5 py-2 rounded-full mt-4 cursor-pointer transition-all duration-300">
-                        Voir les détails
-                      </button>
-                    </div>
-                  </div>
+
                   {/* Infos sous l'image */}
-                  <div className="p-4 bg-white text-center">
-                    <h3 className="text-[#af7749] mb-1">{robe.dressName}</h3>
+                  <div className="p-4 bg-white text-center space-y-2">
+                    <h3 className="text-[#af7749] font-medium text-sm">
+                      {robe.dressName}
+                    </h3>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleDressClick(robe.id);
+                      }}
+                      className="bg-[#af7749] text-white text-xs px-3 py-1.5 rounded-full hover:bg-[#825c4b] transition-colors"
+                    >
+                      Découvrir plus
+                    </button>
                   </div>
                 </div>
               ))}
