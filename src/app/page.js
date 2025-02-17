@@ -4,6 +4,7 @@ import Head from "next/head";
 import VideoSlider from "./components/VideoSlider";
 import Header from "./components/Header";
 import Loader from "./components/LoaderMonicaMariage";
+import SocialIcons from "./components/SocialIcons";
 
 export default function Home() {
   return (
@@ -326,7 +327,7 @@ export default function Home() {
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-[#af7749]">
+                <a href="/pndre-rendez-vous" className="hover:text-[#af7749]">
                   Prendre rendez-vous
                 </a>
               </li>
@@ -338,13 +339,13 @@ export default function Home() {
             </h4>
             <ul>
               <li className="mb-2">
-                <a href="#" className="hover:text-[#af7749]">
+                <a href="/robes-de-mariee" className="hover:text-[#af7749]">
                   Robes de mariée
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-[#af7749]">
-                  Tenues de soirée
+                <a href="/promo" className="hover:text-[#af7749]">
+                  Promotion
                 </a>
               </li>
               <li className="mb-2">
@@ -363,6 +364,7 @@ export default function Home() {
             <h4 className="text-xl font-semibold text-[#af7749] mb-4">
               Nous suivre
             </h4>
+            <SocialIcons />
             <div className="flex space-x-4">
               <a href="#" className="text-2xl hover:text-[#af7749]">
                 <i className="fab fa-instagram"></i>
