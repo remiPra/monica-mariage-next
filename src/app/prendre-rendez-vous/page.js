@@ -1,12 +1,6 @@
 "use client";
 import React from "react";
 import Header from "../components/Header";
-import {
-  FaWhatsapp,
-  FaInstagram,
-  FaFacebookMessenger,
-  FaPhone,
-} from "react-icons/fa";
 import SocialIcons from "../components/SocialIcons";
 import { motion } from "framer-motion";
 
@@ -20,39 +14,44 @@ export default function Page() {
   return (
     <>
       <Header />
+
       <motion.div
         className="bg-[#a37b63] container my-[70px] mx-auto mt-[70px]"
         {...fadeInAnimation}
       >
-        <div className="flex flex-col md:flex-row ">
-          {/* Section gauche */}
+        {/* On gère l'ordre des colonnes : la colonne de droite (formulaire) passe en premier sur mobile */}
+        <div className="flex flex-col md:flex-row">
+          {/* --- Colonne GAUCHE (infos + image de fond) --- */}
           <div
-            className="md:w-1/2 relative"
+            className="md:w-1/2 relative order-2 md:order-1"
             style={{
               backgroundImage: "url('/contact.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
-              overflow: "hidden", // Ajout pour cacher le contenu qui dépasse
+              overflow: "hidden",
             }}
           >
             {/* Overlay marron */}
             <div
               className="absolute top-0 left-0 w-full h-full"
               style={{
-                backgroundColor: "rgba(181 ,116, 75 , 0.7)", // Marron semi-transparent
+                backgroundColor: "rgba(181 ,116, 75 , 0.7)",
+                //   backgroundImage: "url('/contact.jpg')",
               }}
             ></div>
-            <div className="mt-[40px] mb-5 ">
+
+            <div className="mt-[40px] mb-5 relative z-10">
               <SocialIcons />
             </div>
 
             <motion.div
-              className="rounded-lg shadow-md p-8 max-w-xl mx-auto relative"
+              className="rounded-lg shadow-md p-8 max-w-xl mx-auto relative z-10"
               {...fadeInAnimation}
             >
+              {/* Titre visible UNIQUEMENT sur desktop */}
               <motion.h1
-                className="font-cursive text-center text-5xl font-script text-white mb-2 relative"
+                className="hidden md:block font-cursive text-center text-5xl font-script text-white mb-2 relative"
                 {...fadeInAnimation}
               >
                 Monica Mariage
@@ -78,9 +77,11 @@ export default function Page() {
                   </a>
                 </div>
               </motion.div>
-              <div className="flex justify-center w-full">
-                <img src="./taille.jpg" />
+
+              <div className="flex justify-center w-full mb-2">
+                <img src="./taille.jpg" alt="Tableau des tailles" />
               </div>
+
               {/* Carte des horaires */}
               <motion.div
                 className="rounded-lg p-6 shadow-sm relative"
@@ -112,83 +113,101 @@ export default function Page() {
             </motion.div>
           </div>
 
-          {/* Formulaire de contact */}
+          {/* --- Colonne DROITE (formulaire) --- */}
           <div
-            className="md:w-1/2 relative"
+            className="md:bg-none md:bg-[rgba(181,116,75,0.7)] bg-[url('/contact.jpg')] md:w-1/2 relative order-1 md:order-2"
             style={{
-              backgroundColor: "#A37B63", // Marron semi-transparent
-              padding: "20px", // Ajoute un espacement interne
-              borderRadius: "5px", // Optionnel : pour arrondir les coins
+              padding: "20px",
+              borderRadius: "5px",
             }}
           >
-            <motion.h2
-              className="mt-3 text-center text-2xl font-script text-white mb-6"
-              {...fadeInAnimation}
-            >
-              Contactez-moi
-            </motion.h2>
-            <form className="space-y-4">
-              <motion.input
-                type="text"
-                placeholder="Nom *"
-                className="w-full p-2 border border-gray-300 rounded"
-                required
-                {...fadeInAnimation}
-              />
-              <motion.input
-                type="email"
-                placeholder="Email *"
-                className="w-full p-2 border border-gray-300 rounded"
-                required
-                {...fadeInAnimation}
-              />
-              <motion.input
-                type="tel"
-                placeholder="Portable *"
-                className="w-full p-2 border border-gray-300 rounded"
-                required
-                {...fadeInAnimation}
-              />
-              <motion.input
-                type="text"
-                placeholder="Date du mariage *"
-                className="w-full p-2 border border-gray-300 rounded"
-                required
-                {...fadeInAnimation}
-              />
-              <motion.input
-                type="text"
-                placeholder="Taille (voir le tableau ci-dessous)"
-                className="w-full p-2 border border-gray-300 rounded"
-                {...fadeInAnimation}
-              />
-              <motion.input
-                type="text"
-                placeholder="Forme préférée (Princesse / Sirène / Bohème / Je ne sais pas)"
-                className="w-full p-2 border border-gray-300 rounded"
-                {...fadeInAnimation}
-              />
-              <motion.input
-                type="text"
-                placeholder="Budget défini *"
-                className="w-full p-2 border border-gray-300 rounded"
-                required
-                {...fadeInAnimation}
-              />
-              <motion.textarea
-                placeholder="Message *"
-                className="w-full p-2 border border-gray-300 rounded h-32"
-                required
-                {...fadeInAnimation}
-              />
-              <motion.button
-                type="submit"
-                className="bg-[#53240f] text-white px-6 py-2 rounded hover:bg-[#6b2f13]"
+            {/* Overlay bleu uniquement sur mobile */}
+            <div className="block md:hidden absolute top-0 left-0 w-full h-full bg-customBrown z-0"></div>
+
+            {/* Tout le contenu en z-10 pour être par-dessus l'overlay */}
+            <div className="relative z-10">
+              <div className="block md:hidden mt-5">
+                <SocialIcons />
+              </div>
+
+              {/* Titre visible UNIQUEMENT sur mobile */}
+              <motion.h1
+                className="mt-5 block md:hidden font-cursive text-center text-5xl font-script text-white mb-4"
                 {...fadeInAnimation}
               >
-                Envoyer
-              </motion.button>
-            </form>
+                Monica Mariage
+              </motion.h1>
+
+              <motion.h2
+                className="mt-3 text-center text-2xl font-script text-white mb-6"
+                {...fadeInAnimation}
+              >
+                Contactez-moi
+              </motion.h2>
+
+              <form className="space-y-4">
+                <motion.input
+                  type="text"
+                  placeholder="Nom *"
+                  className="w-full p-2 border border-gray-300 rounded"
+                  required
+                  {...fadeInAnimation}
+                />
+                <motion.input
+                  type="email"
+                  placeholder="Email *"
+                  className="w-full p-2 border border-gray-300 rounded"
+                  required
+                  {...fadeInAnimation}
+                />
+                <motion.input
+                  type="tel"
+                  placeholder="Portable *"
+                  className="w-full p-2 border border-gray-300 rounded"
+                  required
+                  {...fadeInAnimation}
+                />
+                <motion.input
+                  type="text"
+                  placeholder="Date du mariage *"
+                  className="w-full p-2 border border-gray-300 rounded"
+                  required
+                  {...fadeInAnimation}
+                />
+                <motion.input
+                  type="text"
+                  placeholder="Taille (voir le tableau ci-dessous)"
+                  className="w-full p-2 border border-gray-300 rounded"
+                  {...fadeInAnimation}
+                />
+                <motion.input
+                  type="text"
+                  placeholder="Forme préférée (Princesse / Sirène / Bohème / Je ne sais pas)"
+                  className="w-full p-2 border border-gray-300 rounded"
+                  {...fadeInAnimation}
+                />
+                <motion.input
+                  type="text"
+                  placeholder="Budget défini *"
+                  className="w-full p-2 border border-gray-300 rounded"
+                  required
+                  {...fadeInAnimation}
+                />
+                <motion.textarea
+                  placeholder="Message *"
+                  className="w-full p-2 border border-gray-300 rounded h-32"
+                  required
+                  {...fadeInAnimation}
+                />
+                <motion.button
+                  type="submit"
+                  className="bg-[#53240f] text-white px-6 py-2 rounded hover:bg-[#6b2f13]"
+                  {...fadeInAnimation}
+                >
+                  Envoyer
+                </motion.button>
+              </form>
+            </div>
           </div>
         </div>
       </motion.div>

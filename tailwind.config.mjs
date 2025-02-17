@@ -12,6 +12,14 @@ export default {
         sans: ["var(--font-geist-sans)"],
         mono: ["var(--font-geist-mono)"],
       },
+      backgroundImage: {
+        // Ajout d'images de fond personnalisées
+        contact: "url('/contact.jpg')", // Image pour le fond
+      },
+      colors: {
+        // Ajout de couleurs personnalisées
+        customBrown: "rgba(181, 116, 75, 0.7)", // Couleur personnalisée
+      },
     },
   },
   plugins: [],

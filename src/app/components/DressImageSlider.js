@@ -128,8 +128,8 @@ export default function DressImageSlider({ allImages, robe }) {
 
   const imageVariants = {
     initial: { opacity: 0 },
-    animate: { opacity: 1, transition: { duration: 0.5 } },
-    exit: { opacity: 0, transition: { duration: 0.5 } },
+    animate: { opacity: 1, transition: { duration: 0.1 } },
+    exit: { opacity: 0, transition: { duration: 0.1 } },
   };
 
   // --- Gestion du swipe en mode plein écran ---
@@ -340,7 +340,7 @@ export default function DressImageSlider({ allImages, robe }) {
             className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50"
           >
             <button
-              className="absolute z-20 top-5 right-14 text-white text-3xl"
+              className="absolute z-20 top-4 left-6 rounded-full bg-[#af7749] p-4 text-white text-3xl"
               onClick={(e) => {
                 e.stopPropagation();
                 setIsFullScreen(false);
@@ -406,8 +406,8 @@ export default function DressImageSlider({ allImages, robe }) {
                       alt={robe.dressName}
                       fill
                       quality={100}
-                      style={{ objectFit: "contain" }}
-                      className={`cursor-${isZoomed ? "move" : "zoom-in"}`} // Curseur "move" si zoomé
+                      style={{ objectFit: "cover" }}
+                      // className={`cursor-${isZoomed ? "move" : "zoom-in"}`} // Curseur "move" si zoomé
                       onLoad={handleImageLoad}
                     />
                   </div>
