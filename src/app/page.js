@@ -3,6 +3,7 @@
 import Head from "next/head";
 import VideoSlider from "./components/VideoSlider";
 import Header from "./components/Header";
+import Loader from "./components/LoaderMonicaMariage";
 
 export default function Home() {
   return (
@@ -10,7 +11,31 @@ export default function Home() {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Monica Mariage - Robes de mariées Toulouse</title>
+        <title>Monica Mariage - Robe de mariée Toulouse</title>
+
+        {/* Meta description SEO */}
+        <meta
+          name="description"
+          content="Découvrez nos collections de robe de mariée à Toulouse dans notre showroom privé à Seysses. Sur-mesure et personnalisables jusqu'à la taille 44, tarifs entre 750€ et 1850€."
+        />
+
+        {/* Balises Open Graph */}
+        <meta
+          property="og:title"
+          content="Monica Mariage - Robe de mariée Toulouse"
+        />
+        <meta
+          property="og:description"
+          content="Showroom privé à Seysses près de Toulouse, spécialisé dans la robe de mariée sur-mesure et personnalisable. Tarifs de 750€ à 1850€."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.monicamariage.com" />
+        <meta
+          property="og:image"
+          content="https://www.monicamariage.com/image/og-image.jpg"
+        />
+
+        {/* Polices et icônes */}
         <link
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
           rel="stylesheet"
@@ -24,7 +49,7 @@ export default function Home() {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         />
       </Head>
-
+      <Loader text="Votre boutique de robe de Mariée a Toulouse" />
       {/* HEADER */}
       <Header />
 
@@ -36,14 +61,14 @@ export default function Home() {
         <div className="flex justify-around items-center">
           {[
             "Robes de mariée Princesse et évasée",
-            "Robes de mariée Princesse et évasée",
-            "Robes de mariée Princesse et évasée",
-            "Robes de mariée Princesse et évasée",
+            "Robes de mariée A-line élégantes",
+            "Robes de mariée bustier glamour",
+            "Robes de mariée dos nu sophistiquées",
           ].map((text, index) => (
             <div key={index} className="text-center w-36">
               <img
                 src="image/iconerobe.png"
-                alt="Robes de mariée icon"
+                alt={`Icône - ${text}`}
                 className="w-24 mx-auto mb-2"
               />
               <p className="text-base text-black">{text}</p>
@@ -52,7 +77,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Bloc Présentation */}
+      {/* Bloc Présentation (NE PAS MODIFIER) */}
       <section className="text-center py-12 bg-gradient-to-b from-[#FDE9E6] to-white">
         <h1 className="text-3xl font-semibold text-[#af7749] mb-4">
           Robes De Mariée Toulouse
@@ -77,30 +102,31 @@ export default function Home() {
       {/* Bloc Bestsellers */}
       <section className="py-12 bg-gradient-to-b from-white to-[#FDE9E6]">
         <h2 className="text-center text-3xl font-semibold text-[#af7749] mb-8">
-          Meilleures ventes chez Monica Mariage
+          Meilleures ventes chez Monica Mariage&nbsp;: Des robes de mariée
+          incontournables à Toulouse
         </h2>
         <div className="flex justify-center px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl w-full">
             {[
               {
                 src: "./presentation/image1.jpg",
-                alt: "Déesse",
+                alt: "Robe de mariée Déesse - Monica Mariage Toulouse",
                 label: "Déesse",
               },
               {
                 src: "./presentation/image2.jpg",
-                alt: "Effie",
+                alt: "Robe de mariée Effie - Monica Mariage Toulouse",
                 label: "Effie",
               },
               {
                 src: "./presentation/image3.jpg",
-                alt: "Emery",
+                alt: "Robe de mariée Emery - Monica Mariage Toulouse",
                 label: "Emery",
               },
               {
                 src: "./presentation/image4.jpg",
-                alt: "Image 4",
-                label: "Image 4",
+                alt: "Robe de mariée Signature - Monica Mariage Toulouse",
+                label: "Signature",
               },
             ].map((item, index) => (
               <div key={index} className="text-center">
@@ -118,11 +144,12 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center mt-8 px-4">
           <p className="max-w-2xl mx-auto text-lg text-black leading-relaxed mb-6 text-center">
-            La boutique de mariage est conçue comme un showroom privé à Seysses
-            près de Toulouse. Nous sommes heureux de vous accompagner pour la
-            confection des robes de mariée sur-mesure et personnalisable jusqu'à
-            la taille 44. Le tarif d'une robe de mariée sur-mesure se situe
-            entre 750€ et 1850€.
+            Découvrez notre sélection de best-sellers, conçus pour sublimer
+            chaque future mariée à la recherche d’une robe de mariée à Toulouse.
+            Nous proposons des coupes variées (princesse, sirène, bohème, etc.)
+            afin de répondre à tous les styles et toutes les silhouettes.
+            Profitez de nos conseils d’experts pour trouver la robe parfaite qui
+            vous fera rayonner le jour de votre mariage.
           </p>
           <button className="bg-[#af7749] text-white py-2 px-6 rounded-lg shadow hover:bg-[#925c36] transition duration-300">
             Voir plus de robes
@@ -133,30 +160,30 @@ export default function Home() {
       {/* Bloc Destockage */}
       <section className="py-12 bg-gradient-to-b from-white to-[#FDE9E6]">
         <h2 className="text-center text-3xl font-semibold text-[#af7749] mb-8">
-          Destockage
+          Destockage&nbsp;: Trouvez votre robe de mariée à Toulouse à prix doux
         </h2>
         <div className="flex justify-center px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl w-full">
             {[
               {
                 src: "image/destockage/image1.png",
-                alt: "Déesse",
+                alt: "Robe de mariée Déesse en déstockage - Toulouse",
                 label: "Déesse",
               },
               {
                 src: "image/destockage/image2.jpg",
-                alt: "Effie",
+                alt: "Robe de mariée Effie en déstockage - Toulouse",
                 label: "Effie",
               },
               {
                 src: "image/destockage/image3.jpg",
-                alt: "Emery",
+                alt: "Robe de mariée Emery en déstockage - Toulouse",
                 label: "Emery",
               },
               {
                 src: "image/destockage/image4.jpg",
-                alt: "Image 4",
-                label: "Image 4",
+                alt: "Robe de mariée Signature en déstockage - Toulouse",
+                label: "Signature",
               },
             ].map((item, index) => (
               <div key={index} className="text-center">
@@ -174,11 +201,13 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center mt-8 px-4">
           <p className="max-w-2xl mx-auto text-lg text-black leading-relaxed mb-6 text-center">
-            La boutique de mariage est conçue comme un showroom privé à Seysses
-            près de Toulouse. Nous sommes heureux de vous accompagner pour la
-            confection des robes de mariée sur-mesure et personnalisable jusqu'à
-            la taille 44. Le tarif d'une robe de mariée sur-mesure se situe
-            entre 750€ et 1850€.
+            Profitez de notre sélection de robes de mariée en déstockage pour
+            bénéficier de tarifs avantageux tout en conservant l’élégance et la
+            qualité d’une robe de mariée à Toulouse. Nous mettons régulièrement
+            à jour cette rubrique afin de vous proposer des modèles issus de nos
+            collections antérieures, toujours disponibles en quantités limitées.
+            Faites-vous plaisir sans dépasser votre budget pour le plus beau
+            jour de votre vie !
           </p>
           <button className="bg-[#af7749] text-white py-2 px-6 rounded-lg shadow hover:bg-[#925c36] transition duration-300">
             Voir plus de robes
@@ -186,14 +215,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section Showroom */}
+      {/* Section Showroom (1ère partie) */}
       <section className="py-12 bg-gray-100">
         <div className="container mx-auto flex flex-col md:flex-row items-center md:justify-between px-4">
           {/* Colonne Image */}
           <div className="w-full md:w-1/2 mb-6 md:mb-0">
             <img
               src="double/2023-11-28.jpg"
-              alt="LM Showroom"
+              alt="Showroom Monica Mariage - Robe de mariée Toulouse"
               className="w-full rounded"
             />
           </div>
@@ -203,16 +232,17 @@ export default function Home() {
               Le Showroom
             </h4>
             <h2 className="text-3xl font-semibold text-gray-800 mb-4 font-[Playfair]">
-              LM Showroom
+              Monica Mariage Showroom&nbsp;: Un espace dédié aux robes de mariée
+              à Toulouse
             </h2>
             <p className="text-base text-gray-600 mb-4">
-              LM Showroom situé à Agen est un concept store mariage créé en 2023
-              par Sandrine Bianco. Vous y trouverez plus d'une centaine de robes
-              de mariée signées par des créateurs Européens et d'Outre
-              Atlantique de renom, des tenues pour les mamans, les demoiselles
-              d'honneur et les enfants, ainsi que des chaussures et des
-              accessoires, sélectionnés avec la plus grande attention pour leur
-              qualité, leur design et leur confort.
+              Notre showroom privé, situé à Seysses près de Toulouse, vous
+              accueille dans un espace intimiste dédié à l’essayage de votre
+              future robe de mariée. Nous vous accompagnons dans le choix de la
+              coupe, des tissus et des finitions pour que chaque détail reflète
+              votre personnalité. Grâce à nos conseils personnalisés, vous
+              vivrez une expérience unique et repartirez avec la robe parfaite
+              pour votre grand jour.
             </p>
             <a
               href="/mobile.html"
@@ -223,6 +253,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section Showroom (2e partie) */}
       <section className="py-12 bg-gray-100">
         <div className="container mx-auto flex flex-col md:flex-row items-center md:justify-between px-4">
           {/* Colonne Texte */}
@@ -231,16 +263,17 @@ export default function Home() {
               Le Showroom
             </h4>
             <h2 className="text-3xl font-semibold text-gray-800 mb-4 font-[Playfair]">
-              LM Showroom
+              Monica Mariage&nbsp;: Plus de 100 créations pour sublimer votre
+              mariage à Toulouse
             </h2>
             <p className="text-base text-gray-600 mb-4">
-              LM Showroom situé à Agen est un concept store mariage créé en 2023
-              par Sandrine Bianco. Vous y trouverez plus d'une centaine de robes
-              de mariée signées par des créateurs Européens et d'Outre
-              Atlantique de renom, des tenues pour les mamans, les demoiselles
-              d'honneur et les enfants, ainsi que des chaussures et des
-              accessoires, sélectionnés avec la plus grande attention pour leur
-              qualité, leur design et leur confort.
+              Monica Mariage, créé en 2023 par Sandrine Bianco, propose plus
+              d’une centaine de modèles de robes de mariée, des tenues pour les
+              demoiselles d’honneur et les mamans, ainsi que des accessoires de
+              qualité. Chaque création est sélectionnée avec soin pour
+              satisfaire toutes vos envies, que vous rêviez d’une robe de mariée
+              traditionnelle ou d’un style plus audacieux. Notre objectif :
+              faire de votre mariage à Toulouse un moment inoubliable.
             </p>
             <a
               href="#"
@@ -253,19 +286,20 @@ export default function Home() {
           <div className="w-full md:w-1/2 mb-6 md:mb-0 order-1 md:order-2">
             <img
               src="double/2023-11-28.jpg"
-              alt="LM Showroom"
+              alt="Intérieur du showroom Monica Mariage - robe de mariée Toulouse"
               className="w-full rounded"
             />
           </div>
         </div>
       </section>
+
       {/* FOOTER */}
       <footer className="bg-[#925c36] text-white py-10">
         <div className="container mx-auto flex flex-wrap justify-between px-4">
           <div className="w-full md:w-1/4 mb-6">
             <img
               src="path-to-logo.png"
-              alt="LM Showroom Logo"
+              alt="Monica Mariage Logo"
               className="w-32 mb-4"
             />
             <p>+33 6 19 72 75 40</p>

@@ -19,3 +19,63 @@
     animation: breathe 3s ease-in-out infinite;
   }
 }
+/* Dans votre globals.css */
+@keyframes gentle-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-gentle-pulse {
+  animation: gentle-pulse 2s infinite ease-in-out;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-progress {
+  animation: progressBar 2s linear forwards;
+}
+/* Dans globals.css */
+@keyframes gentle-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-gentle-pulse {
+  animation: gentle-pulse 2s infinite ease-in-out;
+}
+
+@keyframes textColorFade {
+  0% {
+    color: #a67b5b;
+    transform: translateX(0);
+  }
+  50% {
+    color: white;
+    transform: translateX(10px);
+  }
+  100% {
+    color: white;
+    transform: translateX(0);
+  }
+}
+
+.animate-text-fade {
+  animation: textColorFade 1s forwards ease-in-out;
+}

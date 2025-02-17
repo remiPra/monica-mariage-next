@@ -8,6 +8,7 @@ import ComponentMainPage from "@/app/components/ComponentPageMain";
 function Page() {
   return (
     <>
+      <Loader text="Collection robe Sirène" />
       <ComponentMainPage json="/forme-sirene" />
     </>
   );

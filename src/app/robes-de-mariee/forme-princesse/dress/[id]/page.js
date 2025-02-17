@@ -7,6 +7,7 @@ import DressImageSlider from "@/app/components/DressImageSlider";
 import DressInfo from "@/app/components/DressInfo";
 import { MdSms } from "react-icons/md"; // Icône de chat style SMS
 import MobileActions from "@/app/components/MobileActions";
+import Loader from "@/app/components/LoaderMonicaMariage";
 
 export default function DressDetailPage() {
   const { id } = useParams();
@@ -58,7 +59,10 @@ export default function DressDetailPage() {
   return (
     <>
       <Header />
-
+      <Loader
+        duration={2000} // Durée de 3 secondes
+        text={`Robe de Mariée ${robe.dressName}`}
+      />
       <div className="mt-[100px] md:mt-[150px] max-w-7xl mx-auto px-6 flex flex-col lg:flex-row gap-10">
         {/* Section Image */}
         <div className="w-full lg:w-1/2">

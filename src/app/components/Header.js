@@ -7,7 +7,7 @@ import Link from "next/link";
 import { FaWhatsapp, FaPhone, FaHeart } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { IoClose } from "react-icons/io5";
-import { TiPhoneOutline } from "react-icons/ti";
+import { TiPhone, TiPhoneOutline } from "react-icons/ti";
 // import { IoHomeOutline } from "react-icons/io5";
 import { FaBridalWear, FaPercent, FaPencilAlt } from "react-icons/fa";
 import { GiDressIcons, GiClothespin } from "react-icons/gi";
@@ -92,11 +92,20 @@ export default function Header() {
       {/* Barre de contact mobile */}
       <div className="bg-[#A37B63] text-white text-sm py-2 px-4 flex justify-center lg:hidden">
         <div className="flex items-center gap-2">
-          <FaWhatsapp href="https://wa.me/33668300960" className="text-lg" />
-          <a target="_blank" href="tel:+33668300960">
-            06 68 30 09 60
+          {/* Lien WhatsApp */}
+          <a
+            href="https://wa.me/33668300960"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1"
+          >
+            <FaWhatsapp className="text-lg" />
           </a>
-          <TiPhoneOutline className="text-lg" />
+          06 68 30 09 60
+          {/* Lien téléphone */}
+          <a href="tel:+33668300960" className="flex items-center gap-1">
+            <TiPhone className="text-lg" />
+          </a>
         </div>
       </div>
 

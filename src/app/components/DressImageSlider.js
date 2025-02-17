@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaArrowLeft, FaRegHeart } from "react-icons/fa";
 import Link from "next/link";
+import MobileActions from "./MobileActions";
 
 export default function DressImageSlider({ allImages, robe }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -374,7 +375,7 @@ export default function DressImageSlider({ allImages, robe }) {
 
             <div
               className="relative w-full h-full flex items-center justify-center"
-              onClick={toggleZoom}
+              // onClick={toggleZoom}
               ref={imageContainerRef}
               onTouchStart={handleFullScreenTouchStart}
               onTouchMove={handleFullScreenTouchMove}
@@ -424,6 +425,10 @@ export default function DressImageSlider({ allImages, robe }) {
             >
               ▶
             </button>
+            <MobileActions
+              onChatClick={() => alert("Ouverture du chat")}
+              onBookingClick={() => alert("Réservation d’un rendez-vous")}
+            />
           </motion.div>
         )}
       </AnimatePresence>
