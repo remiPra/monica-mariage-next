@@ -8,6 +8,7 @@ import DressImageSlider from "@/app/components/DressImageSlider";
 import DressInfo from "@/app/components/DressInfo";
 import MobileActions from "@/app/components/MobileActions";
 import Loader from "@/app/components/LoaderMonicaMariage";
+import RelatedDresses from "@/app/components/relatedDresses";
 
 export default function DressDetailPage() {
   const { id } = useParams();
