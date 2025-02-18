@@ -47,6 +47,7 @@ function MapSection() {
       </div>
 
       {/* Navigation Links */}
+      {/* Navigation Links */}
       <div className="flex justify-center gap-6 mt-6">
         <a
           href="https://www.waze.com/ul?ll=43.507672,1.326138&navigate=yes"
@@ -60,7 +61,7 @@ function MapSection() {
         </a>
 
         <a
-          href="https://www.google.com/maps/place/Monica+Mariage+-+boutique+robe+de+mariée+Toulouse"
+          href="https://www.google.com/maps/search/?api=1&query=43.507672,1.326138"
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-col items-center text-[#53240f] hover:opacity-80"
@@ -71,7 +72,7 @@ function MapSection() {
         </a>
 
         <a
-          href="http://maps.apple.com/?daddr=43.507672,1.326138"
+          href="http://maps.apple.com/?q=Monica+Mariage&ll=43.507672,1.326138"
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-col items-center text-[#53240f] hover:opacity-80"

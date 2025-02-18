@@ -9,88 +9,19 @@
     "id": 5,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-hadson-5-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-hadson-5-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-hadson-5-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-hadson-5-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-hadson-5-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-hadson-5-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-hadson-5-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-hadson-5-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-hadson-5-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-hadson-5-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-hadson-5-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-hadson-5",
-    "description_html": "Bien sûr, voici le code HTML optimisé pour le référencement pour la robe de mariée, en suivant la structure que vous avez fournie :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle - Allegresse - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et raffinée, ornée de dentelle florale et de sequins scintillants</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime création, alliant la sensualité d'une silhouette sirène à la délicatesse d'une dentelle rebrodée, sublimera votre silhouette le jour J.  Elle est parfaite pour les mariées recherchant une robe de mariée bohème-chic, romantique et glamour.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage ajusté avec un décolleté en V plongeant, rehaussé d'une magnifique dentelle florale rebrodée de sequins. Manches longues transparentes en tulle rebrodé de dentelle. Fermeture invisible au dos. </li>\n            <li><strong>Jupe</strong> : Jupe sirène moulante épousant parfaitement les courbes du corps, réalisée dans une matière fluide et confortable. La jupe est également ornée de la même dentelle florale que le corsage, créant un effet harmonieux et élégant. </li>\n            <li><strong>Finitions</strong> :  Dentelle de haute qualité, sequins scintillants, finitions soignées, traîne discrète et élégante.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modification de la longueur de la robe et de la traîne.</li>\n            <li>Ajustement des manches et du décolleté selon vos préférences.</li>\n            <li>Choix du tissu et de la couleur de la doublure.</li>\n            <li>Ajustements personnalisés selon votre morphologie pour un confort et une allure parfaits.</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils SEO supplémentaires :**\n\n* **Mots clés :** Utilisez des mots clés pertinents dans le texte, tels que \"robe de mariée Toulouse\", \"robe sirène\", \"robe dentelle\", \"robe de mariée bohème\", \"robe de mariée chic\", \"Monica Mariage\".\n* **Balises title et meta description :** Ajoutez des balises title et meta description optimisées pour les moteurs de recherche, incluant les mots clés les plus pertinents.\n* **Images optimisées :** Assurez-vous que les images de la robe sont optimisées pour le Web (taille et format appropriés) et qu'elles incluent des attributs alt text décrivant la robe.\n* **Liens internes :** Créez des liens vers d'autres pages de votre site Web, comme la page de contact ou la page de rendez-vous.\n* **Liens externes :** Si possible, obtenez des liens vers votre site Web depuis d'autres sites Web pertinents.\n\n\nN'oubliez pas de remplacer \"[Style]\" et \"[Nom]\" par les informations spécifiques à la robe de mariée.  J'ai fait une supposition sur le style basé sur l'image.\n"
-  },
-  {
-    "dressName": "Hadson",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_9f38c0bb55d348b7ab90b7cb14442ced~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 6,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-hadson-6-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-hadson-6-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-hadson-6-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-hadson-6-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-hadson-6-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-hadson-6-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-hadson-6-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-hadson-6"
-  },
-  {
-    "dressName": "Hadson",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_8bd94e9bf54947c5ad42d184e2473eeb~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 7,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-hadson-7-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-hadson-7-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-hadson-7-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-hadson-7-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-hadson-7-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-hadson-7-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-hadson-7-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-hadson-7"
-  },
-  {
-    "dressName": "Hadson",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_415331f2a36f46f3ab75f13bab6a2cb1~mv2.jpg",
-    "width": 1333,
-    "height": 2000,
-    "id": 8,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-hadson-8-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-hadson-8-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-hadson-8-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-hadson-8-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-hadson-8-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-hadson-8-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-hadson-8-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-hadson-8"
+    "description_html": "Bien sûr, voici le code HTML optimisé pour le référencement pour la robe de mariée, en suivant la structure que vous avez fournie :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle - Allegresse - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et raffinée, ornée de dentelle florale et de sequins scintillants</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime création, alliant la sensualité d'une silhouette sirène à la délicatesse d'une dentelle rebrodée, sublimera votre silhouette le jour J.  Elle est parfaite pour les mariées recherchant une robe de mariée bohème-chic, romantique et glamour.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage ajusté avec un décolleté en V plongeant, rehaussé d'une magnifique dentelle florale rebrodée de sequins. Manches longues transparentes en tulle rebrodé de dentelle. Fermeture invisible au dos. </li>\n            <li><strong>Jupe</strong> : Jupe sirène moulante épousant parfaitement les courbes du corps, réalisée dans une matière fluide et confortable. La jupe est également ornée de la même dentelle florale que le corsage, créant un effet harmonieux et élégant. </li>\n            <li><strong>Finitions</strong> :  Dentelle de haute qualité, sequins scintillants, finitions soignées, traîne discrète et élégante.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modification de la longueur de la robe et de la traîne.</li>\n            <li>Ajustement des manches et du décolleté selon vos préférences.</li>\n            <li>Choix du tissu et de la couleur de la doublure.</li>\n            <li>Ajustements personnalisés selon votre morphologie pour un confort et une allure parfaits.</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils SEO supplémentaires :**\n\n* **Mots clés :** Utilisez des mots clés pertinents dans le texte, tels que \"robe de mariée Toulouse\", \"robe sirène\", \"robe dentelle\", \"robe de mariée bohème\", \"robe de mariée chic\", \"Monica Mariage\".\n* **Balises title et meta description :** Ajoutez des balises title et meta description optimisées pour les moteurs de recherche, incluant les mots clés les plus pertinents.\n* **Images optimisées :** Assurez-vous que les images de la robe sont optimisées pour le Web (taille et format appropriés) et qu'elles incluent des attributs alt text décrivant la robe.\n* **Liens internes :** Créez des liens vers d'autres pages de votre site Web, comme la page de contact ou la page de rendez-vous.\n* **Liens externes :** Si possible, obtenez des liens vers votre site Web depuis d'autres sites Web pertinents.\n\n\nN'oubliez pas de remplacer \"[Style]\" et \"[Nom]\" par les informations spécifiques à la robe de mariée.  J'ai fait une supposition sur le style basé sur l'image.\n",
+    "descriptionCourte": "<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle - Allegresse - Monica Mariage Toulouse</h2>\n    <p><strong>Découvrez la robe de mariée sirène élégante et raffinée, ornée de dentelle florale et de sequins scintillants</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime création, alliant la sensualité d'une silhouette sirène à la délicatesse d'une dentelle rebrodée, sublimera votre silhouette le jour J.</p>\n    <ul>\n        <li><strong>Corsage ajusté avec décolleté en V plongeant et dentelle florale rebrodée de sequins</strong></li>\n        <li><strong>Jupe sirène moulante épousant parfaitement les courbes du corps, ornée de dentelle florale</"
   },
   {
     "dressName": "Vegas",
@@ -102,88 +33,19 @@
     "id": 9,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-vegas-9-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-vegas-9-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-vegas-9-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-vegas-9-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-vegas-9-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-vegas-9-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-vegas-9-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-vegas-9-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-vegas-9-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-vegas-9-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-vegas-9-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-vegas-9",
-    "description_html": "Bien sûr, voici une description HTML optimisée pour le SEO d'une robe de mariée, en supposant qu'il s'agisse d'une robe sirène en dentelle :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Rêve d'Azur\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Elégance intemporelle et féminité radieuse</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée sirène, confectionnée en dentelle fine et raffinée, épouse parfaitement les courbes du corps pour une silhouette sculpturale et gracieuse.  Des détails délicats et une coupe flatteuse sublimeront votre beauté naturelle le jour de votre mariage. Idéale pour une cérémonie chic et romantique.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage en dentelle rebrodée à motifs floraux, décolleté en V plongeant, finitions soignées avec des perles et des cristaux Swarovski pour un éclat subtil.  Entièrement doublé pour un confort optimal.</li>\n            <li><strong>Jupe</strong> : Jupe sirène ajustée jusqu'aux genoux, puis évasée pour une fluidité parfaite.  La dentelle se prolonge sur la jupe pour une harmonie visuelle. Doublure en mousseline de soie pour une légèreté et un tombé impeccable.</li>\n            <li><strong>Finitions</strong> : Bretelles fines et délicates, fermeture invisible au dos.  La robe est entièrement réalisée à la main par nos couturières expertes. Train léger pour une silhouette élégante sans vous encombrer.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Choix de la longueur du train (court, moyen, long)</li>\n            <li>Modification de la longueur des bretelles</li>\n            <li>Ajout de manches (différents modèles disponibles)</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils SEO supplémentaires :**\n\n* **Mots-clés:**  Utilisez des mots clés pertinents dans le texte, comme \"robe de mariée Toulouse\", \"robe sirène\", \"robe dentelle\", \"robe mariée chic\", \"mariage romantique\", etc.  Intégrez-les naturellement dans le texte sans forcer.\n* **Balises meta:**  Ajoutez des balises meta description et keywords pour optimiser le référencement sur les moteurs de recherche.\n* **Images:**  Utilisez des images de haute qualité de la robe sous différents angles.  Nommez les fichiers images avec des mots-clés pertinents.\n* **Liens internes:**  Liez cette page à d'autres pages pertinentes sur votre site web (ex : page de contact, page des collections).\n* **Schema.org:**  Implémentez le balisage Schema.org pour fournir plus d'informations aux moteurs de recherche sur la robe.\n\n\nN'oubliez pas de remplacer  `\"Rêve d'Azur\"` par le vrai nom de la robe.  Ce modèle fournit une base solide, mais l'ajuster aux spécificités de la robe est essentiel pour un meilleur référencement.\n"
-  },
-  {
-    "dressName": "Vegas",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_a84c98798d0249de899b025ae39ad097~mv2.jpg",
-    "width": 1600,
-    "height": 2000,
-    "id": 10,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-vegas-10-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-vegas-10-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-vegas-10-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-vegas-10-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-vegas-10-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-vegas-10-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-vegas-10-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-vegas-10"
-  },
-  {
-    "dressName": "Vegas",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_16f37ccfe01042d289356d08e5cc7430~mv2.jpg",
-    "width": 1600,
-    "height": 2000,
-    "id": 11,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-vegas-11-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-vegas-11-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-vegas-11-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-vegas-11-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-vegas-11-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-vegas-11-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-vegas-11-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-vegas-11"
-  },
-  {
-    "dressName": "Vegas",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_6a35b323311b49dd9ce0e72d629139ac~mv2.jpg",
-    "width": 1600,
-    "height": 2000,
-    "id": 12,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-vegas-12-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-vegas-12-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-vegas-12-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-vegas-12-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-vegas-12-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-vegas-12-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-vegas-12-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-vegas-12"
+    "description_html": "Bien sûr, voici une description HTML optimisée pour le SEO d'une robe de mariée, en supposant qu'il s'agisse d'une robe sirène en dentelle :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Rêve d'Azur\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Elégance intemporelle et féminité radieuse</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée sirène, confectionnée en dentelle fine et raffinée, épouse parfaitement les courbes du corps pour une silhouette sculpturale et gracieuse.  Des détails délicats et une coupe flatteuse sublimeront votre beauté naturelle le jour de votre mariage. Idéale pour une cérémonie chic et romantique.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage en dentelle rebrodée à motifs floraux, décolleté en V plongeant, finitions soignées avec des perles et des cristaux Swarovski pour un éclat subtil.  Entièrement doublé pour un confort optimal.</li>\n            <li><strong>Jupe</strong> : Jupe sirène ajustée jusqu'aux genoux, puis évasée pour une fluidité parfaite.  La dentelle se prolonge sur la jupe pour une harmonie visuelle. Doublure en mousseline de soie pour une légèreté et un tombé impeccable.</li>\n            <li><strong>Finitions</strong> : Bretelles fines et délicates, fermeture invisible au dos.  La robe est entièrement réalisée à la main par nos couturières expertes. Train léger pour une silhouette élégante sans vous encombrer.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Choix de la longueur du train (court, moyen, long)</li>\n            <li>Modification de la longueur des bretelles</li>\n            <li>Ajout de manches (différents modèles disponibles)</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils SEO supplémentaires :**\n\n* **Mots-clés:**  Utilisez des mots clés pertinents dans le texte, comme \"robe de mariée Toulouse\", \"robe sirène\", \"robe dentelle\", \"robe mariée chic\", \"mariage romantique\", etc.  Intégrez-les naturellement dans le texte sans forcer.\n* **Balises meta:**  Ajoutez des balises meta description et keywords pour optimiser le référencement sur les moteurs de recherche.\n* **Images:**  Utilisez des images de haute qualité de la robe sous différents angles.  Nommez les fichiers images avec des mots-clés pertinents.\n* **Liens internes:**  Liez cette page à d'autres pages pertinentes sur votre site web (ex : page de contact, page des collections).\n* **Schema.org:**  Implémentez le balisage Schema.org pour fournir plus d'informations aux moteurs de recherche sur la robe.\n\n\nN'oubliez pas de remplacer  `\"Rêve d'Azur\"` par le vrai nom de la robe.  Ce modèle fournit une base solide, mais l'ajuster aux spécificités de la robe est essentiel pour un meilleur référencement.\n",
+    "descriptionCourte": "<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Rêve d'Azur\" - Monica Mariage Toulouse</h2>\n    <p><strong>Épousez votre rêve de mariage</strong> avec cette sublime robe sirène en dentelle fine et raffinée, disponible en exclusivité chez Monica Mariage à Toulouse. Cette création exceptionnelle met en valeur votre silhouette avec une coupe flatteuse et des détails délicats.</p>\n    <ul>\n        <li><strong>Corsage en dentelle rebrodée</strong> avec décolleté en V plongeant et finitions soignées.</li>\n        <li><strong>Jupe sirène ajustée</strong> avec doublure en mousseline de soie pour une légèreté et un tombé impeccable.</li>\n        <li><strong>Finitions"
   },
   {
     "dressName": "Mirallo",
@@ -195,111 +57,19 @@
     "id": 13,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-13-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-13-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-13-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-13-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-13-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-13-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-13-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-13-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-13-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-13-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mirallo-13-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-mirallo-13",
-    "description_html": "Voici une description HTML optimisée pour le SEO d'une robe de mariée, en utilisant l'image fournie comme référence.  **Veuillez noter que je ne peux pas deviner le nom exact du modèle de robe. Je vais utiliser un nom d'exemple.**  Remplacez les informations entre crochets par les informations réelles de la robe.\n\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène \"Élégance\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et raffinée, rehaussée de dentelle et d'un décolleté plongeant</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée met en valeur la silhouette féminine grâce à sa coupe sirène ajustée et fluide. La dentelle délicate et les finitions soignées confèrent à cette création un charme intemporel, parfait pour un mariage chic et romantique.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage bustier à épaules dénudées, orné de dentelle appliquée finement travaillée,  décolleté en V plongeant,  structure interne pour un maintien parfait.</li>\n            <li><strong>Jupe</strong> : Jupe sirène fluide en crêpe, épousant la silhouette avec élégance,  longueur au sol. La fluidité de la jupe contraste joliment avec la finesse de la dentelle du haut.</li>\n            <li><strong>Finitions</strong> : Dentelle de haute qualité, perles et autres détails brodés à la main, fermeture invisible au dos, doublure de qualité pour un confort optimal.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modifications de la longueur de la robe.</li>\n            <li>Ajustments de la taille et du buste pour une coupe parfaite.</li>\n            <li>Choix de la couleur de la doublure.</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\nN'oubliez pas d'ajouter des attributs alt aux images pour une meilleure accessibilité et SEO :  `<img src=\"chemin/vers/image.jpg\" alt=\"Robe de mariée Sirène Élégance Monica Mariage Toulouse\">`\n\n\nPour un meilleur référencement, ajoutez des mots clés supplémentaires dans le texte,  tels que :  \"robe mariée Toulouse\", \"robe de mariée sirène\", \"robe mariée dentelle\", \"robe mariée bustier\", \"mariage chic\", \"robe mariée luxe\", etc., en utilisant des mots clés naturels et pertinents sans sur-optimisation.  L'intégration de ces mots clés dans le texte doit rester naturelle et fluide.\n"
-  },
-  {
-    "dressName": "Mirallo",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_d0bf0e9351614da9b452fc5c732447e3~mv2.jpg",
-    "width": 1334,
-    "height": 2000,
-    "id": 14,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-14-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-14-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-14-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-14-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-14-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-14-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mirallo-14-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-mirallo-14"
-  },
-  {
-    "dressName": "Mirallo",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_82622df807f64eb9bd688f40164d5798~mv2.jpg",
-    "width": 1334,
-    "height": 2000,
-    "id": 15,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-15-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-15-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-15-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-15-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-15-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-15-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mirallo-15-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-mirallo-15"
-  },
-  {
-    "dressName": "Mirallo",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_557b42c38bae4e9caaa68a8f235fa5ce~mv2.jpg",
-    "width": 2000,
-    "height": 1334,
-    "id": 16,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-16-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-16-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-16-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mirallo-16-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mirallo-16-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mirallo-16-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mirallo-16-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-mirallo-16"
-  },
-  {
-    "dressName": "Aurore (Taille disponible 38-40)",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_7bcf00dc4d8549d385495ce758177b94~mv2.jpg",
-    "width": 3978,
-    "height": 5967,
-    "id": 17,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-17"
+    "description_html": "Voici une description HTML optimisée pour le SEO d'une robe de mariée, en utilisant l'image fournie comme référence.  **Veuillez noter que je ne peux pas deviner le nom exact du modèle de robe. Je vais utiliser un nom d'exemple.**  Remplacez les informations entre crochets par les informations réelles de la robe.\n\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène \"Élégance\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et raffinée, rehaussée de dentelle et d'un décolleté plongeant</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée met en valeur la silhouette féminine grâce à sa coupe sirène ajustée et fluide. La dentelle délicate et les finitions soignées confèrent à cette création un charme intemporel, parfait pour un mariage chic et romantique.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage bustier à épaules dénudées, orné de dentelle appliquée finement travaillée,  décolleté en V plongeant,  structure interne pour un maintien parfait.</li>\n            <li><strong>Jupe</strong> : Jupe sirène fluide en crêpe, épousant la silhouette avec élégance,  longueur au sol. La fluidité de la jupe contraste joliment avec la finesse de la dentelle du haut.</li>\n            <li><strong>Finitions</strong> : Dentelle de haute qualité, perles et autres détails brodés à la main, fermeture invisible au dos, doublure de qualité pour un confort optimal.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modifications de la longueur de la robe.</li>\n            <li>Ajustments de la taille et du buste pour une coupe parfaite.</li>\n            <li>Choix de la couleur de la doublure.</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\nN'oubliez pas d'ajouter des attributs alt aux images pour une meilleure accessibilité et SEO :  `<img src=\"chemin/vers/image.jpg\" alt=\"Robe de mariée Sirène Élégance Monica Mariage Toulouse\">`\n\n\nPour un meilleur référencement, ajoutez des mots clés supplémentaires dans le texte,  tels que :  \"robe mariée Toulouse\", \"robe de mariée sirène\", \"robe mariée dentelle\", \"robe mariée bustier\", \"mariage chic\", \"robe mariée luxe\", etc., en utilisant des mots clés naturels et pertinents sans sur-optimisation.  L'intégration de ces mots clés dans le texte doit rester naturelle et fluide.\n",
+    "descriptionCourte": "<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène \"Élégance\" - Boutique de mariée à Toulouse</h2>\n    <p><strong>Découvrez cette sublime robe de mariée sirène, élégante et raffinée, ornée de dentelle et d'un décolleté plongeant</strong>, disponible en exclusivité dans notre boutique de mariée à Toulouse. Cette création met en valeur la silhouette féminine avec sa coupe sirène ajustée et fluide, idéale pour un mariage chic et romantique.</p>\n    <ul>\n        <li><strong>Corsage bustier à épaules dénudées, orné de dentelle appliquée finement travaillée</strong></li>\n        <li><strong>Jupe sirène fluide en crêpe, épousant la silhouette avec élégance</strong></"
   },
   {
     "dressName": "Aurore (Taille disponible 38-40)",
@@ -311,42 +81,19 @@
     "id": 18,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-18",
-    "description_html": "Bien sûr, voici le code HTML optimisé pour le SEO pour une robe de mariée de Monica Mariage Toulouse, en utilisant l'image fournie comme inspiration :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Bohème Chic \"Élégance\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe fluide et élégante, coupe impeccable, détails raffinés</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée bohème chic est parfaite pour une cérémonie champêtre ou une réception élégante.  Son design intemporel et sa coupe flatteuse sublimeront votre silhouette.  Idéale pour une mariée souhaitant une robe à la fois romantique et moderne.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage off-shoulder en crêpe fluide, mettant en valeur les épaules et le décolleté.  Doublure confortable et douce contre la peau.</li>\n            <li><strong>Jupe</strong> : Jupe longue en crêpe fluide, tombant en cascade pour un effet élégant et gracieux.  La coupe droite et légèrement évasée allonge la silhouette.</li>\n            <li><strong>Finitions</strong> :  Coutures soignées, finitions impeccables.  La robe est fabriquée avec des tissus de haute qualité pour un confort optimal et une tenue parfaite tout au long de la journée.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Choix de la longueur de la robe (longue, mi-longue)</li>\n            <li>Modification des manches (manches longues, bretelles, sans manches)</li>\n            <li>Ajout d'applications (perles, dentelle, paillettes)</li>\n            <li>Ajustements personnalisés selon votre morphologie pour une coupe sur mesure</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils SEO supplémentaires :**\n\n* **Mots clés :**  Intégrer des mots clés pertinents dans le code HTML (balises `title`, `meta description`, attributs `alt` des images, etc.). Exemples : robe de mariée Toulouse, robe mariée bohème, robe mariée chic, robe mariée crêpe, Monica Mariage.\n* **Structure des titres :** Utiliser une structure de titres hiérarchique (H1, H2, H3, etc.) pour organiser le contenu et faciliter la compréhension pour les moteurs de recherche.\n* **Liens internes :**  Créer des liens vers d'autres pages du site web (ex : page de contact, collection de robes, etc.) pour améliorer la navigation et le référencement interne.\n* **Images optimisées :**  Utiliser des images optimisées pour le web (compression, attributs `alt` descriptifs).\n* **Contenu unique :**  Créer du contenu unique et original pour chaque page pour éviter le contenu dupliqué.\n* **Vitesse de chargement :**  Optimiser la vitesse de chargement du site web pour une meilleure expérience utilisateur.\n\n\nCe code et ces conseils amélioreront le référencement de la page et l'aideront à attirer plus de clients potentiels.  N'oubliez pas d'adapter le contenu aux caractéristiques spécifiques de chaque robe.\n"
-  },
-  {
-    "dressName": "Aurore (Taille disponible 38-40)",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_4e9cc651787445d1ab08b766f7c5437a~mv2.jpg",
-    "width": 4000,
-    "height": 6000,
-    "id": 19,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-aurore-taille-disponible-38-40-19"
+    "description_html": "Bien sûr, voici le code HTML optimisé pour le SEO pour une robe de mariée de Monica Mariage Toulouse, en utilisant l'image fournie comme inspiration :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Bohème Chic \"Élégance\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe fluide et élégante, coupe impeccable, détails raffinés</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée bohème chic est parfaite pour une cérémonie champêtre ou une réception élégante.  Son design intemporel et sa coupe flatteuse sublimeront votre silhouette.  Idéale pour une mariée souhaitant une robe à la fois romantique et moderne.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage off-shoulder en crêpe fluide, mettant en valeur les épaules et le décolleté.  Doublure confortable et douce contre la peau.</li>\n            <li><strong>Jupe</strong> : Jupe longue en crêpe fluide, tombant en cascade pour un effet élégant et gracieux.  La coupe droite et légèrement évasée allonge la silhouette.</li>\n            <li><strong>Finitions</strong> :  Coutures soignées, finitions impeccables.  La robe est fabriquée avec des tissus de haute qualité pour un confort optimal et une tenue parfaite tout au long de la journée.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Choix de la longueur de la robe (longue, mi-longue)</li>\n            <li>Modification des manches (manches longues, bretelles, sans manches)</li>\n            <li>Ajout d'applications (perles, dentelle, paillettes)</li>\n            <li>Ajustements personnalisés selon votre morphologie pour une coupe sur mesure</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils SEO supplémentaires :**\n\n* **Mots clés :**  Intégrer des mots clés pertinents dans le code HTML (balises `title`, `meta description`, attributs `alt` des images, etc.). Exemples : robe de mariée Toulouse, robe mariée bohème, robe mariée chic, robe mariée crêpe, Monica Mariage.\n* **Structure des titres :** Utiliser une structure de titres hiérarchique (H1, H2, H3, etc.) pour organiser le contenu et faciliter la compréhension pour les moteurs de recherche.\n* **Liens internes :**  Créer des liens vers d'autres pages du site web (ex : page de contact, collection de robes, etc.) pour améliorer la navigation et le référencement interne.\n* **Images optimisées :**  Utiliser des images optimisées pour le web (compression, attributs `alt` descriptifs).\n* **Contenu unique :**  Créer du contenu unique et original pour chaque page pour éviter le contenu dupliqué.\n* **Vitesse de chargement :**  Optimiser la vitesse de chargement du site web pour une meilleure expérience utilisateur.\n\n\nCe code et ces conseils amélioreront le référencement de la page et l'aideront à attirer plus de clients potentiels.  N'oubliez pas d'adapter le contenu aux caractéristiques spécifiques de chaque robe.\n",
+    "descriptionCourte": "Voici la description refaite en moins de 140 mots, optimisée pour le SEO et mettant en avant les points forts de la robe :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Bohème Chic \"Élégance\" - Monica Mariage Toulouse</h2>\n    <p><strong>Robe fluide et élégante, coupe impeccable, détails raffinés</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Parfaite pour une cérémonie champêtre ou une réception élégante, cette robe bohème chic sublime votre silhouette avec son design intemporel et sa coupe flatteuse.</p>\n    <ul>\n        <li><strong>Corsage off-shoulder en crêpe fluide</strong></li>\n        <li><strong>Jupe longue en crêpe fluide, tombant en cascade"
   },
   {
     "dressName": "Nireus",
@@ -358,88 +105,19 @@
     "id": 20,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-nireus-20-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-nireus-20-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-nireus-20-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-nireus-20-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-nireus-20-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-nireus-20-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-nireus-20-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-nireus-20-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-nireus-20-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-nireus-20-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-nireus-20-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-nireus-20",
-    "description_html": "Voici le code HTML optimisé pour le SEO pour une robe de mariée de Monica Mariage Toulouse, basé sur l'image fournie :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle [Nom du modèle] - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et raffinée, mettant en valeur la silhouette féminine</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime création allie la douceur d'un crêpe fluide à la sophistication d'une dentelle florale rebrodée. Un décolleté plongeant en V sublime le buste et met en valeur le port de tête, tandis que la longue traîne ajoute une touche de glamour à l'ensemble. Idéale pour une mariée qui recherche une robe à la fois moderne et romantique. </p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Dentelle florale rebrodée sur tulle, décolleté plongeant en V,  empiècements en crêpe fluide pour un confort optimal.  Bonnets intégrés.</li>\n            <li><strong>Jupe</strong> : Coupe sirène ajustée,  confectionnée en crêpe fluide léger et soyeux,  longueur au sol avec traîne élégante.</li>\n            <li><strong>Finitions</strong> :  Coutures soignées,  détails délicats de la dentelle, fermeture invisible au dos.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modification de la longueur de la traîne.</li>\n            <li>Ajustement des bretelles (si besoin).</li>\n            <li>Modification de la profondeur du décolleté.</li>\n            <li>Ajustements personnalisés selon votre morphologie.</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils d'optimisation SEO supplémentaires:**\n\n* **Remplacer \"[Nom du modèle]\"**:  Il est crucial d'ajouter le nom réel du modèle de robe.  \n* **Mots clés:**  Intégrer d'autres mots clés pertinents dans la description,  tels que \"robe de mariée Toulouse\", \"robe de mariée sirène\", \"robe de mariée dentelle\", \"robe de mariée crêpe\", \"robe de mariée bohème\" (si applicable), etc.  Utiliser une recherche de mots clés pour trouver les termes les plus pertinents.\n* **Images:**  Optimiser les images avec des noms de fichiers descriptifs (ex: robe-mariée-sirène-dentelle.jpg) et des attributs `alt` contenant des mots clés.\n* **Balises méta:**  Utiliser des balises méta description pour décrire la page et les balises méta mots clés avec des mots clés pertinents.\n* **Liens internes:**  Lier cette page à d'autres pages pertinentes sur le site de Monica Mariage.\n\n\nN'oubliez pas de remplacer  `[Nom du modèle]` par le nom officiel de la robe.  Ce code fournit une base solide pour une description optimisée pour les moteurs de recherche.\n"
-  },
-  {
-    "dressName": "Nireus",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_403e96e782aa49da9a80c2259f435a64~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 21,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-nireus-21-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-nireus-21-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-nireus-21-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-nireus-21-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-nireus-21-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-nireus-21-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-nireus-21-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-nireus-21"
-  },
-  {
-    "dressName": "Nireus",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_ab7ec380ed7540138335142e8d3d02dc~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 22,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-nireus-22-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-nireus-22-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-nireus-22-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-nireus-22-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-nireus-22-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-nireus-22-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-nireus-22-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-nireus-22"
-  },
-  {
-    "dressName": "Mona",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_fe54344f9328490f97bc460f5f9456c0~mv2.jpg",
-    "width": 5954,
-    "height": 3970,
-    "id": 23,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mona-23-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-mona-23-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mona-23-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mona-23-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mona-23-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mona-23-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mona-23-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-mona-23"
+    "description_html": "Voici le code HTML optimisé pour le SEO pour une robe de mariée de Monica Mariage Toulouse, basé sur l'image fournie :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle [Nom du modèle] - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et raffinée, mettant en valeur la silhouette féminine</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime création allie la douceur d'un crêpe fluide à la sophistication d'une dentelle florale rebrodée. Un décolleté plongeant en V sublime le buste et met en valeur le port de tête, tandis que la longue traîne ajoute une touche de glamour à l'ensemble. Idéale pour une mariée qui recherche une robe à la fois moderne et romantique. </p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Dentelle florale rebrodée sur tulle, décolleté plongeant en V,  empiècements en crêpe fluide pour un confort optimal.  Bonnets intégrés.</li>\n            <li><strong>Jupe</strong> : Coupe sirène ajustée,  confectionnée en crêpe fluide léger et soyeux,  longueur au sol avec traîne élégante.</li>\n            <li><strong>Finitions</strong> :  Coutures soignées,  détails délicats de la dentelle, fermeture invisible au dos.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modification de la longueur de la traîne.</li>\n            <li>Ajustement des bretelles (si besoin).</li>\n            <li>Modification de la profondeur du décolleté.</li>\n            <li>Ajustements personnalisés selon votre morphologie.</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils d'optimisation SEO supplémentaires:**\n\n* **Remplacer \"[Nom du modèle]\"**:  Il est crucial d'ajouter le nom réel du modèle de robe.  \n* **Mots clés:**  Intégrer d'autres mots clés pertinents dans la description,  tels que \"robe de mariée Toulouse\", \"robe de mariée sirène\", \"robe de mariée dentelle\", \"robe de mariée crêpe\", \"robe de mariée bohème\" (si applicable), etc.  Utiliser une recherche de mots clés pour trouver les termes les plus pertinents.\n* **Images:**  Optimiser les images avec des noms de fichiers descriptifs (ex: robe-mariée-sirène-dentelle.jpg) et des attributs `alt` contenant des mots clés.\n* **Balises méta:**  Utiliser des balises méta description pour décrire la page et les balises méta mots clés avec des mots clés pertinents.\n* **Liens internes:**  Lier cette page à d'autres pages pertinentes sur le site de Monica Mariage.\n\n\nN'oubliez pas de remplacer  `[Nom du modèle]` par le nom officiel de la robe.  Ce code fournit une base solide pour une description optimisée pour les moteurs de recherche.\n",
+    "descriptionCourte": "Voici la description réécrite en moins de 140 mots, optimisée pour le SEO et mettant en avant les points forts de la robe :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle Élégante - Monica Mariage Toulouse</h2>\n    <p><strong>Découvrez cette sublime robe de mariée sirène élégante et raffinée</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette création allie la douceur d'un crêpe fluide à la sophistication d'une dentelle florale rebrodée. Le décolleté plongeant en V sublime le buste et la longue traîne ajoute une touche de glamour. Idéale pour une mariée moderne et romantique.</p>\n    <p><strong>Finitions soignées, détails délicats de"
   },
   {
     "dressName": "Mona",
@@ -451,42 +129,19 @@
     "id": 24,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mona-24-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-mona-24-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mona-24-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mona-24-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mona-24-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mona-24-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mona-24-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mona-24-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mona-24-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mona-24-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mona-24-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-mona-24",
-    "description_html": "Bien sûr, voici une description HTML optimisée pour le SEO pour une robe de mariée de Monica Mariage Toulouse, en suivant la structure demandée.  **Veuillez noter que je dois faire des suppositions sur le style et les détails de la robe basée sur l'image fournie.**  Vous devrez adapter cette description avec les informations précises de votre robe.\n\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Etoile\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Elégance intemporelle et raffinement moderne</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette magnifique robe de mariée sirène met en valeur la silhouette féminine grâce à sa coupe ajustée et évasée.  La dentelle délicate orne le corsage et la jupe, créant un look bohème-chic et romantique.  Une robe idéale pour un mariage élégant et sophistiqué.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> :  Corsage en dentelle chantilly rebrodée à la main, col en V plongeant,  décolleté délicat,  fermeture invisible au dos.</li>\n            <li><strong>Jupe</strong> : Jupe sirène fluide en mousseline de soie,  doublure confortable,  décorée de motifs floraux en dentelle, traîne élégante.</li>\n            <li><strong>Finitions</strong> :  Dentelle haute qualité,  coutures impeccables,  finitions soignées,  perles et cristaux Swarovski (optionnel).</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modification de la longueur de la traîne</li>\n            <li>Ajustement des bretelles ou ajout de manches (sur demande)</li>\n            <li>Choix de la doublure (couleur, matière)</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils d'optimisation SEO supplémentaires:**\n\n* **Mots clés:** Utilisez des mots clés pertinents tels que \"robe de mariée Toulouse,\" \"robe de mariée sirène,\" \"robe de mariée dentelle,\" \"Monica Mariage,\" \"mariage élégant,\" etc.,  à la fois dans le texte et les attributs `alt` des images.\n* **Images:** Incluez des images de haute qualité de la robe sous différents angles, avec des attributs `alt` descriptifs (ex: `alt=\"Robe de mariée sirène en dentelle Monica Mariage\"`).\n* **Liens:**  Liez cette description à la page produit de la robe sur votre site web.\n* **Méta-description:**  Écrivez une méta-description concise et attrayante pour la page web contenant cette description.\n* **Structure HTML:**  Assurez-vous que votre structure HTML est bien organisée et valide pour un meilleur référencement.\n\n\nN'oubliez pas de remplacer les informations placées entre crochets `[]` par les détails précis de votre robe de mariée.\n"
-  },
-  {
-    "dressName": "Mona",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_324e5768843046e487865625f40fb4bd~mv2.jpg",
-    "width": 4536,
-    "height": 6805,
-    "id": 25,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-mona-25-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-mona-25-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-mona-25-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-mona-25-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-mona-25-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-mona-25-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-mona-25-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-mona-25"
+    "description_html": "Bien sûr, voici une description HTML optimisée pour le SEO pour une robe de mariée de Monica Mariage Toulouse, en suivant la structure demandée.  **Veuillez noter que je dois faire des suppositions sur le style et les détails de la robe basée sur l'image fournie.**  Vous devrez adapter cette description avec les informations précises de votre robe.\n\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Etoile\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Elégance intemporelle et raffinement moderne</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette magnifique robe de mariée sirène met en valeur la silhouette féminine grâce à sa coupe ajustée et évasée.  La dentelle délicate orne le corsage et la jupe, créant un look bohème-chic et romantique.  Une robe idéale pour un mariage élégant et sophistiqué.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> :  Corsage en dentelle chantilly rebrodée à la main, col en V plongeant,  décolleté délicat,  fermeture invisible au dos.</li>\n            <li><strong>Jupe</strong> : Jupe sirène fluide en mousseline de soie,  doublure confortable,  décorée de motifs floraux en dentelle, traîne élégante.</li>\n            <li><strong>Finitions</strong> :  Dentelle haute qualité,  coutures impeccables,  finitions soignées,  perles et cristaux Swarovski (optionnel).</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modification de la longueur de la traîne</li>\n            <li>Ajustement des bretelles ou ajout de manches (sur demande)</li>\n            <li>Choix de la doublure (couleur, matière)</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils d'optimisation SEO supplémentaires:**\n\n* **Mots clés:** Utilisez des mots clés pertinents tels que \"robe de mariée Toulouse,\" \"robe de mariée sirène,\" \"robe de mariée dentelle,\" \"Monica Mariage,\" \"mariage élégant,\" etc.,  à la fois dans le texte et les attributs `alt` des images.\n* **Images:** Incluez des images de haute qualité de la robe sous différents angles, avec des attributs `alt` descriptifs (ex: `alt=\"Robe de mariée sirène en dentelle Monica Mariage\"`).\n* **Liens:**  Liez cette description à la page produit de la robe sur votre site web.\n* **Méta-description:**  Écrivez une méta-description concise et attrayante pour la page web contenant cette description.\n* **Structure HTML:**  Assurez-vous que votre structure HTML est bien organisée et valide pour un meilleur référencement.\n\n\nN'oubliez pas de remplacer les informations placées entre crochets `[]` par les détails précis de votre robe de mariée.\n",
+    "descriptionCourte": "Voici la description refaite en moins de 140 mots :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Etoile\" - Monica Mariage Toulouse</h2>\n    <p><strong>Élégance intemporelle et raffinement moderne</strong> à Toulouse ! Cette robe de mariée sirène met en valeur la silhouette féminine avec sa coupe ajustée et évasée. La dentelle délicate orne le corsage et la jupe, créant un look bohème-chic et romantique. Idéale pour un mariage élégant et sophistiqué.</p>\n    <ul>\n        <li><strong>Corsage en dentelle chantilly rebrodée à la main</strong></li>\n        <li><strong>Jupe sirène fluide en mousseline de soie</strong></li>\n        <li"
   },
   {
     "dressName": "ACCADIA",
@@ -498,65 +153,19 @@
     "id": 26,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-accadia-26-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-accadia-26-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-accadia-26-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-accadia-26-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-accadia-26-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-accadia-26-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-accadia-26-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-accadia-26-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-accadia-26-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-accadia-26-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-accadia-26-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-accadia-26",
-    "description_html": "Bien sûr, voici le code HTML optimisé pour le référencement d'une robe de mariée, en suivant la structure que vous avez fournie :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène \"Désir\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et raffinée, rebrodée de dentelle,</strong> disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée sirène allie la sensualité d'une coupe près du corps à la sophistication d'une dentelle finement travaillée.  Parfait pour une mariée désireuse d'une allure à la fois moderne et intemporelle.  </p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage en crêpe fluide avec décolleté plongeant en V, orné d’une magnifique dentelle rebrodée à motifs floraux.  Détail transparent sur le buste pour un effet subtil et élégant. </li>\n            <li><strong>Jupe</strong> : Jupe sirène en crêpe fluide, épousant parfaitement les courbes.  La fluidité du tissu crée une silhouette sublime et féminine, tombant en cascade vers le bas pour une trainée légère.</li>\n            <li><strong>Finitions</strong> :  Dentelle rebrodée main, perles et cristaux Swarovski, fermeture éclair invisible dans le dos.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modification de la longueur de la traîne</li>\n            <li>Ajustement des bretelles (si besoin)</li>\n            <li>Choix du tissu (selon disponibilité)</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils SEO supplémentaires:**\n\n* **Mots clés:** Utilisez des mots clés pertinents dans le texte, tels que \"robe de mariée Toulouse\", \"robe sirène\", \"robe dentelle\", \"Monica Mariage\", \"créateur de robes\", etc.  N'hésitez pas à utiliser des outils de recherche de mots clés pour identifier les termes les plus recherchés.\n* **Titre H2:**  Assurez-vous que le titre H2 est clair, concis et inclut des mots clés importants.\n* **Images:** Ajoutez des images de haute qualité de la robe sous différents angles.  Optimisez les noms de fichiers et les attributs alt des images avec des mots clés.\n* **Métadonnées:**  Créez des métadonnées optimisées pour les moteurs de recherche (title, description, keywords) pour chaque page de robe.\n* **Liens internes:**  Liez cette page à d'autres pages pertinentes sur votre site web, comme la page de contact ou la page de rendez-vous.\n* **Structure de l'URL:**  Utilisez une URL courte et descriptive, contenant des mots clés pertinents (ex: `/robe-mariée-sirène-dentelle`).\n\n\nEn appliquant ces conseils, vous améliorerez le référencement de votre page et augmenterez les chances qu'elle soit trouvée par les clientes potentielles sur les moteurs de recherche. N'oubliez pas de vérifier régulièrement le classement de votre page pour effectuer des ajustements si nécessaire.\n"
-  },
-  {
-    "dressName": "ACCADIA",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_28184882282f407fbf3a0b45d34ef78d~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 27,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-accadia-27-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-accadia-27-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-accadia-27-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-accadia-27-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-accadia-27-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-accadia-27-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-accadia-27-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-accadia-27"
-  },
-  {
-    "dressName": "ACCADIA",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_ca97b4ad7f994042a8f5dc839530852a~mv2.jpg",
-    "width": 800,
-    "height": 1200,
-    "id": 28,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-accadia-28-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-accadia-28-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-accadia-28-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-accadia-28-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-accadia-28-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-accadia-28-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-accadia-28-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-accadia-28"
+    "description_html": "Bien sûr, voici le code HTML optimisé pour le référencement d'une robe de mariée, en suivant la structure que vous avez fournie :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène \"Désir\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et raffinée, rebrodée de dentelle,</strong> disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée sirène allie la sensualité d'une coupe près du corps à la sophistication d'une dentelle finement travaillée.  Parfait pour une mariée désireuse d'une allure à la fois moderne et intemporelle.  </p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage en crêpe fluide avec décolleté plongeant en V, orné d’une magnifique dentelle rebrodée à motifs floraux.  Détail transparent sur le buste pour un effet subtil et élégant. </li>\n            <li><strong>Jupe</strong> : Jupe sirène en crêpe fluide, épousant parfaitement les courbes.  La fluidité du tissu crée une silhouette sublime et féminine, tombant en cascade vers le bas pour une trainée légère.</li>\n            <li><strong>Finitions</strong> :  Dentelle rebrodée main, perles et cristaux Swarovski, fermeture éclair invisible dans le dos.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modification de la longueur de la traîne</li>\n            <li>Ajustement des bretelles (si besoin)</li>\n            <li>Choix du tissu (selon disponibilité)</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils SEO supplémentaires:**\n\n* **Mots clés:** Utilisez des mots clés pertinents dans le texte, tels que \"robe de mariée Toulouse\", \"robe sirène\", \"robe dentelle\", \"Monica Mariage\", \"créateur de robes\", etc.  N'hésitez pas à utiliser des outils de recherche de mots clés pour identifier les termes les plus recherchés.\n* **Titre H2:**  Assurez-vous que le titre H2 est clair, concis et inclut des mots clés importants.\n* **Images:** Ajoutez des images de haute qualité de la robe sous différents angles.  Optimisez les noms de fichiers et les attributs alt des images avec des mots clés.\n* **Métadonnées:**  Créez des métadonnées optimisées pour les moteurs de recherche (title, description, keywords) pour chaque page de robe.\n* **Liens internes:**  Liez cette page à d'autres pages pertinentes sur votre site web, comme la page de contact ou la page de rendez-vous.\n* **Structure de l'URL:**  Utilisez une URL courte et descriptive, contenant des mots clés pertinents (ex: `/robe-mariée-sirène-dentelle`).\n\n\nEn appliquant ces conseils, vous améliorerez le référencement de votre page et augmenterez les chances qu'elle soit trouvée par les clientes potentielles sur les moteurs de recherche. N'oubliez pas de vérifier régulièrement le classement de votre page pour effectuer des ajustements si nécessaire.\n",
+    "descriptionCourte": "Here is the rewritten description in under 140 words, optimized for SEO, and in HTML format:\n\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène \"Désir\" - Monica Mariage Toulouse</h2>\n    <p><strong>Découvrez la robe de mariée sirène \"Désir\", disponible en exclusivité chez Monica Mariage à Toulouse</strong>. Cette sublime création allie sensualité et sophistication, avec un corsage en crêpe fluide rebrodé de dentelle et une jupe sirène épousant parfaitement les courbes. <strong>Parfait pour une mariée moderne et intemporelle</strong>. Nous adaptons chaque robe à votre silhouette, avec modification de la longueur de la traîne, ajustement des bretelles et choix du tissu.</p>\n</section>"
   },
   {
     "dressName": "Charlène",
@@ -568,65 +177,19 @@
     "id": 29,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-charlene-29-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-charlene-29-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-charlene-29-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-charlene-29-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-charlene-29-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-charlene-29-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-charlene-29-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-charlene-29-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-charlene-29-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-charlene-29-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-charlene-29-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-charlene-29",
-    "description_html": "Voici une description HTML optimisée pour le SEO d'une robe de mariée, en suivant la structure demandée.  Notez que j'ai dû inventer des détails car l'image ne fournit pas assez d'informations précises sur la robe.  Vous devrez adapter ce modèle avec les informations exactes de la robe de Monica Mariage Toulouse.\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Bohème \"Isabelle\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et bohème, mettant en valeur la silhouette féminine</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée allie la sophistication d'une coupe sirène à la douceur de la dentelle et de la transparence. Parfaite pour une cérémonie élégante et romantique, elle vous assure un look intemporel et raffiné.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage ajusté en crêpe satiné, rehaussé d'une dentelle chantilly appliquée à la main sur un tulle transparent. Décolleté plongeant en V, souligné par une fine bande de tulle transparent pour une touche de sensualité.  Bretelles fines et élégantes.</li>\n            <li><strong>Jupe</strong> : Jupe sirène fluide en crêpe satiné, épousant parfaitement les courbes du corps jusqu'aux genoux avant de s'évaser légèrement dans une traîne douce. La traîne est ornée d'une doublure en dentelle chantilly pour un détail raffiné.</li>\n            <li><strong>Finitions</strong> :  Dentelle chantilly de haute qualité, coutures soignées et invisibles, fermeture invisible au dos.  La robe est fournie avec un jupon pour une tenue parfaite.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Choix de la longueur de la traîne (courte, moyenne ou longue)</li>\n            <li>Modification de la profondeur du décolleté</li>\n            <li>Ajout de manches (différents styles possibles)</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils SEO:**\n\n* **Mots-clés:** Utilisez des mots-clés pertinents comme \"robe de mariée Toulouse,\" \"robe sirène,\" \"robe dentelle,\" \"robe bohème,\" \"Monica Mariage,\" etc.  Variez les mots-clés pour éviter le bourrage de mots-clés.\n* **Titre H2:**  Un titre clair et concis est crucial.\n* **Description:**  Une description détaillée et engageante qui met en valeur les caractéristiques uniques de la robe.\n* **Structure HTML:**  Une structure bien organisée avec des balises `section` et `ul` permet aux moteurs de recherche de mieux comprendre le contenu.\n* **Images:**  Incluez des images de haute qualité de la robe sous différents angles.  Optimisez les noms de fichiers des images avec des mots-clés.\n* **Liens internes:**  Liez cette page à d'autres pages de votre site web.\n\n\nN'oubliez pas de remplacer les informations fictives par les caractéristiques réelles de la robe de mariée.\n"
-  },
-  {
-    "dressName": "Charlène",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_26a619878fdc42828190c5bce2b20629~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 30,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-charlene-30-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-charlene-30-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-charlene-30-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-charlene-30-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-charlene-30-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-charlene-30-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-charlene-30-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-charlene-30"
-  },
-  {
-    "dressName": "Charlène",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_ecb50e0c101e4587b46816d6e2ae3dcd~mv2.jpg",
-    "width": 2100,
-    "height": 2800,
-    "id": 31,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-charlene-31-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-charlene-31-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-charlene-31-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-charlene-31-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-charlene-31-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-charlene-31-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-charlene-31-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-charlene-31"
+    "description_html": "Voici une description HTML optimisée pour le SEO d'une robe de mariée, en suivant la structure demandée.  Notez que j'ai dû inventer des détails car l'image ne fournit pas assez d'informations précises sur la robe.  Vous devrez adapter ce modèle avec les informations exactes de la robe de Monica Mariage Toulouse.\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Bohème \"Isabelle\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et bohème, mettant en valeur la silhouette féminine</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée allie la sophistication d'une coupe sirène à la douceur de la dentelle et de la transparence. Parfaite pour une cérémonie élégante et romantique, elle vous assure un look intemporel et raffiné.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage ajusté en crêpe satiné, rehaussé d'une dentelle chantilly appliquée à la main sur un tulle transparent. Décolleté plongeant en V, souligné par une fine bande de tulle transparent pour une touche de sensualité.  Bretelles fines et élégantes.</li>\n            <li><strong>Jupe</strong> : Jupe sirène fluide en crêpe satiné, épousant parfaitement les courbes du corps jusqu'aux genoux avant de s'évaser légèrement dans une traîne douce. La traîne est ornée d'une doublure en dentelle chantilly pour un détail raffiné.</li>\n            <li><strong>Finitions</strong> :  Dentelle chantilly de haute qualité, coutures soignées et invisibles, fermeture invisible au dos.  La robe est fournie avec un jupon pour une tenue parfaite.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Choix de la longueur de la traîne (courte, moyenne ou longue)</li>\n            <li>Modification de la profondeur du décolleté</li>\n            <li>Ajout de manches (différents styles possibles)</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils SEO:**\n\n* **Mots-clés:** Utilisez des mots-clés pertinents comme \"robe de mariée Toulouse,\" \"robe sirène,\" \"robe dentelle,\" \"robe bohème,\" \"Monica Mariage,\" etc.  Variez les mots-clés pour éviter le bourrage de mots-clés.\n* **Titre H2:**  Un titre clair et concis est crucial.\n* **Description:**  Une description détaillée et engageante qui met en valeur les caractéristiques uniques de la robe.\n* **Structure HTML:**  Une structure bien organisée avec des balises `section` et `ul` permet aux moteurs de recherche de mieux comprendre le contenu.\n* **Images:**  Incluez des images de haute qualité de la robe sous différents angles.  Optimisez les noms de fichiers des images avec des mots-clés.\n* **Liens internes:**  Liez cette page à d'autres pages de votre site web.\n\n\nN'oubliez pas de remplacer les informations fictives par les caractéristiques réelles de la robe de mariée.\n",
+    "descriptionCourte": "Here is the rewritten description in HTML, optimized for SEO, with a engaging and sales-oriented tone, and highlighting the strong points of the dress:\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Bohème \"Isabelle\" - Monica Mariage Toulouse</h2>\n    <p><strong>Épousez la romance avec cette robe de mariée sirène élégante et bohème</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime création allie sophistication et douceur pour un look intemporel et raffiné.</p>\n    <ul>\n        <li><strong>Corsage ajusté en crêpe satiné</strong>, rehaussé de dentelle chantilly appliquée à la main sur un tulle transparent.</li>\n        <li><strong>Jupe sirène fluide en crêpe satiné</strong>, ép"
   },
   {
     "dressName": "Autumn",
@@ -638,111 +201,19 @@
     "id": 32,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-32-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-autumn-32-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-32-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-32-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-32-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-32-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-32-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-autumn-32-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-32-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-32-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-autumn-32-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-autumn-32",
-    "description_html": "Voici une description HTML optimisée pour le SEO d'une robe de mariée, en suivant la structure demandée.  Veuillez noter que je dois faire des suppositions sur les caractéristiques de la robe car l'image ne fournit pas assez de détails techniques.  Remplacez les informations entre crochets par les caractéristiques réelles de la robe.\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Bohème \"Ambre\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène bohème élégante et raffinée</strong>, disponible en exclusivité chez Monica Mariage à Toulouse.  Cette magnifique robe de mariée en dentelle et soie offre une silhouette sublime et flatteuse, idéale pour un mariage romantique et chic.  Le dos nu et les manches 3/4 ajoutent une touche de sensualité et d'originalité.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage en dentelle chantilly rebrodée de perles,  décolleté en V plongeant, manches 3/4 en dentelle, fermeture invisible au dos.</li>\n            <li><strong>Jupe</strong> : Jupe sirène fluide en soie, légèrement évasée au niveau des genoux, offrant un tombé impeccable et une grande légèreté.  Doublure en soie naturelle pour un confort optimal.</li>\n            <li><strong>Finitions</strong> :  Dentelle de haute qualité, perles finement cousues, ourlet impeccable, finitions soignées à la main.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Choix de la couleur de la dentelle (blanc cassé, ivoire, champagne)</li>\n            <li>Modification de la longueur des manches</li>\n            <li>Ajout d'un voile assorti</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils pour améliorer le SEO:**\n\n* **Mots clés:**  Intégrez des mots clés pertinents dans le texte, tels que \"robe de mariée Toulouse,\" \"robe sirène,\" \"robe dentelle,\" \"robe bohème,\" \"mariage chic,\" etc.  Utilisez un outil de recherche de mots clés pour identifier les termes les plus recherchés.\n* **Balises méta:**  Ajoutez des balises méta description et title pour optimiser le référencement sur les moteurs de recherche.  Incluez vos mots clés les plus importants.\n* **Images:**  Optimisez les images avec des noms de fichiers et des attributs alt descriptifs contenant des mots clés.\n* **Liens internes:**  Liez cette description à d'autres pages de votre site web (galerie, contact, etc.).\n* **Structure HTML:**  Assurez-vous que la structure HTML est propre et bien organisée pour faciliter le crawl des moteurs de recherche.\n\n\nN'oubliez pas de remplacer les informations fictives par les vraies caractéristiques de la robe de mariée.\n"
-  },
-  {
-    "dressName": "Autumn",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_9f0a3c2e06a944a59e042aae8a1a1f7b~mv2_d_2048_1365_s_2.jpg",
-    "width": 2048,
-    "height": 1365,
-    "id": 33,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-33-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-autumn-33-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-33-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-33-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-autumn-33-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-33-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-autumn-33-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-autumn-33"
-  },
-  {
-    "dressName": "Autumn",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_eaed97aedf0140b49fd18647f2b75305~mv2.jpg",
-    "width": 640,
-    "height": 960,
-    "id": 34,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-34-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-autumn-34-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-34-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-34-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-autumn-34-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-34-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-autumn-34-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-autumn-34"
-  },
-  {
-    "dressName": "Autumn",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_5dd2ddccef84482ea86a993069515c39~mv2.jpg",
-    "width": 640,
-    "height": 960,
-    "id": 35,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-35-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-autumn-35-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-35-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-35-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-autumn-35-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-35-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-autumn-35-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-autumn-35"
-  },
-  {
-    "dressName": "Autumn",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_f87a67ac72a54488895cc998d514347c~mv2.jpg",
-    "width": 828,
-    "height": 926,
-    "id": 36,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-autumn-36-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-autumn-36-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-autumn-36-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-autumn-36-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-autumn-36-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-autumn-36-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-autumn-36-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-autumn-36"
+    "description_html": "Voici une description HTML optimisée pour le SEO d'une robe de mariée, en suivant la structure demandée.  Veuillez noter que je dois faire des suppositions sur les caractéristiques de la robe car l'image ne fournit pas assez de détails techniques.  Remplacez les informations entre crochets par les caractéristiques réelles de la robe.\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Bohème \"Ambre\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène bohème élégante et raffinée</strong>, disponible en exclusivité chez Monica Mariage à Toulouse.  Cette magnifique robe de mariée en dentelle et soie offre une silhouette sublime et flatteuse, idéale pour un mariage romantique et chic.  Le dos nu et les manches 3/4 ajoutent une touche de sensualité et d'originalité.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage en dentelle chantilly rebrodée de perles,  décolleté en V plongeant, manches 3/4 en dentelle, fermeture invisible au dos.</li>\n            <li><strong>Jupe</strong> : Jupe sirène fluide en soie, légèrement évasée au niveau des genoux, offrant un tombé impeccable et une grande légèreté.  Doublure en soie naturelle pour un confort optimal.</li>\n            <li><strong>Finitions</strong> :  Dentelle de haute qualité, perles finement cousues, ourlet impeccable, finitions soignées à la main.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Choix de la couleur de la dentelle (blanc cassé, ivoire, champagne)</li>\n            <li>Modification de la longueur des manches</li>\n            <li>Ajout d'un voile assorti</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils pour améliorer le SEO:**\n\n* **Mots clés:**  Intégrez des mots clés pertinents dans le texte, tels que \"robe de mariée Toulouse,\" \"robe sirène,\" \"robe dentelle,\" \"robe bohème,\" \"mariage chic,\" etc.  Utilisez un outil de recherche de mots clés pour identifier les termes les plus recherchés.\n* **Balises méta:**  Ajoutez des balises méta description et title pour optimiser le référencement sur les moteurs de recherche.  Incluez vos mots clés les plus importants.\n* **Images:**  Optimisez les images avec des noms de fichiers et des attributs alt descriptifs contenant des mots clés.\n* **Liens internes:**  Liez cette description à d'autres pages de votre site web (galerie, contact, etc.).\n* **Structure HTML:**  Assurez-vous que la structure HTML est propre et bien organisée pour faciliter le crawl des moteurs de recherche.\n\n\nN'oubliez pas de remplacer les informations fictives par les vraies caractéristiques de la robe de mariée.\n",
+    "descriptionCourte": "Voici la description refaite en moins de 140 mots :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Bohème \"Ambre\" - Monica Mariage Toulouse</h2>\n    <p><strong>Élégante et raffinée</strong>, cette robe de mariée en dentelle et soie offre une silhouette sublime et flatteuse.  Le dos nu et les manches 3/4 ajoutent une touche de sensualité et d'originalité.  <strong>Exclusivité à Toulouse</strong>, chez Monica Mariage.  Corsage en dentelle chantilly rebrodée de perles, jupe sirène fluide en soie, finitions soignées à la main.  <strong>Personnalisation possible</strong> : choix de la couleur de la dentelle, modification de la longueur des manches, ajout d"
   },
   {
     "dressName": "Jade",
@@ -754,88 +225,19 @@
     "id": 37,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-jade-37-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-jade-37-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-jade-37-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-jade-37-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-jade-37-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-jade-37-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-jade-37-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-jade-37-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-jade-37-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-jade-37-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-jade-37-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-jade-37",
-    "description_html": "Voici une description HTML optimisée pour le SEO pour une robe de mariée de Monica Mariage Toulouse, en suivant la structure demandée.  J'ai dû faire quelques suppositions sur les détails de la robe, car l'image ne fournit pas assez d'informations techniques.  Vous devrez adapter cette description avec les informations exactes de la robe.\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Séduction\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et raffinée, rebrodée de dentelle de luxe</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée, au style intemporel et romantique,  mettra subtilement en valeur votre silhouette grâce à sa coupe sirène.  La dentelle fine et travaillée apporte une touche de sophistication inégalée pour un jour unique.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage en dentelle rebrodée,  décolleté en V plongeant,  soutien-gorge intégré pour un maintien parfait. Bretelles fines et élégantes.</li>\n            <li><strong>Jupe</strong> : Jupe sirène fluide et élégante,  confectionnée dans un tissu satiné de haute qualité.  La jupe s'élargit légèrement à partir des genoux pour une allure féminine et gracieuse.  Train de chapelle léger.</li>\n            <li><strong>Finitions</strong> : Dentelle rebrodée à la main,  perles et paillettes ajoutant des points de lumière discrets.  Doublure en satin doux pour un confort optimal. Fermeture éclair invisible au dos.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modifications de la longueur de la robe et du train de la chapelle.</li>\n            <li>Ajustements de la taille et du buste pour une coupe parfaite.</li>\n            <li>Choix de la couleur du tissu et des finitions (sous réserve de disponibilité).</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils d'optimisation SEO:**\n\n* **Mots clés:**  Utilisez des mots clés pertinents tels que \"robe de mariée Toulouse,\" \"robe de mariée sirène,\" \"robe de mariée dentelle,\" \"Monica Mariage,\"  etc.  Intégrez-les naturellement dans le texte.\n* **Balises Title et Meta Description:**  Optimisez les balises `<title>` et `<meta name=\"description\">` de votre page pour inclure les mots clés les plus importants.\n* **Images:**  Utilisez des images de haute qualité avec des noms de fichiers descriptifs (ex: robe-mariée-dentelle-toulouse.jpg).  Ajoutez des balises `alt` aux images décrivant le contenu.\n* **Liens internes:**  Liez cette description à d'autres pages de votre site Web, telles que la page de contact de Monica Mariage ou une page présentant d'autres robes de mariée.\n* **Structure du contenu:** La structure HTML claire améliore le référencement.\n\n\nN'oubliez pas de remplacer les informations hypothétiques par les détails précis de la robe de mariée.\n"
-  },
-  {
-    "dressName": "Jade",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_27ef1ca8af414a53baf6f82144b39643~mv2_d_3648_5472_s_4_2.jpg",
-    "width": 3648,
-    "height": 5472,
-    "id": 38,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-jade-38-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-jade-38-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-jade-38-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-jade-38-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-jade-38-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-jade-38-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-jade-38-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-jade-38"
-  },
-  {
-    "dressName": "Jade",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_548c60b9de004b4f9188001159b4cbb7~mv2.jpg",
-    "width": 534,
-    "height": 534,
-    "id": 39,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-jade-39-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-jade-39-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-jade-39-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-jade-39-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-jade-39-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-jade-39-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-jade-39-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-jade-39"
-  },
-  {
-    "dressName": "Jade",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_84cd1901d6c34cfcbfddcefae5bc31a7~mv2.jpg",
-    "width": 684,
-    "height": 684,
-    "id": 40,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-jade-40-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-jade-40-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-jade-40-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-jade-40-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-jade-40-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-jade-40-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-jade-40-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-jade-40"
+    "description_html": "Voici une description HTML optimisée pour le SEO pour une robe de mariée de Monica Mariage Toulouse, en suivant la structure demandée.  J'ai dû faire quelques suppositions sur les détails de la robe, car l'image ne fournit pas assez d'informations techniques.  Vous devrez adapter cette description avec les informations exactes de la robe.\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Séduction\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène élégante et raffinée, rebrodée de dentelle de luxe</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée, au style intemporel et romantique,  mettra subtilement en valeur votre silhouette grâce à sa coupe sirène.  La dentelle fine et travaillée apporte une touche de sophistication inégalée pour un jour unique.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage en dentelle rebrodée,  décolleté en V plongeant,  soutien-gorge intégré pour un maintien parfait. Bretelles fines et élégantes.</li>\n            <li><strong>Jupe</strong> : Jupe sirène fluide et élégante,  confectionnée dans un tissu satiné de haute qualité.  La jupe s'élargit légèrement à partir des genoux pour une allure féminine et gracieuse.  Train de chapelle léger.</li>\n            <li><strong>Finitions</strong> : Dentelle rebrodée à la main,  perles et paillettes ajoutant des points de lumière discrets.  Doublure en satin doux pour un confort optimal. Fermeture éclair invisible au dos.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Modifications de la longueur de la robe et du train de la chapelle.</li>\n            <li>Ajustements de la taille et du buste pour une coupe parfaite.</li>\n            <li>Choix de la couleur du tissu et des finitions (sous réserve de disponibilité).</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils d'optimisation SEO:**\n\n* **Mots clés:**  Utilisez des mots clés pertinents tels que \"robe de mariée Toulouse,\" \"robe de mariée sirène,\" \"robe de mariée dentelle,\" \"Monica Mariage,\"  etc.  Intégrez-les naturellement dans le texte.\n* **Balises Title et Meta Description:**  Optimisez les balises `<title>` et `<meta name=\"description\">` de votre page pour inclure les mots clés les plus importants.\n* **Images:**  Utilisez des images de haute qualité avec des noms de fichiers descriptifs (ex: robe-mariée-dentelle-toulouse.jpg).  Ajoutez des balises `alt` aux images décrivant le contenu.\n* **Liens internes:**  Liez cette description à d'autres pages de votre site Web, telles que la page de contact de Monica Mariage ou une page présentant d'autres robes de mariée.\n* **Structure du contenu:** La structure HTML claire améliore le référencement.\n\n\nN'oubliez pas de remplacer les informations hypothétiques par les détails précis de la robe de mariée.\n",
+    "descriptionCourte": "<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Séduction\" - Monica Mariage Toulouse</h2>\n    <p><strong>Découvrez la robe de mariée sirène élégante et raffinée, rebrodée de dentelle de luxe</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée mettra subtilement en valeur votre silhouette grâce à sa coupe sirène et sa dentelle fine travaillée.</p>\n    <p>Caractéristiques de la robe : corsage en dentelle rebrodée, jupe sirène fluide en satiné de haute qualité, finitions en dentelle rebrodée à la main, perles et paillettes.</p>\n    <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette pour un ajustement parfait. <strong>Votre"
   },
   {
     "dressName": "Sélina",
@@ -847,87 +249,18 @@
     "id": 41,
     "optimizedImages": {
       "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-selina-41-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-selina-41-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-selina-41-slider-desktop.webp"
+        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-selina-41-slider-desktop.webp",
+        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-selina-41-slider-mobile.webp"
       },
       "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-selina-41-gallery-mobile.webp",
+        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-selina-41-gallery-desktop.webp",
         "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-selina-41-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-selina-41-gallery-desktop.webp"
+        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-selina-41-gallery-mobile.webp"
       },
       "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-selina-41-thumb.webp"
     },
     "urlBest": "monica-mariage-robe-de-mariee-sirene-selina-41",
-    "description_html": "Voici une description HTML optimisée pour le SEO d'une robe de mariée de Monica Mariage Toulouse, en suivant la structure fournie :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Élégance\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène, élégante et raffinée, rehaussée de dentelle fine</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée allie la sensualité d'une coupe sirène à la sophistication d'une dentelle délicate.  Parfait pour un mariage chic et romantique, ce modèle met en valeur la silhouette féminine grâce à sa coupe près du corps et sa longue traîne fluide.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage off-shoulder orné d'une dentelle florale rebrodée de perles. Décolleté en cœur flatteur.  Doublure en soie pour un confort optimal.</li>\n            <li><strong>Jupe</strong> : Jupe sirène moulante épousant les courbes du corps, se terminant par une longue traîne en tulle léger. La jupe est agrémentée d'une double couche de tulle pour un effet volumétrique et délicat.  Bordée d'une dentelle fine pour une finition raffinée.</li>\n            <li><strong>Finitions</strong> :  Dentelle française de haute qualité,  fermeture invisible au dos,  ourlet soigné et invisible.  Boutons recouverts de tissu dans le dos.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Choix de la couleur de la dentelle (blanc, ivoire, crème)</li>\n            <li>Modification de la longueur de la traîne</li>\n            <li>Ajout de manches (si désiré)</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils pour l'optimisation SEO :**\n\n* **Mots clés :**  J'ai intégré des mots clés pertinents tels que \"robe de mariée sirène,\" \"robe de mariée dentelle,\" \"Monica Mariage Toulouse,\" \"robe de mariée chic,\" \"coupe sirène,\" \"mariage romantique,\" etc.  Assurez-vous d'utiliser des mots clés pertinents à votre public cible.\n* **Titre :**  Le titre H2 est concis et inclut des mots clés importants.\n* **Description :** Les descriptions sont claires, concises et utilisent un langage naturel.\n* **Structure HTML :**  L'utilisation des sections et des listes facilite la lecture pour les moteurs de recherche et les utilisateurs.\n* **Images :**  N'oubliez pas d'ajouter des images de haute qualité de la robe avec des attributs alt text contenant des mots clés pertinents.\n\n**Pour une optimisation supplémentaire :**\n\n* Ajoutez des méta-descriptions et des titres pour chaque page.\n* Utilisez des schémas de données pour fournir plus d'informations aux moteurs de recherche.\n* Créez du contenu supplémentaire autour de la robe (blog posts, articles, etc.) pour améliorer le référencement.\n* Utilisez des liens internes vers d'autres robes et pages de votre site.\n\n\nN'oubliez pas de remplacer \"[Style]\" et \"[Nom]\" dans le code HTML par le style et le nom réel de la robe.  Ce modèle vous donne une base solide à partir de laquelle vous pouvez améliorer le SEO de votre page produit.\n"
-  },
-  {
-    "dressName": "Sélina",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_fd375a4f30e544a3bcc0fdd3562d516e~mv2_d_3024_4032_s_4_2.jpg",
-    "width": 3024,
-    "height": 4032,
-    "id": 42,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-selina-42-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-selina-42-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-selina-42-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-selina-42-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-selina-42-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-selina-42-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-selina-42-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-selina-42"
-  },
-  {
-    "dressName": "Sélina",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_5109a542231f418f8ed86101ba4d50a4~mv2.jpg",
-    "width": 720,
-    "height": 960,
-    "id": 43,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-selina-43-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-selina-43-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-selina-43-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-selina-43-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-selina-43-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-selina-43-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-selina-43-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-selina-43"
-  },
-  {
-    "dressName": "Sélina",
-    "price": "",
-    "category": "forme-sirene",
-    "imageUrl": "https://static.wixstatic.com/media/176703_8c40a6ff77e34e118139dd6f5d764a93~mv2.jpg",
-    "width": 720,
-    "height": 960,
-    "id": 44,
-    "optimizedImages": {
-      "slider": {
-        "mobile": "/images/robes/slider/mobile/monica-mariage-robe-de-mariee-sirene-selina-44-slider-mobile.webp",
-        "tablet": "/images/robes/slider/tablet/monica-mariage-robe-de-mariee-sirene-selina-44-slider-tablet.webp",
-        "desktop": "/images/robes/slider/desktop/monica-mariage-robe-de-mariee-sirene-selina-44-slider-desktop.webp"
-      },
-      "gallery": {
-        "mobile": "/images/robes/gallery/mobile/monica-mariage-robe-de-mariee-sirene-selina-44-gallery-mobile.webp",
-        "tablet": "/images/robes/gallery/tablet/monica-mariage-robe-de-mariee-sirene-selina-44-gallery-tablet.webp",
-        "desktop": "/images/robes/gallery/desktop/monica-mariage-robe-de-mariee-sirene-selina-44-gallery-desktop.webp"
-      },
-      "thumbnail": "/images/robes/thumbnails/monica-mariage-robe-de-mariee-sirene-selina-44-thumb.webp"
-    },
-    "urlBest": "monica-mariage-robe-de-mariee-sirene-selina-44"
+    "description_html": "Voici une description HTML optimisée pour le SEO d'une robe de mariée de Monica Mariage Toulouse, en suivant la structure fournie :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Élégance\" - Monica Mariage Toulouse</h2>\n    \n    <section class=\"presentation\">\n        <p><strong>Robe de mariée sirène, élégante et raffinée, rehaussée de dentelle fine</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe de mariée allie la sensualité d'une coupe sirène à la sophistication d'une dentelle délicate.  Parfait pour un mariage chic et romantique, ce modèle met en valeur la silhouette féminine grâce à sa coupe près du corps et sa longue traîne fluide.</p>\n    </section>\n\n    <section class=\"details-techniques\">\n        <p>Caractéristiques de la robe :</p>\n        <ul>\n            <li><strong>Corsage</strong> : Corsage off-shoulder orné d'une dentelle florale rebrodée de perles. Décolleté en cœur flatteur.  Doublure en soie pour un confort optimal.</li>\n            <li><strong>Jupe</strong> : Jupe sirène moulante épousant les courbes du corps, se terminant par une longue traîne en tulle léger. La jupe est agrémentée d'une double couche de tulle pour un effet volumétrique et délicat.  Bordée d'une dentelle fine pour une finition raffinée.</li>\n            <li><strong>Finitions</strong> :  Dentelle française de haute qualité,  fermeture invisible au dos,  ourlet soigné et invisible.  Boutons recouverts de tissu dans le dos.</li>\n        </ul>\n    </section>\n\n    <section class=\"personnalisation\">\n        <p>Chez Monica Mariage, nous adaptons chaque robe à votre silhouette :</p>\n        <ul>\n            <li>Choix de la couleur de la dentelle (blanc, ivoire, crème)</li>\n            <li>Modification de la longueur de la traîne</li>\n            <li>Ajout de manches (si désiré)</li>\n            <li>Ajustements personnalisés selon votre morphologie</li>\n        </ul>\n    </section>\n</section>\n```\n\n**Conseils pour l'optimisation SEO :**\n\n* **Mots clés :**  J'ai intégré des mots clés pertinents tels que \"robe de mariée sirène,\" \"robe de mariée dentelle,\" \"Monica Mariage Toulouse,\" \"robe de mariée chic,\" \"coupe sirène,\" \"mariage romantique,\" etc.  Assurez-vous d'utiliser des mots clés pertinents à votre public cible.\n* **Titre :**  Le titre H2 est concis et inclut des mots clés importants.\n* **Description :** Les descriptions sont claires, concises et utilisent un langage naturel.\n* **Structure HTML :**  L'utilisation des sections et des listes facilite la lecture pour les moteurs de recherche et les utilisateurs.\n* **Images :**  N'oubliez pas d'ajouter des images de haute qualité de la robe avec des attributs alt text contenant des mots clés pertinents.\n\n**Pour une optimisation supplémentaire :**\n\n* Ajoutez des méta-descriptions et des titres pour chaque page.\n* Utilisez des schémas de données pour fournir plus d'informations aux moteurs de recherche.\n* Créez du contenu supplémentaire autour de la robe (blog posts, articles, etc.) pour améliorer le référencement.\n* Utilisez des liens internes vers d'autres robes et pages de votre site.\n\n\nN'oubliez pas de remplacer \"[Style]\" et \"[Nom]\" dans le code HTML par le style et le nom réel de la robe.  Ce modèle vous donne une base solide à partir de laquelle vous pouvez améliorer le SEO de votre page produit.\n",
+    "descriptionCourte": "Voici la description refaite en moins de 140 mots, optimisée pour le SEO et mettant en avant les points forts de la robe :\n\n```html\n<section class=\"robe-description\">\n    <h2>Robe de mariée Sirène Dentelle \"Élégance\" - Monica Mariage Toulouse</h2>\n    <p><strong>Robe de mariée sirène élégante et raffinée</strong>, disponible en exclusivité chez Monica Mariage à Toulouse. Cette sublime robe allie sensualité et sophistication, mettant en valeur la silhouette féminine grâce à sa coupe près du corps et sa longue traîne fluide. <strong>Dentelle fine, corsage off-shoulder et jupe sirène moulante</strong> pour un mariage chic et romantique.</p>\n    <p>Personnalisez votre robe avec nous : choix de couleur de dentelle, modification de"
   }
 ]

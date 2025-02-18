@@ -9,17 +9,17 @@ export default function DressInfo({ robe }) {
 
   useEffect(() => {
     if (robe) {
-      setSafeDescription(DOMPurify.sanitize(robe.description_html));
+      setSafeDescription(DOMPurify.sanitize(robe.descriptionCourte));
     }
   }, [robe]);
 
   return (
     <>
       <h1 className="text-3xl font-bold text-[#af7749] mb-4">
-        {robe.dressName}
+        Robe de mariée {robe.dressName}
       </h1>
       <p
-        className="text-gray-700 leading-relaxed"
+        className="text-gray-700 text-xl leading-relaxed"
         dangerouslySetInnerHTML={{ __html: safeDescription }}
       />
 
