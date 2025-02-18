@@ -258,7 +258,7 @@ export default function DressImageSlider({ allImages, robe }) {
                       ?.mobile ||
                     allImages[currentImageIndex]?.imageUrl
                   }
-                  alt={robe.dressName}
+                  alt={robe.altOptimised || "Image"}
                   fill
                   style={{ objectFit: "cover" }}
                   sizes="(max-width: 768px) 95vw, 50vw"
@@ -322,7 +322,7 @@ export default function DressImageSlider({ allImages, robe }) {
           >
             <Image
               src={img.optimizedImages?.gallery?.mobile || img.imageUrl}
-              alt={`${robe.dressName} - vue ${index + 1}`}
+              alt={`${robe?.altOptimised}` || "Image"}
               fill
               sizes="80px"
               className="object-cover rounded"
@@ -404,7 +404,7 @@ export default function DressImageSlider({ allImages, robe }) {
                           ?.mobile ||
                         allImages[currentImageIndex]?.imageUrl
                       }
-                      alt={robe.dressName}
+                      alt={robe?.altOptimised || "Image"}
                       fill
                       quality={100}
                       style={{ objectFit: "cover" }}

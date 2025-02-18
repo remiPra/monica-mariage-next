@@ -212,7 +212,7 @@ export default function BoutiquePage() {
           </div>
         </section>
         {/* Calendrier */}
-        <section className="py-12 bg-white">
+        {/* <section className="py-12 bg-white">
           <div className="max-w-3xl mx-auto">
             <h3 className="text-2xl text-[#885c44] mb-6">Planning et délais</h3>
             <p className="text-gray-700 mb-4 text-2xl">
@@ -229,7 +229,7 @@ export default function BoutiquePage() {
               Votre robe sera prête environ 1 mois avant votre cérémonie.
             </p>
           </div>
-        </section>
+        </section> */}
         {/* Organisation */}
         {/* <section className="py-12 bg-[#f9f3f0]">
           <div className="max-w-3xl mx-auto">
@@ -264,7 +264,7 @@ export default function BoutiquePage() {
           </div>
         </section>
         {/* Contact */}
-        <section className="py-12 bg-[#f9f3f0]">
+        {/* <section className="py-12 bg-[#f9f3f0]">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl text-[#885c44] mb-6">
               Contact et localisation
@@ -274,7 +274,7 @@ export default function BoutiquePage() {
               de Toulouse.
             </p>
           </div>
-        </section>
+        </section> */}
         {/* Note */}
         <div className="py-8 bg-white">
           <p className="max-w-3xl text-2xl mx-auto text-center italic text-gray-600">

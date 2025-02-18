@@ -30,6 +30,7 @@ export default function DressDetailPage() {
 
         const robeTrouvee = data.find((r) => r.id === parseInt(id));
         if (robeTrouvee) {
+          console.log(robeTrouvee);
           // Toutes les images associées à la robe (si le JSON en contient plusieurs)
           const imagesAssociees = data.filter(
             (r) => r.dressName === robeTrouvee.dressName
@@ -80,7 +81,8 @@ export default function DressDetailPage() {
         <div className="w-full lg:w-1/2">
           <DressImageSlider allImages={allImages} robe={robe} />
         </div>
-
+        {/* Utilisation de dangerouslySetInnerHTML */}
+        {/* <div dangerouslySetInnerHTML={{ __html: robe.Accordeon }} /> */}
         {/* Section Infos */}
         <div className="w-full lg:w-1/2">
           <DressInfo robe={robe} />
@@ -88,7 +90,11 @@ export default function DressDetailPage() {
       </div>
 
       {/* Section "Vous pourriez aussi aimer" */}
-      <RelatedDressesView currentDressId={robe.id} dresses={allDresses} />
+      <RelatedDressesView
+        categorie="forme-sirene"
+        currentDressId={robe.id}
+        dresses={allDresses}
+      />
       {/* Floating Button pour le Chat (mobile only) */}
       {/* Boutons d'actions mobiles */}
       <MobileActions

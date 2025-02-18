@@ -7,7 +7,7 @@ import Link from "next/link";
 import { FaWhatsapp, FaPhone, FaHeart } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { IoClose } from "react-icons/io5";
-import { TiPhone, TiPhoneOutline } from "react-icons/ti";
+import { TiPhone, TiPhoneOutline, TiThMenu } from "react-icons/ti";
 // import { IoHomeOutline } from "react-icons/io5";
 import { FaBridalWear, FaPercent, FaPencilAlt } from "react-icons/fa";
 import { GiDressIcons, GiClothespin } from "react-icons/gi";
@@ -99,12 +99,19 @@ export default function Header() {
             rel="noopener noreferrer"
             className="flex items-center gap-1"
           >
-            <FaWhatsapp className="text-lg" />
+            <FaWhatsapp className="text-2xl" />
           </a>
-          06 68 30 09 60
+          <a
+            href="https://wa.me/33668300960"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-xl"
+          >
+            06 68 30 09 60
+          </a>
           {/* Lien téléphone */}
           <a href="tel:+33668300960" className="flex items-center gap-1">
-            <TiPhone className="text-lg" />
+            <TiPhone className="text-2xl" />
           </a>
         </div>
       </div>
@@ -158,21 +165,7 @@ export default function Header() {
           >
             Trouver le showroom
           </Link>
-          <button className="text-[#7A5C4B] hover:text-[#A37B63]">
-            <svg
-              className="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
-          </button>
+
           <Link href="/favoris">
             <FaHeart className="w-5 h-5 text-[#7A5C4B] hover:text-[#A37B63]" />
           </Link>
@@ -185,7 +178,7 @@ export default function Header() {
           onClick={() => setMobileMenuOpen(true)}
           className="text-[#7A5C4B]"
         >
-          ☰
+          <TiThMenu className="w-8 h-8" />
         </button>
         <h1 className="text-[#7A5C4B] font-cursive italic text-2xl">
           MonicaMariage

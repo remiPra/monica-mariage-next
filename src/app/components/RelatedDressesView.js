@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const RelatedDressesView = ({ currentDressId, dresses }) => {
+const RelatedDressesView = ({ currentDressId, dresses, categorie }) => {
   // Filtrer les robes pour exclure celle actuellement sélectionnée
   const filteredDresses = dresses.filter(
     (dress) => dress.id !== currentDressId
@@ -13,6 +13,10 @@ const RelatedDressesView = ({ currentDressId, dresses }) => {
   const randomDresses = filteredDresses
     .sort(() => 0.5 - Math.random())
     .slice(0, 6);
+  console.log(
+    "Robes sélectionnées :",
+    randomDresses.map((dress) => dress.id)
+  );
 
   return (
     <div className="max-w-7xl mx-auto px-6 mt-20">
@@ -23,13 +27,13 @@ const RelatedDressesView = ({ currentDressId, dresses }) => {
         {randomDresses.map((dress) => (
           <Link
             key={dress.id}
-            href={`/robes-de-mariee/style-boheme-chic/dress/${dress.id}`}
+            href={`/robes-de-mariee/${categorie}/dress/${dress.id}`}
             className="group relative overflow-hidden rounded-lg shadow-md cursor-pointer"
           >
             <div className="relative aspect-[3/4]">
               <Image
                 src={dress.imageUrl}
-                alt={dress.dressName}
+                alt={dress.altOptimised || dress.dressName}
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"

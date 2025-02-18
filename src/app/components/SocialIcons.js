@@ -30,7 +30,7 @@ const SocialIcons = ({ center }) => {
         <FaWhatsapp size={iconSize} color={iconColor} />
       </a>
       <a
-        href="https://www.instagram.com/votre_profil"
+        href="https://www.instagram.com/monicamariage/"
         target="_blank"
         rel="noopener noreferrer"
       >

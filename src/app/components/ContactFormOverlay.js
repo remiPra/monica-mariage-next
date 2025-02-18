@@ -81,7 +81,10 @@ export default function ContactFormOverlay() {
           animation: "slideUp 0.3s ease-out forwards", // Animation de la carte
         }}
       >
-        <button className="text-6xl" onClick={handleClose}>
+        <button
+          className="text-3xl bg-customBrown text-white p-6"
+          onClick={handleClose}
+        >
           &times;
         </button>
         <h2 style={{ margin: "0 0 16px", color: "#af7749" }}>

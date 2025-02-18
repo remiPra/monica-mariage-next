@@ -5,6 +5,8 @@ import VideoSlider from "./components/VideoSlider";
 import Header from "./components/Header";
 import Loader from "./components/LoaderMonicaMariage";
 import SocialIcons from "./components/SocialIcons";
+import GalleryIconmainPage from "./components/GalleryIconmainPage";
+import FloatingButtonMainPage from "./components/FloatingButtonMainPage";
 
 export default function Home() {
   return (
@@ -58,46 +60,57 @@ export default function Home() {
       <VideoSlider />
 
       {/* Bloc Catégories */}
-      <section className="py-5 bg-white">
-        <div className="flex justify-around items-center">
+      {/* Bloc Catégories */}
+      <section id="categorie" className="py-5 bg-white">
+        <div className="grid cursor-pointer grid-cols-2 md:grid-cols-4 gap-6 justify-items-center items-center">
           {[
-            "Robes de mariée Princesse et évasée",
-            "Robes de mariée A-line élégantes",
-            "Robes de mariée bustier glamour",
-            "Robes de mariée dos nu sophistiquées",
+            "Robes de mariée forme princesse",
+            "Robes de mariée forme sirène",
+            "Robes de mariée minimaliste",
+            "Robes de mariée style boheme chic ",
           ].map((text, index) => (
-            <div key={index} className="text-center w-36">
+            <div
+              key={index}
+              className="text-center w-36 p-4 rounded-lg transition-all duration-300 ease-in-out 
+                   hover:scale-110 border-red-300 border-1 hover:bg-customBrown hover:shadow-lg"
+            >
               <img
                 src="image/iconerobe.png"
                 alt={`Icône - ${text}`}
-                className="w-24 mx-auto mb-2"
+                className="w-24 mx-auto mb-2 rounded-full transition-opacity duration-300 hover:opacity-80"
               />
-              <p className="text-base text-black">{text}</p>
+              <p className="text-base text-black hover:text-white font-medium transition-colors duration-300">
+                {text}
+              </p>
             </div>
           ))}
         </div>
       </section>
 
       {/* Bloc Présentation (NE PAS MODIFIER) */}
-      <section className="text-center py-12 bg-gradient-to-b from-[#FDE9E6] to-white">
-        <h1 className="text-3xl font-semibold text-[#af7749] mb-4">
-          Robes De Mariée Toulouse
-        </h1>
-        <img
-          src="image/iconerobe.png"
-          alt="Robes de mariée icon"
-          className="w-36 rounded-full mx-auto mb-4"
-        />
-        <p className="max-w-3xl mx-auto text-lg text-black leading-relaxed mb-8">
-          La boutique de mariage est conçue comme un showroom privé à Seysses
-          près de Toulouse. Nous sommes heureux de vous accompagner pour la
-          confection des robes de mariée sur-mesure et personnalisable jusqu'à
-          la taille 44. Le tarif d'une robe de mariée sur-mesure se situe entre
-          750€ et 1850€.
-        </p>
-        <button className="bg-[#af7749] text-white py-2 px-6 rounded-lg shadow hover:bg-[#925c36] transition duration-300">
-          Voir nos robes
-        </button>
+      <section className="py-12 bg-gradient-to-b from-white to-[#FDE9E6]">
+        <h2 className="text-center text-3xl font-semibold text-[#af7749] mb-8">
+          Meilleures ventes chez Monica Mariage&nbsp;: Des robes de mariée
+          incontournables à Toulouse
+        </h2>
+
+        {/* Section avec grille optimisée */}
+        <GalleryIconmainPage />
+        <FloatingButtonMainPage />
+        {/* Texte et bouton */}
+        <div className="flex flex-col items-center mt-8 px-4">
+          <p className="max-w-2xl mx-auto text-lg text-black leading-relaxed mb-6 text-center">
+            Découvrez notre sélection de best-sellers, conçus pour sublimer
+            chaque future mariée à la recherche d’une robe de mariée à Toulouse.
+            Nous proposons des coupes variées (princesse, sirène, bohème, etc.)
+            afin de répondre à tous les styles et toutes les silhouettes.
+            Profitez de nos conseils d’experts pour trouver la robe parfaite qui
+            vous fera rayonner le jour de votre mariage.
+          </p>
+          <button className="bg-[#af7749] text-white py-2 px-6 rounded-lg shadow-lg hover:bg-[#925c36] transition duration-300">
+            Voir plus de robes
+          </button>
+        </div>
       </section>
 
       {/* Bloc Bestsellers */}

@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../components/Header";
 import SocialIcons from "../components/SocialIcons";
 import { motion } from "framer-motion";
+import Loader from "../components/LoaderMonicaMariage";
 
 export default function Page() {
   const fadeInAnimation = {
@@ -14,7 +15,7 @@ export default function Page() {
   return (
     <>
       <Header />
-
+      <Loader text="Prise de Rendez Vous " />
       <motion.div
         className="bg-[#a37b63] container my-[70px] mx-auto mt-[70px]"
         {...fadeInAnimation}
@@ -126,13 +127,13 @@ export default function Page() {
 
             {/* Tout le contenu en z-10 pour être par-dessus l'overlay */}
             <div className="relative z-10">
-              <div className="block md:hidden mt-5">
+              <div className="block mt-8 md:hidden mb-8 ">
                 <SocialIcons center="center" />
               </div>
 
               {/* Titre visible UNIQUEMENT sur mobile */}
               <motion.h1
-                className="mt-5 block md:hidden font-cursive text-center text-5xl font-script text-white mb-4"
+                className="mt-5 block md:hidden font-cursive text-center text-5xl font-script text-white mb-10"
                 {...fadeInAnimation}
               >
                 Monica Mariage
