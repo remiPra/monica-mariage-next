@@ -12,6 +12,7 @@ import RelatedDressesView from "@/app/components/RelatedDressesView";
 
 export default function DressDetailPage() {
   const { id } = useParams();
+  const [allDresses, setAllDresses] = useState([]);
 
   const [robe, setRobe] = useState(null);
   const [allImages, setAllImages] = useState([]);
