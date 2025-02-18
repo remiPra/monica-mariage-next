@@ -25,6 +25,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
+      <head>
+        {/* Ajoute la balise manifest ici */}
+        <link rel="manifest" href="/manifest.json" />
+        {/* Assure-toi d'avoir la même couleur que dans le manifest */}
+        <meta name="theme-color" content="#8936FF" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${greatVibes.variable} antialiased`}
       >
