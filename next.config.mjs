@@ -13,7 +13,7 @@ const withPWA = nextPwa({
   dest: "public", // dossier où le service worker sera généré
   register: true, // auto-registration du service worker
   skipWaiting: true, // force l'update dès qu'un nouveau SW est dispo
-  disable: process.env.NODE_ENV === "development", // désactiver en mode dev
+  disable: false, // toujours actif pour le test
 });
 
 // On "wrap" la config Next.js avec la config PWA
