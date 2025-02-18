@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono, Great_Vibes } from "next/font/google";
 import "./globals.css";
 import A2HSBanner from "./components/A2HSBanner";
+import ContactFormOverlay from "./components/ContactFormOverlay";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
       >
         {children}
         <A2HSBanner />
+        <ContactFormOverlay />
       </body>
     </html>
   );

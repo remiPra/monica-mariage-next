@@ -7,33 +7,29 @@ export default function A2HSBanner() {
   const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
-    // 1. Intercepter l'événement 'beforeinstallprompt'
     const handler = (e) => {
-      e.preventDefault(); // Empêche l'affichage auto
-      setDeferredPrompt(e); // Stocke l'événement
+      e.preventDefault();
+      setDeferredPrompt(e);
     };
 
     window.addEventListener("beforeinstallprompt", handler);
 
-    // 2. Après 30 secondes, si on a intercepté un événement,
-    //    on affiche la bannière.
+    // On attend 30 secondes avant d'afficher le banner
     const timer = setTimeout(() => {
       if (deferredPrompt) {
         setShowBanner(true);
       }
-    }, 30000);
+    }, 90000);
 
-    // Nettoyage à la fin
     return () => {
       window.removeEventListener("beforeinstallprompt", handler);
       clearTimeout(timer);
     };
   }, [deferredPrompt]);
 
-  // 3. Quand l'utilisateur clique sur "Installer"
   const handleInstallClick = async () => {
     if (!deferredPrompt) return;
-    deferredPrompt.prompt(); // Affiche la boîte de dialogue
+    deferredPrompt.prompt();
     const { outcome } = await deferredPrompt.userChoice;
     if (outcome === "accepted") {
       console.log("Utilisateur a accepté l'installation");
@@ -44,36 +40,77 @@ export default function A2HSBanner() {
     setShowBanner(false);
   };
 
-  // 4. Affichage d'une bannière personnalisée
+  const handleClose = () => {
+    setShowBanner(false);
+  };
+
   return (
     <>
       {showBanner && (
         <div
           style={{
             position: "fixed",
-            bottom: 0,
+            top: 0,
             left: 0,
             right: 0,
-            background: "white",
-            padding: "16px",
-            borderTop: "1px solid #ccc",
-            textAlign: "center",
+            bottom: 0,
+            zIndex: 9999,
+            backgroundColor: "rgba(0, 0, 0, 0.8)",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
           }}
         >
-          <p>Installer l'application Monica Mariage ?</p>
+          {/* Bouton de fermeture en haut à droite */}
           <button
+            onClick={handleClose}
             style={{
-              marginTop: "8px",
-              padding: "8px 16px",
-              backgroundColor: "#af7749",
-              color: "white",
+              position: "absolute",
+              top: "16px",
+              right: "16px",
+              background: "transparent",
               border: "none",
-              borderRadius: "4px",
+              color: "#fff",
+              fontSize: "24px",
+              cursor: "pointer",
             }}
-            onClick={handleInstallClick}
           >
-            Installer
+            &times;
           </button>
+
+          {/* Contenu principal de l'overlay */}
+          <div
+            style={{
+              backgroundColor: "#fff",
+              padding: "24px",
+              borderRadius: "8px",
+              textAlign: "center",
+              maxWidth: "500px",
+              width: "90%",
+            }}
+          >
+            <h2 style={{ margin: "0 0 16px" }}>
+              Installer l'application Monica Mariage ?
+            </h2>
+            <p style={{ marginBottom: "24px" }}>
+              Profitez d'une expérience complète en l'installant sur votre
+              appareil.
+            </p>
+            <button
+              onClick={handleInstallClick}
+              style={{
+                backgroundColor: "#af7749",
+                color: "#fff",
+                padding: "12px 24px",
+                border: "none",
+                borderRadius: "4px",
+                cursor: "pointer",
+              }}
+            >
+              Installer
+            </button>
+          </div>
         </div>
       )}
     </>
