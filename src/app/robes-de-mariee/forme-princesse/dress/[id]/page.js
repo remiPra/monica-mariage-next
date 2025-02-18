@@ -28,11 +28,20 @@ export default function DressDetailPage() {
 
         const robeTrouvee = data.find((r) => r.id === parseInt(id));
         if (robeTrouvee) {
+          // Toutes les images associées à la robe (si le JSON en contient plusieurs)
           const imagesAssociees = data.filter(
             (r) => r.dressName === robeTrouvee.dressName
           );
           setRobe(robeTrouvee);
           setAllImages(imagesAssociees);
+
+          // Filtre la robe actuelle et sélectionne 6 robes aléatoires parmi les autres
+          const autresRobes = data.filter((r) => r.id !== parseInt(id));
+          const robesAleatoires = autresRobes
+            .sort(() => 0.5 - Math.random()) // Mélange l’array
+            .slice(0, 6); // Garde seulement 6 résultats
+
+          setAllDresses(robesAleatoires);
           setIsLoading(false);
         }
       } catch (error) {

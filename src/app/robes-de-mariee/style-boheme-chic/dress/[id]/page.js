@@ -12,7 +12,7 @@ import RelatedDressesView from "@/app/components/RelatedDressesView";
 
 export default function DressDetailPage() {
   const { id } = useParams();
-
+  const [allDresses, setAllDresses] = useState([]);
   // Déclaration des états
   const [robe, setRobe] = useState(null);
   const [allImages, setAllImages] = useState([]);
@@ -30,16 +30,21 @@ export default function DressDetailPage() {
 
         const robeTrouvee = data.find((r) => r.id === parseInt(id));
         if (robeTrouvee) {
+          // Toutes les images associées à la robe (si le JSON en contient plusieurs)
           const imagesAssociees = data.filter(
             (r) => r.dressName === robeTrouvee.dressName
           );
           setRobe(robeTrouvee);
           setAllImages(imagesAssociees);
 
-          // Sélectionner 6 robes aléatoires (sauf celle actuelle)
+          // Filtre la robe actuelle et sélectionne 6 robes aléatoires parmi les autres
           const autresRobes = data.filter((r) => r.id !== parseInt(id));
-          const shuffled = autresRobes.sort(() => 0.5 - Math.random());
-          setRandomRobes(shuffled.slice(0, 6));
+          const robesAleatoires = autresRobes
+            .sort(() => 0.5 - Math.random()) // Mélange l’array
+            .slice(0, 6); // Garde seulement 6 résultats
+
+          setAllDresses(robesAleatoires);
+          setIsLoading(false);
 
           setIsLoading(false);
         }
