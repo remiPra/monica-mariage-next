@@ -14,6 +14,7 @@ import { SiGooglemaps } from "react-icons/si";
 import { TfiApple } from "react-icons/tfi";
 import { motion } from "framer-motion"; // Importez motion
 import NavigationLinks from "../components/NavigationLink";
+import Loader from "../components/LoaderMonicaMariage";
 
 function MapSection() {
   const fadeInAnimation = {
@@ -138,6 +139,7 @@ export default function Page() {
 
           {/* Section droite (Carte) */}
           <MapSection />
+          <Loader text="Ou nous trouver " />
         </div>
       </motion.div>
     </>

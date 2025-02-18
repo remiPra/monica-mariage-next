@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
+import Loader from "../components/LoaderMonicaMariage";
 
 const Page = () => {
   const [robes, setRobes] = useState([]);
@@ -46,6 +47,7 @@ const Page = () => {
     <>
       {/* HEADER */}
       <Header />
+      <Loader text="Chargement des robes de mariée" />
       {/* Contenu de la galerie */}
       <div className="pt-20 bg-white">
         {/* Hero Section */}

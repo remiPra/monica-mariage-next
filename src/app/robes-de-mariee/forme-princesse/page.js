@@ -7,6 +7,7 @@ import ComponentMainPage from "@/app/components/ComponentPageMain";
 function Page() {
   return (
     <>
+      <Loader text="Collection robe Princesse" />
       <ComponentMainPage json="/forme-princesse" />
     </>
   );
