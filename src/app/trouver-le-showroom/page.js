@@ -13,6 +13,7 @@ import { FaWaze } from "react-icons/fa";
 import { SiGooglemaps } from "react-icons/si";
 import { TfiApple } from "react-icons/tfi";
 import { motion } from "framer-motion"; // Importez motion
+import NavigationLinks from "../components/NavigationLink";
 
 function MapSection() {
   const fadeInAnimation = {
@@ -48,40 +49,7 @@ function MapSection() {
 
       {/* Navigation Links */}
       {/* Navigation Links */}
-      <div className="flex justify-center gap-6 mt-6">
-        <a
-          href="https://www.waze.com/ul?ll=43.507672,1.326138&navigate=yes"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex flex-col items-center text-[#53240f] hover:opacity-80"
-          aria-label="Ouvrir dans Waze"
-        >
-          <FaWaze />
-          <span className="text-sm mt-1">Waze</span>
-        </a>
-
-        <a
-          href="https://www.google.com/maps/search/?api=1&query=43.507672,1.326138"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex flex-col items-center text-[#53240f] hover:opacity-80"
-          aria-label="Ouvrir dans Google Maps"
-        >
-          <SiGooglemaps />
-          <span className="text-sm mt-1">Google Maps</span>
-        </a>
-
-        <a
-          href="http://maps.apple.com/?q=Monica+Mariage&ll=43.507672,1.326138"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex flex-col items-center text-[#53240f] hover:opacity-80"
-          aria-label="Ouvrir dans Apple Maps"
-        >
-          <TfiApple />
-          <span className="text-sm mt-1">Apple Maps</span>
-        </a>
-      </div>
+      <NavigationLinks />
     </motion.div>
   );
 }
