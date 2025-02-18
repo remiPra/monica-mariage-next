@@ -8,7 +8,7 @@ import DressImageSlider from "@/app/components/DressImageSlider";
 import DressInfo from "@/app/components/DressInfo";
 import MobileActions from "@/app/components/MobileActions";
 import Loader from "@/app/components/LoaderMonicaMariage";
-import RelatedDresses from "@/app/components/relatedDresses";
+import RelatedDressesView from "@/app/components/RelatedDressesView";
 
 export default function DressDetailPage() {
   const { id } = useParams();
@@ -79,7 +79,7 @@ export default function DressDetailPage() {
       {/* Floating Button pour le Chat (mobile only) */}
 
       {/* Section "Vous pourriez aussi aimer" */}
-      <RelatedDresses currentDressId={robe.id} dresses={allDresses} />
+      <RelatedDressesView currentDressId={robe.id} dresses={allDresses} />
       {/* Boutons d'actions mobiles */}
       <MobileActions
         onChatClick={() => alert("Ouverture du chat")}

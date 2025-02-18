@@ -8,7 +8,7 @@ import DressInfo from "@/app/components/DressInfo";
 import { MdSms } from "react-icons/md"; // Icône de chat style SMS
 import MobileActions from "@/app/components/MobileActions";
 import Loader from "@/app/components/LoaderMonicaMariage";
-import RelatedDresses from "@/app/components/relatedDresses";
+import RelatedDressesView from "@/app/components/RelatedDressesView";
 
 export default function DressDetailPage() {
   const { id } = useParams();
@@ -77,7 +77,7 @@ export default function DressDetailPage() {
       </div>
 
       {/* Section "Vous pourriez aussi aimer" */}
-      <RelatedDresses currentDressId={robe.id} dresses={allDresses} />
+      <RelatedDressesView currentDressId={robe.id} dresses={allDresses} />
 
       {/* Floating Button pour le Chat (mobile only) */}
       {/* Boutons d'actions mobiles */}
