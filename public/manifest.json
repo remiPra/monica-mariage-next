@@ -8,7 +8,7 @@
   "display": "standalone",
   "orientation": "any",
   "background_color": "#FFFFFF",
-  "theme_color": "#D2B48C", // Marron clair (tan)
+  "theme_color": "#D2B48C",
   "lang": "fr-FR",
   "dir": "auto",
   "icons": [
