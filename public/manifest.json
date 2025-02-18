@@ -7,8 +7,8 @@
   "id": "https://monica-mariage-next.vercel.app/",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#2EC6FE",
-  "theme_color": "#8936FF",
+  "background_color": "#FFFFFF",
+  "theme_color": "#D2B48C", // Marron clair (tan)
   "lang": "fr-FR",
   "dir": "auto",
   "icons": [
