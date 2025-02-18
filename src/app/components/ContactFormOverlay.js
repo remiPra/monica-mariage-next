@@ -4,9 +4,17 @@ import { useState, useEffect } from "react";
 
 export default function ContactFormOverlay() {
   const [showOverlay, setShowOverlay] = useState(false);
+  const [alreadyDismissed, setAlreadyDismissed] = useState(false);
 
-  // Affiche le formulaire après 30 secondes
   useEffect(() => {
+    // Vérifier localStorage si on veut l'afficher une seule fois
+    const dismissed = localStorage.getItem("overlayDismissed") === "true";
+    if (dismissed) {
+      setAlreadyDismissed(true);
+      return;
+    }
+
+    // Sinon, on attend 30s avant d'afficher l'overlay
     const timer = setTimeout(() => {
       setShowOverlay(true);
     }, 30000);
@@ -14,157 +22,236 @@ export default function ContactFormOverlay() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Ferme l’overlay quand on clique sur la croix
   const handleClose = () => {
     setShowOverlay(false);
+    localStorage.setItem("overlayDismissed", "true");
   };
 
-  // Soumission du formulaire
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ici, vous pouvez envoyer les données à un backend (API),
-    // ou faire un console.log pour tester
     console.log("Form submitted");
-    // Fermer l'overlay après la soumission
     setShowOverlay(false);
+    localStorage.setItem("overlayDismissed", "true");
   };
 
+  // Si déjà fermé, on ne l'affiche plus jamais
+  if (alreadyDismissed) return null;
+
+  // On n'insère le bloc overlay dans le DOM que si showOverlay est true
+  if (!showOverlay) return null;
+
   return (
-    <>
-      {showOverlay && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80">
-          {/* Bouton de fermeture (croix) */}
-          <button
-            onClick={handleClose}
-            className="absolute top-4 right-4 text-white text-3xl font-bold"
-          >
-            &times;
-          </button>
+    <div
+      style={{
+        position: "fixed",
+        inset: 0,
+        zIndex: 9999,
+        display: "flex",
+        alignItems: "flex-end", // On place la "carte" en bas
+        justifyContent: "center",
+        backgroundColor: "rgba(0, 0, 0, 0.8)",
+        animation: "fadeIn 0.3s ease-out forwards", // Animation de fond
+      }}
+    >
+      {/* Bouton de fermeture (croix) */}
+      <button
+        onClick={handleClose}
+        style={{
+          position: "absolute",
+          top: "16px",
+          right: "16px",
+          background: "transparent",
+          border: "none",
+          color: "#fff",
+          fontSize: "24px",
+          cursor: "pointer",
+        }}
+      >
+        &times;
+      </button>
 
-          {/* Contenu du formulaire (carte blanche au centre) */}
-          <div className="bg-white rounded-lg p-6 w-full max-w-md mx-auto relative">
-            <h2 className="text-2xl font-semibold text-[#af7749] mb-4">
-              VOUS RÊVEZ DE LA ROBE PARFAITE ?
-            </h2>
-            <p className="text-gray-700 mb-4">
-              Laissez-nous vos coordonnées pour que nous puissions vous aider à
-              trouver la robe de vos rêves.
-            </p>
-            <form onSubmit={handleSubmit} className="space-y-4">
-              {/* Prénom */}
-              <div>
-                <label
-                  htmlFor="prenom"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Prénom *
-                </label>
-                <input
-                  id="prenom"
-                  name="prenom"
-                  type="text"
-                  required
-                  placeholder="Ex: Marie"
-                  className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:border-[#af7749] focus:outline-none"
-                />
-              </div>
-
-              {/* Nom */}
-              <div>
-                <label
-                  htmlFor="nom"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Nom *
-                </label>
-                <input
-                  id="nom"
-                  name="nom"
-                  type="text"
-                  required
-                  placeholder="Ex: Dupont"
-                  className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:border-[#af7749] focus:outline-none"
-                />
-              </div>
-
-              {/* E-mail */}
-              <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  E-mail *
-                </label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                  placeholder="exemple@mail.com"
-                  className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:border-[#af7749] focus:outline-none"
-                />
-              </div>
-
-              {/* Téléphone */}
-              <div>
-                <label
-                  htmlFor="telephone"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Téléphone portable *
-                </label>
-                <input
-                  id="telephone"
-                  name="telephone"
-                  type="tel"
-                  required
-                  placeholder="+33 6 12 34 56 78"
-                  className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:border-[#af7749] focus:outline-none"
-                />
-              </div>
-
-              {/* Région */}
-              <div>
-                <label
-                  htmlFor="region"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Région *
-                </label>
-                <input
-                  id="region"
-                  name="region"
-                  type="text"
-                  required
-                  placeholder="Ex: Occitanie"
-                  className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:border-[#af7749] focus:outline-none"
-                />
-              </div>
-
-              {/* Politique de confidentialité */}
-              <p className="text-xs text-gray-500 mt-2">
-                En vous inscrivant, vous confirmez que vous avez lu et accepté
-                notre{" "}
-                <a
-                  href="/politique-de-confidentialite"
-                  className="text-[#af7749] underline"
-                >
-                  Politique de confidentialité
-                </a>
-                .
-              </p>
-
-              {/* Bouton ENVOYER */}
-              <button
-                type="submit"
-                className="w-full bg-[#af7749] text-white py-2 px-4 rounded-md hover:bg-[#925c36] transition-colors mt-4"
-              >
-                ENVOYER
-              </button>
-            </form>
+      {/* Carte blanche qui "monte" depuis le bas */}
+      <div
+        style={{
+          backgroundColor: "#fff",
+          borderRadius: "8px 8px 0 0", // arrondi en haut pour l'effet "drawer"
+          padding: "24px",
+          width: "100%",
+          maxWidth: "500px",
+          animation: "slideUp 0.3s ease-out forwards", // Animation de la carte
+        }}
+      >
+        <h2 style={{ margin: "0 0 16px", color: "#af7749" }}>
+          VOUS RÊVEZ DE LA ROBE PARFAITE ?
+        </h2>
+        <p style={{ marginBottom: "24px", color: "#333" }}>
+          Laissez-nous vos coordonnées pour que nous puissions vous aider à
+          trouver la robe de vos rêves.
+        </p>
+        <form
+          onSubmit={handleSubmit}
+          style={{ display: "flex", flexDirection: "column", gap: "16px" }}
+        >
+          <div>
+            <label
+              htmlFor="prenom"
+              style={{ fontWeight: "bold", display: "block" }}
+            >
+              Prénom *
+            </label>
+            <input
+              id="prenom"
+              name="prenom"
+              type="text"
+              required
+              placeholder="Ex: Marie"
+              style={{
+                width: "100%",
+                padding: "8px",
+                border: "1px solid #ccc",
+                borderRadius: "4px",
+                marginTop: "4px",
+              }}
+            />
           </div>
-        </div>
-      )}
-    </>
+
+          <div>
+            <label
+              htmlFor="nom"
+              style={{ fontWeight: "bold", display: "block" }}
+            >
+              Nom *
+            </label>
+            <input
+              id="nom"
+              name="nom"
+              type="text"
+              required
+              placeholder="Ex: Dupont"
+              style={{
+                width: "100%",
+                padding: "8px",
+                border: "1px solid #ccc",
+                borderRadius: "4px",
+                marginTop: "4px",
+              }}
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="email"
+              style={{ fontWeight: "bold", display: "block" }}
+            >
+              E-mail *
+            </label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              placeholder="exemple@mail.com"
+              style={{
+                width: "100%",
+                padding: "8px",
+                border: "1px solid #ccc",
+                borderRadius: "4px",
+                marginTop: "4px",
+              }}
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="telephone"
+              style={{ fontWeight: "bold", display: "block" }}
+            >
+              Téléphone portable *
+            </label>
+            <input
+              id="telephone"
+              name="telephone"
+              type="tel"
+              required
+              placeholder="+33 6 12 34 56 78"
+              style={{
+                width: "100%",
+                padding: "8px",
+                border: "1px solid #ccc",
+                borderRadius: "4px",
+                marginTop: "4px",
+              }}
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="dateDuMariage"
+              style={{ fontWeight: "bold", display: "block" }}
+            >
+              Date du Mariage *
+            </label>
+            <input
+              id="dateDuMariage"
+              name="dateDuMariage"
+              type="text"
+              placeholder="Ex: 12/12/2025"
+              style={{
+                width: "100%",
+                padding: "8px",
+                border: "1px solid #ccc",
+                borderRadius: "4px",
+                marginTop: "4px",
+              }}
+            />
+          </div>
+
+          <p style={{ fontSize: "12px", color: "#555" }}>
+            En vous inscrivant, vous confirmez que vous avez lu et accepté notre{" "}
+            <a
+              href="/politique-de-confidentialite"
+              style={{ color: "#af7749", textDecoration: "underline" }}
+            >
+              Politique de confidentialité
+            </a>
+            .
+          </p>
+
+          <button
+            type="submit"
+            style={{
+              backgroundColor: "#af7749",
+              color: "#fff",
+              padding: "12px 24px",
+              border: "none",
+              borderRadius: "4px",
+              cursor: "pointer",
+            }}
+          >
+            ENVOYER
+          </button>
+        </form>
+      </div>
+
+      {/* Définition des animations CSS globales */}
+      <style jsx global>{`
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        @keyframes slideUp {
+          0% {
+            transform: translateY(100%);
+          }
+          100% {
+            transform: translateY(0);
+          }
+        }
+      `}</style>
+    </div>
   );
 }

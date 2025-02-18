@@ -7,14 +7,22 @@ export default function A2HSBanner() {
   const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
+    // Vérifie si l'utilisateur a déjà fermé ou installé la PWA
+    const isDismissed = localStorage.getItem("pwaBannerDismissed") === "true";
+    if (isDismissed) {
+      // Si c'est déjà "true", on ne fait rien : la bannière ne s'affichera pas
+      return;
+    }
+
+    // Sinon, on écoute l'événement 'beforeinstallprompt'
     const handler = (e) => {
-      e.preventDefault();
-      setDeferredPrompt(e);
+      e.preventDefault(); // Empêche l'affichage auto du prompt
+      setDeferredPrompt(e); // On stocke l'événement pour l'utiliser plus tard
     };
 
     window.addEventListener("beforeinstallprompt", handler);
 
-    // On attend 30 secondes avant d'afficher le banner
+    // On attend 90 secondes avant d'afficher la bannière
     const timer = setTimeout(() => {
       if (deferredPrompt) {
         setShowBanner(true);
@@ -27,21 +35,29 @@ export default function A2HSBanner() {
     };
   }, [deferredPrompt]);
 
+  // L'utilisateur clique sur "Installer"
   const handleInstallClick = async () => {
     if (!deferredPrompt) return;
     deferredPrompt.prompt();
     const { outcome } = await deferredPrompt.userChoice;
+
     if (outcome === "accepted") {
       console.log("Utilisateur a accepté l'installation");
     } else {
       console.log("Utilisateur a refusé l'installation");
     }
+
+    // Qu'il accepte ou refuse, on retient qu'il ne faut plus réafficher la bannière
+    localStorage.setItem("pwaBannerDismissed", "true");
     setDeferredPrompt(null);
     setShowBanner(false);
   };
 
+  // L'utilisateur ferme la bannière sans cliquer sur "Installer"
   const handleClose = () => {
     setShowBanner(false);
+    // On mémorise qu'il a fermé pour ne plus réafficher la bannière
+    localStorage.setItem("pwaBannerDismissed", "true");
   };
 
   return (
@@ -67,6 +83,7 @@ export default function A2HSBanner() {
             onClick={handleClose}
             style={{
               position: "absolute",
+              zIndex: 35,
               top: "16px",
               right: "16px",
               background: "transparent",
@@ -99,6 +116,19 @@ export default function A2HSBanner() {
             </p>
             <button
               onClick={handleInstallClick}
+              style={{
+                backgroundColor: "#af7749",
+                color: "#fff",
+                padding: "12px 24px",
+                border: "none",
+                borderRadius: "4px",
+                cursor: "pointer",
+              }}
+            >
+              Installer
+            </button>
+            <button
+              onClick={handleClose}
               style={{
                 backgroundColor: "#af7749",
                 color: "#fff",
