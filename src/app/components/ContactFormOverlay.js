@@ -7,14 +7,16 @@ export default function ContactFormOverlay() {
   const [alreadyDismissed, setAlreadyDismissed] = useState(false);
 
   useEffect(() => {
-    // Vérifier localStorage si on veut l'afficher une seule fois
-    const dismissed = localStorage.getItem("overlayDismissed") === "true";
-    if (dismissed) {
+    const lastDismissTime = localStorage.getItem("overlayDismissedTime");
+    const now = Date.now();
+    const threeHours = 3 * 60 * 60 * 1000; // 3 heures en millisecondes
+
+    if (lastDismissTime && now - parseInt(lastDismissTime, 10) < threeHours) {
       setAlreadyDismissed(true);
       return;
     }
 
-    // Sinon, on attend 30s avant d'afficher l'overlay
+    // Afficher l'overlay après 30 secondes
     const timer = setTimeout(() => {
       setShowOverlay(true);
     }, 30000);
@@ -24,20 +26,17 @@ export default function ContactFormOverlay() {
 
   const handleClose = () => {
     setShowOverlay(false);
-    localStorage.setItem("overlayDismissed", "true");
+    localStorage.setItem("overlayDismissedTime", Date.now().toString()); // Stocke le timestamp
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted");
     setShowOverlay(false);
-    localStorage.setItem("overlayDismissed", "true");
+    localStorage.setItem("overlayDismissedTime", Date.now().toString()); // Stocke le timestamp
   };
 
-  // Si déjà fermé, on ne l'affiche plus jamais
   if (alreadyDismissed) return null;
-
-  // On n'insère le bloc overlay dans le DOM que si showOverlay est true
   if (!showOverlay) return null;
 
   return (
@@ -47,13 +46,12 @@ export default function ContactFormOverlay() {
         inset: 0,
         zIndex: 9999,
         display: "flex",
-        alignItems: "flex-end", // On place la "carte" en bas
+        alignItems: "flex-end",
         justifyContent: "center",
         backgroundColor: "rgba(0, 0, 0, 0.8)",
-        animation: "fadeIn 0.3s ease-out forwards", // Animation de fond
+        animation: "fadeIn 0.3s ease-out forwards",
       }}
     >
-      {/* Bouton de fermeture (croix) */}
       <button
         onClick={handleClose}
         style={{
@@ -70,23 +68,16 @@ export default function ContactFormOverlay() {
         &times;
       </button>
 
-      {/* Carte blanche qui "monte" depuis le bas */}
       <div
         style={{
           backgroundColor: "#fff",
-          borderRadius: "8px 8px 0 0", // arrondi en haut pour l'effet "drawer"
+          borderRadius: "8px 8px 0 0",
           padding: "24px",
           width: "100%",
           maxWidth: "500px",
-          animation: "slideUp 0.3s ease-out forwards", // Animation de la carte
+          animation: "slideUp 0.3s ease-out forwards",
         }}
       >
-        <button
-          className="text-3xl bg-customBrown text-white p-6"
-          onClick={handleClose}
-        >
-          &times;
-        </button>
         <h2 style={{ margin: "0 0 16px", color: "#af7749" }}>
           VOUS RÊVEZ DE LA ROBE PARFAITE ?
         </h2>
@@ -239,7 +230,6 @@ export default function ContactFormOverlay() {
         </form>
       </div>
 
-      {/* Définition des animations CSS globales */}
       <style jsx global>{`
         @keyframes fadeIn {
           0% {

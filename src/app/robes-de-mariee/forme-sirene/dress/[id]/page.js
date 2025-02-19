@@ -9,6 +9,7 @@ import DressInfo from "@/app/components/DressInfo";
 import MobileActions from "@/app/components/MobileActions";
 import Loader from "@/app/components/LoaderMonicaMariage";
 import RelatedDressesView from "@/app/components/RelatedDressesView";
+import AccordionRobe from "@/app/components/AccordionRobe";
 
 export default function DressDetailPage() {
   const { id } = useParams();
@@ -69,6 +70,33 @@ export default function DressDetailPage() {
     );
   }
 
+  const sections = [
+    {
+      title: "Robe de Mariée Bohème et Élégante - Collection Monica Mariage",
+      subtitle: "Une robe fluide et raffinée pour un mariage romantique",
+      content:
+        "Cette magnifique robe de mariée est idéale pour les futures mariées en quête de légèreté et d’élégance. Conçue avec un tissu fluide et des manches longues en tulle brodé, elle sublime la silhouette avec son décolleté en V. Parfaite pour un mariage en plein air ou une cérémonie intime.",
+    },
+    {
+      title: "Détails et Finitions - Robe de Mariée Haut de Gamme",
+      subtitle: "Des matières nobles pour une robe d’exception",
+      content:
+        "• Tissu : Mousseline fluide et tulle brodé\n• Manches longues transparentes ornées de broderies florales\n• Décolleté en V profond mais structuré\n• Ceinture drapée mettant en valeur la taille",
+    },
+    {
+      title: "Pourquoi Choisir cette Robe ?",
+      subtitle: "Une coupe intemporelle et adaptée à toutes les silhouettes",
+      content:
+        "Cette robe est parfaite pour une mariée recherchant une tenue à la fois bohème et sophistiquée. Sa fluidité apporte un confort optimal tout au long de la journée. Un modèle incontournable pour un mariage élégant en région toulousaine.",
+    },
+    {
+      title: "Essayage en Boutique Monica Mariage",
+      subtitle: "Prenez rendez-vous pour essayer cette robe en exclusivité",
+      content:
+        "Retrouvez cette robe dans notre boutique de robes de mariée Monica Mariage, située près de Toulouse. Nos conseillères vous accueillent pour un essayage personnalisé et vous accompagnent dans le choix de votre robe idéale.",
+    },
+  ];
+
   return (
     <>
       <Header />
@@ -86,6 +114,7 @@ export default function DressDetailPage() {
         {/* Section Infos */}
         <div className="w-full lg:w-1/2">
           <DressInfo robe={robe} />
+          {/* <AccordionRobe sections={robe.sections} /> */}
         </div>
       </div>
 

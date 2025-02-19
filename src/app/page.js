@@ -7,6 +7,8 @@ import Loader from "./components/LoaderMonicaMariage";
 import SocialIcons from "./components/SocialIcons";
 import GalleryIconmainPage from "./components/GalleryIconmainPage";
 import FloatingButtonMainPage from "./components/FloatingButtonMainPage";
+import GalleryMainPageBestSellers from "./components/GalleryMainPageBestSellers";
+import ImageSlider from "./slider/page";
 
 export default function Home() {
   return (
@@ -59,10 +61,34 @@ export default function Home() {
       {/* Video Slider */}
       <VideoSlider />
 
-      {/* Bloc Catégories */}
-      {/* Bloc Catégories */}
-      <section id="categorie" className="py-5 bg-white">
-        <div className="grid cursor-pointer grid-cols-2 md:grid-cols-4 gap-6 justify-items-center items-center">
+      {/* Bloc Présentation */}
+      <section className="text-center py-12 bg-gradient-to-b from-[#FDE9E6] to-white">
+        <h1 className="text-3xl font-semibold text-[#af7749] mb-4">
+          Robes De Mariée Toulouse
+        </h1>
+        <div className="flex md:hidden flex-wrap justify-center gap-4">
+          <ImageSlider data="/forme-sirene" />
+        </div>
+        <img
+          src="image/iconerobe.png"
+          alt="Robes de mariée icon"
+          className="w-36 rounded-full mx-auto mb-4"
+        />
+        <p className="max-w-3xl mx-auto text-lg text-black leading-relaxed mb-8">
+          La boutique de mariage est conçue comme un showroom privé à Seysses
+          près de Toulouse. Nous sommes heureux de vous accompagner pour la
+          confection des robes de mariée sur-mesure et personnalisable jusqu'à
+          la taille 44. Le tarif d'une robe de mariée sur-mesure se situe entre
+          750€ et 1850€.
+        </p>
+        <button className="bg-[#af7749] text-white py-2 px-6 rounded-lg shadow hover:bg-[#925c36] transition duration-300">
+          Voir nos robes
+        </button>
+        {/* Bloc Catégories */}
+        <div
+          id="categorie"
+          className="grid cursor-pointer grid-cols-2 md:grid-cols-4 gap-6 justify-items-center items-center"
+        >
           {[
             "Robes de mariée forme princesse",
             "Robes de mariée forme sirène",
@@ -86,6 +112,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+      {/* Bloc Catégories */}
+      <GalleryMainPageBestSellers />
 
       {/* Bloc Présentation (NE PAS MODIFIER) */}
       <section className="py-12 bg-gradient-to-b from-white to-[#FDE9E6]">
@@ -312,9 +340,9 @@ export default function Home() {
         <div className="container mx-auto flex flex-wrap justify-between px-4">
           <div className="w-full md:w-1/4 mb-6">
             <img
-              src="path-to-logo.png"
+              src="logo-new.png"
               alt="Monica Mariage Logo"
-              className="w-32 mb-4"
+              className="w-32 mb-4 bg-white rounded-full  "
             />
             <p>+33 6 19 72 75 40</p>
             <p>monicamariage@hotmail.com</p>

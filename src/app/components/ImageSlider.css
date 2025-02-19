@@ -1,0 +1,69 @@
+/* 🔹 Styles personnalisés pour Swiper */
+
+/* Masque les boutons Swiper par défaut */
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+
+/* 🔥 Boutons de navigation personnalisés */
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Position des boutons */
+.custom-prev {
+  left: 10px;
+}
+.custom-next {
+  right: 10px;
+}
+
+/* Effet au survol */
+.custom-prev:hover,
+.custom-next:hover {
+  background: #af7749;
+  color: white;
+}
+
+/* Icônes des boutons */
+.custom-prev svg,
+.custom-next svg {
+  width: 24px;
+  height: 24px;
+  color: #af7749;
+}
+
+/* Effet au survol des icônes */
+.custom-prev:hover svg,
+.custom-next:hover svg {
+  color: white;
+}
+/* Changer la couleur des points de pagination */
+.swiper-pagination-bullet {
+  background-color: #af7749 !important; /* Changer la couleur par défaut */
+  opacity: 0.5; /* Transparence des points inactifs */
+  width: 12px;
+  height: 12px;
+}
+
+/* Changer la couleur du point actif */
+.swiper-pagination-bullet-active {
+  background-color: #ff5733 !important; /* Couleur du point actif */
+  opacity: 1; /* Pleine visibilité */
+  width: 14px; /* Agrandir légèrement */
+  height: 14px;
+}

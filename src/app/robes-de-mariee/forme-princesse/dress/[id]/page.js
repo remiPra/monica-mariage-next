@@ -9,6 +9,7 @@ import { MdSms } from "react-icons/md"; // Icône de chat style SMS
 import MobileActions from "@/app/components/MobileActions";
 import Loader from "@/app/components/LoaderMonicaMariage";
 import RelatedDressesView from "@/app/components/RelatedDressesView";
+import AccordionRobe from "@/app/components/AccordionRobe";
 
 export default function DressDetailPage() {
   const { id } = useParams();
@@ -85,7 +86,7 @@ export default function DressDetailPage() {
           <DressInfo robe={robe} />
         </div>
       </div>
-
+      {/* <AccordionRobe /> */}
       {/* Section "Vous pourriez aussi aimer" */}
       <RelatedDressesView currentDressId={robe.id} dresses={allDresses} />
 

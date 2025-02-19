@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/zoom";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-export default function ImageSlider() {
+export default function ImageSlider({ data }) {
   const [robes, setRobes] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [zoomed, setZoomed] = useState(false); // État du zoom
@@ -74,12 +74,12 @@ export default function ImageSlider() {
       </Swiper>
 
       {/* Boutons de navigation personnalisés */}
-      <button className="swiper-button-prev absolute top-1/2 left-4 -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10">
+      {/* <button className="swiper-button-prev absolute top-1/2 left-4 -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10">
         <FaChevronLeft size={24} className="text-[#af7749]" />
       </button>
       <button className="swiper-button-next absolute top-1/2 right-4 -translate-y-1/2 bg-white border-2 border-red-400 p-8 rounded-full shadow-md z-10">
         <FaChevronRight size={24} className="text-[#af7749]" />
-      </button>
+      </button> */}
       <div className="swiper-pagination mt-4"></div>
     </div>
   );
