@@ -10,6 +10,8 @@ import FloatingButtonMainPage from "./components/FloatingButtonMainPage";
 import GalleryMainPageBestSellers from "./components/GalleryMainPageBestSellers";
 import ImageSlider from "./slider/page";
 import ImageSliderTest from "./components/ImageSliderTest";
+import MobileActions from "./components/MobileActions";
+import FAQAccordionHome from "./components/FAQAccordionHome";
 
 export default function Home() {
   return (
@@ -119,6 +121,7 @@ export default function Home() {
       {/* <GalleryMainPageBestSellers /> */}
       {/* ///////////////////////////////////// */}
       {/* Bloc Présentation (NE PAS MODIFIER) */}
+
       <section className="py-12 bg-gradient-to-b from-white to-[#FDE9E6]">
         <h2 className="text-center text-3xl font-semibold text-[#af7749] mb-8">
           Meilleures ventes chez Monica Mariage&nbsp;: Des robes de mariée
@@ -237,6 +240,7 @@ export default function Home() {
           </button>
         </div>
       </section>
+      <MobileActions />
 
       {/* Bloc Destockage */}
       <section className="py-12 bg-gradient-to-b from-white to-[#FDE9E6]">
@@ -373,9 +377,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <section className="bg-gradient-to-b from-white to-[#FDE9E6]">
+        <FAQAccordionHome />
+      </section>
       {/* FOOTER */}
-      <footer className="bg-[#925c36] text-white py-10">
+      <footer className="      bg-[#925c36] text-white py-10">
         <div className="container mx-auto flex flex-wrap justify-between px-4">
           <div className="w-full md:w-1/4 mb-6">
             <img

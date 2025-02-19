@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { AiOutlineDown } from "react-icons/ai"; // Import de l'icône
+import MobileActions from "./MobileActions";
 
 export default function VideoSlider() {
   // Tableau contenant les vidéos et leurs titres
@@ -37,38 +38,47 @@ export default function VideoSlider() {
             index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"
           }`}
         >
-          {/* Vidéo */}
           <video className="w-full h-full object-cover" autoPlay muted loop>
             <source src={slide.src} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 
-          {/* Overlay pour nuancer le blanc */}
           <div className="absolute inset-0 bg-black/40"></div>
-          {/* <div className="absolute inset-0 bg-red-800/40"></div> */}
 
-          {/* Titre centré */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-4xl font-bold text-white drop-shadow-lg">
+          {/* Conteneur principal en colonne */}
+          <div className="absolute inset-0 flex flex-col items-center justify-center space-y-12">
+            {/* Titre */}
+            <h1 className="text-5xl font-serif text-white drop-shadow-lg">
               {slide.title}
             </h1>
+
+            {/* Bouton Gallerie */}
+            <button
+              onClick={scrollToGallery}
+              className="flex flex-col items-center"
+            >
+              <AiOutlineDown
+                size={40}
+                className="text-white animate-bounce transition-all duration-300"
+              />
+              <span className="font-cursive text-3xl font-medium mt-1 animate-pulse bg-gradient-to-r from-white to-[#af7749] bg-clip-text text-transparent">
+                Voir la gallerie
+              </span>
+            </button>
+
+            {/* Bouton Contactez Nous */}
+            <button
+              className="px-8 py-4 bg-gradient-to-r from-[#8B6F5C] to-[#9a7d6a] 
+              text-white font-medium rounded-3xl 
+              hover:from-[#7c6351] hover:to-[#8B6F5C] 
+              transition-all duration-200 shadow-md 
+              min-w-[200px]"
+            >
+              Contactez Nous
+            </button>
           </div>
         </div>
       ))}
-
-      {/* Bouton flèche animée */}
-      <button
-        onClick={scrollToGallery}
-        className="z-10 absolute bottom-[222px] left-1/2 transform -translate-x-1/2 flex flex-col items-center text-white"
-      >
-        <AiOutlineDown
-          size={40}
-          className="animate-bounce transition-all duration-300"
-        />
-        <span className="font-cursive text-3xl font-medium mt-1 animate-pulse bg-gradient-to-r from-white to-[#af7749] bg-clip-text text-transparent">
-          Voir la gallerie
-        </span>
-      </button>
     </div>
   );
 }

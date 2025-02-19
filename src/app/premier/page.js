@@ -9,6 +9,7 @@ import { BsCameraFill } from "react-icons/bs";
 import { FaRegComments, FaRegHeart } from "react-icons/fa";
 import { GiMagicHat } from "react-icons/gi";
 import { RiMagicLine } from "react-icons/ri";
+import FAQAccordion from "../components/FAQAccordion";
 
 export default function BoutiquePage() {
   return (
@@ -283,6 +284,7 @@ export default function BoutiquePage() {
             correspondre parfaitement à vos mesures.
           </p>
         </div>
+        <FAQAccordion />
       </div>
     </>
   );

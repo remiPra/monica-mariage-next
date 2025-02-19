@@ -5,6 +5,7 @@ import SocialIcons from "../components/SocialIcons";
 import { motion } from "framer-motion";
 import Loader from "../components/LoaderMonicaMariage";
 import FloatingButtonMainPage from "../components/FloatingButtonMainPage";
+import FAQAccordion from "../components/FAQAccordion";
 
 export default function Page() {
   const fadeInAnimation = {
@@ -214,6 +215,7 @@ export default function Page() {
           </div>
         </div>
       </motion.div>
+      <FAQAccordion />
     </>
   );
 }

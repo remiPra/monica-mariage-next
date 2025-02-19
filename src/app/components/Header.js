@@ -153,11 +153,13 @@ export default function Header() {
 
         {/* Menu droit */}
         <div className="flex items-center space-x-8">
-          <Link
-            href="/prendre-rendez-vous"
-            className="text-[#7A5C4B] hover:text-[#A37B63]"
-          >
-            Prendre Rendez-Vous
+          <Link href="/prendre-rendez-vous">
+            <button
+              className="bg-[#7A5C4B] text-white hover:text-[#A37B63] transition-all duration-300 ease-in-out transform hover:scale-105 rounded-md py-2 
+          px-4 shadow-lg"
+            >
+              Contactez Nous
+            </button>
           </Link>
           <Link
             href="/trouver-le-showroom"

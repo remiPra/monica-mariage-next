@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Header from "@/app/components/Header";
 import { FaRegHeart } from "react-icons/fa";
+import AddToFavoritesButton from "./AddToFavorisButton";
 
 const ComponentMainPage = ({ json }) => {
   const [robes, setRobes] = useState([]);
@@ -106,7 +107,7 @@ const ComponentMainPage = ({ json }) => {
                   key={index}
                   className="group relative overflow-hidden rounded-lg shadow-md cursor-pointer"
                 >
-                  <button
+                  {/* <button
                     onClick={(e) => {
                       e.stopPropagation();
                       // handleAddToFavorites(robe);
@@ -114,8 +115,8 @@ const ComponentMainPage = ({ json }) => {
                     className="absolute top-2 right-2 z-10 bg-white text-[#af7749] p-2 rounded-full hover:bg-[#af7749] hover:text-white transition-colors"
                   >
                     <FaRegHeart size={20} />
-                  </button>
-
+                  </button> */}
+                  <AddToFavoritesButton robe={robe} />
                   {/* Conteneur d'image */}
                   <div className="relative aspect-[3/4] overflow-hidden">
                     <Image
