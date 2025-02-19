@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image"; // Import de la balise Image
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
+import FloatingButtonMainPage from "../components/FloatingButtonMainPage";
 
 const Page = () => {
   const [robes, setRobes] = useState([]);
@@ -48,7 +49,7 @@ const Page = () => {
     <>
       {/* HEADER */}
       <Header />
-
+      <FloatingButtonMainPage />
       {/* Contenu de la galerie */}
       <div className="pt-20 bg-white">
         {/* Hero Section */}

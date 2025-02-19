@@ -2,17 +2,15 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Zoom } from "swiper/modules";
+import { Pagination, Zoom } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/zoom";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function ImageSlider() {
   const [robes, setRobes] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [zoomed, setZoomed] = useState(false); // État du zoom
+  const [zoomed, setZoomed] = useState(false);
   const jsonPath = "/forme-sirene.json";
 
   useEffect(() => {
@@ -23,7 +21,6 @@ export default function ImageSlider() {
         if (!response.ok) throw new Error("Erreur de chargement JSON");
         const data = await response.json();
 
-        // Suppression des doublons par dressName
         const robesUniques = data.filter(
           (robe, index, self) =>
             self.findIndex((r) => r.dressName === robe.dressName) === index
@@ -45,16 +42,15 @@ export default function ImageSlider() {
   }
 
   return (
-    <div className="w-full max-w-[350px] mx-auto relative">
+    <div className="w-full max-w-[350px] mx-auto relative swiper-container">
       <Swiper
-        modules={[Navigation, Pagination]} // Ajout du module Zoom
+        modules={[Pagination]}
         spaceBetween={20}
         slidesPerView={1}
-        navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+        pagination={{
+          clickable: true,
+          el: ".swiper-pagination",
         }}
-        pagination={{ clickable: true, el: ".swiper-pagination" }} // ✅ Pagination avec une classe
         loop
         className="rounded-lg shadow-lg"
       >
@@ -72,15 +68,31 @@ export default function ImageSlider() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="swiper-pagination"></div>
+      <style jsx>{`
+        .swiper-container {
+          --swiper-pagination-color: #af7749; /* Marron pour l'état actif */
+          --swiper-pagination-bullet-inactive-color: #ddd; /* Gris clair pour l'état inactif */
+        }
 
-      {/* Boutons de navigation personnalisés */}
-      <button className="swiper-button-prev absolute top-1/2 left-4 -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10">
-        <FaChevronLeft size={24} className="text-[#af7749]" />
-      </button>
-      <button className="swiper-button-next absolute top-1/2 right-4 -translate-y-1/2 bg-white border-2 border-red-400 p-8 rounded-full shadow-md z-10">
-        <FaChevronRight size={24} className="text-[#af7749]" />
-      </button>
-      <div className="swiper-pagination mt-4"></div>
+        .swiper-pagination-bullet {
+          background-color: var(--swiper-pagination-bullet-inactive-color);
+          opacity: 0.3;
+        }
+
+        .swiper-pagination-bullet-active {
+          background-color: var(--swiper-pagination-color);
+          opacity: 1;
+        }
+
+        .swiper-pagination {
+          position: absolute;
+          bottom: 10px; /* Ajustez cette valeur pour la position verticale */
+          left: 0;
+          width: 100%;
+          text-align: center;
+        }
+      `}</style>
     </div>
   );
 }

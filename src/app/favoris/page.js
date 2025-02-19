@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Header from "../components/Header";
 import { FaWhatsapp } from "react-icons/fa";
+import FloatingButtonMainPage from "../components/FloatingButtonMainPage";
 
 export default function PageFavoris() {
   const [favorites, setFavorites] = useState([]);
@@ -76,7 +77,7 @@ export default function PageFavoris() {
           </div>
         )}
       </div>
-
+      <FloatingButtonMainPage />
       {/* Bouton WhatsApp */}
       {favorites.length > 0 && (
         <a

@@ -1,19 +1,16 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Zoom } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules"; // Importez Autoplay
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/zoom";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function ImageSlider({ data }) {
   const [robes, setRobes] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [zoomed, setZoomed] = useState(false); // État du zoom
-  const jsonPath = "/forme-sirene.json";
+  const swiperRef = useRef(null); // Créez une référence pour le Swiper
+  const jsonPath = data;
 
   useEffect(() => {
     const chargerJSON = async () => {
@@ -23,7 +20,6 @@ export default function ImageSlider({ data }) {
         if (!response.ok) throw new Error("Erreur de chargement JSON");
         const data = await response.json();
 
-        // Suppression des doublons par dressName
         const robesUniques = data.filter(
           (robe, index, self) =>
             self.findIndex((r) => r.dressName === robe.dressName) === index
@@ -45,18 +41,23 @@ export default function ImageSlider({ data }) {
   }
 
   return (
-    <div className="w-full max-w-[350px] mx-auto relative">
+    <div className="w-full max-w-[350px] mx-auto relative swiper-container">
       <Swiper
-        modules={[Navigation, Pagination]} // Ajout du module Zoom
+        modules={[Pagination, Autoplay]} // Ajoutez Autoplay aux modules
         spaceBetween={20}
         slidesPerView={1}
-        navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+        pagination={{
+          clickable: true,
+          el: ".swiper-pagination",
         }}
-        pagination={{ clickable: true, el: ".swiper-pagination" }} // ✅ Pagination avec une classe
         loop
+        autoplay={{
+          // Configuration de l'autoplay
+          delay: 5000, // Temps en millisecondes entre chaque slide (5 secondes)
+          disableOnInteraction: false, // Permet de continuer l'autoplay même après une interaction manuelle
+        }}
         className="rounded-lg shadow-lg"
+        ref={swiperRef} // Assignez la référence au Swiper
       >
         {robes.map((robe, index) => (
           <SwiperSlide key={index}>
@@ -72,15 +73,31 @@ export default function ImageSlider({ data }) {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="swiper-pagination"></div>
+      <style jsx>{`
+        .swiper-container {
+          --swiper-pagination-color: #af7749; /* Marron pour l'état actif */
+          --swiper-pagination-bullet-inactive-color: #ddd; /* Gris clair pour l'état inactif */
+        }
 
-      {/* Boutons de navigation personnalisés */}
-      {/* <button className="swiper-button-prev absolute top-1/2 left-4 -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10">
-        <FaChevronLeft size={24} className="text-[#af7749]" />
-      </button>
-      <button className="swiper-button-next absolute top-1/2 right-4 -translate-y-1/2 bg-white border-2 border-red-400 p-8 rounded-full shadow-md z-10">
-        <FaChevronRight size={24} className="text-[#af7749]" />
-      </button> */}
-      <div className="swiper-pagination mt-4"></div>
+        .swiper-pagination-bullet {
+          background-color: var(--swiper-pagination-bullet-inactive-color);
+          opacity: 0.3;
+        }
+
+        .swiper-pagination-bullet-active {
+          background-color: var(--swiper-pagination-color);
+          opacity: 1;
+        }
+
+        .swiper-pagination {
+          position: absolute;
+          bottom: 100px; /* Ajustez cette valeur pour la position verticale */
+          left: 0;
+          width: 100%;
+          text-align: center;
+        }
+      `}</style>
     </div>
   );
 }

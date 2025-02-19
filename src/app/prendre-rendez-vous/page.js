@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import SocialIcons from "../components/SocialIcons";
 import { motion } from "framer-motion";
 import Loader from "../components/LoaderMonicaMariage";
+import FloatingButtonMainPage from "../components/FloatingButtonMainPage";
 
 export default function Page() {
   const fadeInAnimation = {
@@ -15,6 +16,7 @@ export default function Page() {
   return (
     <>
       <Header />
+      <FloatingButtonMainPage />
       <Loader text="Prise de Rendez Vous " />
       <motion.div
         className="bg-[#a37b63] container my-[70px] mx-auto mt-[70px]"

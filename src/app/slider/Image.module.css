@@ -1,0 +1,53 @@
+/* Masque les boutons Swiper par défaut */
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+
+/* 🔥 Boutons de navigation personnalisés */
+.customPrev,
+.customNext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: #af7749;
+}
+
+/* Position des boutons */
+.customPrev {
+  left: 10px;
+}
+.customNext {
+  right: 10px;
+}
+
+/* Effet au survol */
+.customPrev:hover,
+.customNext:hover {
+  background: #af7749;
+  color: white;
+}
+
+/* Icônes des boutons */
+.customPrev svg,
+.customNext svg {
+  width: 24px;
+  height: 24px;
+  color: #af7749;
+}
+
+/* Effet au survol des icônes */
+.customPrev:hover svg,
+.customNext:hover svg {
+  color: white;
+}

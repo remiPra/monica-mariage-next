@@ -1,26 +1,31 @@
 "use client";
 import { motion } from "framer-motion";
+import ImageSlider from "../slider/page";
 
 const bestSellers = [
   {
     src: "/presentation/image1.jpg",
     alt: "Robe de mariée Déesse - Monica Mariage Toulouse",
     label: "Déesse",
+    json: "/forme-sirene",
   },
   {
     src: "/presentation/image2.jpg",
     alt: "Robe de mariée Effie - Monica Mariage Toulouse",
     label: "Effie",
+    json: "/forme-princesse",
   },
   {
     src: "/presentation/image3.jpg",
     alt: "Robe de mariée Emery - Monica Mariage Toulouse",
     label: "Emery",
+    json: "/forme-sirene",
   },
   {
     src: "/presentation/image4.jpg",
     alt: "Robe de mariée Signature - Monica Mariage Toulouse",
     label: "Signature",
+    json: "/forme-princesse",
   },
 ];
 
@@ -50,14 +55,16 @@ export default function GalleryMainPageBestSellers() {
               {/* Icône de cœur en haut à droite */}
 
               {/* Image avec effet hover */}
-              <motion.img
+              {/* <motion.img
                 src={item.src}
                 alt={item.alt}
                 className="w-full h-[400px] object-cover"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
-              />
-
+              /> */}
+              <motion.div>
+                <ImageSlider data="/forme-sirene" />
+              </motion.div>
               {/* Contenu sous l’image */}
               <div className="text-center p-4">
                 <p className="text-lg font-semibold text-[#af7749]">
