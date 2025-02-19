@@ -9,6 +9,7 @@ import GalleryIconmainPage from "./components/GalleryIconmainPage";
 import FloatingButtonMainPage from "./components/FloatingButtonMainPage";
 import GalleryMainPageBestSellers from "./components/GalleryMainPageBestSellers";
 import ImageSlider from "./slider/page";
+import ImageSliderTest from "./components/ImageSliderTest";
 
 export default function Home() {
   return (
@@ -112,9 +113,11 @@ export default function Home() {
           ))}
         </div>
       </section>
-      {/* Bloc Catégories */}
-      <GalleryMainPageBestSellers />
 
+      {/* test partie */}
+      {/* Bloc Catégories */}
+      {/* <GalleryMainPageBestSellers /> */}
+      {/* ///////////////////////////////////// */}
       {/* Bloc Présentation (NE PAS MODIFIER) */}
       <section className="py-12 bg-gradient-to-b from-white to-[#FDE9E6]">
         <h2 className="text-center text-3xl font-semibold text-[#af7749] mb-8">
@@ -184,6 +187,42 @@ export default function Home() {
             ))}
           </div>
         </div>
+        {/* test partie*/}
+
+        {/* <div className="flex justify-center px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl w-full">
+            {[
+              {
+                jsonPath: "/forme-princesse.json",
+                alt: "Robe de mariée Princesse",
+                label: "Princesse 1",
+              },
+              {
+                jsonPath: "/forme-princesse.json",
+                alt: "Robe de mariée Princesse",
+                label: "Princesse 2",
+              },
+              {
+                jsonPath: "/forme-sirene.json",
+                alt: "Robe de mariée Sirène",
+                label: "Sirène 1",
+              },
+              {
+                jsonPath: "/forme-sirene.json",
+                alt: "Robe de mariée Sirène",
+                label: "Sirène 2",
+              },
+            ].map((item, index) => (
+              <div key={index} className="text-center">
+                <ImageSliderTest data={item.jsonPath} alt={item.alt} />
+                <p className="mt-2 text-base font-medium text-black">
+                  {item.label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div> */}
+        {/* ///////////////////////////// */}
         <div className="flex flex-col items-center mt-8 px-4">
           <p className="max-w-2xl mx-auto text-lg text-black leading-relaxed mb-6 text-center">
             Découvrez notre sélection de best-sellers, conçus pour sublimer
