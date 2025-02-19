@@ -9,7 +9,7 @@ export default function ContactFormOverlay() {
   useEffect(() => {
     const lastDismissTime = localStorage.getItem("overlayDismissedTime");
     const now = Date.now();
-    const threeHours = 3 * 60 * 60 * 1000; // 3 heures en millisecondes
+    const threeHours = 1 * 60 * 60 * 1000; // 3 heures en millisecondes
 
     if (lastDismissTime && now - parseInt(lastDismissTime, 10) < threeHours) {
       setAlreadyDismissed(true);

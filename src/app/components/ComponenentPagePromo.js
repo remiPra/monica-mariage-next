@@ -6,6 +6,7 @@ import Image from "next/image"; // Import de la balise Image
 import Header from "@/app/components/Header";
 import { FaWhatsapp, FaRegHeart } from "react-icons/fa";
 import { useSwipeable } from "react-swipeable";
+import AddToFavoritesButton from "./AddToFavorisButton";
 
 const ComponentPagePromo = ({ json }) => {
   // On regroupe les robes (par dressName) et on y associe un tableau d'images
@@ -210,7 +211,7 @@ const ComponentPagePromo = ({ json }) => {
               onClick={() => handleDressClick(index)}
             >
               {/* Bouton Favoris */}
-              <button
+              {/* <button
                 onClick={(e) => {
                   e.stopPropagation();
                   handleAddToFavorites(dress);
@@ -218,7 +219,8 @@ const ComponentPagePromo = ({ json }) => {
                 className="absolute top-2 right-2 z-10 bg-white text-[#af7749] p-2 rounded-full hover:bg-[#af7749] hover:text-white transition-colors"
               >
                 <FaRegHeart size={20} />
-              </button>
+              </button> */}
+              <AddToFavoritesButton />
               {/* Affichage de la première image du groupe */}
               <div className={`relative ${aspectClass} overflow-hidden`}>
                 <Image
