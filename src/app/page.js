@@ -66,9 +66,9 @@ export default function Home() {
         <h1 className="text-3xl font-semibold text-[#af7749] mb-4">
           Robes De Mariée Toulouse
         </h1>
-        <div className="flex md:hidden flex-wrap justify-center gap-4">
+        {/* <div className="flex md:hidden flex-wrap justify-center gap-4">
           <ImageSlider data="/forme-sirene" />
-        </div>
+        </div> */}
         <img
           src="image/iconerobe.png"
           alt="Robes de mariée icon"
