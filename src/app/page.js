@@ -12,6 +12,8 @@ import ImageSlider from "./slider/page";
 import ImageSliderTest from "./components/ImageSliderTest";
 import MobileActions from "./components/MobileActions";
 import FAQAccordionHome from "./components/FAQAccordionHome";
+import Link from "next/link";
+import MonicaMariageSection from "./components/MonicaMariageSectionMain";
 
 export default function Home() {
   return (
@@ -66,8 +68,8 @@ export default function Home() {
 
       {/* Bloc Présentation */}
       <section className="text-center py-12 bg-gradient-to-b from-[#FDE9E6] to-white">
-        <h1 className="text-3xl font-semibold text-[#af7749] mb-4">
-          Robes De Mariée Toulouse
+        <h1 className="font-cursive text-5xl  text-[#af7749] mb-4">
+          Monica Mariage Toulouse
         </h1>
         {/* <div className="flex md:hidden flex-wrap justify-center gap-4">
           <ImageSlider data="/forme-sirene" />
@@ -84,36 +86,11 @@ export default function Home() {
           la taille 44. Le tarif d'une robe de mariée sur-mesure se situe entre
           750€ et 1850€.
         </p>
-        <button className="bg-[#af7749] text-white py-2 px-6 rounded-lg shadow hover:bg-[#925c36] transition duration-300">
-          Voir nos robes
-        </button>
-        {/* Bloc Catégories */}
-        <div
-          id="categorie"
-          className="grid cursor-pointer grid-cols-2 md:grid-cols-4 gap-6 justify-items-center items-center"
-        >
-          {[
-            "Robes de mariée forme princesse",
-            "Robes de mariée forme sirène",
-            "Robes de mariée minimaliste",
-            "Robes de mariée style boheme chic ",
-          ].map((text, index) => (
-            <div
-              key={index}
-              className="text-center w-36 p-4 rounded-lg transition-all duration-300 ease-in-out 
-                   hover:scale-110 border-red-300 border-1 hover:bg-customBrown hover:shadow-lg"
-            >
-              <img
-                src="image/iconerobe.png"
-                alt={`Icône - ${text}`}
-                className="w-24 mx-auto mb-2 rounded-full transition-opacity duration-300 hover:opacity-80"
-              />
-              <p className="text-base text-black hover:text-white font-medium transition-colors duration-300">
-                {text}
-              </p>
-            </div>
-          ))}
-        </div>
+        <Link href="/robes-de-mariee">
+          <button className="bg-[#af7749] text-white py-2 px-6 rounded-lg shadow hover:bg-[#925c36] transition duration-300">
+            Voir nos robes de mariées
+          </button>
+        </Link>
       </section>
 
       {/* test partie */}
@@ -121,35 +98,124 @@ export default function Home() {
       {/* <GalleryMainPageBestSellers /> */}
       {/* ///////////////////////////////////// */}
       {/* Bloc Présentation (NE PAS MODIFIER) */}
-
+      <MonicaMariageSection />
       <section className="py-12 bg-gradient-to-b from-white to-[#FDE9E6]">
-        <h2 className="text-center text-3xl font-semibold text-[#af7749] mb-8">
-          Meilleures ventes chez Monica Mariage&nbsp;: Des robes de mariée
-          incontournables à Toulouse
+        <h2 className="font-cursive text-5xl   text-center  font-semibold text-[#af7749] mb-14">
+          Boutique Monica Mariage
+          <br />
+          Nouvelles Collections 2025 à Toulouse
         </h2>
-
+        <div className="flex justify-center px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl w-full">
+            {[
+              {
+                src: "./images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-annabella-22-gallery-desktop.webp",
+                alt: "Robe de mariée Annabella - Monica Mariage Toulouse",
+                label: "Annabella",
+                link: "/robes-de-mariee/forme-princesse/dress/22",
+              },
+              {
+                src: "./images/robes/gallery/desktop/monica-mariage-robe-de-mariee-princesse-brenda-12-gallery-desktop.webp",
+                alt: "Robe de mariée Brenda - Monica Mariage Toulouse",
+                label: "Brenda",
+                link: "/robes-de-mariee/forme-princesse/dress/12",
+              },
+              {
+                src: "https://static.wixstatic.com/media/176703_1e84261252d04a97aacf72593a839f09~mv2.jpg",
+                alt: "Robe de mariée Minelly - Monica Mariage Toulouse",
+                label: "Minelly",
+                link: "/robes-de-mariee/style-boheme-chic/dress/19",
+              },
+              {
+                src: "https://static.wixstatic.com/media/176703_999bc7e5222743938c0b8aeb353668a3~mv2.jpg",
+                alt: "Robe de mariée Rusina - Monica Mariage Toulouse",
+                label: "Rusina",
+                link: "/robes-de-mariee/style-boheme-chic/dress/14",
+              },
+            ].map((item, index) => (
+              <Link href={item.link} key={index}>
+                <div key={index} className="text-center">
+                  <img
+                    src={item.src}
+                    alt={item.alt}
+                    className="w-full object-cover rounded max-h-96"
+                  />
+                  <p className="mt-2 text-[#af7749] font-cursive text-3xl">
+                    {item.label}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
         {/* Section avec grille optimisée */}
-        <GalleryIconmainPage />
+        {/* <GalleryIconmainPage /> */}
         <FloatingButtonMainPage />
         {/* Texte et bouton */}
         <div className="flex flex-col items-center mt-8 px-4">
           <p className="max-w-2xl mx-auto text-lg text-black leading-relaxed mb-6 text-center">
-            Découvrez notre sélection de best-sellers, conçus pour sublimer
-            chaque future mariée à la recherche d’une robe de mariée à Toulouse.
-            Nous proposons des coupes variées (princesse, sirène, bohème, etc.)
-            afin de répondre à tous les styles et toutes les silhouettes.
-            Profitez de nos conseils d’experts pour trouver la robe parfaite qui
-            vous fera rayonner le jour de votre mariage.
+            Découvrez en exclusivité nos toutes dernières collections
+            printemps-été. Des créations raffinées qui allient élégance moderne
+            et romantisme intemporel, sélectionnées avec passion pour nos
+            futures mariées toulousaines.
           </p>
           <button className="bg-[#af7749] text-white py-2 px-6 rounded-lg shadow-lg hover:bg-[#925c36] transition duration-300">
             Voir plus de robes
           </button>
         </div>
       </section>
+      <section
+        id="iconGallery"
+        className="py-12 bg-gradient-to-b from-white to-[#FDE9E6]"
+      >
+        {/* Bloc Catégories */}
 
+        <h2 className="font-cursive text-5xl mt-20   text-center  text-[#af7749] mb-8">
+          Decouvrez nos colections
+        </h2>
+        <div
+          id="categorie"
+          className="grid mt-3 cursor-pointer grid-cols-2 md:grid-cols-4 gap-6 justify-items-center items-center"
+        >
+          {[
+            {
+              name: "Robes de mariée forme princesse",
+              link: "/robes-de-mariee/forme-princesse",
+            },
+            {
+              name: "Robes de mariée forme sirène",
+              link: "/robes-de-mariee/forme-sirene",
+            },
+            {
+              name: "Robes de mariée minimaliste",
+              link: "/robes-de-mariee/minimaliste",
+            },
+            {
+              name: "Robes de mariée style bohème chic",
+              link: "/robes-de-mariee/style-boheme-chic",
+            },
+          ].map((text, index) => (
+            <Link href={text.link} key={index}>
+              <div
+                className="text-center w-36 p-4 rounded-lg transition-all duration-300 ease-in-out 
+               hover:scale-110 border-red-300 border-1 hover:bg-customBrown hover:shadow-lg"
+              >
+                <img
+                  src="image/iconerobe.png"
+                  alt={`Icône - ${text.name}`}
+                  className="w-24 mx-auto mb-2 rounded-full transition-opacity duration-300 hover:opacity-80"
+                />
+                <p className="text-base text-black hover:text-white font-medium transition-colors duration-300">
+                  {text.name}
+                </p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
       {/* Bloc Bestsellers */}
       <section className="py-12 bg-gradient-to-b from-white to-[#FDE9E6]">
-        <h2 className="text-center text-3xl font-semibold text-[#af7749] mb-8">
+        <h2 className="font-cursive text-center text-5xl font-semibold text-[#af7749] mb-8">
           Meilleures ventes chez Monica Mariage&nbsp;: Des robes de mariée
           incontournables à Toulouse
         </h2>
@@ -183,7 +249,7 @@ export default function Home() {
                   alt={item.alt}
                   className="w-full object-cover rounded max-h-96"
                 />
-                <p className="mt-2 text-base font-medium text-black">
+                <p className="mt-2 text-[#af7749] font-cursive text-3xl">
                   {item.label}
                 </p>
               </div>
@@ -240,6 +306,9 @@ export default function Home() {
           </button>
         </div>
       </section>
+
+      {/* Bloc Bestsellers */}
+
       <MobileActions />
 
       {/* Bloc Destockage */}
@@ -450,8 +519,8 @@ export default function Home() {
             <h4 className="text-xl font-semibold text-[#af7749] mb-4">
               Nous suivre
             </h4>
-            <SocialIcons center="flex-start" />
-            <div className="flex space-x-4">
+            <SocialIcons iconColor="white" center="flex-start" />
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-2xl hover:text-[#af7749]">
                 <i className="fab fa-instagram"></i>
               </a>
@@ -462,19 +531,19 @@ export default function Home() {
                 href="https://www.facebook.com/MonicaMariage31/?locale=fr_FR"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-2xl hover:text-[#af7749]"
+                className="text-white  text-2xl hover:text-[#af7749]"
               >
-                <i className="fab fa-facebook"></i>
+                <i className="fab fa-facebook text-white"></i>
               </a>
               <a
                 href="https://www.instagram.com/monicamariage_robedemariee31/?hl=fr"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-2xl hover:text-[#af7749]"
+                className="text-2xl text-white hover:text-[#af7749]"
               >
-                <i className="fab fa-pinterest"></i>
+                <i className="fab fa-pinterest text-white"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="border-t border-gray-600 mt-6 pt-4 text-center text-sm">

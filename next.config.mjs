@@ -6,6 +6,9 @@ const nextConfig = {
   images: {
     domains: ["static.wixstatic.com"],
   },
+  env: {
+    BREVO_API_KEY: process.env.BREVO_API_KEY,
+  },
 };
 
 // Configuration spécifique à next-pwa

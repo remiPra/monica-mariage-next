@@ -426,6 +426,7 @@ export default function DressImageSlider({ allImages, robe }) {
               ▶
             </button>
             <MobileActions
+              chatMobile={true}
               onChatClick={() => alert("Ouverture du chat")}
               onBookingClick={() => alert("Réservation d’un rendez-vous")}
             />

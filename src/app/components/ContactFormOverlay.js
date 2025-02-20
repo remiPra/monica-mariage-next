@@ -5,18 +5,30 @@ import { useState, useEffect } from "react";
 export default function ContactFormOverlay() {
   const [showOverlay, setShowOverlay] = useState(false);
   const [alreadyDismissed, setAlreadyDismissed] = useState(false);
+  const [formValues, setFormValues] = useState({
+    prenom: "",
+    nom: "",
+    email: "",
+    telephone: "",
+    dateDuMariage: "",
+  });
+  const [formErrors, setFormErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submissionMessage, setSubmissionMessage] = useState("");
 
   useEffect(() => {
     const lastDismissTime = localStorage.getItem("overlayDismissedTime");
     const now = Date.now();
-    const threeHours = 1 * 60 * 60 * 1000; // 3 heures en millisecondes
 
+    // const threeHours = 1 * 60 * 60 * 1000;
+    // const twentyMinutes = 20 * 60 * 1000; // 20 minutes en millisecondes
+
+    const threeHours = 20 * 60 * 1000;
     if (lastDismissTime && now - parseInt(lastDismissTime, 10) < threeHours) {
       setAlreadyDismissed(true);
       return;
     }
 
-    // Afficher l'overlay après 30 secondes
     const timer = setTimeout(() => {
       setShowOverlay(true);
     }, 30000);
@@ -26,14 +38,79 @@ export default function ContactFormOverlay() {
 
   const handleClose = () => {
     setShowOverlay(false);
-    localStorage.setItem("overlayDismissedTime", Date.now().toString()); // Stocke le timestamp
+    localStorage.setItem("overlayDismissedTime", Date.now().toString());
   };
 
-  const handleSubmit = (e) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormValues({ ...formValues, [name]: value });
+  };
+
+  const validate = () => {
+    let errors = {};
+    if (!formValues.prenom) {
+      errors.prenom = "Le prénom est requis";
+    }
+    if (!formValues.nom) {
+      errors.nom = "Le nom est requis";
+    }
+    if (!formValues.email) {
+      errors.email = "L'email est requis";
+    } else if (!/\S+@\S+\.\S+/.test(formValues.email)) {
+      errors.email = "L'email n'est pas valide";
+    }
+    if (!formValues.telephone) {
+      errors.telephone = "Le téléphone est requis";
+    } else if (!/^\+?\d{1,15}$/.test(formValues.telephone)) {
+      errors.telephone = "Le téléphone n'est pas valide";
+    }
+    if (!formValues.dateDuMariage) {
+      errors.dateDuMariage = "La date du mariage est requise";
+    }
+    setFormErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted");
-    setShowOverlay(false);
-    localStorage.setItem("overlayDismissedTime", Date.now().toString()); // Stocke le timestamp
+    if (validate()) {
+      setIsSubmitting(true);
+      setSubmissionMessage("");
+      try {
+        const response = await fetch("/api/route", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formValues),
+        });
+
+        if (response.ok) {
+          setSubmissionMessage("Formulaire soumis avec succès!");
+          setFormValues({
+            prenom: "",
+            nom: "",
+            email: "",
+            telephone: "",
+            dateDuMariage: "",
+          });
+          setFormErrors({});
+          setTimeout(() => {
+            setShowOverlay(false);
+            localStorage.setItem("overlayDismissedTime", Date.now().toString());
+          }, 2000);
+        } else {
+          const errorData = await response.json();
+          setSubmissionMessage(
+            `Erreur lors de la soumission du formulaire: ${errorData.message}`
+          );
+        }
+      } catch (error) {
+        setSubmissionMessage(`Erreur réseau: ${error.message}`);
+      } finally {
+        setIsSubmitting(false);
+      }
+    }
   };
 
   if (alreadyDismissed) return null;
@@ -54,6 +131,7 @@ export default function ContactFormOverlay() {
     >
       <button
         onClick={handleClose}
+        aria-label="Fermer la fenêtre"
         style={{
           position: "absolute",
           top: "16px",
@@ -100,6 +178,8 @@ export default function ContactFormOverlay() {
               id="prenom"
               name="prenom"
               type="text"
+              value={formValues.prenom}
+              onChange={handleChange}
               required
               placeholder="Ex: Marie"
               style={{
@@ -110,6 +190,11 @@ export default function ContactFormOverlay() {
                 marginTop: "4px",
               }}
             />
+            {formErrors.prenom && (
+              <p style={{ color: "red", fontSize: "12px" }}>
+                {formErrors.prenom}
+              </p>
+            )}
           </div>
 
           <div>
@@ -123,6 +208,8 @@ export default function ContactFormOverlay() {
               id="nom"
               name="nom"
               type="text"
+              value={formValues.nom}
+              onChange={handleChange}
               required
               placeholder="Ex: Dupont"
               style={{
@@ -133,6 +220,9 @@ export default function ContactFormOverlay() {
                 marginTop: "4px",
               }}
             />
+            {formErrors.nom && (
+              <p style={{ color: "red", fontSize: "12px" }}>{formErrors.nom}</p>
+            )}
           </div>
 
           <div>
@@ -146,6 +236,8 @@ export default function ContactFormOverlay() {
               id="email"
               name="email"
               type="email"
+              value={formValues.email}
+              onChange={handleChange}
               required
               placeholder="exemple@mail.com"
               style={{
@@ -156,6 +248,11 @@ export default function ContactFormOverlay() {
                 marginTop: "4px",
               }}
             />
+            {formErrors.email && (
+              <p style={{ color: "red", fontSize: "12px" }}>
+                {formErrors.email}
+              </p>
+            )}
           </div>
 
           <div>
@@ -169,6 +266,8 @@ export default function ContactFormOverlay() {
               id="telephone"
               name="telephone"
               type="tel"
+              value={formValues.telephone}
+              onChange={handleChange}
               required
               placeholder="+33 6 12 34 56 78"
               style={{
@@ -179,6 +278,11 @@ export default function ContactFormOverlay() {
                 marginTop: "4px",
               }}
             />
+            {formErrors.telephone && (
+              <p style={{ color: "red", fontSize: "12px" }}>
+                {formErrors.telephone}
+              </p>
+            )}
           </div>
 
           <div>
@@ -191,8 +295,9 @@ export default function ContactFormOverlay() {
             <input
               id="dateDuMariage"
               name="dateDuMariage"
-              type="text"
-              placeholder="Ex: 12/12/2025"
+              type="date"
+              value={formValues.dateDuMariage}
+              onChange={handleChange}
               style={{
                 width: "100%",
                 padding: "8px",
@@ -201,10 +306,15 @@ export default function ContactFormOverlay() {
                 marginTop: "4px",
               }}
             />
+            {formErrors.dateDuMariage && (
+              <p style={{ color: "red", fontSize: "12px" }}>
+                {formErrors.dateDuMariage}
+              </p>
+            )}
           </div>
 
           <p style={{ fontSize: "12px", color: "#555" }}>
-            En vous inscrivant, vous confirmez que vous avez lu et accepté notre{" "}
+            En vous inscrivant, vous confirmez que vous avez lu et accepté notre
             <a
               href="/politique-de-confidentialite"
               style={{ color: "#af7749", textDecoration: "underline" }}
@@ -224,9 +334,20 @@ export default function ContactFormOverlay() {
               borderRadius: "4px",
               cursor: "pointer",
             }}
+            disabled={isSubmitting}
           >
-            ENVOYER
+            {isSubmitting ? "Envoi en cours..." : "ENVOYER"}
           </button>
+          {submissionMessage && (
+            <p
+              style={{
+                color: submissionMessage.startsWith("Erreur") ? "red" : "green",
+                fontSize: "12px",
+              }}
+            >
+              {submissionMessage}
+            </p>
+          )}
         </form>
       </div>
 

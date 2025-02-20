@@ -48,7 +48,7 @@ export default function VideoSlider() {
           {/* Conteneur principal en colonne */}
           <div className="absolute inset-0 flex flex-col items-center justify-center space-y-12">
             {/* Titre */}
-            <h1 className="text-5xl font-serif text-white drop-shadow-lg">
+            <h1 className=" text-6xl font-cursive text-white drop-shadow-lg">
               {slide.title}
             </h1>
 

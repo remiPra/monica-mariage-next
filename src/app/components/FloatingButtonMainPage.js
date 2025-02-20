@@ -40,7 +40,7 @@ const FloatingButtonMainPage = () => {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    <div className="fixed bottom-24 right-6 z-60">
       <button
         className={`w-14 h-14 flex items-center justify-center rounded-full text-white text-2xl shadow-lg transition-all transform hover:scale-110 fade-in ${bgColor}`}
         onClick={() => setIsOpen(true)}
@@ -67,7 +67,7 @@ const FloatingButtonMainPage = () => {
           </p>
           <div className="space-y-4 w-full max-w-xs">
             <a
-              href="https://wa.me/33668300960"
+              href="https://wa.me/33668300960?text=Bonjour%20Monica%20Mariage%20!"
               className="flex items-center justify-center bg-[#a77c60] text-white p-3 rounded-full text-xl w-full transition-transform transform hover:scale-105"
             >
               <FaWhatsapp className="mr-2" /> WhatsApp

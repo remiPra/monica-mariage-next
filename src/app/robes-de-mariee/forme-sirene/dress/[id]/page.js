@@ -127,6 +127,7 @@ export default function DressDetailPage() {
       {/* Floating Button pour le Chat (mobile only) */}
       {/* Boutons d'actions mobiles */}
       <MobileActions
+        chatMobile={true}
         onChatClick={() => alert("Ouverture du chat")}
         onBookingClick={() => alert("Réservation d’un rendez-vous")}
       />

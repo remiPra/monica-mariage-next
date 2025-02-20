@@ -93,6 +93,7 @@ export default function DressDetailPage() {
       <RelatedDressesView currentDressId={robe.id} dresses={allDresses} />
       {/* Boutons d'actions mobiles */}
       <MobileActions
+        chatMobile={true}
         onChatClick={() => alert("Ouverture du chat")}
         onBookingClick={() => alert("Réservation d’un rendez-vous")}
       />

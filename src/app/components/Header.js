@@ -145,10 +145,11 @@ export default function Header() {
         </div>
 
         {/* Logo central modifié */}
-        <div className="absolute left-1/2 transform -translate-x-1/2">
-          <h1 className="text-[#7A5C4B] font-cursive italic text-3xl">
+        <div className="absolute flex items-center text-center left-1/2 transform -translate-x-1/2">
+          <h1 className="text-[#7A5C4B] font-cursive italic text-4xl mr-2">
             MonicaMariage
           </h1>
+          <span className="text-[#7A5C4B] italic text-md">Since 2014</span>
         </div>
 
         {/* Menu droit */}

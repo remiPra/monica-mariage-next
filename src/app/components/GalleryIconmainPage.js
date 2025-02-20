@@ -57,7 +57,9 @@ export default function GalleryIconmainPage() {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             />
-            <p className="mt-2 text-lg font-medium text-black">{item.label}</p>
+            <p className="mt-4 text-3xl font-cursive text-[#af7749] font-semibold ">
+              {item.label}
+            </p>
           </motion.div>
         ))}
       </motion.div>
